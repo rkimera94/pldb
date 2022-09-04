@@ -157,7 +157,7 @@ replace COLUMN_METADATA_TABLE
   143|rijuRepl.fileExtensions|39|1%|C cc cpp cxx c++ h hh hpp hxx h++|An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
   144|features.hasAssignment|38|1%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L236
   145|stackOverflowSurvey.2021.percentageUsing|38|1%|0.01|What percentage of survey respondents report using this language?|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L27
-  146|stackOverflowSurvey.2021.fans|38|1%|1069|How many developers reported wanting to learn this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
+  146|stackOverflowSurvey.2021.fans|38|1%|309|How many developers reported wanting to learn this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
   147|stackOverflowSurvey.2021.medianSalary|38|1%|54049|Median salary reported by developers using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L17
   148|stackOverflowSurvey.2021.users|38|1%|1068|How many developers reported using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
   149|features.hasImports|37|1%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L246
@@ -258,7 +258,7 @@ replace COLUMN_METADATA_TABLE
   244|latestRelease|2|0%|2007|The year of the most recent release of the thing.|||history.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L24
   245|sourcehutRepo|2|0%|https://git.sr.ht/~jprotopopov/kefir|URL of the official sourcehut repo for the project.|sr.ht|https://sr.ht|sourcehut.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/sourcehut.grammar#L1
   246|renamedTo|2|0%|enso|What is the new name of this language?|||relationships.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L20
-  247|screenshot|2|0%|https://pldb.com/screenshots/explorer.png|computed|||A computed value|
+  247|screenshot|2|0%|https://pldb.com/screenshots/explorer.png|For visual languages, a picture is worth a thousand words. Provide the URL to the screenshot in the form: https://pldb.com/site/screenshots/[pldbId].png|||screenshot.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/screenshot.grammar#L1
   248|documentation|2|0%|https://docs.alumina-lang.net/|Link to the official documentation for a language.|||documentation.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/documentation.grammar#L1
   249|features.hasDocComments|2|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L160
   250|features.hasStreams|2|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L387

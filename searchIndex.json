@@ -4564,11 +4564,6 @@
     "id": "sha-3-hash-function"
   },
   {
-    "label": "T",
-    "appeared": "1980",
-    "id": "t"
-  },
-  {
     "label": "Ren'Py",
     "appeared": "2004",
     "id": "renpy"
@@ -4652,6 +4647,11 @@
     "label": "Rescript",
     "appeared": "2020",
     "id": "rescript"
+  },
+  {
+    "label": "T",
+    "appeared": "1980",
+    "id": "t"
   },
   {
     "label": "chisel",
@@ -4794,16 +4794,6 @@
     "id": "wyvern"
   },
   {
-    "label": "True BASIC",
-    "appeared": "1983",
-    "id": "true-basic"
-  },
-  {
-    "label": "POPLOG",
-    "appeared": "1992",
-    "id": "poplog"
-  },
-  {
     "label": "rant",
     "appeared": "2014",
     "id": "rant"
@@ -4817,6 +4807,16 @@
     "label": "SourcePawn",
     "appeared": "2014",
     "id": "sourcepawn"
+  },
+  {
+    "label": "True BASIC",
+    "appeared": "1983",
+    "id": "true-basic"
+  },
+  {
+    "label": "POPLOG",
+    "appeared": "1992",
+    "id": "poplog"
   },
   {
     "label": "Hodor",
@@ -4984,6 +4984,11 @@
     "id": "doodle"
   },
   {
+    "label": "Apache Lucene",
+    "appeared": "1999",
+    "id": "lucene-query-syntax"
+  },
+  {
     "label": "Etoys",
     "appeared": "1996",
     "id": "etoys"
@@ -4997,11 +5002,6 @@
     "label": "CLOS",
     "appeared": "1988",
     "id": "clos"
-  },
-  {
-    "label": "Apache Lucene",
-    "appeared": "1999",
-    "id": "lucene-query-syntax"
   },
   {
     "label": "P",
@@ -5126,6 +5126,11 @@
     "label": "General Purpose Simulation System",
     "appeared": "1960",
     "id": "gpss"
+  },
+  {
+    "label": "Flowgorithm",
+    "appeared": "2014",
+    "id": "flowgorithm"
   },
   {
     "label": "DIGITAL Command Language",
@@ -5282,6 +5287,11 @@
     "id": "revit-app"
   },
   {
+    "label": "souper",
+    "appeared": "2014",
+    "id": "souper"
+  },
+  {
     "label": "PIR",
     "appeared": "2006",
     "id": "parrot-internal-representation"
@@ -5295,11 +5305,6 @@
     "label": "RoboMind",
     "appeared": "2005",
     "id": "robomind"
-  },
-  {
-    "label": "souper",
-    "appeared": "2014",
-    "id": "souper"
   },
   {
     "label": "dexvis",
@@ -5596,14 +5601,14 @@
     "id": "vcf-format"
   },
   {
-    "label": "EuLisp",
-    "appeared": "1985",
-    "id": "eulisp"
-  },
-  {
     "label": "femtolisp",
     "appeared": "2008",
     "id": "femtolisp"
+  },
+  {
+    "label": "EuLisp",
+    "appeared": "1985",
+    "id": "eulisp"
   },
   {
     "label": "DNS Zone",
@@ -6215,9 +6220,9 @@
     "id": "carbon"
   },
   {
-    "label": "Flowgorithm",
-    "appeared": "2014",
-    "id": "flowgorithm"
+    "label": "PL/0",
+    "appeared": "1976",
+    "id": "pl-0"
   },
   {
     "label": "Graph Modeling Language",
@@ -6268,11 +6273,6 @@
     "label": "EXEC 2",
     "appeared": "1970",
     "id": "exec-2"
-  },
-  {
-    "label": "PL/0",
-    "appeared": "1976",
-    "id": "pl-0"
   },
   {
     "label": "ferret",
@@ -7754,6 +7754,11 @@
     "id": "orca-pl"
   },
   {
+    "label": "CBOR",
+    "appeared": "2013",
+    "id": "cbor"
+  },
+  {
     "label": "Pyrex",
     "appeared": "2002",
     "id": "pyrex"
@@ -7797,11 +7802,6 @@
     "label": "TextMate Language",
     "appeared": "2004",
     "id": "tmlanguage"
-  },
-  {
-    "label": "CBOR",
-    "appeared": "2013",
-    "id": "cbor"
   },
   {
     "label": "topshell",
@@ -8776,6 +8776,11 @@
     "id": "short-code-computer-language"
   },
   {
+    "label": "sporth",
+    "appeared": "2015",
+    "id": "sporth"
+  },
+  {
     "label": "Yabasic",
     "appeared": "1995",
     "id": "yabasic"
@@ -8869,11 +8874,6 @@
     "label": "ARM Templates",
     "appeared": "2017",
     "id": "arm-templates"
-  },
-  {
-    "label": "sporth",
-    "appeared": "2015",
-    "id": "sporth"
   },
   {
     "label": "Edinburgh IMP",
@@ -11067,6 +11067,11 @@
     "id": "pbt-omega"
   },
   {
+    "label": "PickCode",
+    "appeared": "2021",
+    "id": "pickcode"
+  },
+  {
     "label": "Plain English",
     "appeared": "2018",
     "id": "plain-english"
@@ -11134,6 +11139,11 @@
     "label": "Spice",
     "appeared": "2021",
     "id": "spice"
+  },
+  {
+    "label": "statebox",
+    "appeared": "2008",
+    "id": "statebox"
   },
   {
     "label": "Sublime Syntax Test Lang",
@@ -12019,6 +12029,11 @@
     "id": "kqml"
   },
   {
+    "label": "hamdown",
+    "appeared": "2018",
+    "id": "hamdown"
+  },
+  {
     "label": "Agora",
     "appeared": "1993",
     "id": "agora"
@@ -12137,11 +12152,6 @@
     "label": "SIMAN",
     "appeared": "1983",
     "id": "siman"
-  },
-  {
-    "label": "hamdown",
-    "appeared": "2018",
-    "id": "hamdown"
   },
   {
     "label": "R++",
@@ -13661,11 +13671,6 @@
     "id": "oxyl"
   },
   {
-    "label": "PickCode",
-    "appeared": "2021",
-    "id": "pickcode"
-  },
-  {
     "label": "Planguage",
     "appeared": "2001",
     "id": "planguage"
@@ -13679,6 +13684,10 @@
     "label": "qed-lang",
     "appeared": "2015",
     "id": "qed-lang"
+  },
+  {
+    "label": "raptor",
+    "id": "raptor"
   },
   {
     "label": "ru",
@@ -13729,11 +13738,6 @@
     "label": "spark-pm",
     "appeared": "2014",
     "id": "spark-pm"
-  },
-  {
-    "label": "statebox",
-    "appeared": "2008",
-    "id": "statebox"
   },
   {
     "label": "subscript",
@@ -17832,10 +17836,6 @@
   {
     "label": "raco-pm",
     "id": "raco-pm"
-  },
-  {
-    "label": "raptor",
-    "id": "raptor"
   },
   {
     "label": "redscript",

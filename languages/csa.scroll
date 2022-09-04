@@ -1,0 +1,61 @@
+title CodeStudAssembler
+
+import settings.scroll
+htmlTitle CodeStudAssembler - Assembly language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/csa.pldb
+
+paragraph
+ CodeStudAssembler is an <a href="../lists/languages.html?filter=assembly">assembly language</a> created in <a href="../lists/languages.html?filter=2017">2017</a>.
+
+kpiTable
+ #2135 <span title="TotalRank: 2402 Jobs: 62 Users: 2580 Facts: 1676 Links: 664">on PLDB</span>
+ 5 Years Old
+ 0 <span title="Books about or leveraging CodeStudAssembler">Books</span>
+ 0 <span title="Academic publications about or leveraging CodeStudAssembler">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - Read more about CodeStudAssembler on the web: <a href="https://v8.dev/blog/csa">1</a>
+ - Have a question about CodeStudAssembler not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/csa">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+   test al,0x1
+   jz not_string
+   movq rbx,[rax-0x1]
+   cmpb [rbx+0xb],0x80
+   jnc not_string
+   movq rax,[rax+0xf]
+   retl
+ not_string:
+   movq rax,[r13-0x60]
+   retl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav rason.html praxis-lang.html

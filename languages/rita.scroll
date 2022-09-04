@@ -1,0 +1,68 @@
+title Rita
+
+import settings.scroll
+htmlTitle Rita - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rita.pldb
+
+paragraph
+ Rita is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Šarūnas_Navickas">Šarūnas Navickas</a>.
+
+kpiTable
+ #2208 <span title="TotalRank: 2521 Jobs: 62 Users: 1513 Facts: 1676 Links: 946">on PLDB</span>
+ 3 Years Old
+ 70 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Rita">Books</span>
+ 0 <span title="Academic publications about or leveraging Rita">Papers</span>
+
+
+
+
+
+paragraph
+ A Domain Specific Language (DSL) for building language patterns. These can be later compiled into spaCy patterns, pure regex, or any other format
+
+list
+ - Rita is developed on <a href="https://github.com/zaibacu/rita-dsl">GitHub</a> and has 60 stars
+ - file extensions for Rita include rita
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rita.py">syntax highlighting</a> for Rita
+ - Have a question about Rita not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/rita">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav preforth.html snit.html

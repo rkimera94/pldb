@@ -1,0 +1,57 @@
+title SNQL: A Social Network Query and Transformation Language
+
+import settings.scroll
+htmlTitle SNQL: A Social Network Query and Transformation Language - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/snql.pldb
+
+paragraph
+ SNQL: A Social Network Query and Transformation Language is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=2011">2011</a>.
+
+kpiTable
+ #3781 <span title="TotalRank: 3364 Jobs: 62 Users: 2580 Facts: 2356 Links: 946">on PLDB</span>
+ 11 Years Old
+ 0 <span title="Books about or leveraging SNQL: A Social Network Query and Transformation Language">Books</span>
+ 0 <span title="Academic publications about or leveraging SNQL: A Social Network Query and Transformation Language">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - Read more about SNQL: A Social Network Query and Transformation Language on the web: <a href="http://ceur-ws.org/Vol-749/paper18.pdf">1</a>
+ - Have a question about SNQL: A Social Network Query and Transformation Language not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/snql">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ CONSTRUCT CP1
+  WHERE EP2 FILTER ((A3 != A4) AND (A3 = A1 OR A3 = A2) AND
+  (A4 = A1 OR A4 = A5))
+  AND (TC(A1, A2, EP1) WITH L1=’John’)
+  AND (TC(A1, A5, EP3) WITH L1=’John’)
+ FROM FriendshipNetwork
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav snobat.html soar-ml.html

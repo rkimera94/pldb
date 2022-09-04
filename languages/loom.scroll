@@ -1,0 +1,58 @@
+title Loom
+
+import settings.scroll
+htmlTitle Loom - Knowledge base
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/loom.pldb
+
+paragraph
+ Loom is a <a href="../lists/languages.html?filter=knowledgeBase">knowledge base</a> created in <a href="../lists/languages.html?filter=1987">1987</a>.
+
+kpiTable
+ #1639 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 35 Years Old
+ 0 <span title="Books about or leveraging Loom">Books</span>
+ 0 <span title="Academic publications about or leveraging Loom">Papers</span>
+
+
+
+
+
+paragraph
+ Loom is a language and environment for constructing intelligent applications. The heart of Loom is a knowledge representation system that is used to provide deductive support for the declarative portion of the Loom language. Declarative knowledge in Loom consists of definitions, rules, facts, and default rules. A deductive engine called a classifier utilizes forward-chaining, semantic unification and object-oriented truth maintainance technologies in order to compile the declarative knowledge into a network designed to efficiently support on-line deductive query processing.
+
+list
+ - the <a href="https://www.isi.edu/isd/LOOM/LOOM-HOME.html">Loom website</a>
+ - Loom is listed on <a href="https://hopl.info/showlanguage.prx?exp=3991">HOPL</a>
+ - Read more about Loom on Semantic Scholar: <a href="https://semanticscholar.org/paper/6031b724f174da0069ea61ffa9da928adb090b24">1</a>
+ - Have a question about Loom not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/loom">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ (defconcept air-base
+              :is-primitive
+                      (and military-installation
+                      (exactly 1 name)
+                      (at-least 1 runway-length)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav llhd.html lowstar.html

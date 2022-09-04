@@ -1,0 +1,66 @@
+title ATLAS Transformation Language
+
+import settings.scroll
+htmlTitle ATLAS Transformation Language - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/atlas.pldb
+
+paragraph
+ ATLAS Transformation Language is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2005">2005</a>.
+
+kpiTable
+ #1784 <span title="TotalRank: 2221 Jobs: 62 Users: 1213 Facts: 1676 Links: 946">on PLDB</span>
+ 17 Years Old
+ 136 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging ATLAS Transformation Language">Books</span>
+ 0 <span title="Academic publications about or leveraging ATLAS Transformation Language">Papers</span>
+
+
+
+
+
+paragraph
+ ATL (ATLAS Transformation Language) is a model transformation language and toolkit developed and maintained by OBEO and AtlanMod. It was initiated by the AtlanMod team (previously called ATLAS Group). In the field of Model-Driven Engineering (MDE), ATL provides ways to produce a set of target models from a set of source models. <a href="https://en.wikipedia.org/wiki/ATLAS_Transformation_Language">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://www.eclipse.org/atl/">ATLAS Transformation Language website</a>
+ - the <a href="https://en.wikipedia.org/wiki/ATLAS_Transformation_Language">ATLAS Transformation Language Wikipedia page</a>
+ - file extensions for ATLAS Transformation Language include atl
+ - Have a question about ATLAS Transformation Language not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/atlas">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ rule TreeNodeRoot2RootElement {
+  from
+    rt : MMTree!Node (rt.isTreeNodeRoot()) 
+  to
+    lstRt : MMElementList!RootElement (
+      name &lt;- rt.name,
+      elements &lt;- elmLst
+    ),
+    elmLst : distinct MMElementList!CommonElement foreach(leaf in rt.getAllChildren())(
+      name &lt;- leaf.name
+    )
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav edgelisp.html jonprl.html

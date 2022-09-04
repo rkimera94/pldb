@@ -1,0 +1,69 @@
+title FCL
+
+import settings.scroll
+htmlTitle FCL - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/fcl.pldb
+
+paragraph
+ FCL, aka Flow chart language, is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1989">1989</a>.
+
+kpiTable
+ #2305 <span title="TotalRank: 2684 Jobs: 62 Users: 1962 Facts: 1676 Links: 946">on PLDB</span>
+ 33 Years Old
+ 20 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging FCL">Books</span>
+ 0 <span title="Academic publications about or leveraging FCL">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Flow_chart_language">FCL Wikipedia page</a>
+ - See also: <a href="dot.html">DOT</a>
+ - Have a question about FCL not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/fcl">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ (n)
+ (init)
+ 
+ init: x1 = 1
+       x2 = 1
+ 
+ fib:  x1 = x1 + x2
+ 
+       t = x1
+       x1 = x2
+       x2 = t
+ 
+       n = -(n 1)
+ 
+       if &gt;(n 2) then fib else exit
+ exit: return x2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav jmap.html flang.html

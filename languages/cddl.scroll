@@ -1,0 +1,91 @@
+title CBOR data definition language
+
+import settings.scroll
+htmlTitle CBOR data definition language - Interface design language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/cddl.pldb
+
+paragraph
+ CBOR data definition language, aka CBOR data definition language, is an <a href="../lists/languages.html?filter=idl">interface design language</a> created in <a href="../lists/languages.html?filter=2017">2017</a>.
+
+kpiTable
+ #1663 <span title="TotalRank: 2057 Jobs: 62 Users: 2580 Facts: 1049 Links: 946">on PLDB</span>
+ 5 Years Old
+ 0 <span title="Books about or leveraging CBOR data definition language">Books</span>
+ 0 <span title="Academic publications about or leveraging CBOR data definition language">Papers</span>
+
+
+
+
+
+paragraph
+ Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures
+
+list
+ - file extensions for CBOR data definition language include cddl
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/cddl.py">syntax highlighting</a> for CBOR data definition language
+ - Read more about CBOR data definition language on the web: <a href="https://tools.ietf.org/html/draft-ietf-cbor-cddl-00">1</a>
+ - Have a question about CBOR data definition language not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/cddl">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ pii = (
+   age: int,
+   name: tstr,
+   employer: tstr,
+ )
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Binary Literals
+  FeatureLink ../languages/binary-numbers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Hexadecimals
+  FeatureLink ../languages/hexadecimals-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Octals
+  FeatureLink ../languages/octals-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav bolt.html cp.html

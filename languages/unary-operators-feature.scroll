@@ -1,0 +1,65 @@
+title Unary Operators
+
+import settings.scroll
+htmlTitle Unary Operators - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/unary-operators-feature.pldb
+
+paragraph
+ Unary Operators are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ Operators with arity 1.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Unary_operation">Unary Operators Wikipedia page</a>
+ - Have a question about Unary Operators not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/unary-operators-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Unary Operators include <a href="cpp.html">C++</a>
+
+exampleCodeHeader Example from <a href="cpp.html">C++</a>:
+
+code
+ int count = 2;
+ count++;
+ ++count;
+ count--;
+ --count;
+ &amp;count; // address
+ *count; // indirection
+ +count; // Positive
+ -count; // negative
+ ~count; // one&#39;s complement
+ !x; // logical negation
+ sizeof count;
+ sizeof(int);
+ (float)count;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav type-parameters-feature.html units-of-measure-feature.html

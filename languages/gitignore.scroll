@@ -1,0 +1,52 @@
+title gitignore
+
+import settings.scroll
+htmlTitle gitignore - Config format
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/gitignore.pldb
+
+paragraph
+ gitignore is a <a href="../lists/languages.html?filter=configFormat">config format</a> created in <a href="../lists/languages.html?filter=2005">2005</a> by <a href="../lists/creators.html#Linus_Torvalds">Linus Torvalds</a>.
+
+kpiTable
+ #3390 <span title="TotalRank: 3364 Jobs: 62 Users: 2580 Facts: 2356 Links: 946">on PLDB</span>
+ 17 Years Old
+ 0 <span title="Books about or leveraging gitignore">Books</span>
+ 0 <span title="Academic publications about or leveraging gitignore">Papers</span>
+
+
+
+
+
+paragraph
+ A simple application specific language used to tell git which files to ignore.
+
+list
+ - Have a question about gitignore not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/gitignore">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ .DS_Store
+ node_modules/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav gimple.html gks.html

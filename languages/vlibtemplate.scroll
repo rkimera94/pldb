@@ -1,0 +1,61 @@
+title VlibTemplate
+
+import settings.scroll
+htmlTitle VlibTemplate - Template language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/vlibtemplate.pldb
+
+paragraph
+ VlibTemplate is a <a href="../lists/languages.html?filter=template">template language</a> created in <a href="../lists/languages.html?filter=2003">2003</a>.
+
+kpiTable
+ #2773 <span title="TotalRank: 2842 Jobs: 62 Users: 1834 Facts: 2356 Links: 946">on PLDB</span>
+ 19 Years Old
+ 35 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging VlibTemplate">Books</span>
+ 0 <span title="Academic publications about or leveraging VlibTemplate">Papers</span>
+
+
+
+
+
+paragraph
+ vlibTemplate is a template engine written in PHP. Programmers and web developers may use it for web development. vlibTemplate is a PHP class that is intended to make splitting PHP from HTML a simple and natural task, using markup tags. <a href="https://en.wikipedia.org/wiki/VlibTemplate">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/VlibTemplate">VlibTemplate Wikipedia page</a>
+ - See also: <a href="php.html">PHP</a>, <a href="html.html">HTML</a>, <a href="mysql.html">MySQL</a>, <a href="postgresql.html">PostgreSQL</a>
+ - Have a question about VlibTemplate not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/vlibtemplate">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/VlibTemplate'>Wikipedia</a>:
+code
+ require_once &#39;vlib/vlibTemplate.php&#39;;
+ 
+ $tmpl = new vlibTemplate(&#39;tmpl/basic.htm&#39;);
+ 
+ $tmpl-&gt;setvar(&#39;title_text&#39;, &#39;TITLE: This is the vLIB basic example ...&#39;);
+ $tmpl-&gt;setvar(&#39;body_text&#39;, &#39;BODY: This is the message set using setvar()&#39;);
+ $tmpl-&gt;setvar(&#39;div_cont&#39; , &#39;DIV : This is div paragraph&#39;);
+ $tmpl-&gt;pparse();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav thinglab.html wsfn-programming-language.html

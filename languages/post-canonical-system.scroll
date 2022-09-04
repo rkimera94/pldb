@@ -1,0 +1,60 @@
+title Post production
+
+import settings.scroll
+htmlTitle Post production - Grammar language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/post-canonical-system.pldb
+
+paragraph
+ Post production is a <a href="../lists/languages.html?filter=grammarLanguage">grammar language</a> created in <a href="../lists/languages.html?filter=1941">1941</a> by <a href="../lists/creators.html#Emil_Post">Emil Post</a>.
+
+kpiTable
+ #1321 <span title="TotalRank: 1775 Jobs: 62 Users: 1962 Facts: 1049 Links: 664">on PLDB</span>
+ 81 Years Old
+ 20 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Post production">Books</span>
+ 0 <span title="Academic publications about or leveraging Post production">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Post_canonical_system">Post production Wikipedia page</a>
+ - Post production is listed on <a href="https://hopl.info/showlanguage.prx?exp=2474">HOPL</a>
+ - Read more about Post production on the web: <a href="http://www-formal.stanford.edu/jmc/mcc59.pdf">1</a>
+ - Have a question about Post production not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/post-canonical-system">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ Alphabet: {[, ]}
+ Initial word: []
+ Production rules: 
+ (1)       $ → [$]
+ (2)       $ → $$
+ (3)       $1$2 → $1[]$2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav cesil.html todotxt.html

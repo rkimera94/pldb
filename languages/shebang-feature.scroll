@@ -1,0 +1,72 @@
+title Shebang
+
+import settings.scroll
+htmlTitle Shebang - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/shebang-feature.pldb
+
+paragraph
+ Shebang is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In computing, a shebang is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script. It is also called sha-bang, hashbang, pound-bang, or hash-pling.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Shebang_(Unix)">Shebang Wikipedia page</a>
+ - Have a question about Shebang not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/shebang-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Shebang include <a href="python.html">Python</a>, <a href="erlang.html">Erlang</a>, <a href="elixir.html">Elixir</a>, <a href="bourne-shell.html">Bourne shell</a>, <a href="boron.html">Boron</a>
+
+exampleCodeHeader Example from <a href="python.html">Python</a>:
+
+code
+ #!/usr/bin/env python
+
+exampleCodeHeader Example from <a href="erlang.html">Erlang</a>:
+
+code
+ #!/usr/bin/env escript
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ #!/usr/bin/env elixir
+
+exampleCodeHeader Example from <a href="bourne-shell.html">Bourne shell</a>:
+
+code
+ #!/bin/sh -x
+
+exampleCodeHeader Example from <a href="boron.html">Boron</a>:
+
+code
+ #!/usr/bin/env boron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav semaphores-feature.html strings-feature.html

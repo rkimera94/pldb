@@ -1,0 +1,65 @@
+title emfatic
+
+import settings.scroll
+htmlTitle emfatic - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/emfatic.pldb
+
+paragraph
+ emfatic is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2004">2004</a>.
+
+kpiTable
+ #2346 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 18 Years Old
+ 0 <span title="Books about or leveraging emfatic">Books</span>
+ 0 <span title="Academic publications about or leveraging emfatic">Papers</span>
+
+
+
+
+
+paragraph
+ Emfatic is a language designed to represent EMF Ecore models in a textual form.
+
+list
+ - the <a href="https://www.eclipse.org/epsilon/doc/articles/emfatic/">emfatic website</a>
+ - Have a question about emfatic not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/emfatic">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ package test;
+ 
+ datatype D1 : int;
+ 
+ package P {
+   datatype D2 : int;
+ }
+ 
+ class C {
+   attr D1 d1;
+   attr P.D2 d2;
+   attr ecore.EString s1;
+   attr String s2;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav dscript.html empirical.html

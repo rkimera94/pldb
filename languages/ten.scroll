@@ -1,0 +1,64 @@
+title ten
+
+import settings.scroll
+htmlTitle ten - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/ten.pldb
+
+paragraph
+ ten is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Ray_Stubbs">Ray Stubbs</a>.
+
+kpiTable
+ #1596 <span title="TotalRank: 2057 Jobs: 62 Users: 1705 Facts: 1049 Links: 946">on PLDB</span>
+ 3 Years Old
+ 50 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging ten">Books</span>
+ 0 <span title="Academic publications about or leveraging ten">Papers</span>
+
+
+
+
+
+paragraph
+ A minimal, consistent, embeddable scripting language.
+
+list
+ - the <a href="https://ten-lang.io">ten website</a>
+ - ten is developed on <a href="https://github.com/ten-lang/libten">GitHub</a> and has 36 stars
+ - file extensions for ten include ten
+ - Have a question about ten not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/ten">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ each( irange( 1, 101 )
+   [ num ]
+     if
+       num % 15 = 0: show&quot;FizzBuzz &quot;
+       num % 3  = 0: show&quot;Fizz &quot;
+       num % 5  = 0: show&quot;Buzz &quot;
+     else
+       show( num, &quot; &quot; )
+ )
+ show( N )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav oem.html zopl.html

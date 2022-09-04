@@ -1,0 +1,62 @@
+title Make
+
+import settings.scroll
+htmlTitle Make - Application
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/make.pldb
+
+paragraph
+ Make is an <a href="../lists/languages.html?filter=application">application</a> created in <a href="../lists/languages.html?filter=1977">1977</a>.
+
+kpiTable
+ #1447 on PLDB
+ 45 Years Old
+
+paragraph
+ Try now: <a href="https://riju.codes/make">Riju</a>
+
+
+
+paragraph
+ Make — a program for maintaining computer programs
+
+list
+ - Make is listed on <a href="https://hopl.info/showlanguage.prx?exp=768">HOPL</a>
+ - See also: <a href="makefile.html">Makefile</a>
+ - Read more about Make on Semantic Scholar: <a href="https://semanticscholar.org/paper/40cf2b47de20d0b930cd4b5184febe40bdc681c8">1</a>
+ - Have a question about Make not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/make">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/make'>Riju</a>:
+code
+ .PHONY: all
+ all:
+ 	@echo &quot;Hello, world!&quot;
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Make.makefile'>hello-world</a>:
+code
+ $(info &quot;Hello World&quot;)
+ all:
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav literate-agda.html plz.html

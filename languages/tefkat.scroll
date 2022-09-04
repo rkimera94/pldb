@@ -1,0 +1,57 @@
+title Tefkat
+
+import settings.scroll
+htmlTitle Tefkat - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/tefkat.pldb
+
+paragraph
+ Tefkat is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2004">2004</a>.
+
+kpiTable
+ #2294 <span title="TotalRank: 2684 Jobs: 62 Users: 1885 Facts: 1676 Links: 946">on PLDB</span>
+ 18 Years Old
+ 31 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Tefkat">Books</span>
+ 0 <span title="Academic publications about or leveraging Tefkat">Papers</span>
+
+
+
+
+
+paragraph
+ Tefkat is a Model Transformation Language and a model transformation engine.  The language is based on F-logic and the theory of stratified logic programs.  The engine is an Eclipse plug-in for the Eclipse Modeling Framework (EMF).. <a href="https://en.wikipedia.org/wiki/Tefkat">Read more on Wikipedia...</a>
+
+list
+ - the <a href="http://tefkat.sourceforge.net/">Tefkat website</a>
+ - the <a href="https://en.wikipedia.org/wiki/Tefkat">Tefkat Wikipedia page</a>
+ - Have a question about Tefkat not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/tefkat">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ RULE ClassToTable
+ FORALL  Class c { name: n; }
+ MAKE    Table t { name: n; }
+ ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav shadama.html konsolscript.html

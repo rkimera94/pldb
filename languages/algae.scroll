@@ -1,0 +1,64 @@
+title Algae
+
+import settings.scroll
+htmlTitle Algae - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/algae.pldb
+
+paragraph
+ Algae is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1997">1997</a>.
+
+kpiTable
+ #1462 <span title="TotalRank: 1869 Jobs: 62 Users: 2580 Facts: 861 Links: 946">on PLDB</span>
+ 25 Years Old
+ 0 <span title="Books about or leveraging Algae">Books</span>
+ 0 <span title="Academic publications about or leveraging Algae">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - Explore Algae snippets on <a href="http://www.rosettacode.org/wiki/Category:Algae">Rosetta Code</a>
+ - Algae is listed on <a href="https://hopl.info/showlanguage.prx?exp=2713">HOPL</a>
+ - Read more about Algae on the web: <a href="http://algae.sourceforge.net/">1</a>
+ - Have a question about Algae not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/algae">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/a/Algae.algae'>hello-world</a>:
+code
+ printf(&quot;Hello World\n&quot;);
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token printf
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav verve.html aqasm.html

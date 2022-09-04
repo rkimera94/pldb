@@ -1,0 +1,61 @@
+title avro
+
+import settings.scroll
+htmlTitle avro - Interface design language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/avro.pldb
+
+paragraph
+ avro is an <a href="../lists/languages.html?filter=idl">interface design language</a> created in <a href="../lists/languages.html?filter=2012">2012</a>.
+
+kpiTable
+ #1623 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 10 Years Old
+ 0 <span title="Books about or leveraging avro">Books</span>
+ 0 <span title="Academic publications about or leveraging avro">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://avro.apache.org/">avro website</a>
+ - See also: <a href="protobuf.html">Protocol Buffers</a>, <a href="thrift.html">Thrift</a>
+ - Have a question about avro not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/avro">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ {&quot;namespace&quot;: &quot;example.avro&quot;,
+  &quot;type&quot;: &quot;record&quot;,
+  &quot;name&quot;: &quot;User&quot;,
+  &quot;fields&quot;: [
+      {&quot;name&quot;: &quot;name&quot;, &quot;type&quot;: &quot;string&quot;},
+      {&quot;name&quot;: &quot;favorite_number&quot;,  &quot;type&quot;: [&quot;int&quot;, &quot;null&quot;]},
+      {&quot;name&quot;: &quot;favorite_color&quot;, &quot;type&quot;: [&quot;string&quot;, &quot;null&quot;]}
+  ]
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav atomese.html b3-ir.html

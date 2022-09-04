@@ -1,0 +1,88 @@
+title chaiscript
+
+import settings.scroll
+htmlTitle chaiscript - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/chaiscript.pldb
+
+paragraph
+ chaiscript is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2009">2009</a>.
+
+kpiTable
+ #747 <span title="TotalRank: 1245 Jobs: 62 Users: 237 Facts: 1049 Links: 946">on PLDB</span>
+ 13 Years Old
+ 3.5k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging chaiscript">Books</span>
+ 0 <span title="Academic publications about or leveraging chaiscript">Papers</span>
+
+
+
+
+
+paragraph
+ Embedded Scripting Language Designed for C++
+
+list
+ - the <a href="http://chaiscript.com/">chaiscript website</a>
+ - chaiscript is developed on <a href="https://github.com/ChaiScript/ChaiScript">GitHub</a> and has 2,532 stars
+ - file extensions for chaiscript include chai
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/scripting.py">syntax highlighting</a> for chaiscript
+ - <a href="http://chaiscript.com/">chaiscript.com</a> was registered in 2009
+ - Have a question about chaiscript not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/chaiscript">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ #include &lt;chaiscript/chaiscript.hpp&gt;
+ std::string helloWorld(const std::string &amp;t_name) {
+   return &quot;Hello &quot; + t_name + &quot;!&quot;;
+ }
+ int main() {
+   chaiscript::ChaiScript chai;
+   chai.add(chaiscript::fun(&amp;helloWorld), &quot;helloWorld&quot;);
+   chai.eval(R&quot;(
+     puts(helloWorld(&quot;Bob&quot;));
+   )&quot;);
+ }
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Hexadecimals
+  FeatureLink ../languages/hexadecimals-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav ecl.html svgbob.html

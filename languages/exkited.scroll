@@ -1,0 +1,92 @@
+title exkited
+
+import settings.scroll
+htmlTitle exkited - Template language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/exkited.pldb
+
+paragraph
+ exkited is a <a href="../lists/languages.html?filter=template">template language</a> created in <a href="../lists/languages.html?filter=2018">2018</a> by <a href="../lists/creators.html#Brandon_Barber">Brandon Barber</a>.
+
+kpiTable
+ #1901 <span title="TotalRank: 2295 Jobs: 62 Users: 2144 Facts: 1287 Links: 946">on PLDB</span>
+ 4 Years Old
+ 0 <span title="Books about or leveraging exkited">Books</span>
+ 0 <span title="Academic publications about or leveraging exkited">Papers</span>
+
+
+
+
+
+paragraph
+ A minimalistic templating language that lets you generate markup with JavaScript.
+
+list
+ - the <a href="https://exkited.com">exkited website</a>
+ - exkited is developed on <a href="https://github.com/maelswarm/exkited">GitHub</a> and has 4 stars
+ - <a href="https://exkited.com">exkited.com</a> was registered in 2020
+ - Have a question about exkited not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/exkited">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ &lt;html&gt;
+     &lt;div class=&quot;title&quot;&gt;
+         &lt;@ return data.title @&gt; // A &#39;data&#39; object may be passed rendering.
+     &lt;/div&gt;
+     &lt;@
+         let result = &#39;&#39;;
+         for(let x=0;x&lt;10;x++) {
+             for(let i=0;i&lt;4;i++) {
+                 for(let j=0;j&lt;4;j++){
+                     result += `&lt;div&gt;@{i+j}&lt;/div&gt;`;
+                 }
+             }
+         }
+         return result;
+     @&gt;
+     &lt;div class=&quot;average-price&quot;&gt;
+         &lt;@ return data.prices.reduce((accum, val) =&gt; accum += val) / data.prices.length; @&gt;
+     &lt;/div&gt;
+     &lt;div class=&quot;day-of-week&quot;&gt;
+         &lt;@
+             switch(data.dayIdx) {
+                 case 0:
+                 return &#39;Sunday&#39;;
+                 case 1:
+                 return &#39;Monday&#39;;
+                 case 2:
+                 return &#39;Tuesday&#39;;
+                 case 3:
+                 return &#39;Wednesday&#39;;
+                 case 4:
+                 return &#39;Thursday&#39;;
+                 case 5:
+                 return &#39;Friday&#39;;
+                 case 6:
+                 return &#39;Saturday&#39;;
+             }
+         @&gt;
+     &lt;/div&gt;
+ &lt;/html&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav codeflow.html kerf.html

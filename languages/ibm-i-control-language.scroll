@@ -1,0 +1,76 @@
+title IBM i Control Language
+
+import settings.scroll
+htmlTitle IBM i Control Language - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/ibm-i-control-language.pldb
+
+paragraph
+ IBM i Control Language is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1993">1993</a>.
+
+kpiTable
+ #2074 <span title="TotalRank: 2310 Jobs: 62 Users: 1302 Facts: 2356 Links: 946">on PLDB</span>
+ 29 Years Old
+ 110 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging IBM i Control Language">Books</span>
+ 0 <span title="Academic publications about or leveraging IBM i Control Language">Papers</span>
+
+
+
+
+
+paragraph
+ The IBM i Control Language (CL) is a scripting language for the IBM's IBM i platform (previously called OS/400 when running on AS/400 systems) bearing a resemblance to the IBM Job Control Language and consisting of an ever-expanding set of command objects (*CMD) used to invoke traditional AS/400 programs and/or get help on what those programs do. CL can also be used to create CL programs (congruent to shell scripts) where there are additional commands that provide program-like functionality (IF/ELSE, variable declaration, file input, etc.) Although CL is a scripting language for system administration, it is used mainly to create compiled programs. The use of interpreted CL scripts through the SBMDBJOB command  is in fact extremely limited. <a href="https://en.wikipedia.org/wiki/IBM_i_Control_Language">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/IBM_i_Control_Language">IBM i Control Language Wikipedia page</a>
+ - IBM i Control Language is backed by <a href="../lists/corporations.html#IBM">IBM</a>
+ - See also: <a href="jcl.html">JCL</a>, <a href="pl-i.html">PL/I</a>, <a href="powershell.html">PowerShell</a>, <a href="unix.html">Unix</a>, <a href="c.html">C</a>
+ - Have a question about IBM i Control Language not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/ibm-i-control-language">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/IBM_i_Control_Language'>Wikipedia</a>:
+code
+ PGM (&amp;IN &amp;TYP)
+ 
+    DCL &amp;IN  *CHAR 6
+    DCL &amp;OUT *CHAR 8
+    DCL &amp;TYP *CHAR 1
+ 
+    IF (&amp;TYP = J) +
+       DO
+          CVTDAT DATE(&amp;IN) TOVAR(&amp;OUT) FROMFMT(*MDY) +
+                 TOFMT(*JUL) TOSEP(*NONE)
+       ENDDO
+ 
+    ELSE IF (&amp;TYP = M) +
+       DO
+          CVTDAT DATE(&amp;IN) TOVAR(&amp;OUT) FROMFMT(*JUL) +
+                 TOFMT(*MDY) TOSEP(*NONE)
+       ENDDO
+ 
+    SNDPGMMSG MSG(&#39;IN=&#39; || &amp;IN || &#39;  OUT=&#39; || &amp;OUT) +
+              MSGTYPE(*COMP)
+ 
+ ENDPGM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav guido-music-notation.html think-c.html

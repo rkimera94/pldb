@@ -1,0 +1,56 @@
+title PSeInt
+
+import settings.scroll
+htmlTitle PSeInt - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/pseint.pldb
+
+paragraph
+ PSeInt is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #2971 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 3555 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging PSeInt">Books</span>
+ 0 <span title="Academic publications about or leveraging PSeInt">Papers</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/pseint">Riju</a>
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://pseint.sourceforge.net/index.php">PSeInt website</a>
+ - PSeInt is written with the native language of Spanish
+ - Have a question about PSeInt not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/pseint">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/pseint'>Riju</a>:
+code
+ Proceso Main
+     Escribir &quot;¡Hola, mundo!&quot;;
+ FinProceso
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav powerloom-knowledgeBase.html readable-lisp.html

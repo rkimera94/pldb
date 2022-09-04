@@ -1,0 +1,55 @@
+title Lazy ML
+
+import settings.scroll
+htmlTitle Lazy ML - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/lazyMl.pldb
+
+paragraph
+ Lazy ML is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1980">1980</a>.
+
+kpiTable
+ #1742 <span title="TotalRank: 2160 Jobs: 62 Users: 1612 Facts: 2356 Links: 486">on PLDB</span>
+ 42 Years Old
+ 60 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Lazy ML">Books</span>
+ 0 <span title="Academic publications about or leveraging Lazy ML">Papers</span>
+
+
+
+
+
+paragraph
+ Lazy ML (LML) is a functional programming language developed in the early 1980s by Lennart Augustsson and Thomas Johnsson at Chalmers University of Technology, prior to Miranda and Haskell. LML is a strongly typed, statically scoped implementation of ML, with lazy evaluation. The key innovation of LML was to demonstrate how to compile a lazy functional language. <a href="https://en.wikipedia.org/wiki/Lazy_ML">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Lazy_ML">Lazy ML Wikipedia page</a>
+ - See also: <a href="haskell.html">Haskell</a>, <a href="ml.html">ML</a>
+ - Have a question about Lazy ML not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/lazyMl">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Lazy_ML'>Wikipedia</a>:
+code
+ let rec fact 0 = 1  ||
+             fact n = n*fact(n-1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav janus-programming-language.html ratfiv.html

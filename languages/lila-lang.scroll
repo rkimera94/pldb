@@ -1,0 +1,58 @@
+title lila-lang
+
+import settings.scroll
+htmlTitle lila-lang - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/lila-lang.pldb
+
+paragraph
+ lila-lang is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a>.
+
+kpiTable
+ #2921 <span title="TotalRank: 3160 Jobs: 62 Users: 2152 Facts: 3555 Links: 946">on PLDB</span>
+ 3 Years Old
+ 0 <span title="Books about or leveraging lila-lang">Books</span>
+ 0 <span title="Academic publications about or leveraging lila-lang">Papers</span>
+
+
+
+
+
+paragraph
+ a cleaner language based on Common Lisp
+
+list
+ - lila-lang is developed on <a href="https://github.com/codr7/lila">GitHub</a> and has 3 stars
+ - Have a question about lila-lang not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/lila-lang">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ fun fib(n:Int) (Int) {
+   if {n.&lt; 2} n {
+     fib {n.- 1}
+     fib {n.- 2}
+     $.+ $
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav mountain.html rockstar-rkt.html

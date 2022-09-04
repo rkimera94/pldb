@@ -1,0 +1,58 @@
+title Joule
+
+import settings.scroll
+htmlTitle Joule - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/joule.pldb
+
+paragraph
+ Joule is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1996">1996</a> by <a href="../lists/creators.html#E._Dean_Tribble">E. Dean Tribble</a>.
+
+kpiTable
+ #1502 <span title="TotalRank: 1920 Jobs: 62 Users: 1372 Facts: 1676 Links: 486">on PLDB</span>
+ 26 Years Old
+ 95 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Joule">Books</span>
+ 0 <span title="Academic publications about or leveraging Joule">Papers</span>
+
+
+
+
+
+paragraph
+ Joule is a concurrent dataflow programming language, designed for building distributed applications. It is so concurrent that the order of statements within a block is irrelevant to the operation of the block. Statements are executed whenever possible, based on their inputs. <a href="https://en.wikipedia.org/wiki/Joule_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Joule_(programming_language)">Joule Wikipedia page</a>
+ - See also: <a href="e.html">E</a>, <a href="ascii.html">ASCII</a>, <a href="unicode.html">Unicode</a>
+ - Have a question about Joule not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/joule">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Joule_(programming_language)'>Wikipedia</a>:
+code
+ If amount &lt;= balance
+        • account withdraw: amount
+    else
+        • account report-bounce:
+    end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav idl-sl.html hp-basic-for-openvms.html

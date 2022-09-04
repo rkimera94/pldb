@@ -1,0 +1,64 @@
+title Trex
+
+import settings.scroll
+htmlTitle Trex - Grammar language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/trex.pldb
+
+paragraph
+ Trex, aka Tree Regular Expressions for XML, is a <a href="../lists/languages.html?filter=grammarLanguage">grammar language</a> created in <a href="../lists/languages.html?filter=2001">2001</a> by <a href="../lists/creators.html#James_Clark">James Clark</a>.
+
+kpiTable
+ #1654 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 21 Years Old
+ 0 <span title="Books about or leveraging Trex">Books</span>
+ 0 <span title="Academic publications about or leveraging Trex">Papers</span>
+
+
+
+
+
+paragraph
+ TREX is a new language for validating XML documents. A TREX pattern specifies a pattern for the structure and content of an XML document. A TREX pattern thus identifies a class of XML documents consisting of those documents that match the pattern. A TREX pattern is itself an XML document.
+
+list
+ - the <a href="http://www.thaiopensource.com/trex/">Trex website</a>
+ - See also: <a href="dtd.html">DTD</a>
+ - Have a question about Trex not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/trex">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ &lt;element name=&quot;addressBook&quot;&gt;
+   &lt;zeroOrMore&gt;
+     &lt;element name=&quot;card&quot;&gt;
+       &lt;element name=&quot;name&quot;&gt;
+         &lt;anyString/&gt;
+       &lt;/element&gt;
+       &lt;element name=&quot;email&quot;&gt;
+         &lt;anyString/&gt;
+       &lt;/element&gt;
+     &lt;/element&gt;
+   &lt;/zeroOrMore&gt;
+ &lt;/element&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav toadskin.html txr.html

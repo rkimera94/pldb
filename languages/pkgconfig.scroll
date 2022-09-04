@@ -1,0 +1,67 @@
+title PkgConfig
+
+import settings.scroll
+htmlTitle PkgConfig - Config format
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/pkgconfig.pldb
+
+paragraph
+ PkgConfig is a <a href="../lists/languages.html?filter=configFormat">config format</a>.
+
+kpiTable
+ #3051 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 2356 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging PkgConfig">Books</span>
+ 0 <span title="Academic publications about or leveraging PkgConfig">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://www.freedesktop.org/wiki/Software/pkg-config/">PkgConfig website</a>
+ - file extensions for PkgConfig include pc
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/configs.py">syntax highlighting</a> for PkgConfig
+ - See also: <a href="makefile.html">Makefile</a>, <a href="autoconf.html">Autoconf</a>
+ - Have a question about PkgConfig not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/pkgconfig">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pikachu.html plumb.html

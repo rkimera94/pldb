@@ -1,0 +1,49 @@
+title Lazy Evaluation
+
+import settings.scroll
+htmlTitle Lazy Evaluation - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/lazy-evaluation-feature.pldb
+
+paragraph
+ Lazy Evaluation is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ An evaluation strategy which delays the evaluation of an expression until its value is needed.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Lazy_evaluation">Lazy Evaluation Wikipedia page</a>
+ - Have a question about Lazy Evaluation not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/lazy-evaluation-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Lazy Evaluation include <a href="r.html">R</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav interface-feature.html macros-feature.html

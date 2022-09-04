@@ -1,0 +1,66 @@
+title Default Parameters Pattern
+
+import settings.scroll
+htmlTitle Default Parameters Pattern - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/default-parameters-feature.pldb
+
+paragraph
+ Default Parameters Pattern is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ Syntactic sugar for setting values for parameters if not defined.
+
+list
+ - Read more about Default Parameters Pattern on the web: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters">1</a>
+ - Have a question about Default Parameters Pattern not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/default-parameters-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Default Parameters Pattern include <a href="javascript.html">JavaScript</a>, <a href="csharp.html">C#</a>, <a href="elixir.html">Elixir</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ function multiply(a, b = 1) {
+  return a * b;
+ }
+
+exampleCodeHeader Example from <a href="csharp.html">C#</a>:
+
+code
+ public void ExampleMethod(string optionalstr = &quot;default string&quot;) {}
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ def multiply(a, b \\ 1) do
+   a * b
+ end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav case-sensitivity-feature.html destructuring-feature.html

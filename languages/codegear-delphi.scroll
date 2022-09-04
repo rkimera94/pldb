@@ -1,0 +1,57 @@
+title CodeGear Delphi
+
+import settings.scroll
+htmlTitle CodeGear Delphi - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/codegear-delphi.pldb
+
+paragraph
+ CodeGear Delphi is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1995">1995</a>.
+
+kpiTable
+ #2105 <span title="TotalRank: 2388 Jobs: 62 Users: 1662 Facts: 3555 Links: 664">on PLDB</span>
+ 27 Years Old
+ 55 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging CodeGear Delphi">Books</span>
+ 0 <span title="Academic publications about or leveraging CodeGear Delphi">Papers</span>
+
+
+
+
+
+paragraph
+ Delphi is an integrated development environment (IDE) for rapid application development of desktop, mobile, web, and console software, developed by Embarcadero Technologies. It is also an event-driven language.  Delphi's compilers use their own Object Pascal dialect of Pascal and generate native code for Microsoft Windows, macOS (IA-32 only), iOS, Android and Linux (x64 only). <a href="https://en.wikipedia.org/wiki/CodeGear_Delphi">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/CodeGear_Delphi">CodeGear Delphi Wikipedia page</a>
+ - See also: <a href="object-pascal.html">Object Pascal</a>, <a href="pascal.html">Pascal</a>, <a href="ia-32.html">IA-32</a>, <a href="ios.html">iOS</a>, <a href="android.html">Android</a>, <a href="linux.html">Linux</a>, <a href="turbo-pascal.html">Turbo Pascal</a>, <a href="assembly-language.html">Assembly language</a>, <a href="java.html">Java</a>, <a href="uml.html">UML</a>, <a href="xml.html">XML</a>, <a href="cil.html">CIL</a>, <a href="php.html">PHP</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="oxygene.html">Oxygene</a>, <a href="free-pascal.html">Free Pascal</a>
+ - Have a question about CodeGear Delphi not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/codegear-delphi">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/CodeGear_Delphi'>Wikipedia</a>:
+code
+ procedure TForm1.ShowSomethingOnCreate;
+ begin
+   Label1.Text := &#39;Hello World!&#39;;
+ end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav fasttrack-scripting-host.html apse.html

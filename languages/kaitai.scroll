@@ -1,0 +1,71 @@
+title kaitai
+
+import settings.scroll
+htmlTitle kaitai - Interface design language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kaitai.pldb
+
+paragraph
+ kaitai is an <a href="../lists/languages.html?filter=idl">interface design language</a> created in <a href="../lists/languages.html?filter=2016">2016</a> by <a href="../lists/creators.html#Mikhail_Yakshin">Mikhail Yakshin</a>.
+
+kpiTable
+ #351 <span title="TotalRank: 675 Jobs: 62 Users: 236 Facts: 377 Links: 946">on PLDB</span>
+ 6 Years Old
+ 3.5k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging kaitai">Books</span>
+ 0 <span title="Academic publications about or leveraging kaitai">Papers</span>
+
+paragraph
+ Try now: <a href="https://ide.kaitai.io/">Web</a>
+
+
+
+paragraph
+ Kaitai Struct is a YAML-based declarative language used to describe various binary data structures, laid out in files or in memory: i.e. binary file formats, network stream packet formats, etc. The main idea is that a particular format is described in Kaitai Struct language (.ksy file) and then can be compiled with ksc into source files in one of the supported programming languages. These modules will include a generated code for a parser that can read described data structure from a file / stream and give access to it in a nice, easy-to-comprehend API.
+
+list
+ - the <a href="http://kaitai.io/">kaitai website</a>
+ - kaitai is developed on <a href="https://github.com/kaitai-io/kaitai_struct">GitHub</a> and has 3,040 stars
+ - file extensions for kaitai include ksy
+ - the kaitai team is on <a href="https://twitter.com/kaitai_io">Twitter</a>
+ - <a href="http://kaitai.io/">kaitai.io</a> was registered in 2016
+ - See also: <a href="protobuf.html">Protocol Buffers</a>
+ - Read more about kaitai on the web: <a href="http://kaitai.io/">1</a>
+ - Have a question about kaitai not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/kaitai">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ meta:
+   id: tcp_segment
+   endian: be
+ seq:
+   - id: src_port
+     type: u2
+   - id: dst_port
+     type: u2
+   - id: seq_num
+     type: u4
+   - id: ack_num
+     type: u4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav troff.html clips.html

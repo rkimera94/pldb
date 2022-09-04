@@ -1,0 +1,62 @@
+title webql
+
+import settings.scroll
+htmlTitle webql - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/webql.pldb
+
+paragraph
+ webql is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=2001">2001</a>.
+
+kpiTable
+ #1474 <span title="TotalRank: 1869 Jobs: 62 Users: 2580 Facts: 861 Links: 946">on PLDB</span>
+ 21 Years Old
+ 0 <span title="Books about or leveraging webql">Books</span>
+ 0 <span title="Academic publications about or leveraging webql">Papers</span>
+
+
+
+
+
+paragraph
+ WebQL was developed by QL2 Softaware in 2006. It is used for data integration and collection of unstructured and structured sources including the Web, PDF and Word documents, spreadsheets, email repositories, corporate data stores and more. It is also capable of Optical Character Recognition that enables it to retrive text within images. WebQL also support XML data of arbitrary size, and APIs for embedding WebQL in C, Java or .NET programs.
+
+list
+ - webql is backed by <a href="../lists/corporations.html#QL2_Software">QL2 Software</a>
+ - Read more about webql on the web: <a href="https://wikivisually.com/wiki/WebQL">1</a>
+ - Have a question about webql not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/webql">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ select
+   URL,
+   clean(CONTENT) as TITLE
+ from
+   links
+ within
+   http://blogsearch.google.com
+   submitting values &#39;wikipedia&#39; for &#39;q&#39;
+ where
+   url_host(URL) not matching &#39;google&#39;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav scroll-lang.html color-basic.html

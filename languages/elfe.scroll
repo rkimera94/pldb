@@ -1,0 +1,73 @@
+title ELFE
+
+import settings.scroll
+htmlTitle ELFE - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/elfe.pldb
+
+paragraph
+ ELFE is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2003">2003</a> by <a href="../lists/creators.html#Christophe_de_Dinechin">Christophe de Dinechin</a>.
+
+kpiTable
+ #1810 <span title="TotalRank: 2279 Jobs: 62 Users: 1271 Facts: 1287 Links: 946">on PLDB</span>
+ 19 Years Old
+ 118 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging ELFE">Books</span>
+ 0 <span title="Academic publications about or leveraging ELFE">Papers</span>
+
+
+
+
+
+paragraph
+ ELFE is a very simple and small programming language specifcally designed for everyday programming, notably for the Internet of Things.
+
+list
+ - ELFE is developed on <a href="https://github.com/c3d/elfe">GitHub</a> and has 90 stars
+ - Have a question about ELFE not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/elfe">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ invoke &quot;sensor.corp.net&quot;,
+     last_temperature := temperature
+     every 1s,
+         check_temperature temperature
+     check_temperature T:real -&gt;
+         writeln &quot;Measuring temperature &quot;, T, &quot; from process &quot;, process_id
+         if abs(T - last_temperature) &gt;= 1.0 then
+             reply
+                 temperature_changed T, last_temperature
+         last_temperature := T
+ temperature_changed new_temp, last_temp -&gt;
+     writeln &quot;Temperature changed from &quot;, last_temp, &quot; to &quot;, new_temp
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav rpp.html basicode.html

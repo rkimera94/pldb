@@ -1,0 +1,59 @@
+title c-talk
+
+import settings.scroll
+htmlTitle c-talk - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/c-talk.pldb
+
+paragraph
+ c-talk is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1999">1999</a> by <a href="../lists/creators.html#Konstantin_Knizhnik">Konstantin Knizhnik</a>.
+
+kpiTable
+ #2332 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 23 Years Old
+ 0 <span title="Books about or leveraging c-talk">Books</span>
+ 0 <span title="Academic publications about or leveraging c-talk">Papers</span>
+
+
+
+
+
+paragraph
+ C-Talk is interpreted scripting language with C-like syntax and dynamic type checking. Variables in C-Talk have no type. So there is no compile time type checking in C-Talk, all checking is performed at runtime. To preserve reference integrity, explicit memory deallocation is prohibited in C-Talk, unused objects are automatically deallocated by garbage collector.
+
+list
+ - the <a href="http://www.garret.ru/ctalk.html">c-talk website</a>
+ - Have a question about c-talk not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/c-talk">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ CtkObject myPrimitive(int nArgs, CtkObject* args) {
+     char*       s;
+     ctk_integer i;
+     ctk_real    r;
+     CtkObject   o;
+     ctkParseArguments(nArgs, args, &quot;siro&quot;, &amp;s, &amp;i, &amp;r, &amp;o);
+     ...
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav c-smile.html calc_var.html

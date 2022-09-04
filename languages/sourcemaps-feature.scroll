@@ -1,0 +1,58 @@
+title Source Maps
+
+import settings.scroll
+htmlTitle Source Maps - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/sourcemaps-feature.pldb
+
+paragraph
+ Source Maps are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A specific type of Symbol Table. When debugging transpiled code, it is much easier to debug the original source. A source map is a file that maps from the transformed source to the original source.
+
+list
+ - Have a question about Source Maps not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/sourcemaps-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Source Maps include <a href="javascript.html">JavaScript</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ {
+  version: 3,
+  file: &#39;min.js&#39;,
+  names: [&#39;bar&#39;, &#39;baz&#39;, &#39;n&#39;],
+  sources: [&#39;one.js&#39;, &#39;two.js&#39;],
+  sourceRoot: &#39;http://example.com/www/js/&#39;,
+  mappings: &#39;CAAC,IAAI,IAAM,SAAUA,GAClB,OAAOC,IAAID;CCDb,IAAI,IAAM,SAAUE,GAClB,OAAOA&#39;
+ };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav namespace-feature.html typed-holes-feature.html

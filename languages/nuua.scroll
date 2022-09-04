@@ -1,0 +1,63 @@
+title Nuua
+
+import settings.scroll
+htmlTitle Nuua - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/nuua.pldb
+
+paragraph
+ Nuua is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #2277 <span title="TotalRank: 2684 Jobs: 62 Users: 1749 Facts: 1676 Links: 946">on PLDB</span>
+ 4 Years Old
+ 45 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Nuua">Books</span>
+ 0 <span title="Academic publications about or leveraging Nuua">Papers</span>
+
+
+
+
+
+paragraph
+ The Nuua Programming Language - A zero dependencies, high level strong typed, interpreted language built on the top of modern C++17.
+
+list
+ - the <a href="https://nuua.io">Nuua website</a>
+ - Nuua is developed on <a href="https://github.com/nuua-io/Nuua">GitHub</a> and has 37 stars
+ - Have a question about Nuua not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/nuua">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ class Triangle {
+     b: float
+     h: float
+     fun area(): float -&gt; (self.b * self.h) / 2.0
+ }
+ 
+ fun main(argv: [string]) {
+     t := Triangle!{b: 10.0, h: 5.0}
+     print &quot;The area is: &quot; + t.area() as string
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav makedoc.html nvdl.html

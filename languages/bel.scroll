@@ -1,0 +1,106 @@
+title Bel
+
+import settings.scroll
+htmlTitle Bel - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/bel.pldb
+
+paragraph
+ Bel is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Paul_Graham">Paul Graham</a>.
+
+kpiTable
+ #1099 <span title="TotalRank: 1587 Jobs: 62 Users: 2171 Facts: 861 Links: 664">on PLDB</span>
+ 3 Years Old
+ 0 <span title="Books about or leveraging Bel">Books</span>
+ 0 <span title="Academic publications about or leveraging Bel">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://paulgraham.com/bel.html">Bel website</a>
+ - See also: <a href="arc.html">Arc</a>
+ - Have a question about Bel not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/bel">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ ; Bel in Bel. 9 October 2019, 9:14 GMT
+ (def no (x)
+   (id x nil))
+ (def atom (x)
+   (no (id (type x) &#39;pair)))
+ (def all (f xs)
+   (if (no xs)      t
+       (f (car xs)) (all f (cdr xs))
+                    nil))
+ (def some (f xs)
+   (if (no xs)      nil
+       (f (car xs)) xs
+                    (some f (cdr xs))))
+ (def reduce (f xs)
+   (if (no (cdr xs))
+       (car xs)
+       (f (car xs) (reduce f (cdr xs)))))
+ (def cons args
+   (reduce join args))
+ (def append args
+   (if (no (cdr args)) (car args)
+       (no (car args)) (apply append (cdr args))
+                       (cons (car (car args))
+                             (apply append (cdr (car args))
+                                           (cdr args)))))
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token prn
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   ; A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   ; A comment
+  Token ;
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav nexml.html earl-grey.html

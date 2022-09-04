@@ -1,0 +1,51 @@
+title AIR
+
+import settings.scroll
+htmlTitle AIR - Intermediate representation language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/air.pldb
+
+paragraph
+ AIR, aka Assembly Intermediate Representation, is an <a href="../lists/languages.html?filter=ir">intermediate representation language</a> created in <a href="../lists/languages.html?filter=2016">2016</a>.
+
+kpiTable
+ #1433 <span title="TotalRank: 1869 Jobs: 62 Users: 2171 Facts: 861 Links: 946">on PLDB</span>
+ 6 Years Old
+ 0 <span title="Books about or leveraging AIR">Books</span>
+ 0 <span title="Academic publications about or leveraging AIR">Papers</span>
+
+
+
+
+
+paragraph
+ Bare Bones Backend / Assembly Intermediate Representation. The B3 compiler comprises two intermediate representations: a higher-level SSA-based representation called B3 IR and a lower-level representation that focuses of machine details, like registers. This lower-level form is called Air (Assembly Intermediate Representation).
+
+list
+ - the <a href="https://webkit.org/docs/b3/assembly-intermediate-representation.html">AIR website</a>
+ - AIR is backed by <a href="../lists/corporations.html#Apple">Apple</a>
+ - Have a question about AIR not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/air">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav u.html archieml.html

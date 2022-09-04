@@ -1,0 +1,89 @@
+title Gotos
+
+import settings.scroll
+htmlTitle Gotos - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/gotos-feature.pldb
+
+paragraph
+ Gotos are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ It performs a one-way transfer of control to another line of code; in contrast a function call normally returns control.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Goto">Gotos Wikipedia page</a>
+ - Have a question about Gotos not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/gotos-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>without</b> Gotos include <a href="nim.html">Nim</a>, <a href="slope.html">Slope</a>
+
+paragraph
+ Languages <b>with</b> Gotos include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="basic.html">BASIC</a>
+
+exampleCodeHeader Example from <a href="c.html">C</a>, <a href="cpp.html">C++</a>:
+
+code
+ // C/C++ program to check if a number is 
+ // even or not using goto statement 
+ #include &lt;iostream&gt; 
+ using namespace std; 
+   
+ // function to check even or not 
+ void checkEvenOrNot(int num) 
+ { 
+     if (num % 2 == 0) 
+         goto even; // jump to even 
+     else
+         goto odd; // jump to odd 
+   
+ even: 
+     cout &lt;&lt; num &lt;&lt; &quot; is evenn&quot;; 
+     return; // return if even 
+ odd: 
+     cout &lt;&lt; num &lt;&lt; &quot; is oddn&quot;; 
+ } 
+   
+ // Driver program to test above function 
+ int main() 
+ { 
+     int num = 26; 
+     checkEvenOrNot(num); 
+     return 0; 
+ }
+
+exampleCodeHeader Example from <a href="basic.html">BASIC</a>:
+
+code
+ 10 REM This BASIC program shows the use of the PRINT and GOTO Statements.
+ 15 REM It fills the screen with the phrase &quot;HELLO&quot;
+ 20 PRINT &quot;HELLO&quot;
+ 30 GOTO 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav generators-feature.html homoiconic-feature.html

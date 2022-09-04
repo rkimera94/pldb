@@ -1,0 +1,59 @@
+title Blender
+
+import settings.scroll
+htmlTitle Blender - Application
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/blender-app.pldb
+
+paragraph
+ Blender is an <a href="../lists/languages.html?filter=application">application</a> created in <a href="../lists/languages.html?filter=1998">1998</a>.
+
+kpiTable
+ #870 on PLDB
+ 24 Years Old
+ 5.4k <span title="Crude user estimate from a linear model.">Users</span>
+
+
+
+
+
+paragraph
+ Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Blender's features include 3D modeling, UV unwrapping, texturing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animating, match moving, rendering, motion graphics, video editing and compositing. While current versions also feature an integrated game engine, the upcoming 2.8 release will remove it.. <a href="https://en.wikipedia.org/wiki/Blender_(software)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Blender_(software)">Blender Wikipedia page</a>
+ - file extensions for Blender include blend
+ - Have a question about Blender not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/blender-app">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/b/Blender.py'>hello-world</a>:
+code
+ import Blender
+ from Blender import Scene, Text3d
+ 
+ text = Text3d.New(&quot;Text&quot;)
+ text.setText(&quot;Hello World&quot;)
+ Scene.GetCurrent().objects.new(text)
+ Blender.Redraw()
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav zonnon.html m3db.html

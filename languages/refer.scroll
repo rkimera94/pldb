@@ -1,0 +1,64 @@
+title Refer
+
+import settings.scroll
+htmlTitle Refer - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/refer.pldb
+
+paragraph
+ Refer is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a> created in <a href="../lists/languages.html?filter=1978">1978</a>.
+
+kpiTable
+ #2147 <span title="TotalRank: 2432 Jobs: 62 Users: 1424 Facts: 3555 Links: 946">on PLDB</span>
+ 44 Years Old
+ 85 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Refer">Books</span>
+ 0 <span title="Academic publications about or leveraging Refer">Papers</span>
+
+
+
+
+
+paragraph
+ refer is a program for managing bibliographic references, and citing them in troff documents.  It is implemented as a troff preprocessor. refer was written by Mike Lesk at Bell Laboratories in or before 1978, and is now available as part of most Unix-like operating systems. <a href="https://en.wikipedia.org/wiki/Refer_(software)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Refer_(software)">Refer Wikipedia page</a>
+ - Have a question about Refer not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/refer">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ %A Brian W. Kernighan
+ %A Lorinda L. Cherry
+ %T A System for Typesetting Mathematics
+ %J J. Comm. ACM
+ %V 18
+ %N 3
+ %D March 1978
+ %P 151-157
+ %K eqn
+ .[
+ kernighan cherry eqn
+ .]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav ruby-document-format.html robot-battle.html

@@ -1,0 +1,62 @@
+title Maps
+
+import settings.scroll
+htmlTitle Maps - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/maps-feature.pldb
+
+paragraph
+ Maps are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ An associative array, map, symbol table, or dictionary is an abstract data type composed of a collection of (key, value) pairs, such that each possible key appears at most once in the collection.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Associative_array">Maps Wikipedia page</a>
+ - Have a question about Maps not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/maps-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Maps include <a href="json.html">JSON</a>, <a href="lua.html">Lua</a>, <a href="elixir.html">Elixir</a>, <a href="edn.html">EDN</a>
+
+exampleCodeHeader Example from <a href="json.html">JSON</a>:
+
+code
+ {&quot;name&quot;: &quot;Mary&quot;}
+
+exampleCodeHeader Example from <a href="lua.html">Lua</a>:
+
+code
+ https://www.lua.org/pil/2.5.html
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ %{key: &quot;value&quot;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav bitwise-operaters-feature.html polymorphism-feature.html

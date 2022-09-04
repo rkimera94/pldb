@@ -1,0 +1,64 @@
+title protium
+
+import settings.scroll
+htmlTitle protium - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/protium.pldb
+
+paragraph
+ protium is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2007">2007</a> by <a href="../lists/creators.html#Diarmuid_Pigott">Diarmuid Pigott</a>.
+
+kpiTable
+ #1453 <span title="TotalRank: 1869 Jobs: 62 Users: 2171 Facts: 861 Links: 946">on PLDB</span>
+ 15 Years Old
+ 0 <span title="Books about or leveraging protium">Books</span>
+ 0 <span title="Academic publications about or leveraging protium">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://www.protiumblue.com/">protium website</a>
+ - <a href="http://www.protiumblue.com/">protiumblue.com</a> was registered in 2019
+ - Read more about protium on the web: <a href="http://enacademic.com/dic.nsf/enwiki/3468524">1</a>
+ - Have a question about protium not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/protium">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ &lt;@ DEFAREFLE&gt;pleac&lt;/@&gt;
+ &lt;@ DEFFLELIT&gt;pleac|C:\Documents and Settings\All Users\Documents\Projects\PLEAC\pleac_perl.data&lt;/@&gt;
+ &lt;@ ITEENUFLELIT&gt;pleac|
+ &lt;@ LETVARELTFLE&gt;aLine|...&lt;/@&gt;
+ &lt;@ TSTRXPVARLIT&gt;aLine|# \^\^PLEAC\^\^_(\d+\.\d+)&lt;/@&gt;
+ &lt;@ IFF&gt;&lt;@ LETVARKEY&gt;number|__Reg1&lt;/@&gt;
+ &lt;@ ACTSNKLIT&gt;__Off&lt;/@&gt;
+ &lt;@ ACTSNKEMMLIT&gt;pleac_perl_&amp;number;.p&lt;/@&gt;
+ &lt;/@&gt;
+ &lt;@ SAYVAR&gt;aLine&lt;/@&gt;
+ &lt;/@&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav promql.html quorum.html

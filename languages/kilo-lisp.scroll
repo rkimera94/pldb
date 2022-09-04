@@ -1,0 +1,55 @@
+title kilo-lisp
+
+import settings.scroll
+htmlTitle kilo-lisp - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kilo-lisp.pldb
+
+paragraph
+ kilo-lisp is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a>.
+
+kpiTable
+ #1925 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 3 Years Old
+ 0 <span title="Books about or leveraging kilo-lisp">Books</span>
+ 0 <span title="Academic publications about or leveraging kilo-lisp">Papers</span>
+
+
+
+
+
+paragraph
+ Kilo LISP is a small interpreter for purely symbolic LISP. Its source consists of 25K bytes of comprehensible code (20KB C, 5KB LISP) and it runs in 64K bytes of memory. None the less it offers: lexical scoping, tail call elimination, macros, quasiquotation, variable-argument functions, constant-space garbage collection, image files, keyboard interrupt handling
+
+list
+ - the <a href="https://www.t3x.org/klisp/index.html">kilo-lisp website</a>
+ - Read more about kilo-lisp on the web: <a href="https://news.ycombinator.com/item?id=19415735">1</a>
+ - Have a question about kilo-lisp not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/kilo-lisp">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ ((a . b) . c)
+ (a . (b . c))
+ ((a . b) . (c . d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav kernel.html kima.html

@@ -1,0 +1,73 @@
+title xsharp
+
+import settings.scroll
+htmlTitle xsharp - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/xsharp.pldb
+
+paragraph
+ xsharp is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2015">2015</a>.
+
+kpiTable
+ #2407 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 7 Years Old
+ 0 <span title="Books about or leveraging xsharp">Books</span>
+ 0 <span title="Academic publications about or leveraging xsharp">Papers</span>
+
+
+
+
+
+paragraph
+ X# is an open source development language for .NET, based on the xBase language.
+
+list
+ - the <a href="https://www.xsharp.info">xsharp website</a>
+ - <a href="https://www.xsharp.info">xsharp.info</a> was registered in 2015
+ - Have a question about xsharp not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/xsharp">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ FUNCTION start AS VOID 
+  LOCAL oErr AS OBJECT
+  LOCAL nI AS LONG
+  LOCAL f AS FLOAT
+  oErr := Error{} 
+  f := Seconds()
+  nI := 0
+  FOR VAR nX := 1 TO 10_000_000
+     IF IsInstanceOf(oErr, #Error)
+        nI++
+     ENDIF
+  NEXT 
+  ? Seconds() - f, nI
+  f := Seconds()
+  FOR VAR nX := 1 TO 10_000_000
+     IF oErr IS Error
+        nI++
+     ENDIF
+  NEXT 
+  ? Seconds() - f, nI
+  WAIT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav xmpp-protocol.html z2.html

@@ -1,0 +1,101 @@
+title epsilon
+
+import settings.scroll
+htmlTitle epsilon - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/epsilon.pldb
+
+paragraph
+ epsilon is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #1630 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging epsilon">Books</span>
+ 0 <span title="Academic publications about or leveraging epsilon">Papers</span>
+
+
+
+
+
+paragraph
+ EOL is an imperative programming language for creating, querying and modifying EMF models. You can think of it as a mixture of Javascript and OCL, combining the best of both worlds. As such, it provides all the usual imperative features found in Javascript (e.g. statement sequencing, variables, for and while loops, if branches etc.) and all the nice features of OCL such as those handy collection querying functions.
+
+list
+ - the <a href="https://www.eclipse.org/epsilon/doc/eol/">epsilon website</a>
+ - file extensions for epsilon include eol
+ - the epsilon team is on <a href="https://twitter.com/eclipseepsilon">Twitter</a>
+ - Have a question about epsilon not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/epsilon">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ var m : new Model;
+ 
+ m.name = &quot;m&quot;;
+ 
+ // Create five packages
+ for (i in 1.to(5)){
+   var package : Package = new Package;
+   package.name = &quot;p&quot; + i;
+   package.package = m;
+ 
+   // Create three classes in each package
+   for (j in 1.to(3)) {
+     
+     var class : Class = new Class;
+     class.name = &quot;c&quot; + i + &quot;&quot; + j;
+     class.isAbstract = false;
+     class.package = package;
+     
+   }
+   
+ }
+ 
+ // Assign random supertypes to the classes created
+ for (c in Class.allInstances) {
+   c.extends = Class.allInstances.random();
+ }
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav cuneiform.html fox.html

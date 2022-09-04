@@ -1,0 +1,71 @@
+title v8torque
+
+import settings.scroll
+htmlTitle v8torque - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/v8torque.pldb
+
+paragraph
+ v8torque is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #2057 <span title="TotalRank: 2295 Jobs: 62 Users: 2580 Facts: 1287 Links: 946">on PLDB</span>
+ 4 Years Old
+ 0 <span title="Books about or leveraging v8torque">Books</span>
+ 0 <span title="Academic publications about or leveraging v8torque">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - v8torque compiles to <a href="csa.html">CodeStudAssembler</a>
+ - Read more about v8torque on the web: <a href="https://v8project.blogspot.com/2018/09/dataview.html">1</a>
+ - Have a question about v8torque not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/v8torque">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+  macro LoadDataViewUint32(buffer: JSArrayBuffer, offset: intptr,
+                    requested_little_endian: bool,
+                    signed: constexpr bool): Number {
+   let data_pointer: RawPtr = buffer.backing_store;
+ 
+   let b0: uint32 = LoadUint8(data_pointer, offset);
+   let b1: uint32 = LoadUint8(data_pointer, offset + 1);
+   let b2: uint32 = LoadUint8(data_pointer, offset + 2);
+   let b3: uint32 = LoadUint8(data_pointer, offset + 3);
+   let result: uint32;
+ 
+   if (requested_little_endian) {
+     result = (b3 &lt;&lt; 24) | (b2 &lt;&lt; 16) | (b1 &lt;&lt; 8) | b0;
+   } else {
+     result = (b0 &lt;&lt; 24) | (b1 &lt;&lt; 16) | (b2 &lt;&lt; 8) | b3;
+   }
+ 
+   return convert&lt;Number&gt;(result);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav v-visual-language.html vtl.html

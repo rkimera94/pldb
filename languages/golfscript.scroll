@@ -1,0 +1,68 @@
+title GolfScript
+
+import settings.scroll
+htmlTitle GolfScript - Esoteric programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/golfscript.pldb
+
+paragraph
+ GolfScript is an <a href="../lists/languages.html?filter=esolang">esoteric programming language</a> created in <a href="../lists/languages.html?filter=2007">2007</a>.
+
+kpiTable
+ #1920 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 15 Years Old
+ 0 <span title="Books about or leveraging GolfScript">Books</span>
+ 0 <span title="Academic publications about or leveraging GolfScript">Papers</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/golfscript">Riju</a>
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://www.golfscript.com/golfscript/">GolfScript website</a>
+ - Have a question about GolfScript not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/golfscript">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/golfscript'>Riju</a>:
+code
+ &#39;Hello, world!&#39;
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/g/Golfscript.golfscript'>hello-world</a>:
+code
+ &quot;Hello World&quot;
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav frame.html hilltop-lang.html

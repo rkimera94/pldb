@@ -1,0 +1,70 @@
+title Scroll
+
+import settings.scroll
+htmlTitle Scroll - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/scroll.pldb
+
+paragraph
+ Scroll is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a> created in <a href="../lists/languages.html?filter=2020">2020</a> by <a href="../lists/creators.html#Breck_Yunits">Breck Yunits</a>.
+
+kpiTable
+ #860 <span title="TotalRank: 1358 Jobs: 62 Users: 894 Facts: 632 Links: 664">on PLDB</span>
+ 2 Years Old
+ 285 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Scroll">Books</span>
+ 0 <span title="Academic publications about or leveraging Scroll">Papers</span>
+
+paragraph
+ Try now: <a href="https://try.scroll.pub/">Web</a>
+
+
+
+paragraph
+ An extensible alternative to Markdown built on Tree Notation.
+
+list
+ - the <a href="https://scroll.pub/">Scroll website</a>
+ - Scroll is developed on <a href="https://github.com/breck7/scroll">GitHub</a> and has 268 stars
+ - <a href="https://scroll.pub/">scroll.pub</a> was registered in 2021
+ - See also: <a href="markdown.html">Markdown</a>, <a href="treenotation.html">Tree Notation</a>, <a href="grammar.html">Grammar</a>
+ - Have a question about Scroll not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/scroll">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ title This is Scroll. The keyword for title is title.
+ 
+ paragraph
+  Scroll is an extensible alternative to Markdown.
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   import settings.scroll
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav bluespec.html hocon.html

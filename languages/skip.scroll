@@ -1,0 +1,79 @@
+title skip
+
+import settings.scroll
+htmlTitle skip - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/skip.pldb
+
+paragraph
+ skip is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #394 <span title="TotalRank: 762 Jobs: 62 Users: 323 Facts: 377 Links: 946">on PLDB</span>
+ 4 Years Old
+ 2.1k <span title="Crude user estimate from a linear model.">Users</span>
+ 1 <span title="Books about or leveraging skip">Books</span>
+ 0 <span title="Academic publications about or leveraging skip">Papers</span>
+
+
+
+
+
+paragraph
+ A programming language to skip the things you have already computed
+
+list
+ - the <a href="http://skiplang.com/">skip website</a>
+ - skip is developed on <a href="https://github.com/skiplang/skip">GitHub</a> and has 1,912 stars
+ - skip is backed by <a href="../lists/corporations.html#Facebook">Facebook</a>
+ - <a href="http://skiplang.com/">skiplang.com</a> was registered in 2017
+ - Have a question about skip not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/skip">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Skip.sk'>hello-world</a>:
+code
+ fun main(): void {
+   print_string(&quot;Hello World&quot;)
+ }
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token print_string
+
+
+
+
+
+foldBreak
+subsection Books about skip from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ Skip College, Start Programming: The Complete How-To Guide to Teaching Yourself Software Development|https://isbndb.com/book/9781619616899|Hinton, Sam|2017|Lioncrest Publishing
+
+
+
+
+
+
+
+
+keyboardNav ejs.html atmel-avr.html

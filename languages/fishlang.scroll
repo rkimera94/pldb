@@ -1,0 +1,71 @@
+title ><>
+
+import settings.scroll
+htmlTitle ><> - Esoteric programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/fishlang.pldb
+
+paragraph
+ ><> is an <a href="../lists/languages.html?filter=esolang">esoteric programming language</a> created in <a href="../lists/languages.html?filter=2009">2009</a>.
+
+kpiTable
+ #1996 <span title="TotalRank: 2295 Jobs: 62 Users: 2580 Facts: 1287 Links: 946">on PLDB</span>
+ 13 Years Old
+ 0 <span title="Books about or leveraging ><>">Books</span>
+ 0 <span title="Academic publications about or leveraging ><>">Papers</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/fishlang">Riju</a>
+
+
+
+paragraph
+ 
+
+list
+ - ><> is listed on <a href="https://esolangs.org/wiki/Fish">Esolang</a>
+ - Have a question about ><> not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/fishlang">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/fishlang'>Riju</a>:
+code
+ &quot;Hello, world!&quot;r\
+            o;!?l&lt;
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/#/><>'>hello-world</a>:
+code
+ &quot;Hello World&quot;r\
+           o;!?l&lt;
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav filterscript.html g-expressions.html

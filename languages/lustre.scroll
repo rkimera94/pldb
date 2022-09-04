@@ -1,0 +1,64 @@
+title Lustre
+
+import settings.scroll
+htmlTitle Lustre - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/lustre.pldb
+
+paragraph
+ Lustre is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1993">1993</a>.
+
+kpiTable
+ #908 <span title="TotalRank: 1409 Jobs: 62 Users: 1176 Facts: 861 Links: 486">on PLDB</span>
+ 29 Years Old
+ 150 <span title="Crude user estimate from a linear model.">Users</span>
+ 1 <span title="Books about or leveraging Lustre">Books</span>
+ 0 <span title="Academic publications about or leveraging Lustre">Papers</span>
+
+
+
+
+
+paragraph
+ Lustre is a formally defined, declarative, and synchronous dataflow programming language for programming reactive systems. It began as a research project in the early 1980s. A formal presentation of the language can be found in the 1991 Proceedings of the IEEE. <a href="https://en.wikipedia.org/wiki/Lustre_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Lustre_(programming_language)">Lustre Wikipedia page</a>
+ - Lustre is listed on <a href="https://hopl.info/showlanguage.prx?exp=1161">HOPL</a>
+ - Lustre appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - See also: <a href="esterel.html">Esterel</a>, <a href="signal.html">SIGNAL</a>
+ - Have a question about Lustre not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/lustre">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Lustre_(programming_language)'>Wikipedia</a>:
+code
+ node Edge (X : bool) returns (E : bool);
+ let
+   E = false -&gt; X and not pre X;
+ tel
+
+
+
+
+
+
+
+
+
+foldBreak
+subsection Books about Lustre from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ Lustre (programming Language)|https://isbndb.com/book/9786133175624|Surhone and Lambert M. and Tennoe and Mariam T. and Henssonow and Susan F.||
+
+
+
+
+
+
+
+
+keyboardNav digital-command-language.html math-matic.html

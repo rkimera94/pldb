@@ -1,0 +1,69 @@
+title CobolScript
+
+import settings.scroll
+htmlTitle CobolScript - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/cobolscript.pldb
+
+paragraph
+ CobolScript is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1999">1999</a>.
+
+kpiTable
+ #1858 <span title="TotalRank: 2295 Jobs: 62 Users: 1705 Facts: 1287 Links: 946">on PLDB</span>
+ 23 Years Old
+ 50 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging CobolScript">Books</span>
+ 0 <span title="Academic publications about or leveraging CobolScript">Papers</span>
+
+
+
+
+
+paragraph
+ CobolScript is a programming language created by Matthew Dean and Charles Schereda of Deskware in 1999. The language was intended to provide web-enabled COBOL, and was targeted at businesses using legacy software written in that language.. <a href="https://en.wikipedia.org/wiki/CobolScript">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/CobolScript">CobolScript Wikipedia page</a>
+ - See also: <a href="cobol.html">COBOL</a>
+ - Have a question about CobolScript not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/cobolscript">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CobolScript.cbl'>hello-world</a>:
+code
+ DISPLAY `Content-type: text/html `.
+ DISPLAY LINEFEED.
+ DISPLAY `&lt;HTML&gt;&lt;BODY&gt;`.
+ DISPLAY `&lt;CENTER&gt;Hello World&lt;/CENTER&gt;`.
+ DISPLAY `&lt;/BODY&gt;&lt;/HTML&gt;`.
+ GOBACK.
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token DISPLAY
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav z.html datatrieve.html

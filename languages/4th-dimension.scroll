@@ -1,0 +1,70 @@
+title 4th Dimension
+
+import settings.scroll
+htmlTitle 4th Dimension - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/4th-dimension.pldb
+
+paragraph
+ 4th Dimension is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1987">1987</a>.
+
+kpiTable
+ #1288 <span title="TotalRank: 1743 Jobs: 62 Users: 2580 Facts: 735 Links: 946">on PLDB</span>
+ 35 Years Old
+ 0 <span title="Books about or leveraging 4th Dimension">Books</span>
+ 0 <span title="Academic publications about or leveraging 4th Dimension">Papers</span>
+ 365 <span title="4th Dimension repos on GitHub.">Repos</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - There are at least 365 4th Dimension repos on <a href="https://github.com/search?q=language:4D">GitHub</a>
+ - file extensions for 4th Dimension include 4dm
+ - 4th Dimension is listed on <a href="https://hopl.info/showlanguage.prx?exp=2471">HOPL</a>
+ - Read more about 4th Dimension on the web: <a href="https://en.wikipedia.org/wiki/4th_Dimension_(software)">1</a>
+ - Have a question about 4th Dimension not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/4th-dimension">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/#/4th Dimension.4dd'>hello-world</a>:
+code
+ OPEN WINDOW (10;45;500;330;0;&quot;Hello Window&quot;)
+ While (True)
+   MESSAGE (&quot;Hello World&quot;)
+ End while
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav verifpal.html cache-basic.html

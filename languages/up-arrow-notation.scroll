@@ -1,0 +1,55 @@
+title Up-arrow notation
+
+import settings.scroll
+htmlTitle Up-arrow notation - Notation
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/up-arrow-notation.pldb
+
+paragraph
+ Up-arrow notation is a <a href="../lists/languages.html?filter=notation">notation</a> created in <a href="../lists/languages.html?filter=1976">1976</a> by <a href="../lists/creators.html#Donald_Knuth">Donald Knuth</a>.
+
+kpiTable
+ #593 <span title="TotalRank: 1077 Jobs: 62 Users: 351 Facts: 1287 Links: 664">on PLDB</span>
+ 46 Years Old
+ 1.8k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Up-arrow notation">Books</span>
+ 0 <span title="Academic publications about or leveraging Up-arrow notation">Papers</span>
+
+
+
+
+
+paragraph
+ In mathematics, Knuth's up-arrow notation is a method of notation for very large integers, introduced by Donald Knuth in 1976. In his 1947 paper, R. L. <a href="https://en.wikipedia.org/wiki/Knuth's_up-arrow_notation">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Knuth's_up-arrow_notation">Up-arrow notation Wikipedia page</a>
+ - Have a question about Up-arrow notation not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/up-arrow-notation">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ 2↑4 = 2 ^ 4 = 16
+ 2↑↑4 = 2 ^ (2 ^ 4) = 65536
+ 2↑↑↑4 = 2 ^ (2 ^ (2 ^ 4)) = 2 ^ 65536
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav sam-format.html planner.html

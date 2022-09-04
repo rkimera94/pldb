@@ -1,0 +1,58 @@
+title goose
+
+import settings.scroll
+htmlTitle goose - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/goose.pldb
+
+paragraph
+ goose is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #2355 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 4 Years Old
+ 0 <span title="Books about or leveraging goose">Books</span>
+ 0 <span title="Academic publications about or leveraging goose">Papers</span>
+
+
+
+
+
+paragraph
+ Goose is a programming language in development that aims at being (yet another) c++ alternative.
+
+list
+ - the <a href="https://zlodo.cc/goose">goose website</a>
+ - Read more about goose on the web: <a href="https://www.reddit.com/r/ProgrammingLanguages/comments/ex7hpp/february_2020_monthly_what_are_you_working_on/fgdshb4/">1</a>
+ - Have a question about goose not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/goose">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ uint(32) lomarf( uint(32) a, uint(32) b )
+     requires [ a&gt;b ]
+     ensures [ @result&gt;0 ]
+ {
+     return a - b
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav goby.html grain.html

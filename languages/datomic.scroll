@@ -1,0 +1,53 @@
+title Datomic
+
+import settings.scroll
+htmlTitle Datomic - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/datomic.pldb
+
+paragraph
+ Datomic is a <a href="../lists/languages.html?filter=queryLanguage">query language</a>.
+
+kpiTable
+ #1789 <span title="TotalRank: 2224 Jobs: 62 Users: 2171 Facts: 1676 Links: 486">on PLDB</span>
+ 0 <span title="Books about or leveraging Datomic">Books</span>
+ 0 <span title="Academic publications about or leveraging Datomic">Papers</span>
+
+
+
+
+
+paragraph
+ Datomic's query and rules system is an extended form of Datalog. Datalog is a deductive query system, typically consisting of: A database of facts; A set of rules for deriving new facts from existing facts; a query processor that, given some partial specification of a fact or rule: finds all matching facts.
+
+list
+ - the <a href="https://docs.datomic.com/on-prem/query/query.html">Datomic website</a>
+ - See also: <a href="edn.html">EDN</a>, <a href="datalog.html">Datalog</a>
+ - Have a question about Datomic not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/datomic">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ [:find ?e 
+  :where [?e :age 42]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pact-i.html d-data-language-specification.html

@@ -1,0 +1,65 @@
+title Forte 4GL
+
+import settings.scroll
+htmlTitle Forte 4GL - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/forte-4gl.pldb
+
+paragraph
+ Forte 4GL is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1994">1994</a>.
+
+kpiTable
+ #2180 <span title="TotalRank: 2486 Jobs: 62 Users: 1478 Facts: 2356 Links: 946">on PLDB</span>
+ 28 Years Old
+ 75 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Forte 4GL">Books</span>
+ 0 <span title="Academic publications about or leveraging Forte 4GL">Papers</span>
+
+
+
+
+
+paragraph
+ Forté 4GL was a proprietary application server that was developed by Forté Software and used for developing scalable, highly available, enterprise applications.. <a href="https://en.wikipedia.org/wiki/Forte_4GL">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Forte_4GL">Forte 4GL Wikipedia page</a>
+ - See also: <a href="java.html">Java</a>
+ - Have a question about Forte 4GL not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/forte-4gl">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Forte_4GL'>Wikipedia</a>:
+code
+ begin
+     ...
+     raise UsageException();
+     ...
+ exception
+     when e : UsageException do
+         task.ErrMgr.Clear();
+         ...
+     else
+         ...
+         raise;
+ end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav typographical-number-theory.html renderman-shading-language.html

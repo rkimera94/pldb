@@ -1,0 +1,54 @@
+title rosie
+
+import settings.scroll
+htmlTitle rosie - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rosie.pldb
+
+paragraph
+ rosie is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=2015">2015</a>.
+
+kpiTable
+ #1279 <span title="TotalRank: 1743 Jobs: 62 Users: 2162 Facts: 735 Links: 946">on PLDB</span>
+ 7 Years Old
+ 0 <span title="Books about or leveraging rosie">Books</span>
+ 0 <span title="Academic publications about or leveraging rosie">Papers</span>
+
+
+
+
+
+paragraph
+ RPL is a variant of modern Regular Expressions (regex) that is designed to scale to big data, many developers, and large collections of patterns.  If you use regex, you already know a lot of RPL.
+
+list
+ - the <a href="http://rosie-lang.org/">rosie website</a>
+ - rosie is developed on <a href="https://gitlab.com/rosie-pattern-language/rosie">GitHub</a>
+ - <a href="http://rosie-lang.org/">rosie-lang.org</a> was registered in 2016
+ - Have a question about rosie not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/rosie">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ rosie --rpl &#39;d = [:digit:]&#39; -o json match d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav maraca-lang.html dlvm.html

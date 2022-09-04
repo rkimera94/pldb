@@ -1,0 +1,83 @@
+title xxl
+
+import settings.scroll
+htmlTitle xxl - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/xxl.pldb
+
+paragraph
+ xxl is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2016">2016</a>.
+
+kpiTable
+ #1557 <span title="TotalRank: 2019 Jobs: 62 Users: 1011 Facts: 1676 Links: 946">on PLDB</span>
+ 6 Years Old
+ 209 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging xxl">Books</span>
+ 0 <span title="Academic publications about or leveraging xxl">Papers</span>
+
+
+
+
+
+paragraph
+ a minimal vector programming language
+
+list
+ - xxl is developed on <a href="https://github.com/tlack/xxl">GitHub</a> and has 175 stars
+ - Have a question about xxl not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/xxl">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ // enclose (c)urly(b)races, (s)quare(b)brackets, (q)uotes:
+ &#39;ecb is {&quot;{&quot;,x,&quot;}&quot;}; &#39;esb is {&quot;[&quot;,x,&quot;]&quot;}; &#39;eq is {&quot;\&quot;&quot;,x,&quot;\&quot;&quot;}; 
+ &#39;jc is {join &quot;,&quot;}; &#39;jac is {each y jc};  // join x with commas; apply y to each of x then join with commas
+ &#39;pair is {encode,&quot;:&quot;,(y encode)};        // key:val pair for dict
+ &#39;dict is {key as &#39;k; x val as &#39;v; [k],v &gt;: pair jc ecb}; // get keys/vals, pair merge, commas, braces
+ // wrap non-scalar values in appropriate way:
+ &#39;many is {as &#39;el type case (&#39;char, {el str eq}, &#39;dict, {el dict}, {el jac encode esb})};
+ &#39;encode is {ravel[many,str]};            // ravel calls x y[0] for arrays (len &gt; 1), x y[1] for scalars
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav dedukti.html tamgu.html

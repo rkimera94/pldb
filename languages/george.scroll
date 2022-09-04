@@ -1,0 +1,60 @@
+title GEORGE
+
+import settings.scroll
+htmlTitle GEORGE - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/george.pldb
+
+paragraph
+ GEORGE is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1957">1957</a>.
+
+kpiTable
+ #1546 <span title="TotalRank: 2013 Jobs: 62 Users: 1662 Facts: 1287 Links: 664">on PLDB</span>
+ 65 Years Old
+ 55 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging GEORGE">Books</span>
+ 0 <span title="Academic publications about or leveraging GEORGE">Papers</span>
+
+
+
+
+
+paragraph
+ GEORGE is a programming language invented by Charles Leonard Hamblin in 1957.It was designed around a push-down pop-up stack for arithmetic operations, and employed reverse Polish notation. The language included loops, subroutines, conditionals, vectors, and matrices. Algebraic expressions were written in reverse Polish notation; thus,                         a         +         b                 {\displaystyle a+b}    was written a b +, and similarly for the other arithmetic operations of subtraction, multiplication, and division. <a href="https://en.wikipedia.org/wiki/GEORGE_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/GEORGE_(programming_language)">GEORGE Wikipedia page</a>
+ - Explore GEORGE snippets on <a href="http://www.rosettacode.org/wiki/Category:GEORGE">Rosetta Code</a>
+ - GEORGE is listed on <a href="https://hopl.info/showlanguage.prx?exp=20">HOPL</a>
+ - See also: <a href="reverse-polish-notation.html">Reverse Polish notation</a>
+ - Have a question about GEORGE not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/george">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/GEORGE_(programming_language)'>Wikipedia</a>:
+code
+ 1, 10 R1 (a)
+ 1, 10 rep (j)
+    j | a dup * j | (a) ;
+ ]
+ 1, 10 P1 (a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav tmg.html harwell-boeing-format.html

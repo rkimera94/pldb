@@ -1,0 +1,79 @@
+title YoptaScript
+
+import settings.scroll
+htmlTitle YoptaScript - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/yoptascript.pldb
+
+paragraph
+ YoptaScript is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2016">2016</a> by <a href="../lists/creators.html#Sam_Gozman">Sam Gozman</a>.
+
+kpiTable
+ #481 <span title="TotalRank: 879 Jobs: 62 Users: 335 Facts: 482 Links: 946">on PLDB</span>
+ 6 Years Old
+ 2.0k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging YoptaScript">Books</span>
+ 0 <span title="Academic publications about or leveraging YoptaScript">Papers</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/yoptascript">Riju</a>
+
+
+
+paragraph
+ Скриптовый язык программирования для гопников и реальных пацанов
+
+list
+ - the <a href="https://yopta.space/">YoptaScript website</a>
+ - YoptaScript is developed on <a href="https://github.com/samgozman/YoptaScript">GitHub</a> and has 1,675 stars
+ - YoptaScript compiles to <a href="javascript.html">JavaScript</a>
+ - YoptaScript is written with the native language of Russian
+ - Have a question about YoptaScript not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/yoptascript">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/yoptascript'>Riju</a>:
+code
+ красноглазое.чмо(&quot;Привет мир!&quot;) нах
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/y/YoptaScript'>hello-world</a>:
+code
+ ксива.малява(&quot;Hello World&quot;) нах
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token ксива.малява
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pic-microcontroller.html joy.html

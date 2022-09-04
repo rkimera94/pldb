@@ -1,0 +1,72 @@
+title Virgil
+
+import settings.scroll
+htmlTitle Virgil - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/virgil.pldb
+
+paragraph
+ Virgil is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2006">2006</a> by <a href="../lists/creators.html#Ben_L._Titzer">Ben L. Titzer</a>.
+
+kpiTable
+ #1241 <span title="TotalRank: 1742 Jobs: 62 Users: 819 Facts: 861 Links: 946">on PLDB</span>
+ 16 Years Old
+ 351 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Virgil">Books</span>
+ 0 <span title="Academic publications about or leveraging Virgil">Papers</span>
+
+
+
+
+
+paragraph
+ A fast and lightweight native programming language
+
+list
+ - Virgil is developed on <a href="https://github.com/titzer/virgil">GitHub</a> and has 323 stars
+ - Read more about Virgil on the web: <a href="https://news.ycombinator.com/item?id=31954053">1</a>
+ - Have a question about Virgil not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/virgil">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ def main() {
+    System.puts(&quot;Hello World!\n&quot;);
+ }
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/v/Virgil.v3'>hello-world</a>:
+code
+  def main() {
+         System.puts(&quot;Hello World\n&quot;);
+  }
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token System.puts
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav stoneknifeforth.html hacspec.html

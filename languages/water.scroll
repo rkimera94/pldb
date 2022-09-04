@@ -1,0 +1,54 @@
+title Water
+
+import settings.scroll
+htmlTitle Water - Template language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/water.pldb
+
+paragraph
+ Water is a <a href="../lists/languages.html?filter=template">template language</a> created in <a href="../lists/languages.html?filter=2002">2002</a>.
+
+kpiTable
+ #2722 <span title="TotalRank: 2684 Jobs: 62 Users: 2580 Facts: 1676 Links: 946">on PLDB</span>
+ 20 Years Old
+ 0 <span title="Books about or leveraging Water">Books</span>
+ 0 <span title="Academic publications about or leveraging Water">Papers</span>
+
+
+
+
+
+paragraph
+ Water is a new native Web service programming language with a ConciseXML syntax. Data, logic, and presentation have a uniform XML representation in Water. Read how Water simplifies the creation of new Web services and programs.
+
+list
+ - Read more about Water on the web: <a href="http://www.informit.com/articles/article.aspx?p=27567">1</a>
+ - Have a question about Water not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/water">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ &lt;set the_date=
+      &lt;HTML&gt; Today is &lt;datetime.today/&gt; &lt;/HTML&gt;
+ /&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav visual.html watfor.html

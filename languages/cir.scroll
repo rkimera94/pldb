@@ -1,0 +1,84 @@
+title CIR
+
+import settings.scroll
+htmlTitle CIR - Intermediate representation language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/cir.pldb
+
+paragraph
+ CIR, aka Clang IR, is an <a href="../lists/languages.html?filter=ir">intermediate representation language</a> created in <a href="../lists/languages.html?filter=2020">2020</a>.
+
+kpiTable
+ #711 <span title="TotalRank: 1208 Jobs: 62 Users: 1139 Facts: 482 Links: 664">on PLDB</span>
+ 2 Years Old
+ 167 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging CIR">Books</span>
+ 0 <span title="Academic publications about or leveraging CIR">Papers</span>
+
+
+
+
+
+paragraph
+ Clang IR (CIR) is a new IR for Clang.
+
+list
+ - the <a href="https://facebookincubator.github.io/clangir/">CIR website</a>
+ - CIR is developed on <a href="https://github.com/facebookincubator/clangir">GitHub</a> and has 150 stars
+ - See also: <a href="llvmir.html">LLVM IR</a>
+ - Read more about CIR on the web: <a href="https://news.ycombinator.com/item?id=31904624">1</a>,<a href="https://discourse.llvm.org/t/rfc-an-mlir-based-clang-ir-cir/63319">2</a>
+ - Have a question about CIR not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/cir">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ // Read from local variable, address in %0.
+ %1 = cir.load %0 : !cir.ptr&lt;i32&gt;, i32
+ 
+ // Load address from memory at address %0. %3 is used by at least one
+ // operation that dereferences a pointer.
+ %3 = cir.load deref %0 : cir.ptr &lt;!cir.ptr&lt;i32&gt;&gt;
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pilot.html plist.html

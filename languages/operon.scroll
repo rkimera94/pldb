@@ -1,0 +1,56 @@
+title operon
+
+import settings.scroll
+htmlTitle operon - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/operon.pldb
+
+paragraph
+ operon is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #1641 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 4 Years Old
+ 0 <span title="Books about or leveraging operon">Books</span>
+ 0 <span title="Academic publications about or leveraging operon">Papers</span>
+
+
+
+
+
+paragraph
+ Operon.io is a powerful language to query, transform and integrate JSON-data. You can use it for example to build a small microservice for your backend services. All code is run on the powerful and battle tested Java Virtual Machine (JVM).
+
+list
+ - the <a href="https://www.operon.io/">operon website</a>
+ - Have a question about operon not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/operon">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ From json:true
+ Function mySum($a, $b):
+     $a + $b
+ End
+ Select [1 ... 5] =&gt; array:Reduce(mySum($a, $b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav lowstar.html pisc.html

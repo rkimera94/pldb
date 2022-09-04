@@ -1,0 +1,49 @@
+title Semaphores
+
+import settings.scroll
+htmlTitle Semaphores - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/semaphores-feature.pldb
+
+paragraph
+ Semaphores are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In computer science, a semaphore is a variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system such as a multitasking operating system. A semaphore is simply a variable. This variable is used to solve critical section problems and to achieve process synchronization in the multi processing environment. A trivial semaphore is a plain variable that is changed (for example, incremented or decremented, or toggled) depending on programmer-defined conditions.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Semaphore_(programming)">Semaphores Wikipedia page</a>
+ - Have a question about Semaphores not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/semaphores-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Semaphores include 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav scientific-notation-feature.html shebang-feature.html

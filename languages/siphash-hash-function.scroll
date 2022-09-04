@@ -1,0 +1,49 @@
+title SipHash
+
+import settings.scroll
+htmlTitle SipHash - Hash function
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/siphash-hash-function.pldb
+
+paragraph
+ SipHash is a <a href="../lists/languages.html?filter=hashFunction">hash function</a> created in <a href="../lists/languages.html?filter=2011">2011</a>.
+
+kpiTable
+ #1728 on PLDB
+ 11 Years Old
+ 370 <span title="Crude user estimate from a linear model.">Users</span>
+
+
+
+
+
+paragraph
+ SipHash is an add–rotate–xor (ARX) based family of pseudorandom functions created by Jean-Philippe Aumasson and Daniel J. Bernstein in 2012, in response to a spate of "hash flooding" denial-of-service attacks in late 2011.Although designed for use as a hash function in the computer science sense, SipHash is fundamentally different from cryptographic hash functions like SHA in that it is only suitable as a message authentication code: a keyed hash function like HMAC.  That is, SHA is designed so that it is difficult for an attacker to find two messages X and Y such that SHA(X) = SHA(Y), even though anyone may compute SHA(X). <a href="https://en.wikipedia.org/wiki/SipHash">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/SipHash">SipHash Wikipedia page</a>
+ - Have a question about SipHash not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/siphash-hash-function">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav fossil-scm.html guix.html

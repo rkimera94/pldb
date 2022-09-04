@@ -1,0 +1,62 @@
+title Copilot
+
+import settings.scroll
+htmlTitle Copilot - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/copilot.pldb
+
+paragraph
+ Copilot is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #2952 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 3555 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging Copilot">Books</span>
+ 0 <span title="Academic publications about or leveraging Copilot">Papers</span>
+
+
+
+
+
+paragraph
+ Copilot is a realtime programming language and Runtime Verification framework. It allows users to write concise programs in a simple but powerful way using a stream-based approach. Programs can be interpreted for testing, or translated C99 code to be incorporated in a project, or as a standalone application. The C99 backend ensures us that the output is constant in memory and time, making it suitable for systems with hard realtime requirements.
+
+list
+ - the <a href="https://copilot-language.github.io/">Copilot website</a>
+ - Have a question about Copilot not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/copilot">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ -- Raw temperature from sensor, range -50.0C to 100.0C.
+ temp :: Stream Word8
+ temp = extern &quot;temperature&quot; Nothing
+ 
+ -- Transform the temperature to Celsius.
+ ctemp :: Stream Float
+ ctemp = (unsafeCast temp) * (150.0 / 255.0) - 50.0
+ 
+ -- Bind two triggers with a 3.0C hysteresis.
+ spec = do
+   trigger &quot;heaton&quot;  (ctemp &lt; 18.0) [arg ctemp]
+   trigger &quot;heatoff&quot; (ctemp &gt; 21.0) [arg ctemp]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav coi-protocol.html croc.html

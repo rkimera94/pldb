@@ -1,0 +1,70 @@
+title world
+
+import settings.scroll
+htmlTitle world - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/world.pldb
+
+paragraph
+ world is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2011">2011</a>.
+
+kpiTable
+ #3086 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 2356 Links: 946">on PLDB</span>
+ 11 Years Old
+ 0 <span title="Books about or leveraging world">Books</span>
+ 0 <span title="Academic publications about or leveraging world">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://www.world-lang.org">world website</a>
+ - <a href="http://www.world-lang.org">world-lang.org</a> was registered in 2011
+ - Have a question about world not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/world">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ timeval: struct [
+     slong sec
+     sint32 usec
+ ] none
+ 
+ timezone: struct [
+     sint minuteswest
+     sint dsttime
+ ] none
+ 
+ gettimeofday: routine [
+     [typecheck]
+     libc &quot;gettimeofday&quot; [
+         tp [struct!] pointer
+         tzp [struct!] pointer
+     ]
+     sint
+ ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav vortex.html zoem.html

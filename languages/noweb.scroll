@@ -1,0 +1,87 @@
+title Noweb
+
+import settings.scroll
+htmlTitle Noweb - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/noweb.pldb
+
+paragraph
+ Noweb is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a> created in <a href="../lists/languages.html?filter=1989">1989</a> by <a href="../lists/creators.html#Norman_Ramsey">Norman Ramsey</a>.
+
+kpiTable
+ #1510 <span title="TotalRank: 1944 Jobs: 62 Users: 936 Facts: 1049 Links: 946">on PLDB</span>
+ 33 Years Old
+ 259 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Noweb">Books</span>
+ 0 <span title="Academic publications about or leveraging Noweb">Papers</span>
+
+
+
+
+
+paragraph
+ The noweb tool for literate programming
+
+list
+ - the <a href="https://www.cs.tufts.edu/~nr/noweb/">Noweb website</a>
+ - the <a href="https://en.wikipedia.org/wiki/Noweb">Noweb Wikipedia page</a>
+ - Noweb is developed on <a href="https://github.com/nrnrnr/noweb">GitHub</a> and has 177 stars
+ - See also: <a href="cweb.html">CWEB</a>
+ - Have a question about Noweb not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/noweb">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ \section{Hello world}
+ 
+ Today I awoke and decided to write
+ some code, so I started to write Hello World in \textsf C.
+ 
+ &lt;&lt;hello.c&gt;&gt;=
+ /*
+   &lt;&lt;license&gt;&gt;
+ */
+ #include &lt;stdio.h&gt;
+ 
+ int main(int argc, char *argv[]) {
+   printf(&quot;Hello World!\n&quot;);
+   return 0;
+ }
+ @
+ \noindent \ldots then I did the same in PHP.
+ 
+ &lt;&lt;hello.php&gt;&gt;=
+ &lt;?php
+   /*
+   &lt;&lt;license&gt;&gt;
+   */
+   echo &quot;Hello world!\n&quot;;
+ ?&gt;
+ @
+ \section{License}
+ Later the same day some lawyer reminded me about licenses.
+ So, here it is:
+ 
+ &lt;&lt;license&gt;&gt;=
+ This work is placed in the public domain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav yabasic.html gdata.html

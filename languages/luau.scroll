@@ -1,0 +1,80 @@
+title luau
+
+import settings.scroll
+htmlTitle luau - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/luau.pldb
+
+paragraph
+ luau is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2020">2020</a>.
+
+kpiTable
+ #1931 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 2 Years Old
+ 0 <span title="Books about or leveraging luau">Books</span>
+ 0 <span title="Academic publications about or leveraging luau">Papers</span>
+
+
+
+
+
+paragraph
+ Luau is a fast, small, safe, gradually typed embeddable scripting language derived from Lua. It is used by Roblox game developers to write game code, as well as by Roblox engineers to implement large parts of the user-facing application code as well as portions of the editor (Roblox Studio) as plugins.
+
+list
+ - the <a href="https://roblox.github.io/luau/">luau website</a>
+ - Have a question about luau not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/luau">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ type Point = { x: number, y: number }
+ 
+ local p = { x = 1, y = 2 }
+ 
+ print(p.x, p.y)
+ -- print(p.z) results in a type error
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   -- A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   -- A comment
+  Token --
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav libsvm-format.html miniml.html

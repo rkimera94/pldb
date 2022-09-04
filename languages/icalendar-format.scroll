@@ -1,0 +1,65 @@
+title iCalendar
+
+import settings.scroll
+htmlTitle iCalendar - Text data format
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/icalendar-format.pldb
+
+paragraph
+ iCalendar is a <a href="../lists/languages.html?filter=textDataFormat">text data format</a> created in <a href="../lists/languages.html?filter=1998">1998</a>.
+
+kpiTable
+ #2864 <span title="TotalRank: 3060 Jobs: 62 Users: 2052 Facts: 3555 Links: 946">on PLDB</span>
+ 24 Years Old
+ 15 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging iCalendar">Books</span>
+ 0 <span title="Academic publications about or leveraging iCalendar">Papers</span>
+
+
+
+
+
+paragraph
+ The Internet Calendaring and Scheduling Core Object Specification (iCalendar) is a MIME type which allows users to store and exchange calendaring and scheduling information such as events, to-dos, journal entries, and free/busy information. Files formatted according to the specification usually have an extension of .ics. With supporting software, such as an email reader or calendar application, recipients of an iCalendar data file can respond to the sender easily or counter-propose another meeting date/time. <a href="https://en.wikipedia.org/wiki/iCalendar">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/iCalendar">iCalendar Wikipedia page</a>
+ - Have a question about iCalendar not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/icalendar-format">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ BEGIN:VCALENDAR
+ VERSION:2.0
+ PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+ BEGIN:VEVENT
+ UID:uid1@example.com
+ DTSTAMP:19970714T170000Z
+ ORGANIZER;CN=John Doe:MAILTO:john.doe@example.com
+ DTSTART:19970714T170000Z
+ DTEND:19970715T035959Z
+ SUMMARY:Bastille Day Party
+ GEO:48.85299;2.36885
+ END:VEVENT
+ END:VCALENDAR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav hyper-basic.html izibasic.html

@@ -1,0 +1,83 @@
+title Vigil
+
+import settings.scroll
+htmlTitle Vigil - Esoteric programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/vigil.pldb
+
+paragraph
+ Vigil is an <a href="../lists/languages.html?filter=esolang">esoteric programming language</a> created in <a href="../lists/languages.html?filter=2013">2013</a> by <a href="../lists/creators.html#Bob_Nystrom">Bob Nystrom</a>.
+
+kpiTable
+ #795 <span title="TotalRank: 1287 Jobs: 62 Users: 279 Facts: 1049 Links: 946">on PLDB</span>
+ 9 Years Old
+ 2.8k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Vigil">Books</span>
+ 0 <span title="Academic publications about or leveraging Vigil">Papers</span>
+
+
+
+
+
+paragraph
+ Vigil, the eternal morally vigilant programming language
+
+list
+ - Vigil is developed on <a href="https://github.com/munificent/vigil">GitHub</a> and has 2,574 stars
+ - Have a question about Vigil not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/vigil">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ def fib(n):
+  if n &lt; 2:
+      result = n
+  else:
+      result = fib(n - 1) + fib(n - 2)
+  # fib() never returns negative number.
+  swear result &gt;= 0
+  return result
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   # A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   # A comment
+  Token #
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav open-shading-language.html hyperscript.html

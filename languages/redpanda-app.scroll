@@ -1,0 +1,47 @@
+title redpanda-app
+
+import settings.scroll
+htmlTitle redpanda-app - Application
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/redpanda-app.pldb
+
+paragraph
+ redpanda-app is an <a href="../lists/languages.html?filter=application">application</a>.
+
+kpiTable
+ #3492 on PLDB
+
+
+
+
+
+paragraph
+ Redpanda is a queue for people who deal with massive data streams.
+
+list
+ - the <a href="https://vectorized.io/">redpanda-app website</a>
+ - Have a question about redpanda-app not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/redpanda-app">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav readable-lisp.html retroforth.html

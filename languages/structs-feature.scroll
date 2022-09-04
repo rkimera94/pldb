@@ -1,0 +1,64 @@
+title Structs
+
+import settings.scroll
+htmlTitle Structs - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/structs-feature.pldb
+
+paragraph
+ Structs are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A composite data type (or record) declaration that defines a physically grouped list of variables to be placed under one name in a block of memory, allowing the different variables to be accessed via a single pointer.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Struct_(C_programming_language)">Structs Wikipedia page</a>
+ - Have a question about Structs not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/structs-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Structs include <a href="c.html">C</a>, <a href="ion.html">Ion</a>
+
+exampleCodeHeader Example from <a href="c.html">C</a>:
+
+code
+ struct account {
+   int account_number;
+   char *first_name;
+   char *last_name;
+   float balance;
+ };
+
+exampleCodeHeader Example from <a href="ion.html">Ion</a>:
+
+code
+ { first : &quot;Tom&quot; , last: &quot;Riddle&quot; }  // Structure with two fields
+ {&quot;first&quot;:&quot;Tom&quot;,&quot;last&quot;:&quot;Riddle&quot;}     // The same value with confusing style
+ {center:{x:1.0, y:12.5}, radius:3}  // Nested struct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav streams-feature.html supports-breakpoints-feature.html

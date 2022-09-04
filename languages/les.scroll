@@ -1,0 +1,58 @@
+title les
+
+import settings.scroll
+htmlTitle les - Grammar language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/les.pldb
+
+paragraph
+ les is a <a href="../lists/languages.html?filter=grammarLanguage">grammar language</a>.
+
+kpiTable
+ #2964 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 3555 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging les">Books</span>
+ 0 <span title="Academic publications about or leveraging les">Papers</span>
+
+
+
+
+
+paragraph
+ LES is an interchange format for syntax trees, comparable to s-expressions but designed for languages in the Algol family such as C, C++, C#, Java, EcmaScript, Rust and Python. It can be described as “JSON for code”: just as XML/YAML/JSON are tree structures that assign no particular meaning to the data inside, likewise LES represents syntax trees without assigning any particular meaning to them.
+
+list
+ - the <a href="http://loyc.net/les/">les website</a>
+ - Have a question about les not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/les">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ @[#static]
+ fn factorial(x::int)::int {
+   var result = 1;
+   for (; x &gt; 1; x--) {
+     result *= x;
+   };
+   return result;
+ };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav koi.html listdown.html

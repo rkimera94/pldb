@@ -1,0 +1,67 @@
+title JavaFX Script
+
+import settings.scroll
+htmlTitle JavaFX Script - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/javafx-script.pldb
+
+paragraph
+ JavaFX Script is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2005">2005</a>.
+
+kpiTable
+ #863 <span title="TotalRank: 1358 Jobs: 62 Users: 1160 Facts: 632 Links: 664">on PLDB</span>
+ 17 Years Old
+ 156 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging JavaFX Script">Books</span>
+ 0 <span title="Academic publications about or leveraging JavaFX Script">Papers</span>
+
+
+
+
+
+paragraph
+ JavaFX Script is a scripting language designed by Sun Microsystems, forming part of the JavaFX family of technologies on the Java Platform. JavaFX targets the Rich Internet Application domain (competing with Adobe Flex and Microsoft Silverlight), specializing in rapid development of visually rich applications for the desktop and mobile markets. JavaFX Script works with integrated development environments such as NetBeans, Eclipse and IntelliJ IDEA. <a href="https://en.wikipedia.org/wiki/JavaFX_Script">Read more on Wikipedia...</a>
+
+list
+ - the <a href="http://javafx.com/">JavaFX Script website</a>
+ - the <a href="https://en.wikipedia.org/wiki/JavaFX_Script">JavaFX Script Wikipedia page</a>
+ - JavaFX Script is backed by <a href="../lists/corporations.html#Oracle">Oracle</a>
+ - JavaFX Script appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - <a href="http://javafx.com/">javafx.com</a> was registered in 1997
+ - See also: <a href="eclipse-editor.html">Eclipse</a>, <a href="java.html">Java</a>, <a href="curl.html">Curl</a>
+ - Have a question about JavaFX Script not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/javafx-script">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/JavaFX_Script'>Wikipedia</a>:
+code
+ import javafx.ext.swing.*;
+  
+  var myFrame:SwingFrame = new SwingFrame();
+  var myLabel:Label = new Label();
+  
+  myLabel.text = &quot;Hello World!&quot;;
+  myFrame.width = 200;
+  myFrame.height = 50;
+  myFrame.visible = true;
+  myFrame.content = myLabel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav aimms.html nxc.html

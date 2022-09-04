@@ -1,0 +1,65 @@
+title converge
+
+import settings.scroll
+htmlTitle converge - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/converge.pldb
+
+paragraph
+ converge is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2004">2004</a>.
+
+kpiTable
+ #2337 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 18 Years Old
+ 0 <span title="Books about or leveraging converge">Books</span>
+ 0 <span title="Academic publications about or leveraging converge">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://convergepl.org/">converge website</a>
+ - <a href="https://convergepl.org/">convergepl.org</a> was registered in 2004
+ - Have a question about converge not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/converge">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ import Sys
+ 
+ func main():
+   Sys::println(&quot;Hello world!&quot;)
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav coherence.html ctr.html

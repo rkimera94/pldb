@@ -1,0 +1,48 @@
+title NixOS
+
+import settings.scroll
+htmlTitle NixOS - Operating system
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/nixos.pldb
+
+paragraph
+ NixOS is an <a href="../lists/languages.html?filter=os">operating system</a>.
+
+kpiTable
+ #1367 on PLDB
+ 800 <span title="Crude user estimate from a linear model.">Users</span>
+
+
+
+
+
+paragraph
+ NixOS is a Linux distribution built on top of the Nix package manager. It uses declarative configuration and allows reliable system upgrades. Two main branches are offered: current Stable release and Unstable following latest development. <a href="https://en.wikipedia.org/wiki/NixOS">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/NixOS">NixOS Wikipedia page</a>
+ - Have a question about NixOS not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/nixos">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav tsquery.html sixten.html

@@ -1,0 +1,68 @@
+title Low*
+
+import settings.scroll
+htmlTitle Low* - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/lowstar.pldb
+
+paragraph
+ Low* is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #1640 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging Low*">Books</span>
+ 0 <span title="Academic publications about or leveraging Low*">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://fstarlang.github.io/lowstar/html/LowStar.html">Low* website</a>
+ - Low* compiles to <a href="c.html">C</a>
+ - <a href="https://arxiv.org/abs/1703.00053">First announcement of</a> Low* via paper
+ - Have a question about Low* not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/lowstar">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ let chacha20
+  (len: uint32{len ≤ blocklen})
+  (output: bytes{len = output.length})
+  (key: keyBytes)
+  (nonce: nonceBytes{disjoint [output; key; nonce]})
+  (counter: uint32) : Stack unit
+  (requires (λ m0 → output ∈ m0 ∧ key ∈ m0 ∧ nonce ∈ m0))
+  (ensures (λ m0 _m1 → modifies1 output m0 m1 ∧
+  m1.[output] ==
+   Seq.prefix len (Spec.chacha20 m0.[key] m0.[nonce]) counter))) =
+   push_frame ();
+   let state = Buffer.create 0ul 32ul in
+   let block = Buffer.sub state 16ul 16ul in
+   chacha20_init block key nonce counter;
+   chacha20_update output state len;
+   pop_frame ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav loom.html operon.html

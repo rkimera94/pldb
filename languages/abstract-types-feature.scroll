@@ -1,0 +1,56 @@
+title Abstract Types
+
+import settings.scroll
+htmlTitle Abstract Types - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/abstract-types-feature.pldb
+
+paragraph
+ Abstract Types are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In programming languages, an abstract type is a type in a nominative type system that cannot be instantiated directly.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Abstract_type">Abstract Types Wikipedia page</a>
+ - Have a question about Abstract Types not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/abstract-types-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>without</b> Abstract Types include <a href="javascript.html">JavaScript</a>
+
+paragraph
+ Languages <b>with</b> Abstract Types include <a href="typescript.html">TypeScript</a>
+
+exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
+
+code
+ abstract class Animal {}
+ class Dog extends Animal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav access-modifiers-feature.html binary-numbers-feature.html

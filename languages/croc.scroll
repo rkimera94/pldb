@@ -1,0 +1,90 @@
+title Croc
+
+import settings.scroll
+htmlTitle Croc - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/croc.pldb
+
+paragraph
+ Croc is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #2953 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 3555 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging Croc">Books</span>
+ 0 <span title="Academic publications about or leveraging Croc">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://jfbillingsley.com/croc">Croc website</a>
+ - file extensions for Croc include croc
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/d.py">syntax highlighting</a> for Croc
+ - Have a question about Croc not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/croc">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Binary Literals
+  FeatureLink ../languages/binary-numbers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Hexadecimals
+  FeatureLink ../languages/hexadecimals-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav copilot.html dec64.html

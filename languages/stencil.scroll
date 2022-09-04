@@ -1,0 +1,61 @@
+title Stencil
+
+import settings.scroll
+htmlTitle Stencil - Template language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/stencil.pldb
+
+paragraph
+ Stencil is a <a href="../lists/languages.html?filter=template">template language</a> created in <a href="../lists/languages.html?filter=2018">2018</a> by <a href="../lists/creators.html#Kyle_Fuller">Kyle Fuller</a>.
+
+kpiTable
+ #487 <span title="TotalRank: 888 Jobs: 62 Users: 278 Facts: 548 Links: 946">on PLDB</span>
+ 4 Years Old
+ 2.8k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Stencil">Books</span>
+ 0 <span title="Academic publications about or leveraging Stencil">Papers</span>
+
+paragraph
+ Try now: <a href="https://tio.run/#stencil">TIO</a>
+
+
+
+paragraph
+ Stencil is a simple and powerful template language for Swift. It provides a syntax similar to Django and Mustache.
+
+list
+ - the <a href="https://stencil.fuller.li/en/latest/">Stencil website</a>
+ - Stencil is developed on <a href="https://github.com/stencilproject/Stencil">GitHub</a> and has 2,135 stars
+ - Have a question about Stencil not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/stencil">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ There are {{ articles.count }} articles.
+ 
+ &lt;ul&gt;
+   {% for article in articles %}
+     &lt;li&gt;{{ article.title }} by {{ article.author }}&lt;/li&gt;
+   {% endfor %}
+ &lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav cryptol.html mu.html

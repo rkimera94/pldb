@@ -1,0 +1,51 @@
+title Lambda Diagrams
+
+import settings.scroll
+htmlTitle Lambda Diagrams - Notation
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/tromp-diagrams.pldb
+
+paragraph
+ Lambda Diagrams is a <a href="../lists/languages.html?filter=notation">notation</a> created in <a href="../lists/languages.html?filter=2014">2014</a> by <a href="../lists/creators.html#John_Tromp">John Tromp</a>.
+
+kpiTable
+ #1956 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 8 Years Old
+ 0 <span title="Books about or leveraging Lambda Diagrams">Books</span>
+ 0 <span title="Academic publications about or leveraging Lambda Diagrams">Papers</span>
+
+
+
+
+
+paragraph
+ Lambda Diagrams are a graphical notation for closed lambda terms, in which abstractions (lambdas) are represented by horizontal lines, variables by vertical lines emanating down from their binding lambda, and applications by horizontal links connecting the leftmost variables. In the alternative style, applications link the nearest deepest variables, for a more stylistic, if less uniform, look.
+
+list
+ - the <a href="https://tromp.github.io/cl/diagrams.html">Lambda Diagrams website</a>
+ - See also: <a href="mockingbird-notation.html">mockingbird-notation</a>
+ - Have a question about Lambda Diagrams not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/tromp-diagrams">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav terse.html vely.html

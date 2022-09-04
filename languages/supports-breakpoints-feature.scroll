@@ -1,0 +1,53 @@
+title Breakpoints
+
+import settings.scroll
+htmlTitle Breakpoints - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/supports-breakpoints-feature.pldb
+
+paragraph
+ Breakpoints are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In software development, a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Breakpoint">Breakpoints Wikipedia page</a>
+ - Have a question about Breakpoints not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/supports-breakpoints-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Breakpoints include <a href="javascript.html">JavaScript</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ if (false)
+   debugger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav structs-feature.html ternary-operators-feature.html

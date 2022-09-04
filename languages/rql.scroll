@@ -1,0 +1,60 @@
+title RQL
+
+import settings.scroll
+htmlTitle RQL - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rql.pldb
+
+paragraph
+ RQL is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #3061 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 2356 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging RQL">Books</span>
+ 0 <span title="Academic publications about or leveraging RQL">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://www.logilab.org/project/rql">RQL website</a>
+ - file extensions for RQL include rql
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/sql.py">syntax highlighting</a> for RQL
+ - Have a question about RQL not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/rql">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav rhoscript.html rsharp.html

@@ -1,0 +1,95 @@
+title BARE
+
+import settings.scroll
+htmlTitle BARE - Interface design language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/bare.pldb
+
+paragraph
+ BARE is an <a href="../lists/languages.html?filter=idl">interface design language</a> created in <a href="../lists/languages.html?filter=2020">2020</a>.
+
+kpiTable
+ #1625 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 2 Years Old
+ 0 <span title="Books about or leveraging BARE">Books</span>
+ 0 <span title="Academic publications about or leveraging BARE">Papers</span>
+
+
+
+
+
+paragraph
+ BARE is a simple binary representation for structured application data.
+
+list
+ - the <a href="https://baremessages.org">BARE website</a>
+ - file extensions for BARE include bare
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/bare.py">syntax highlighting</a> for BARE
+ - <a href="https://baremessages.org">baremessages.org</a> was registered in 2020
+ - Have a question about BARE not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/bare">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ type PublicKey data[128]
+ type Time str # ISO 8601
+ 
+ type Department enum {
+   ACCOUNTING
+   ADMINISTRATION
+   CUSTOMER_SERVICE
+   DEVELOPMENT
+ 
+   # Reserved for the CEO
+   JSMITH = 99
+ }
+ 
+ type Address list&lt;str&gt;[4] # street, city, state, country
+ 
+ type Customer struct {
+   name: str
+   email: str
+   address: Address
+   orders: list&lt;struct {
+     orderId: i64
+     quantity: i32
+   }&gt;
+   metadata: map&lt;str&gt;&lt;data&gt;
+ }
+ 
+ type Employee struct {
+   name: str
+   email: str
+   address: Address
+   department: Department
+   hireDate: Time
+   publicKey: optional&lt;PublicKey&gt;
+   metadata: map&lt;str&gt;&lt;data&gt;
+ }
+ 
+ type TerminatedEmployee void
+ 
+ type Person union {Customer | Employee | TerminatedEmployee}
+
+subsection <a href="../lists/keywords.html?filter=bare">Keywords</a> in BARE
+paragraph
+ type enum u8 u16 u32 u64 uint i8 i16 i32 i64 int f32 f64 bool void data string optional map
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav b3-ir.html beautiful-report-language.html

@@ -1,0 +1,76 @@
+title USD
+
+import settings.scroll
+htmlTitle USD - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/usd.pldb
+
+paragraph
+ USD, aka Universal Scene Description, is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #1656 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging USD">Books</span>
+ 0 <span title="Academic publications about or leveraging USD">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://graphics.pixar.com/usd/release/index.html">USD website</a>
+ - USD is backed by <a href="../lists/corporations.html#Pixar">Pixar</a>
+ - file extensions for USD include usd and usda
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/usd.py">syntax highlighting</a> for USD
+ - Have a question about USD not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/usd">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ #usda 1.0
+ 
+ def Xform &quot;hello&quot;
+ {
+     def Sphere &quot;world&quot;
+     {
+     }
+ }
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav txr.html afnix.html

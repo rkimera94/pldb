@@ -1,0 +1,53 @@
+title Postfix Notation
+
+import settings.scroll
+htmlTitle Postfix Notation - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/postfix-notation-feature.pldb
+
+paragraph
+ Postfix Notation is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A mathematical notation in which operators follow their operands. For example: "3 4 +"
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Postfix Notation Wikipedia page</a>
+ - Have a question about Postfix Notation not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/postfix-notation-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Postfix Notation include <a href="forth.html">Forth</a>, <a href="postscript.html">PostScript</a>, <a href="gforth.html">Gforth</a>
+
+exampleCodeHeader Example from <a href="forth.html">Forth</a>:
+
+code
+ \ Multiplies 25 and 10 and then adds 50 to result
+ 25 10 * 50 +
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pointers-feature.html prefix-notation-feature.html

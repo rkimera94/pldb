@@ -1,0 +1,76 @@
+title cor
+
+import settings.scroll
+htmlTitle cor - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/cor.pldb
+
+paragraph
+ cor is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2016">2016</a> by <a href="../lists/creators.html#Yosbel_Marin">Yosbel Marin</a>.
+
+kpiTable
+ #886 <span title="TotalRank: 1385 Jobs: 62 Users: 1601 Facts: 377 Links: 946">on PLDB</span>
+ 6 Years Old
+ 63 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging cor">Books</span>
+ 0 <span title="Academic publications about or leveraging cor">Papers</span>
+
+
+
+
+
+paragraph
+ Straightforward language for the Web.
+
+list
+ - the <a href="http://yosbelms.github.io/cor/">cor website</a>
+ - cor is developed on <a href="https://github.com/yosbelms/cor">GitHub</a> and has 52 stars
+ - cor compiles to <a href="javascript.html">JavaScript</a>
+ - Have a question about cor not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/cor">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Cor.cor'>hello-world</a>:
+code
+ func main() console.log(&quot;Hello World&quot;)
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token console.log
+
+
+
+
+
+
+
+
+
+
+
+subsection HackerNews discussions of cor
+
+pipeTable
+ title|titleLink|date|score|comments
+ Show HN: Cor - the language of the web|https://news.ycombinator.com/item?id=10555178|11/12/2015|4|7
+
+keyboardNav monte.html latino.html

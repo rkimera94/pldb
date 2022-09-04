@@ -1,0 +1,62 @@
+title alan
+
+import settings.scroll
+htmlTitle alan - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/alan.pldb
+
+paragraph
+ alan is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #1908 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 4 Years Old
+ 0 <span title="Books about or leveraging alan">Books</span>
+ 0 <span title="Academic publications about or leveraging alan">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://alan-platform.com/pages/tuts/introducing.html">alan website</a>
+ - Have a question about alan not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/alan">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ &#39;Reasons&#39;: collection { }
+ &#39;Users&#39;: collection {
+   &#39;Name&#39;: text
+   &#39;Active&#39;: stategroup @default: &#39;Yes&#39; (
+     &#39;Yes&#39; -&gt; { }
+     &#39;No&#39; -&gt; {
+       &#39;Reason&#39;: text -&gt; ?^ .^ .&#39;Reasons&#39;
+     }
+   )
+ }
+ &#39;Active Users&#39;:= integer &#39;n&#39; = count .&#39;Users&#39;?&#39;Active&#39;|&#39;Yes&#39;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav breccia.html bla.html

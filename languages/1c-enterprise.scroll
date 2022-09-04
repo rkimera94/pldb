@@ -1,0 +1,98 @@
+title 1C Enterprise Script
+
+import settings.scroll
+htmlTitle 1C Enterprise Script - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/1c-enterprise.pldb
+
+paragraph
+ 1C Enterprise Script is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2002">2002</a>.
+
+kpiTable
+ #928 <span title="TotalRank: 1427 Jobs: 62 Users: 1047 Facts: 419 Links: 946">on PLDB</span>
+ 20 Years Old
+ 200 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging 1C Enterprise Script">Books</span>
+ 0 <span title="Academic publications about or leveraging 1C Enterprise Script">Papers</span>
+ 39k <span title="1C Enterprise Script repos on GitHub.">Repos</span>
+
+
+
+
+
+paragraph
+ The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language
+
+list
+ - There are at least 38,669 1C Enterprise Script repos on <a href="https://github.com/search?q=language:1C Enterprise">GitHub</a>
+ - file extensions for 1C Enterprise Script include bsl and os
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 250 users using 1C Enterprise Script in 274 repos on <a href="https://api.github.com/search/repositories?q=language:1C Enterprise">GitHub</a>
+ - GitHub supports <a href="https://github.com/xDrivenDevelopment/atom-language-1c-bsl.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for 1C Enterprise Script
+ - Read more about 1C Enterprise Script on the web: <a href="https://1c-dn.com/library/tutorials/practical_developer_guide_for_1c_enterprise_8_3/">1</a>
+ - Have a question about 1C Enterprise Script not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/1c-enterprise">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/#/1C Enterprise'>hello-world</a>:
+code
+ Message(&quot;Hello World&quot;);
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/xDrivenDevelopment/atom-language-1c-bsl.git'>Linguist</a>:
+code
+ ﻿Каталог = ОбъединитьПути(ТекущийКаталог(), &quot;libs\oscript-library\src&quot;);
+ Загрузчик_Оригинал_ИмяФайла = ОбъединитьПути(Каталог, &quot;package-loader.os&quot;);
+ 
+ Файлы = НайтиФайлы(Каталог, , Ложь);
+ Для Каждого ВыбФайл Из Файлы Цикл
+ 
+     Если ВыбФайл.ЭтоФайл() Тогда
+         Продолжить;
+     КонецЕсли;
+ 
+     Загрузчик_ИмяФайла = ОбъединитьПути(ВыбФайл.ПолноеИмя, &quot;package-loader.os&quot;);
+     Загрузчик_Файл = Новый Файл(Загрузчик_ИмяФайла);
+ 
+     Если Загрузчик_Файл.Существует() Тогда
+         Продолжить;
+     КонецЕсли;
+ 
+     КопироватьФайл(Загрузчик_Оригинал_ИмяФайла, Загрузчик_ИмяФайла);
+ 
+ КонецЦикла;
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token Message
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav smt.html eclipse-command-language.html

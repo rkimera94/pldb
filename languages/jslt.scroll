@@ -1,0 +1,80 @@
+title JSLT
+
+import settings.scroll
+htmlTitle JSLT - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/jslt.pldb
+
+paragraph
+ JSLT is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2017">2017</a> by <a href="../lists/creators.html#Lars_Marius_Garshol">Lars Marius Garshol</a>.
+
+kpiTable
+ #1072 <span title="TotalRank: 1569 Jobs: 62 Users: 561 Facts: 1676 Links: 946">on PLDB</span>
+ 5 Years Old
+ 772 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging JSLT">Books</span>
+ 0 <span title="Academic publications about or leveraging JSLT">Papers</span>
+
+
+
+
+
+paragraph
+ JSON query and transformation language
+
+list
+ - JSLT is developed on <a href="https://github.com/schibsted/jslt">GitHub</a> and has 468 stars
+ - file extensions for JSLT include jslt
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jslt.py">syntax highlighting</a> for JSLT
+ - Have a question about JSLT not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/jslt">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav z-expressions.html redcode.html

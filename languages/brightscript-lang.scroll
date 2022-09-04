@@ -1,0 +1,71 @@
+title BrightScript
+
+import settings.scroll
+htmlTitle BrightScript - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/brightscript-lang.pldb
+
+paragraph
+ BrightScript is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2008">2008</a>.
+
+kpiTable
+ #2329 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 14 Years Old
+ 0 <span title="Books about or leveraging BrightScript">Books</span>
+ 0 <span title="Academic publications about or leveraging BrightScript">Papers</span>
+
+
+
+
+
+paragraph
+ BrightScript is a powerful scripting language for building media and networked applications for embedded devices. This language features integrated support for a lightweight library of BrightScript objects, which are used to expose the API of the platform (device) that is running BrightScript. The BrightScript language connects generalized script functionality with underlying components for networking, media playback, UI screens, and interactive interfaces; BrightScript is optimized for generating user-friendly applications with minimal programmer effort. Now part of Roku.
+
+list
+ - the <a href="http://docs.brightsign.biz/display/DOC/BrightScript">BrightScript website</a>
+ - Have a question about BrightScript not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/brightscript-lang">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ REM
+ REM The game of Snake
+ REM demonstrates BrightScript programming concepts
+ REM June 22, 2008
+  
+ REM
+ REM Every BrightScript program must have a single Main()
+ REM
+  
+ Sub Main()
+  
+     game_board=newGameBoard()
+  
+     While true
+         game_board.SetSnake(newSnake(game_board.StartX(), game_board.StartY()))
+         game_board.Draw()
+         game_board.EventLoop()
+         if game_board.GameOver() then ExitWhile
+     End While
+ End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav blueprints.html bscript.html

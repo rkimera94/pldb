@@ -1,0 +1,69 @@
+title ferret
+
+import settings.scroll
+htmlTitle ferret - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/ferret.pldb
+
+paragraph
+ ferret is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2017">2017</a> by <a href="../lists/creators.html#Nurullah_Akkaya">Nurullah Akkaya</a>.
+
+kpiTable
+ #966 <span title="TotalRank: 1462 Jobs: 62 Users: 454 Facts: 1049 Links: 946">on PLDB</span>
+ 5 Years Old
+ 1.1k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging ferret">Books</span>
+ 0 <span title="Academic publications about or leveraging ferret">Papers</span>
+
+
+
+
+
+paragraph
+ Ferret is a free software lisp implementation for real time embedded control systems.
+
+list
+ - the <a href="http://ferret-lang.org">ferret website</a>
+ - ferret is developed on <a href="https://github.com/nakkaya/ferret">GitHub</a> and has 1,008 stars
+ - <a href="http://ferret-lang.org">ferret-lang.org</a> was registered in 2017
+ - Have a question about ferret not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/ferret">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ ;;; lazy-sum.clj
+ (defn positive-numbers
+   ([]
+    (positive-numbers 1))
+   ([n]
+    (cons n (lazy-seq (positive-numbers (inc n))))))
+ 
+ (println (-&gt;&gt; (positive-numbers)
+               (take 5)
+               (apply +)))
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+subsection HackerNews discussions of ferret
+
+pipeTable
+ title|titleLink|date|score|comments
+ Ferret – A free software Clojure implementation|https://news.ycombinator.com/item?id=14951116|08/07/2017|266|79
+
+keyboardNav connection-machine.html xodio.html

@@ -1,0 +1,100 @@
+title neeilang
+
+import settings.scroll
+htmlTitle neeilang - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/neeilang.pldb
+
+paragraph
+ neeilang is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Neeilan_Selvalingam">Neeilan Selvalingam</a>.
+
+kpiTable
+ #1598 <span title="TotalRank: 2057 Jobs: 62 Users: 1740 Facts: 1049 Links: 946">on PLDB</span>
+ 3 Years Old
+ 49 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging neeilang">Books</span>
+ 0 <span title="Academic publications about or leveraging neeilang">Papers</span>
+
+
+
+
+
+paragraph
+ Fast, type-safe, object-oriented language by yours truly
+
+list
+ - neeilang is developed on <a href="https://github.com/neeilan/neeilang">GitHub</a> and has 42 stars
+ - Read more about neeilang on the web: <a href="https://www.reddit.com/r/ProgrammingLanguages/comments/erqm6s/neeilang_a_small_stronglytyped_language_oop/">1</a>
+ - Have a question about neeilang not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/neeilang">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ fn main() : Int {
+   var a : Int = 5;
+   var b : Int = 3;
+ 
+   print a + b;    // 8
+   print a - b;    // 2
+   print b - a;    // -2
+ 
+   if (a &gt;= 5) {
+     print &quot;a &gt;= 5&quot;; // a &gt;= 5
+   }
+ 
+   if (a &gt; 5) {
+     print &quot;a &gt; 5&quot;;  // Not executed
+   }
+ 
+   if (a &lt; 5) {
+     print &quot;a &lt; 5&quot;;  // Not executed
+   }
+ 
+   if (5 &lt;= a) {
+     print &quot;5 &lt;= a&quot;;  // 5 &lt;= a
+   }
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav zopl.html huginn.html

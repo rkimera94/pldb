@@ -1,0 +1,65 @@
+title OMG IDL
+
+import settings.scroll
+htmlTitle OMG IDL - Interface design language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/omg-idl.pldb
+
+paragraph
+ OMG IDL, aka OMG Interface Definition Language, is an <a href="../lists/languages.html?filter=idl">interface design language</a>.
+
+kpiTable
+ #2380 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging OMG IDL">Books</span>
+ 0 <span title="Academic publications about or leveraging OMG IDL">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://www.omg.org/spec/IDL/About-IDL/">OMG IDL website</a>
+ - file extensions for OMG IDL include idl and pidl
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_like.py">syntax highlighting</a> for OMG IDL
+ - Have a question about OMG IDL not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/omg-idl">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ interface A {
+     typedef long L1;
+     short opA (in L1 l_1);
+ };
+ interface B {
+     typedef short L1;
+     L1 opB (in long l);
+ };
+ interface C: B, A {
+     typedef L1 L2; // Error: L1 ambiguous
+     typedef A::L1 L3; // A::L1 is OK
+     B::L1 opC (in L3 l_3); // All OK no ambiguities
+ };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav ogdl.html orca-lang.html

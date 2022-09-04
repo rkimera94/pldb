@@ -1,0 +1,72 @@
+title 2-pak
+
+import settings.scroll
+htmlTitle 2-pak - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/2-pak.pldb
+
+paragraph
+ 2-pak is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1975">1975</a>.
+
+kpiTable
+ #2409 <span title="TotalRank: 2684 Jobs: 62 Users: 2580 Facts: 1676 Links: 946">on PLDB</span>
+ 47 Years Old
+ 0 <span title="Books about or leveraging 2-pak">Books</span>
+ 0 <span title="Academic publications about or leveraging 2-pak">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - 2-pak is listed on <a href="https://hopl.info/showlanguage.prx?exp=663">HOPL</a>
+ - Read more about 2-pak on the web: <a href="https://www.ijcai.org/Proceedings/75/Papers/082.pdf">1</a>
+ - Have a question about 2-pak not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/2-pak">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ coroutine FRUIT_GEN()
+  begin
+  strin g FRUIT ;
+  FRUIT :- &#39;CHERRY1
+   ;
+  detach ;
+  whil e tru e do
+  case FRUIT of
+  &#39;CHERRY1
+  : FRUIT := &#39;LEMON1
+   ;
+  &#39;LEMON&#39;: FRUIT := &#39;ORANGE?
+   ;
+  &#39;ORANGE1
+  : FRUIT :- &#39;APPLE&#39; ;
+  &#39;APPLE&#39;: FRUIT :- &#39;CHERRY&#39; ;
+  end ;
+  detach ;
+  end ;
+  end ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav z2.html aarch64.html

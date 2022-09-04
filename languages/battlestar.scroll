@@ -1,0 +1,75 @@
+title Battlestar
+
+import settings.scroll
+htmlTitle Battlestar - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/battlestar.pldb
+
+paragraph
+ Battlestar is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2014">2014</a> by <a href="../lists/creators.html#Alexander_Rødseth">Alexander Rødseth</a>.
+
+kpiTable
+ #1582 <span title="TotalRank: 2057 Jobs: 62 Users: 1417 Facts: 1049 Links: 946">on PLDB</span>
+ 8 Years Old
+ 86 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Battlestar">Books</span>
+ 0 <span title="Academic publications about or leveraging Battlestar">Papers</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/battlestar">Riju</a>
+
+
+
+paragraph
+ :dizzy: A different take on Assembly, with the goal of creating tiny executables.
+
+list
+ - Battlestar is developed on <a href="https://github.com/xyproto/battlestar">GitHub</a> and has 70 stars
+ - Have a question about Battlestar not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/battlestar">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/battlestar'>Riju</a>:
+code
+ const message = &quot;Hello, world!\n&quot;
+ 
+ fun main
+     syscall(1, 1, message, len(message))
+ end
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/b/Battlestar.bts'>hello-world</a>:
+code
+ #!/usr/bin/bts
+ const hello = &quot;Hello World\n&quot;
+ print(hello)
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token print
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav keysight-vee.html atom.html

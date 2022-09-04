@@ -1,0 +1,67 @@
+title Objective-S
+
+import settings.scroll
+htmlTitle Objective-S - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/objective-s.pldb
+
+paragraph
+ Objective-S is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #2966 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 3555 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging Objective-S">Books</span>
+ 0 <span title="Academic publications about or leveraging Objective-S">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://objective.st/">Objective-S website</a>
+ - Read more about Objective-S on the web: <a href="https://news.ycombinator.com/item?id=32444300">1</a>
+ - Have a question about Objective-S not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/objective-s">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ -&lt;void&gt;deleteFile:filename {
+    thumbs := self thumbsView subviews.
+    viewsToRemove := thumbs selectWhereValueForKey:&#39;filename&#39; isEqual:filename.
+    aView := viewsToRemove firstObject.
+ 
+    UIView animateWithDuration:0.4
+           animations: { aView setAlpha: 0.0. }
+           completion: { aView removeFromSuperview. 
+                         UIView animateWithDuration: 0.2
+                                animations: { self thumbsView layoutSubviews. }
+                                completion: { 3 }. 
+                       }.
+    url := self urlForFile:aFilename.
+    NSFileManager defaultManager removeItemAtURL:url  error:nil.
+    self thumbsView afterDelay:0.4 | setNeedsLayout.
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav listdown.html paperalgo.html

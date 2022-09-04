@@ -1,0 +1,51 @@
+title stoneknifeforth
+
+import settings.scroll
+htmlTitle stoneknifeforth - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/stoneknifeforth.pldb
+
+paragraph
+ stoneknifeforth is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2008">2008</a>.
+
+kpiTable
+ #1240 <span title="TotalRank: 1741 Jobs: 62 Users: 733 Facts: 3555 Links: 946">on PLDB</span>
+ 14 Years Old
+ 433 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging stoneknifeforth">Books</span>
+ 0 <span title="Academic publications about or leveraging stoneknifeforth">Papers</span>
+
+
+
+
+
+paragraph
+ This is StoneKnifeForth, a very simple language inspired by Forth. It is not expected to be useful; instead, its purpose is to show how simple a compiler can be. The compiler is a bit under two pages of code when the comments are removed. This package includes a “metacircular compiler” which is written in StoneKnifeForth and compiles StoneKnifeForth to an x86 Linux ELF executable.
+
+list
+ - stoneknifeforth is developed on <a href="https://github.com/kragen/stoneknifeforth">GitHub</a> and has 369 stars
+ - Have a question about stoneknifeforth not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/stoneknifeforth">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav turbo-basic-xl.html virgil.html

@@ -1,0 +1,69 @@
+title D2
+
+import settings.scroll
+htmlTitle D2 - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/d2.pldb
+
+paragraph
+ D2, aka Declarative Diagramming, is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a>.
+
+kpiTable
+ #1916 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging D2">Books</span>
+ 0 <span title="Academic publications about or leveraging D2">Papers</span>
+
+
+
+
+
+paragraph
+ D2 is a domain-specific language (DSL) that stands for Declarative Diagramming. Declarative, as in, you write in text what you want diagrammed, we generate it.
+
+list
+ - the <a href="https://d2-lang.com/">D2 website</a>
+ - See also: <a href="dot.html">DOT</a>
+ - Read more about D2 on the web: <a href="https://news.ycombinator.com/item?id=32652291">1</a>
+ - Have a question about D2 not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/d2">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ aws: {
+   load_balancer -&gt; api
+   api -&gt; db
+ }
+ gcloud: {
+   auth -&gt; db
+ }
+ 
+ gcloud -&gt; aws
+ 
+ explanation: |md
+   # Why do we use AWS?
+   - It has more uptime than GCloud
+   - We have free credits
+ | {
+   near: aws
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav comm.html entropy.html

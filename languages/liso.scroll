@@ -1,0 +1,64 @@
+title Liso
+
+import settings.scroll
+htmlTitle Liso - Data notation
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/liso.pldb
+
+paragraph
+ Liso is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in <a href="../lists/languages.html?filter=2014">2014</a> by <a href="../lists/creators.html#Olivier_Breuleux">Olivier Breuleux</a>.
+
+kpiTable
+ #1283 <span title="TotalRank: 1743 Jobs: 62 Users: 2171 Facts: 735 Links: 946">on PLDB</span>
+ 8 Years Old
+ 0 <span title="Books about or leveraging Liso">Books</span>
+ 0 <span title="Academic publications about or leveraging Liso">Papers</span>
+
+
+
+
+
+paragraph
+ Implemention of O-Expressions idea in Racket.
+
+list
+ - the <a href="http://breuleux.net/blog/liso.html">Liso website</a>
+ - Liso compiles to <a href="s-expressions.html">S-expressions</a>
+ - Liso is written in <a href="racket.html">Racket</a>
+ - Read more about Liso on the web: <a href="http://breuleux.net/blog/oexprs.html">1</a>
+ - Have a question about Liso not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/liso">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ @varsrec
+       odd?[n] =
+          @if n == 0:
+             #f
+             even?[n - 1]
+       even?[n] =
+          @if n == 0:
+             #t
+             odd?[n - 1]:
+    even?[30]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav lexon.html mint.html

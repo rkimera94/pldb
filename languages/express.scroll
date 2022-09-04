@@ -1,0 +1,90 @@
+title EXPRESS
+
+import settings.scroll
+htmlTitle EXPRESS - Data notation
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/express.pldb
+
+paragraph
+ EXPRESS is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in <a href="../lists/languages.html?filter=2004">2004</a>.
+
+kpiTable
+ #1018 <span title="TotalRank: 1536 Jobs: 62 Users: 528 Facts: 1287 Links: 946">on PLDB</span>
+ 18 Years Old
+ 860 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging EXPRESS">Books</span>
+ 0 <span title="Academic publications about or leveraging EXPRESS">Papers</span>
+
+
+
+
+
+paragraph
+ EXPRESS is a standard data modeling language for product data. EXPRESS is formalized in the ISO Standard for the Exchange of Product model STEP (ISO 10303), and standardized as ISO 10303-11.. <a href="https://en.wikipedia.org/wiki/EXPRESS_(data_modeling_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/EXPRESS_(data_modeling_language)">EXPRESS Wikipedia page</a>
+ - Have a question about EXPRESS not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/express">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ SCHEMA Family;
+ 
+ ENTITY Person
+    ABSTRACT SUPERTYPE OF (ONEOF (Male, Female));
+      name: STRING;
+      mother: OPTIONAL Female;
+      father: OPTIONAL Male;
+ END_ENTITY;
+ 
+ ENTITY Female
+    SUBTYPE OF (Person);
+ END_ENTITY;
+ 
+ ENTITY Male
+    SUBTYPE of (Person);
+ END_ENTITY;
+ 
+ END_SCHEMA;
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Express.js'>hello-world</a>:
+code
+ const express = require(&#39;express&#39;)
+ const app = express()
+ 
+ app.get(&#39;/&#39;, (_, res) =&gt; res.send(&quot;Hello World&quot;))
+ 
+ app.listen(8080)
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav linda.html xmi.html

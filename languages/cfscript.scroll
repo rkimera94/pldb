@@ -1,0 +1,82 @@
+title CFScript
+
+import settings.scroll
+htmlTitle CFScript - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/cfscript.pldb
+
+paragraph
+ CFScript is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1999">1999</a>.
+
+kpiTable
+ #1777 <span title="TotalRank: 2210 Jobs: 62 Users: 1662 Facts: 1676 Links: 486">on PLDB</span>
+ 23 Years Old
+ 55 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging CFScript">Books</span>
+ 0 <span title="Academic publications about or leveraging CFScript">Papers</span>
+
+
+
+
+
+paragraph
+ CFScript is an extension of CFML on the ColdFusion platform. CFScript resembles JavaScript. Some ColdFusion developers prefer it since it has less visual and typographical overhead than ordinary CFML.. <a href="https://en.wikipedia.org/wiki/CFScript">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/CFScript">CFScript Wikipedia page</a>
+ - See also: <a href="cfml.html">CFML</a>, <a href="javascript.html">JavaScript</a>, <a href="html.html">HTML</a>
+ - Have a question about CFScript not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/cfscript">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/CFScript'>Wikipedia</a>:
+code
+ x = 0;
+ do {
+     x = x+1;
+     WriteOutput(x);
+ } while (x LTE 0);
+ // Outputs: 1
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav vilnius-basic.html vivaldi.html

@@ -1,0 +1,95 @@
+title Frost
+
+import settings.scroll
+htmlTitle Frost - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/frost.pldb
+
+paragraph
+ Frost is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2017">2017</a> by <a href="../lists/creators.html#Ethan_Nicholas">Ethan Nicholas</a>.
+
+kpiTable
+ #1411 <span title="TotalRank: 1869 Jobs: 62 Users: 1743 Facts: 861 Links: 946">on PLDB</span>
+ 5 Years Old
+ 47 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Frost">Books</span>
+ 0 <span title="Academic publications about or leveraging Frost">Papers</span>
+
+
+
+
+
+paragraph
+ Frost is a powerful, general purpose, multi-paradigm programming language
+
+list
+ - the <a href="https://www.frostlang.org/">Frost website</a>
+ - Frost is developed on <a href="https://github.com/ethannicholas/Frost">GitHub</a> and has 36 stars
+ - <a href="https://www.frostlang.org/">frostlang.org</a> was registered in 2019
+ - Have a question about Frost not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/frost">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ ========================================================
+ Simple version of the Unix `head` utility. Reads a file
+ and outputs the first `count` lines from it to the
+ standard output stream.
+ 
+ @param path the file to read
+ @param count the number of lines to display
+ ========================================================
+ method head(path:File, count:Int) {
+     try {
+         path.lines()[..count].apply(Console.printLine)
+     }
+     fail(error) {
+         abort(error.message)
+     }
+ }
+ 
+ method abort(msg:String) {
+     Console.printLine(msg)
+     System.exit(1)
+ }
+ 
+ method main(args:ListView&lt;String&gt;) {
+     if args.count != 3 {
+         abort(&quot;usage: head &lt;path&gt; &lt;count&gt;&quot;)
+     }
+     def count := args[2].asInt
+     if count == null {
+         abort(&quot;error: &#39;\{args[2]}&#39; is not an integer&quot;)
+     }
+     head(File(args[1]), count)
+ }
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token Console.printLine
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav z80.html plexil.html

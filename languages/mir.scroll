@@ -1,0 +1,50 @@
+title mir
+
+import settings.scroll
+htmlTitle mir - Intermediate representation language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/mir.pldb
+
+paragraph
+ mir is an <a href="../lists/languages.html?filter=ir">intermediate representation language</a> created in <a href="../lists/languages.html?filter=2015">2015</a>.
+
+kpiTable
+ #2371 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 7 Years Old
+ 0 <span title="Books about or leveraging mir">Books</span>
+ 0 <span title="Academic publications about or leveraging mir">Papers</span>
+
+
+
+
+
+paragraph
+ MIR is a human readable serialization format that is used to represent LLVM’s machine specific intermediate representation. The MIR serialization format uses a YAML container.
+
+list
+ - the <a href="http://llvm.org/docs/MIRLangRef.html">mir website</a>
+ - Have a question about mir not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/mir">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav miniprolog.html mlite.html

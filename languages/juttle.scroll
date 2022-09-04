@@ -1,0 +1,71 @@
+title juttle
+
+import settings.scroll
+htmlTitle juttle - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/juttle.pldb
+
+paragraph
+ juttle is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2014">2014</a>.
+
+kpiTable
+ #2360 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 8 Years Old
+ 0 <span title="Books about or leveraging juttle">Books</span>
+ 0 <span title="Academic publications about or leveraging juttle">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://www.jut.io/play">juttle website</a>
+ - file extensions for juttle include juttle
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for juttle
+ - Have a question about juttle not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/juttle">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+subsection HackerNews discussions of juttle
+
+pipeTable
+ title|titleLink|date|score|comments
+ Show HN: Juttle language Playground|https://news.ycombinator.com/item?id=8735887|12/11/2014|22|1
+
+keyboardNav hspec.html ki.html

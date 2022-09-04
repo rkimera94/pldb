@@ -1,0 +1,58 @@
+title Obliq
+
+import settings.scroll
+htmlTitle Obliq - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/obliq.pldb
+
+paragraph
+ Obliq is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1993">1993</a>.
+
+kpiTable
+ #1108 <span title="TotalRank: 1597 Jobs: 62 Users: 1560 Facts: 1049 Links: 486">on PLDB</span>
+ 29 Years Old
+ 65 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Obliq">Books</span>
+ 0 <span title="Academic publications about or leveraging Obliq">Papers</span>
+
+
+
+
+
+paragraph
+ Obliq is an interpreted, object-oriented programming language designed to make distributed, and locally multi-threaded, computation simple and easy for the programmer, while providing program safety and implicit type system. The interpreter is written in Modula-3, and provides Obliq with full access to Modula-3's network objects capabilities. A type inference algorithm for record concatenation, subtyping and recursive types has been developed for Obliq, more important it has been proved to be NP-complete  and its lowest complexity to be Ο(n3) or if under other modeling up to certain conditions down to Ο(n2)  and its best known implementation runs in Ο(n5). <a href="https://en.wikipedia.org/wiki/Obliq">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Obliq">Obliq Wikipedia page</a>
+ - Obliq is backed by <a href="../lists/corporations.html#DEC">DEC</a>
+ - Obliq is listed on <a href="https://hopl.info/showlanguage.prx?exp=1742">HOPL</a>
+ - See also: <a href="modula-3.html">Modula-3</a>, <a href="self.html">Self</a>, <a href="oberon.html">Oberon</a>, <a href="smalltalk.html">Smalltalk</a>
+ - Have a question about Obliq not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/obliq">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav futurebasic.html cms-exec.html

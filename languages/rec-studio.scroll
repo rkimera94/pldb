@@ -1,0 +1,47 @@
+title REC Studio
+
+import settings.scroll
+htmlTitle REC Studio - Decompiler
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rec-studio.pldb
+
+paragraph
+ REC Studio is a <a href="../lists/languages.html?filter=decompiler">decompiler</a>.
+
+kpiTable
+ #3447 on PLDB
+
+
+
+
+
+paragraph
+ REC Studio is an interactive decompiler. It reads a Windows, Linux, Mac OS X or raw executable file, and attempts to produce a C-like representation of the code and data used to build the executable file. It has been designed to read files produced for many different targets, and it has been compiled on several host systems.
+
+list
+ - the <a href="https://www.backerstreet.com/rec/rec.htm">REC Studio website</a>
+ - Have a question about REC Studio not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/rec-studio">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav python-format-spec.html smartgameformat.html

@@ -1,0 +1,55 @@
+title Methods
+
+import settings.scroll
+htmlTitle Methods - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/methods-feature.pldb
+
+paragraph
+ Methods are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A method in object-oriented programming (OOP) is a procedure associated with a message and an object. An object consists of data and behavior. The data and behavior comprise an interface, which specifies how the object may be utilized by any of various consumers[1] of the object.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Method_(computer_programming)">Methods Wikipedia page</a>
+ - Have a question about Methods not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/methods-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Methods include <a href="javascript.html">JavaScript</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ class Person {
+  method1() {}
+  method2() {}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav method-chaining-feature.html module-feature.html

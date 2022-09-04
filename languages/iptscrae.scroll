@@ -1,0 +1,55 @@
+title IPTSCRAE
+
+import settings.scroll
+htmlTitle IPTSCRAE - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/iptscrae.pldb
+
+paragraph
+ IPTSCRAE is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1994">1994</a>.
+
+kpiTable
+ #2129 <span title="TotalRank: 2402 Jobs: 62 Users: 1834 Facts: 1676 Links: 664">on PLDB</span>
+ 28 Years Old
+ 35 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging IPTSCRAE">Books</span>
+ 0 <span title="Academic publications about or leveraging IPTSCRAE">Papers</span>
+
+
+
+
+
+paragraph
+ Iptscrae is a stack-oriented scripting language used to give additional functionality to The Palace software and servers. Its name comes from the pronunciation of "script" in Pig Latin. [1] The language was created by Jim Bumgardner, who in turn was inspired by Forth, another stack-based language. <a href="https://en.wikipedia.org/wiki/IPTSCRAE">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/IPTSCRAE">IPTSCRAE Wikipedia page</a>
+ - Explore IPTSCRAE snippets on <a href="http://www.rosettacode.org/wiki/Category:Iptscrae">Rosetta Code</a>
+ - See also: <a href="forth.html">Forth</a>, <a href="javascript.html">JavaScript</a>, <a href="java.html">Java</a>, <a href="html.html">HTML</a>
+ - Have a question about IPTSCRAE not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/iptscrae">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/IPTSCRAE'>Wikipedia</a>:
+code
+ /&quot;&quot;s={n++{{&quot; &quot;n itoa&amp;}{&quot; buzz&quot;}n 5%ifelse}{&quot; fizz&quot;}n 3%ifelse s+=}{101n&gt;}while s logmsg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav creative-basic.html basic-e.html

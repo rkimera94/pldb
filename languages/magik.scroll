@@ -1,0 +1,60 @@
+title Magik
+
+import settings.scroll
+htmlTitle Magik - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/magik.pldb
+
+paragraph
+ Magik is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1989">1989</a>.
+
+kpiTable
+ #1573 <span title="TotalRank: 2057 Jobs: 62 Users: 1141 Facts: 1049 Links: 946">on PLDB</span>
+ 33 Years Old
+ 165 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Magik">Books</span>
+ 0 <span title="Academic publications about or leveraging Magik">Papers</span>
+
+
+
+
+
+paragraph
+ Magik is an object-oriented programming language that supports multiple inheritance, polymorphism and is dynamically typed. It was designed implemented in 1989 by Arthur Chance, of Smallworld Systems Ltd, as part of Smallworld Geographical Information System (GIS). Following Smallworld's acquisition in 2000, Magik is now is provided by GE Energy, still as part of its Smallworld technology platform. <a href="https://en.wikipedia.org/wiki/Magik_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Magik_(programming_language)">Magik Wikipedia page</a>
+ - Magik is listed on <a href="https://hopl.info/showlanguage.prx?exp=3912">HOPL</a>
+ - Magik appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - See also: <a href="jvm.html">JVM</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="unix.html">Unix</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="csharp.html">C#</a>, <a href="java.html">Java</a>
+ - Have a question about Magik not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/magik">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Magik_(programming_language)'>Wikipedia</a>:
+code
+ my_procedure &lt;&lt; _proc @my_procedure(a, b, c)
+     _return a + b + c
+   _endproc
+ 
+   x &lt;&lt; my_procedure(1, 2, 3) # x = 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav cperl.html gren.html

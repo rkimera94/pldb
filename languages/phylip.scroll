@@ -1,0 +1,59 @@
+title phylip
+
+import settings.scroll
+htmlTitle phylip - Text data format
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/phylip.pldb
+
+paragraph
+ phylip is a <a href="../lists/languages.html?filter=textDataFormat">text data format</a> created in <a href="../lists/languages.html?filter=1991">1991</a>.
+
+kpiTable
+ #1683 <span title="TotalRank: 2057 Jobs: 62 Users: 2580 Facts: 1049 Links: 946">on PLDB</span>
+ 31 Years Old
+ 0 <span title="Books about or leveraging phylip">Books</span>
+ 0 <span title="Academic publications about or leveraging phylip">Papers</span>
+
+
+
+
+
+paragraph
+ The PHYLIP file format stores a multiple sequence alignment. The format was originally defined and used in Joe Felsenstein’s PHYLIP package [R165], and has since been supported by several other bioinformatics tools
+
+list
+ - file extensions for phylip include phy and ph
+ - Read more about phylip on the web: <a href="http://rosalind.info/glossary/phylip-format/">1</a>
+ - Have a question about phylip not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/phylip">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ 3 30
+ Taxon1     ACCGTTTCCACAGCATTATGG
+ GCTCGATGA
+ Taxon2     CACTTCACAAATCAATATTGA
+ GCTAGTGCA
+ Taxon3     TAAGGTATTGGGCTTGGTTCG
+ CAGGGGACT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pamela.html please.html

@@ -1,0 +1,50 @@
+title Cheri
+
+import settings.scroll
+htmlTitle Cheri - Instruction set architecture
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/cheri.pldb
+
+paragraph
+ Cheri, aka Capability Hardware Enhanced RISC Instructions, is an <a href="../lists/languages.html?filter=isa">instruction set architecture</a> created in <a href="../lists/languages.html?filter=2010">2010</a>.
+
+kpiTable
+ #2993 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 2356 Links: 946">on PLDB</span>
+ 12 Years Old
+ 0 <span title="Books about or leveraging Cheri">Books</span>
+ 0 <span title="Academic publications about or leveraging Cheri">Papers</span>
+
+
+
+
+
+paragraph
+ CHERI extends conventional hardware Instruction-Set Architectures (ISAs) with new architectural features to enable fine-grained memory protection and highly scalable software compartmentalization. 
+
+list
+ - the <a href="https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/">Cheri website</a>
+ - Have a question about Cheri not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/cheri">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav chaos-lang.html chirp.html

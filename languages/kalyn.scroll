@@ -1,0 +1,59 @@
+title Kalyn
+
+import settings.scroll
+htmlTitle Kalyn - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kalyn.pldb
+
+paragraph
+ Kalyn is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2020">2020</a> by <a href="../lists/creators.html#Radon_Rosborough">Radon Rosborough</a>.
+
+kpiTable
+ #1805 <span title="TotalRank: 2253 Jobs: 62 Users: 1245 Facts: 1676 Links: 946">on PLDB</span>
+ 2 Years Old
+ 125 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Kalyn">Books</span>
+ 0 <span title="Academic publications about or leveraging Kalyn">Papers</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/kalyn">Riju</a>
+
+
+
+paragraph
+ ⚗️ Self-hosting compiler from a Haskell-like Lisp directly to x86-64, from scratch.
+
+list
+ - the <a href="https://intuitiveexplanations.com/tech/kalyn">Kalyn website</a>
+ - Kalyn is developed on <a href="https://github.com/radian-software/kalyn">GitHub</a> and has 117 stars
+ - Have a question about Kalyn not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/kalyn">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/kalyn'>Riju</a>:
+code
+ (import &quot;/opt/kalyn/Stdlib.kalyn&quot;)
+ 
+ (public def main (IO Empty)
+   (print &quot;Hello, world!\n&quot;))
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav piet-programming-language.html lava.html

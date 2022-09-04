@@ -1,0 +1,60 @@
+title NPL
+
+import settings.scroll
+htmlTitle NPL - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/npl-lang.pldb
+
+paragraph
+ NPL is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1977">1977</a>.
+
+kpiTable
+ #2196 <span title="TotalRank: 2521 Jobs: 62 Users: 1513 Facts: 3555 Links: 946">on PLDB</span>
+ 45 Years Old
+ 70 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging NPL">Books</span>
+ 0 <span title="Academic publications about or leveraging NPL">Papers</span>
+
+
+
+
+
+paragraph
+ NPL is a functional programming language with pattern matching designed by Rod Burstall and John Darlington in 1977. The language allows certain sets and logic constructs to appear on the right hand side of definitions, e.g.  setofeven(X) <= <:x: x in X & even(x) :>The NPL interpreter evaluates the list of generators from left to right so conditions can mention any bound variables that occur to their left. <a href="https://en.wikipedia.org/wiki/NPL_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/NPL_(programming_language)">NPL Wikipedia page</a>
+ - Have a question about NPL not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/npl-lang">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Pattern Matching
+  FeatureLink ../languages/pattern-matching-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav matita.html smx-computer-language.html

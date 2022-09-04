@@ -1,0 +1,65 @@
+title srv
+
+import settings.scroll
+htmlTitle srv - Interface design language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/srv.pldb
+
+paragraph
+ srv is an <a href="../lists/languages.html?filter=idl">interface design language</a> created in <a href="../lists/languages.html?filter=2010">2010</a>.
+
+kpiTable
+ #3072 <span title="TotalRank: 3179 Jobs: 62 Users: 2171 Facts: 2356 Links: 946">on PLDB</span>
+ 12 Years Old
+ 0 <span title="Books about or leveraging srv">Books</span>
+ 0 <span title="Academic publications about or leveraging srv">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://wiki.ros.org/srv">srv website</a>
+ - file extensions for srv include srv
+ - Have a question about srv not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/srv">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ #request constants
+ int8 FOO=1
+ int8 BAR=2
+ #request fields
+ int8 foobar
+ another_pkg/AnotherMessage msg
+ ---
+ #response constants
+ uint32 SECRET=123456
+ #response fields
+ another_pkg/YetAnotherMessage val
+ CustomMessageDefinedInThisPackage value
+ uint32 an_integer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav squiggle.html stringbean.html

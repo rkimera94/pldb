@@ -1,0 +1,56 @@
+title OQL
+
+import settings.scroll
+htmlTitle OQL - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/object-query-language.pldb
+
+paragraph
+ OQL is a <a href="../lists/languages.html?filter=queryLanguage">query language</a>.
+
+kpiTable
+ #1519 <span title="TotalRank: 1961 Jobs: 62 Users: 953 Facts: 1676 Links: 946">on PLDB</span>
+ 245 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging OQL">Books</span>
+ 0 <span title="Academic publications about or leveraging OQL">Papers</span>
+
+
+
+
+
+paragraph
+ Object Query Language (OQL) is a query language standard for object-oriented databases modeled after SQL.  OQL was developed by the Object Data Management Group (ODMG). Because of its overall complexity nobody has ever fully implemented the complete OQL. <a href="https://en.wikipedia.org/wiki/Object_Query_Language">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Object_Query_Language">OQL Wikipedia page</a>
+ - OQL is listed on <a href="https://hopl.info/showlanguage.prx?exp=4549">HOPL</a>
+ - Read more about OQL on the web: <a href="http://tech.novosoft-us.com/products/oql_book.htm">1</a>
+ - Have a question about OQL not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/object-query-language">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ select c.address
+ from Persons p, p.children c
+ where p.address.street = &quot;Main Street&quot; and count(p.children) &gt;= 2 and c.address.city != p.address.city
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav esc-p.html cycl.html

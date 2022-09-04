@@ -1,0 +1,52 @@
+title Implicit Type Casting
+
+import settings.scroll
+htmlTitle Implicit Type Casting - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/implicit-type-casting-feature.pldb
+
+paragraph
+ Implicit Type Casting is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ Changing an expression from one data type to another automatically.
+
+list
+ - Read more about Implicit Type Casting on the web: <a href="https://en.wikipedia.org/wiki/Type_conversion">1</a>
+ - Have a question about Implicit Type Casting not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/implicit-type-casting-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Implicit Type Casting include <a href="javascript.html">JavaScript</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ console.log(&quot;hello &quot; + 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav implicit-arguments-feature.html magic-getters-and-setters-feature.html

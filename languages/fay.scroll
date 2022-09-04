@@ -1,0 +1,81 @@
+title fay
+
+import settings.scroll
+htmlTitle fay - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/fay.pldb
+
+paragraph
+ fay is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2012">2012</a> by <a href="../lists/creators.html#Chris_Done">Chris Done</a>.
+
+kpiTable
+ #546 <span title="TotalRank: 991 Jobs: 62 Users: 381 Facts: 548 Links: 946">on PLDB</span>
+ 10 Years Old
+ 1.5k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging fay">Books</span>
+ 0 <span title="Academic publications about or leveraging fay">Papers</span>
+
+
+
+
+
+paragraph
+ A proper subset of Haskell that compiles to JavaScript
+
+list
+ - the <a href="https://github.com/faylang/fay/wiki">fay website</a>
+ - fay is developed on <a href="https://github.com/faylang/fay">GitHub</a> and has 1,274 stars
+ - fay compiles to <a href="javascript.html">JavaScript</a>
+ - the fay team is on <a href="https://twitter.com/fayhaskell">Twitter</a>
+ - Have a question about fay not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/fay">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ {-# LANGUAGE EmptyDataDecls #-}
+ module Hello where
+ 
+ import FFI
+ 
+ data Event
+ 
+ alert :: String -&gt; Fay ()
+ alert = ffi &quot;alert(%1)&quot;
+ 
+ setBodyHtml :: String -&gt; Fay ()
+ setBodyHtml = ffi &quot;document.body.innerHTML = %1&quot;
+ 
+ addWindowEvent :: String -&gt; (Event -&gt; Fay ()) -&gt; Fay ()
+ addWindowEvent = ffi &quot;window.addEventListener(%1, %2)&quot;
+ 
+ greet :: Event -&gt; Fay ()
+ greet event = do
+   putStrLn &quot;The document has loaded&quot;
+   setBodyHtml &quot;Hello HTML!&quot;
+ 
+ main :: Fay ()
+ main = do
+   putStrLn &quot;Hello Console!&quot;
+   alert &quot;Hello Alert!&quot;
+   addWindowEvent &quot;load&quot; greet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav stan.html flow9.html

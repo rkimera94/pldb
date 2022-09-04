@@ -1,0 +1,74 @@
+title dbml
+
+import settings.scroll
+htmlTitle dbml - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/dbml.pldb
+
+paragraph
+ dbml is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a> created in <a href="../lists/languages.html?filter=2019">2019</a>.
+
+kpiTable
+ #2340 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 3 Years Old
+ 0 <span title="Books about or leveraging dbml">Books</span>
+ 0 <span title="Academic publications about or leveraging dbml">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://www.dbml-lang.org/">dbml website</a>
+ - Have a question about dbml not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/dbml">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ Table users {
+   id integer
+   username varchar
+   role varchar
+   created_at timestamp
+ }
+ Table posts {
+   id integer [primary key]
+   title varchar
+   body text [note: &#39;Content of the post&#39;]
+   user_id integer
+   status post_status
+   created_at timestamp
+ }
+ Enum post_status {
+   draft
+   published
+   private [note: &#39;visible via URL only&#39;]
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+subsection HackerNews discussions of dbml
+
+pipeTable
+ title|titleLink|date|score|comments
+ Show HN: DBML – simple DSL language to document database schemas|https://news.ycombinator.com/item?id=20856347|09/02/2019|57|16
+
+keyboardNav darklang.html descript.html

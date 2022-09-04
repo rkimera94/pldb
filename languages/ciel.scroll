@@ -1,0 +1,57 @@
+title Ciel
+
+import settings.scroll
+htmlTitle Ciel - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/ciel.pldb
+
+paragraph
+ Ciel is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2010">2010</a> by <a href="../lists/creators.html#Ron_Garret">Ron Garret</a>.
+
+kpiTable
+ #1827 <span title="TotalRank: 2295 Jobs: 62 Users: 1369 Facts: 1287 Links: 946">on PLDB</span>
+ 12 Years Old
+ 99 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Ciel">Books</span>
+ 0 <span title="Academic publications about or leveraging Ciel">Papers</span>
+
+
+
+
+
+paragraph
+ Ciel is a lisp-like language implemented in C++.  What Clojure is to Java, Ciel is designed to be to C++.
+
+list
+ - Ciel is developed on <a href="https://github.com/rongarret/ciel">GitHub</a> and has 71 stars
+ - Ciel is written in <a href="cpp.html">C++</a>
+ - Have a question about Ciel not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/ciel">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ (set lambda fn)
+ (set def set)
+ (def vector (lambda x x))
+ (vector 1 2 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav wol.html godel.html

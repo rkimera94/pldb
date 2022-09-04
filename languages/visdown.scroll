@@ -1,0 +1,66 @@
+title visdown
+
+import settings.scroll
+htmlTitle visdown - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/visdown.pldb
+
+paragraph
+ visdown is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a> created in <a href="../lists/languages.html?filter=2016">2016</a> by <a href="../lists/creators.html#Amit_Kapoor">Amit Kapoor</a>.
+
+kpiTable
+ #758 <span title="TotalRank: 1256 Jobs: 62 Users: 562 Facts: 632 Links: 946">on PLDB</span>
+ 6 Years Old
+ 767 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging visdown">Books</span>
+ 0 <span title="Academic publications about or leveraging visdown">Papers</span>
+
+
+
+
+
+paragraph
+ Write visualisation using a simple declarative markup like you would write code. Just wrap it in fenced block (three backticks) and mark the language as `vis`.
+
+list
+ - the <a href="https://visdown.com/">visdown website</a>
+ - visdown is developed on <a href="https://github.com/amitkaps/visdown">GitHub</a> and has 654 stars
+ - <a href="https://visdown.com/">visdown.com</a> was registered in 2017
+ - Have a question about visdown not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/visdown">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ ```vis
+ data:
+   url: data/cars.csv
+ mark: point
+ encoding: 
+   x: 
+     field: kmpl
+     type: quantitative
+   y: 
+     field: price
+     type: quantitative
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav checked-c.html wasp-lang.html

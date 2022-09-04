@@ -1,0 +1,62 @@
+title moinmoin
+
+import settings.scroll
+htmlTitle moinmoin - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/moinmoin.pldb
+
+paragraph
+ moinmoin is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a>.
+
+kpiTable
+ #2779 <span title="TotalRank: 2897 Jobs: 62 Users: 2171 Facts: 3968 Links: 664">on PLDB</span>
+ 0 <span title="Books about or leveraging moinmoin">Books</span>
+ 0 <span title="Academic publications about or leveraging moinmoin">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="http://moinmo.in/HelpOnMoinWikiSyntax">moinmoin website</a>
+ - Have a question about moinmoin not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/moinmoin">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ Table of contents:
+ &lt;&lt;TableOfContents()&gt;&gt;
+ 
+ Table of contents (up to 2nd level headings only):
+ &lt;&lt;TableOfContents(2)&gt;&gt;
+ 
+ = heading 1st level =
+ == heading 2nd level ==
+ === heading 3rd level ===
+ ==== heading 4th level ====
+ ===== heading 5th level =====
+ ====== no heading 6th level ======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav rio.html ape100.html

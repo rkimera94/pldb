@@ -1,0 +1,61 @@
+title Access Modifiers
+
+import settings.scroll
+htmlTitle Access Modifiers - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/access-modifiers-feature.pldb
+
+paragraph
+ Access Modifiers are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Access_modifiers">Access Modifiers Wikipedia page</a>
+ - Have a question about Access Modifiers not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/access-modifiers-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>without</b> Access Modifiers include <a href="javascript.html">JavaScript</a>
+
+paragraph
+ Languages <b>with</b> Access Modifiers include <a href="java.html">Java</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="csharp.html">C#</a>, <a href="swift.html">Swift</a>, <a href="typescript.html">TypeScript</a>, <a href="kotlin.html">Kotlin</a>, <a href="f-sharp.html">F#</a>, <a href="solidity.html">Solidity</a>, <a href="protobuf.html">Protocol Buffers</a>, <a href="abap.html">ABAP</a>, <a href="koka.html">Koka</a>, <a href="apex.html">Apex</a>, <a href="sophia.html">Sophia</a>
+
+exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
+
+code
+ class Person {
+   private _age = 2
+   public get age() {
+     return _age
+   }
+   protected year = 1990
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav union-types-feature.html abstract-types-feature.html

@@ -1,0 +1,52 @@
+title Method Chaining
+
+import settings.scroll
+htmlTitle Method Chaining - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/method-chaining-feature.pldb
+
+paragraph
+ Method Chaining is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ Method chaining, also known as named parameter idiom, is a common syntax for invoking multiple method calls in object-oriented programming languages. Each method returns an object, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Method_chaining">Method Chaining Wikipedia page</a>
+ - Have a question about Method Chaining not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/method-chaining-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Method Chaining include <a href="javascript.html">JavaScript</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ &quot;hello world&quot;.toString().substr(0, 1).length
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav map-functions-feature.html methods-feature.html

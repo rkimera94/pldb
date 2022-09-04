@@ -1,0 +1,52 @@
+title Scientific Notation
+
+import settings.scroll
+htmlTitle Scientific Notation - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/scientific-notation-feature.pldb
+
+paragraph
+ Scientific Notation is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A concise way to represent really big or small numbers.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Scientific_notation">Scientific Notation Wikipedia page</a>
+ - Have a question about Scientific Notation not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/scientific-notation-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Scientific Notation include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="fortran.html">Fortran</a>, <a href="lua.html">Lua</a>, <a href="elixir.html">Elixir</a>, <a href="ada.html">Ada</a>, <a href="scilab.html">Scilab</a>
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ 1.23e45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav prefix-notation-feature.html semaphores-feature.html

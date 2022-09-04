@@ -1,0 +1,81 @@
+title Vely
+
+import settings.scroll
+htmlTitle Vely - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/vely.pldb
+
+paragraph
+ Vely is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2022">2022</a>.
+
+kpiTable
+ #1957 <span title="TotalRank: 2295 Jobs: 62 Users: 2171 Facts: 1287 Links: 946">on PLDB</span>
+ 0 Years Old
+ 0 <span title="Books about or leveraging Vely">Books</span>
+ 0 <span title="Academic publications about or leveraging Vely">Papers</span>
+
+
+
+
+
+paragraph
+ Vely is an embedded programming language with C as a host language. It's precompiled into C, creating a native executable.
+
+list
+ - the <a href="https://vely.dev/">Vely website</a>
+ - <a href="https://vely.dev/">vely.dev</a> was registered in 2022
+ - Read more about Vely on the web: <a href="https://news.ycombinator.com/item?id=32231417">1</a>
+ - Have a question about Vely not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/vely">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ void list_employees() {
+     out-header default
+     @&lt;html&gt;&lt;body&gt;
+ 
+     char *header = make_header(); // write any C code
+     p-out header
+ 
+     // Create report in outmsg string and fill it with database query result
+     write-string define outmsg
+         // Get data from the database
+         run-query#get_emp@db=&quot;select name, salary from employees order by name&quot; output name, salary
+             @Name: &lt;&lt;query-result#get_emp, name&gt;&gt;
+             @&lt;br/&gt;
+             @Salary: &lt;&lt;query-result#get_emp, salary&gt;&gt;
+             @&lt;br/&gt;&lt;br/&gt;
+         end-query
+     end-write-string
+ 
+     // Write report to a file and then to the client
+     write-file &quot;employees&quot; from outmsg status define st
+     if (st&lt;0) {
+         @Error in writing file (&lt;&lt;pf-out &quot;%lld&quot;, st&gt;&gt;)
+         exit-request
+     } else {
+         p-out outmsg
+     }
+     @&lt;/body&gt;&lt;/html&gt;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav tromp-diagrams.html versioned-text-markup-language.html

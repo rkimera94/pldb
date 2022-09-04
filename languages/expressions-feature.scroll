@@ -1,0 +1,52 @@
+title Expressions
+
+import settings.scroll
+htmlTitle Expressions - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/expressions-feature.pldb
+
+paragraph
+ Expressions are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ An expression in a programming language is a combination of one or more constants, variables, operators, and functions that the programming language interprets (according to its particular rules of precedence and of association) and computes to produce ("to return", in a stateful environment) another value. This process, as for mathematical expressions, is called evaluation.  In simple settings, the resulting value is usually one of various primitive types, such as numerical, string, logical, complex data type or many others. <a href="https://en.wikipedia.org/wiki/Expression_(computer_science)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Expression_(computer_science)">Expressions Wikipedia page</a>
+ - Have a question about Expressions not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/expressions-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Expressions include <a href="javascript.html">JavaScript</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ 1 + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav variadic-functions-feature.html union-types-feature.html

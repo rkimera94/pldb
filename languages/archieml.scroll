@@ -1,0 +1,88 @@
+title ArchieML
+
+import settings.scroll
+htmlTitle ArchieML - Data notation
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/archieml.pldb
+
+paragraph
+ ArchieML is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in <a href="../lists/languages.html?filter=2015">2015</a>.
+
+kpiTable
+ #1434 <span title="TotalRank: 1869 Jobs: 62 Users: 2171 Facts: 861 Links: 946">on PLDB</span>
+ 7 Years Old
+ 0 <span title="Books about or leveraging ArchieML">Books</span>
+ 0 <span title="Academic publications about or leveraging ArchieML">Papers</span>
+
+paragraph
+ Try now: <a href="http://archieml.org/sandbox.html">Web</a>
+
+
+
+paragraph
+ ArchieML (or "AML") was created at The New York Times to make it easier to write and edit structured text on deadline that could be rendered in web pages, or more specifically, rendered in interactive graphics.
+
+list
+ - the <a href="http://archieml.org/">ArchieML website</a>
+ - Have a question about ArchieML not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/archieml">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ [days]
+ * Sunday
+ note: holiday!
+ * Monday
+ * Tuesday
+ 
+ Whitespace is still fine around the &#39;*&#39;
+   *   Wednesday
+ 
+ * Thursday
+ 
+ Friday!
+ * Friday
+ * Saturday
+ []
+ [+books]
+ kicker: Books you should read
+ 
+ score: ★★★★★!!!
+ title: Wuthering Heights
+ author: Emily Brontë
+ 
+ title: Middlemarch
+ author: George Eliot
+ score: ★★★★☆
+ []
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+   AML ignores all whitespace not within a value. We believe this makes it easier for non-programmers to use, and is essential for use in environments with non-monospaced fonts, like in Google Documents.
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav air.html blc.html

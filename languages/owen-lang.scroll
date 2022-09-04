@@ -1,0 +1,93 @@
+title owen-lang
+
+import settings.scroll
+htmlTitle owen-lang - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/owen-lang.pldb
+
+paragraph
+ owen-lang is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Paw_Møller">Paw Møller</a>.
+
+kpiTable
+ #1276 <span title="TotalRank: 1743 Jobs: 62 Users: 2114 Facts: 735 Links: 946">on PLDB</span>
+ 3 Years Old
+ 13 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging owen-lang">Books</span>
+ 0 <span title="Academic publications about or leveraging owen-lang">Papers</span>
+
+
+
+
+
+paragraph
+ An imperative, statically but weakly typed systems programming  language with manual memory management.
+
+list
+ - the <a href="http://owen-lang.org">owen-lang website</a>
+ - owen-lang is developed on <a href="https://github.com/pawwkm/owen">GitHub</a> and has 11 stars
+ - <a href="http://owen-lang.org">owen-lang.org</a> was registered in 2019
+ - Have a question about owen-lang not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/owen-lang">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ // An imperative, statically but weakly typed systems programming
+ // language with manual memory management.
+ 
+ namespace Hello.Owen
+ 
+ function main
+     output i32
+     print(&quot;Hello World\n&quot;)
+     return 0
+ end
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token print
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav lsif-format.html claro.html

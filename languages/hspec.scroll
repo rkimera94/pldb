@@ -1,0 +1,67 @@
+title Hspec
+
+import settings.scroll
+htmlTitle Hspec - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/hspec.pldb
+
+paragraph
+ Hspec is a <a href="../lists/languages.html?filter=pl">programming language</a>.
+
+kpiTable
+ #2359 <span title="TotalRank: 2684 Jobs: 62 Users: 2171 Facts: 1676 Links: 946">on PLDB</span>
+ 0 <span title="Books about or leveraging Hspec">Books</span>
+ 0 <span title="Academic publications about or leveraging Hspec">Papers</span>
+
+
+
+
+
+paragraph
+ Hspec is a testing framework for Haskell.
+
+list
+ - the <a href="https://hspec.github.io/">Hspec website</a>
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Hspec
+ - Have a question about Hspec not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/hspec">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ -- file Spec.hs
+ import Test.Hspec
+ import Test.QuickCheck
+ import Control.Exception (evaluate)
+ 
+ main :: IO ()
+ main = hspec $ do
+   describe &quot;Prelude.head&quot; $ do
+     it &quot;returns the first element of a list&quot; $ do
+       head [23 ..] `shouldBe` (23 :: Int)
+ 
+     it &quot;returns the first element of an *arbitrary* list&quot; $
+       property $ \x xs -&gt; head (x:xs) == (x :: Int)
+ 
+     it &quot;throws an exception if used with an empty list&quot; $ do
+       evaluate (head []) `shouldThrow` anyException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav hilbert.html juttle.html

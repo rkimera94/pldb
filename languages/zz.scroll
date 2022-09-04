@@ -1,0 +1,78 @@
+title zz
+
+import settings.scroll
+htmlTitle zz - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/zz.pldb
+
+paragraph
+ zz is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Arvid_E._Picciani">Arvid E. Picciani</a>.
+
+kpiTable
+ #778 <span title="TotalRank: 1276 Jobs: 62 Users: 353 Facts: 861 Links: 946">on PLDB</span>
+ 3 Years Old
+ 1.7k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging zz">Books</span>
+ 0 <span title="Academic publications about or leveraging zz">Papers</span>
+
+
+
+
+
+paragraph
+ 🍺🐙  ZetZ a zymbolic verifier and tranzpiler to bare metal C
+
+list
+ - zz is developed on <a href="https://github.com/aep/zz">GitHub</a> and has 1,603 stars
+ - Have a question about zz not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/zz">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ using &lt;stdio.h&gt;::{printf}
+ 
+ export fn main() -&gt; int {
+     let r = Random{
+         num: 42,
+     };
+     printf(&quot;your lucky number: %u\n&quot;, r.gen());
+     return 0;
+ }
+ 
+ struct Random {
+     u32 num;
+ }
+ 
+ fn gen(Random *self) -&gt; u32 {
+     return self-&gt;num;
+ }
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token printf
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav doodle.html pearl.html

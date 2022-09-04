@@ -1,0 +1,68 @@
+title kivy-lang
+
+import settings.scroll
+htmlTitle kivy-lang - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kivy-lang.pldb
+
+paragraph
+ kivy-lang is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2010">2010</a>.
+
+kpiTable
+ #2007 <span title="TotalRank: 2295 Jobs: 62 Users: 2580 Facts: 1287 Links: 946">on PLDB</span>
+ 12 Years Old
+ 0 <span title="Books about or leveraging kivy-lang">Books</span>
+ 0 <span title="Academic publications about or leveraging kivy-lang">Papers</span>
+
+
+
+
+
+paragraph
+ A meta language that look like QML in QT
+
+list
+ - Read more about kivy-lang on the web: <a href="https://github.com/kivy/kivy/blob/master/kivy/data/style.kv">1</a>
+ - Have a question about kivy-lang not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/kivy-lang">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ #:kivy 1.0
+ Widget:
+     Button:
+         text: &quot;Hello World&quot;
+     Button:
+         text: &quot;I&#39;m another label&quot;
+         pos: (200, 200)
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav kb.html life.html

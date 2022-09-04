@@ -1,0 +1,50 @@
+title GCC GIMPLE
+
+import settings.scroll
+htmlTitle GCC GIMPLE - Intermediate representation language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/gimple.pldb
+
+paragraph
+ GCC GIMPLE is an <a href="../lists/languages.html?filter=ir">intermediate representation language</a> created in <a href="../lists/languages.html?filter=2003">2003</a>.
+
+kpiTable
+ #3389 <span title="TotalRank: 3364 Jobs: 62 Users: 2580 Facts: 2356 Links: 946">on PLDB</span>
+ 19 Years Old
+ 0 <span title="Books about or leveraging GCC GIMPLE">Books</span>
+ 0 <span title="Academic publications about or leveraging GCC GIMPLE">Papers</span>
+
+
+
+
+
+paragraph
+ GCC is a widely used compiler infrastructure that supports a variety of input languages, e.g., C, C++, Fortran, Java, and Ada, and over 30 different target machine architectures. GCC translates each of its front-end languages into a language-independent intermediate representation, called GIMPLE, which then gets translated to machine code for one of GCC’s many target architectures. A subset of GENERIC.
+
+list
+ - Read more about GCC GIMPLE on the web: <a href="https://en.wikipedia.org/wiki/GNU_Compiler_Collection#GENERIC_and_GIMPLE">1</a>
+ - Have a question about GCC GIMPLE not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/gimple">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav gentran.html gitignore.html

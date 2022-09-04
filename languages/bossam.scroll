@@ -1,0 +1,62 @@
+title Bossam Rule Language
+
+import settings.scroll
+htmlTitle Bossam Rule Language - Query language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/bossam.pldb
+
+paragraph
+ Bossam Rule Language is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=2004">2004</a>.
+
+kpiTable
+ #3203 <span title="TotalRank: 3364 Jobs: 62 Users: 2580 Facts: 2356 Links: 946">on PLDB</span>
+ 18 Years Old
+ 0 <span title="Books about or leveraging Bossam Rule Language">Books</span>
+ 0 <span title="Academic publications about or leveraging Bossam Rule Language">Papers</span>
+
+
+
+
+
+paragraph
+ 
+
+list
+ - See also: <a href="owl.html">OWL</a>, <a href="rdf.html">RDF</a>
+ - Read more about Bossam Rule Language on the web: <a href="https://sci-hub.tw/https://link.springer.com/chapter/10.1007/978-3-540-30504-0_10">1</a>
+ - Have a question about Bossam Rule Language not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/bossam">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ prefix family = http://family.com/Family#;
+ namespace = http://family.com/Johns#;
+ rule r1 is
+  if
+   family:isFatherOf(?x,?y)
+   and family:isBrotherOf(?z,?
+  then
+   family:isUncleOf(?z,?y);
+ fact f1 is
+  family:isFatherOf(John,Bob);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav booster.html boxer.html

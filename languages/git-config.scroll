@@ -1,0 +1,54 @@
+title git-config
+
+import settings.scroll
+htmlTitle git-config - Application
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/git-config.pldb
+
+paragraph
+ git-config is an <a href="../lists/languages.html?filter=application">application</a> created in <a href="../lists/languages.html?filter=2005">2005</a>.
+
+kpiTable
+ #2193 on PLDB
+ 17 Years Old
+
+
+
+
+
+paragraph
+ 
+
+list
+ - the <a href="https://git-scm.com/docs/git-config#_syntax">git-config website</a>
+ - file extensions for git-config include gitconfig
+ - Have a question about git-config not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/git-config">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ # Core variables
+ [core]
+   ; Don&#39;t trust file modes
+   filemode = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav frame.html golfscript.html

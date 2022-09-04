@@ -1,0 +1,77 @@
+title HuJSON
+
+import settings.scroll
+htmlTitle HuJSON - Data notation
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/hujson.pldb
+
+paragraph
+ HuJSON is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#David_Crawshaw">David Crawshaw</a>.
+
+kpiTable
+ #1223 <span title="TotalRank: 1727 Jobs: 62 Users: 719 Facts: 1049 Links: 946">on PLDB</span>
+ 3 Years Old
+ 447 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging HuJSON">Books</span>
+ 0 <span title="Academic publications about or leveraging HuJSON">Papers</span>
+
+
+
+
+
+paragraph
+ HuJSON: JSON for Humans (JWCC: JSON w/ comments and trailing commas)
+
+list
+ - HuJSON is developed on <a href="https://github.com/tailscale/hujson">GitHub</a> and has 401 stars
+ - Read more about HuJSON on the web: <a href="https://nigeltao.github.io/blog/2021/json-with-commas-comments.html">1</a>
+ - Have a question about HuJSON not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/hujson">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+   /* A comment
+   */
+  Token /* */
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav tao-lang.html titan.html

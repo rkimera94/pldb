@@ -1,0 +1,61 @@
+title hamler
+
+import settings.scroll
+htmlTitle hamler - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/hamler.pldb
+
+paragraph
+ hamler is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2019">2019</a> by <a href="../lists/creators.html#Feng_Lee">Feng Lee</a>.
+
+kpiTable
+ #651 <span title="TotalRank: 1156 Jobs: 62 Users: 462 Facts: 632 Links: 946">on PLDB</span>
+ 3 Years Old
+ 1.1k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging hamler">Books</span>
+ 0 <span title="Academic publications about or leveraging hamler">Papers</span>
+
+
+
+
+
+paragraph
+ Hamler is a strongly-typed language with compile-time typechecking and built-in support for concurrency and distribution.
+
+list
+ - the <a href="https://www.hamler-lang.org/">hamler website</a>
+ - hamler is developed on <a href="https://github.com/hamler-lang/hamler">GitHub</a> and has 972 stars
+ - the hamler team is on <a href="https://twitter.com/hamlerlang">Twitter</a>
+ - <a href="https://www.hamler-lang.org/">hamler-lang.org</a> was registered in 2020
+ - Read more about hamler on the web: <a href="https://news.ycombinator.com/item?id=23491516">1</a>
+ - Have a question about hamler not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/hamler">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ module Main where
+ 
+ import System.IO
+ 
+ main = print &quot;Hello, World!&quot;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav pop-11.html dartmouth-basic.html

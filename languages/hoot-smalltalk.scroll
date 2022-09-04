@@ -1,0 +1,59 @@
+title hoot-smalltalk
+
+import settings.scroll
+htmlTitle hoot-smalltalk - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/hoot-smalltalk.pldb
+
+paragraph
+ hoot-smalltalk is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a> by <a href="../lists/creators.html#Nikolas_S._Boyd">Nikolas S. Boyd</a>.
+
+kpiTable
+ #2551 <span title="TotalRank: 2684 Jobs: 62 Users: 2580 Facts: 1676 Links: 946">on PLDB</span>
+ 4 Years Old
+ 0 <span title="Books about or leveraging hoot-smalltalk">Books</span>
+ 0 <span title="Academic publications about or leveraging hoot-smalltalk">Papers</span>
+
+
+
+
+
+paragraph
+ Hoot is a variation of Smalltalk that integrates the best features of Smalltalk with those of a host language and its virtual machine VM. The initial target platforms include Java (and its JVM), and C# (and its CLR). Hoot is an experimental new programming language which builds on experience and understanding gained during the development of Bistro Smalltalk. Thus, Hoot Smalltalk is the natural and conceptual successor of Bistro Smalltalk.
+
+list
+ - <a href="https://gitlab.com/hoot-smalltalk/hoot-smalltalk">hoot-smalltalk on GitLab</a>
+ - Have a question about hoot-smalltalk not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/hoot-smalltalk">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Threads
+  FeatureLink ../languages/threads-feature.html
+  Supported ✓
+  Example
+  Token 
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav holo.html hybrid.html

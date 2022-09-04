@@ -1,0 +1,82 @@
+title Variadic Functions
+
+import settings.scroll
+htmlTitle Variadic Functions - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/variadic-functions-feature.pldb
+
+paragraph
+ Variadic Functions are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In mathematics and in computer programming, a variadic function is a function of indefinite arity, i.e., one which accepts a variable number of arguments. Support for variadic functions differs widely among programming languages.. <a href="https://en.wikipedia.org/wiki/Variadic_function">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Variadic_function">Variadic Functions Wikipedia page</a>
+ - Have a question about Variadic Functions not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/variadic-functions-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Variadic Functions include <a href="c.html">C</a>, <a href="php.html">PHP</a>, <a href="go.html">Go</a>, <a href="slope.html">Slope</a>
+
+exampleCodeHeader Example from <a href="c.html">C</a>:
+
+code
+ double average(int count, ...)
+ {
+  //
+ }
+
+exampleCodeHeader Example from <a href="php.html">PHP</a>:
+
+code
+ function sum(...$nums)
+ {
+     return array_sum($nums);
+ }
+ echo sum(1, 2, 3); // 6
+
+exampleCodeHeader Example from <a href="go.html">Go</a>:
+
+code
+ // This variadic function takes an arbitrary number of ints as arguments.
+ func sum(nums ...int) {
+   fmt.Print(&quot;The sum of &quot;, nums) // Also a variadic function.
+   total := 0
+   for _, num := range nums {
+     total += num
+   }
+   fmt.Println(&quot; is&quot;, total) // Also a variadic function.
+ }
+
+exampleCodeHeader Example from <a href="slope.html">Slope</a>:
+
+code
+ (lambda (...) (apply + ...))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav statements-feature.html expressions-feature.html

@@ -1,0 +1,79 @@
+importOnly
+replace TABLE
+ pipeTable
+  name|languages|count
+  <a name='Microsoft' />Microsoft|<a href='../languages/undefined'>C#</a> - <a href='../languages/undefined'>TypeScript</a> - <a href='../languages/undefined'>Visual Basic</a> - <a href='../languages/undefined'>PowerShell</a> - <a href='../languages/undefined'>Visual Basic .NET</a> - <a href='../languages/undefined'>VBScript</a> - <a href='../languages/undefined'>CIL</a> - <a href='../languages/undefined'>VBA</a> - <a href='../languages/undefined'>F*</a> - <a href='../languages/undefined'>Dafny</a> - <a href='../languages/undefined'>Koka</a> - <a href='../languages/undefined'>JScript</a> - <a href='../languages/undefined'>Bicep</a> - <a href='../languages/undefined'>Microsoft BASIC</a> - <a href='../languages/undefined'>Visual FoxPro</a> - <a href='../languages/undefined'>J#</a> - <a href='../languages/undefined'>Commodore BASIC</a> - <a href='../languages/undefined'>LINQ</a> - <a href='../languages/undefined'>Microsoft Small Basic</a> - <a href='../languages/undefined'>Microsoft Macro Assembler</a> - <a href='../languages/undefined'>MBASIC</a> - <a href='../languages/undefined'>DAX</a> - <a href='../languages/undefined'>PowerQuery M</a> - <a href='../languages/undefined'>Atari Microsoft BASIC</a> - <a href='../languages/undefined'>EverParse3D</a> - <a href='../languages/undefined'>Boogie</a> - <a href='../languages/undefined'>ARM Templates</a> - <a href='../languages/undefined'>Abstract State Machine Language</a> - <a href='../languages/undefined'>LSP</a> - <a href='../languages/undefined'>ASP.NET</a> - <a href='../languages/undefined'>Visual J++</a>|31
+  <a name='IBM' />IBM|<a href='../languages/undefined'>PowerPC</a> - <a href='../languages/undefined'>Rexx</a> - <a href='../languages/undefined'>X10</a> - <a href='../languages/undefined'>PL/I</a> - <a href='../languages/undefined'>RPG</a> - <a href='../languages/undefined'>JCL</a> - <a href='../languages/undefined'>GML</a> - <a href='../languages/undefined'>IBM Informix-4GL</a> - <a href='../languages/undefined'>CMS Pipelines</a> - <a href='../languages/undefined'>MAP</a> - <a href='../languages/undefined'>IBM i Control Language</a> - <a href='../languages/undefined'>SYMBOLIC ASSEMBLY</a> - <a href='../languages/undefined'>PL/I</a>|13
+  <a name='Apple' />Apple|<a href='../languages/undefined'>Swift</a> - <a href='../languages/undefined'>PowerPC</a> - <a href='../languages/undefined'>Dylan</a> - <a href='../languages/undefined'>Applescript</a> - <a href='../languages/undefined'>HyperTalk</a> - <a href='../languages/undefined'>SIL</a> - <a href='../languages/undefined'>AIR</a> - <a href='../languages/undefined'>B3 IR</a>|8
+  <a name='Google' />Google|<a href='../languages/undefined'>Go</a> - <a href='../languages/undefined'>Dart</a> - <a href='../languages/undefined'>Protocol Buffers</a> - <a href='../languages/undefined'>FlatBuffers</a> - <a href='../languages/undefined'>Soy</a> - <a href='../languages/undefined'>Yedalog</a> - <a href='../languages/undefined'>Lanai</a>|7
+  <a name='W3C' />W3C|<a href='../languages/undefined'>HTML</a> - <a href='../languages/undefined'>WebAssembly</a> - <a href='../languages/undefined'>SVG</a> - <a href='../languages/undefined'>XQuery</a> - <a href='../languages/undefined'>SPARQL</a> - <a href='../languages/undefined'>XPath</a>|6
+  <a name='Oracle' />Oracle|<a href='../languages/undefined'>Java</a> - <a href='../languages/undefined'>MySQL</a> - <a href='../languages/undefined'>PL/SQL</a> - <a href='../languages/undefined'>JavaFX Script</a> - <a href='../languages/undefined'>PeopleCode</a>|5
+  <a name='Facebook' />Facebook|<a href='../languages/undefined'>Reason</a> - <a href='../languages/undefined'>GraphQL</a> - <a href='../languages/undefined'>Hack</a> - <a href='../languages/undefined'>tornado</a> - <a href='../languages/undefined'>skip</a>|5
+  <a name='Nvidia' />Nvidia|<a href='../languages/undefined'>CUDA</a> - <a href='../languages/undefined'>Cg</a> - <a href='../languages/undefined'>PTX</a>|3
+  <a name='Apache' />Apache|<a href='../languages/undefined'>Pig Latin</a> - <a href='../languages/undefined'>Thrift</a> - <a href='../languages/undefined'>Velocity</a>|3
+  <a name='Salesforce' />Salesforce|<a href='../languages/undefined'>Apex</a> - <a href='../languages/undefined'>SOSL</a> - <a href='../languages/undefined'>SOQL</a>|3
+  <a name='MathWorks' />MathWorks|<a href='../languages/undefined'>MATLAB</a> - <a href='../languages/undefined'>Simulink</a>|2
+  <a name='Mozilla' />Mozilla|<a href='../languages/undefined'>Rust</a> - <a href='../languages/undefined'>Asm.js</a>|2
+  <a name='Wolfram_Research' />Wolfram Research|<a href='../languages/undefined'>Mathematica</a> - <a href='../languages/undefined'>Wolfram Language</a>|2
+  <a name='JetBrains' />JetBrains|<a href='../languages/undefined'>Kotlin</a> - <a href='../languages/undefined'>Nemerle</a>|2
+  <a name='Adobe' />Adobe|<a href='../languages/undefined'>PostScript</a> - <a href='../languages/undefined'>ColdFusion</a>|2
+  <a name='Motorola' />Motorola|<a href='../languages/undefined'>PowerPC</a> - <a href='../languages/undefined'>BASIC09</a>|2
+  <a name='Intel' />Intel|<a href='../languages/undefined'>X86</a> - <a href='../languages/undefined'>CIL</a>|2
+  <a name='GNU_Project' />GNU Project|<a href='../languages/undefined'>Emacs Lisp</a> - <a href='../languages/undefined'>Bison</a>|2
+  <a name='Kx_Systems' />Kx Systems|<a href='../languages/undefined'>K</a> - <a href='../languages/undefined'>Q</a>|2
+  <a name='RAND' />RAND|<a href='../languages/undefined'>SIMSCRIPT</a> - <a href='../languages/undefined'>Relational Data File</a>|2
+  <a name='Python_Software_Foundation' />Python Software Foundation|<a href='../languages/undefined'>Python</a>|1
+  <a name='Zend' />Zend|<a href='../languages/undefined'>PHP</a>|1
+  <a name='Ericsson' />Ericsson|<a href='../languages/undefined'>Erlang</a>|1
+  <a name='PLT_Inc.' />PLT Inc.|<a href='../languages/undefined'>Racket</a>|1
+  <a name='Cray' />Cray|<a href='../languages/undefined'>Chapel</a>|1
+  <a name='Advanced_Micro_Devices' />Advanced Micro Devices|<a href='../languages/undefined'>X86</a>|1
+  <a name='REBOL_Technologies' />REBOL Technologies|<a href='../languages/undefined'>REBOL</a>|1
+  <a name='Imagination_Technologies' />Imagination Technologies|<a href='../languages/undefined'>MIPS architecture</a>|1
+  <a name='MIPS_Technologies' />MIPS Technologies|<a href='../languages/undefined'>MIPS architecture</a>|1
+  <a name='Khronos_Group' />Khronos Group|<a href='../languages/undefined'>OpenCL</a>|1
+  <a name='HashiCorp' />HashiCorp|<a href='../languages/undefined'>HCL</a>|1
+  <a name='StataCorp' />StataCorp|<a href='../languages/undefined'>Stata</a>|1
+  <a name='Sun_Microsystems' />Sun Microsystems|<a href='../languages/undefined'>SPARC</a>|1
+  <a name='Red_Hat' />Red Hat|<a href='../languages/undefined'>Ceylon</a>|1
+  <a name='SAP' />SAP|<a href='../languages/undefined'>ABAP</a>|1
+  <a name='Fantaisie_Software' />Fantaisie Software|<a href='../languages/undefined'>PureBasic</a>|1
+  <a name='Synopsys' />Synopsys|<a href='../languages/undefined'>SystemVerilog</a>|1
+  <a name='GitHub' />GitHub|<a href='../languages/undefined'>CodeQL</a>|1
+  <a name='Hewlett-Packard' />Hewlett-Packard|<a href='../languages/undefined'>RPL</a>|1
+  <a name='System_Development_Corporation' />System Development Corporation|<a href='../languages/undefined'>JOVIAL</a>|1
+  <a name='AT&T_Labs' />AT&T Labs|<a href='../languages/undefined'>Cyclone</a>|1
+  <a name='Observable' />Observable|<a href='../languages/undefined'>Observable</a>|1
+  <a name='Qualcomm' />Qualcomm|<a href='../languages/undefined'>Qualcomm Hexagon</a>|1
+  <a name='UPC_Consortium' />UPC Consortium|<a href='../languages/undefined'>UPC</a>|1
+  <a name='TexasInstruments' />TexasInstruments|<a href='../languages/undefined'>TI MSP430</a>|1
+  <a name='OpenAI' />OpenAI|<a href='../languages/undefined'>Triton</a>|1
+  <a name='ARC_International_PLC' />ARC International PLC|<a href='../languages/undefined'>ARC processor</a>|1
+  <a name='Computer_Systems_Laboratory' />Computer Systems Laboratory|<a href='../languages/undefined'>Mesa</a>|1
+  <a name='Honeywell' />Honeywell|<a href='../languages/undefined'>Fully Automated Compiling Technique</a>|1
+  <a name='Computer_Sciences_Corporation' />Computer Sciences Corporation|<a href='../languages/undefined'>Fully Automated Compiling Technique</a>|1
+  <a name='Morgan_Stanley' />Morgan Stanley|<a href='../languages/undefined'>A+</a>|1
+  <a name='Infocom' />Infocom|<a href='../languages/undefined'>Z-machine</a>|1
+  <a name='Digital_Equipment_Corporation' />Digital Equipment Corporation|<a href='../languages/undefined'>DIGITAL Command Language</a>|1
+  <a name='Remington_Rand' />Remington Rand|<a href='../languages/undefined'>MATH-MATIC</a>|1
+  <a name='Altera' />Altera|<a href='../languages/undefined'>Nios II</a>|1
+  <a name='Looker' />Looker|<a href='../languages/undefined'>LookML</a>|1
+  <a name='Amazon' />Amazon|<a href='../languages/undefined'>Amazon Redshift</a>|1
+  <a name='DEC' />DEC|<a href='../languages/undefined'>Obliq</a>|1
+  <a name='BioWare' />BioWare|<a href='../languages/undefined'>NWScript</a>|1
+  <a name='Suneido_Software_Corp' />Suneido Software Corp|<a href='../languages/undefined'>Suneido</a>|1
+  <a name='ABB_Group' />ABB Group|<a href='../languages/undefined'>RAPID</a>|1
+  <a name='3MF_Consortium' />3MF Consortium|<a href='../languages/undefined'>3D Manufacturing Format</a>|1
+  <a name='NASA' />NASA|<a href='../languages/undefined'>PLEXIL</a>|1
+  <a name='Atos' />Atos|<a href='../languages/undefined'>aQasm</a>|1
+  <a name='Novell' />Novell|<a href='../languages/undefined'>Perfectscript</a>|1
+  <a name='QL2_Software' />QL2 Software|<a href='../languages/undefined'>webql</a>|1
+  <a name='The_Easy_Programming_Language_Company' />The Easy Programming Language Company|<a href='../languages/undefined'>Easy Programming Language</a>|1
+  <a name='Pixar' />Pixar|<a href='../languages/undefined'>USD</a>|1
+  <a name='Burroughs_Corporation' />Burroughs Corporation|<a href='../languages/undefined'>Data Communications ALGOL</a>|1
+  <a name='Ateji' />Ateji|<a href='../languages/undefined'>OptimJ</a>|1
+  <a name='Precision_Visuals' />Precision Visuals|<a href='../languages/undefined'>PV-Wave</a>|1
+  <a name='ARINC' />ARINC|<a href='../languages/undefined'>Abbreviated Test Language for All Systems</a>|1
+  <a name='Xerox_PARC' />Xerox PARC|<a href='../languages/undefined'>Cedar</a>|1
+replace COUNT
+ 73

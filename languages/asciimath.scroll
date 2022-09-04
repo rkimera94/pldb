@@ -1,0 +1,55 @@
+title AsciiMath
+
+import settings.scroll
+htmlTitle AsciiMath - Text markup language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/asciimath.pldb
+
+paragraph
+ AsciiMath is a <a href="../lists/languages.html?filter=textMarkup">text markup language</a> created in <a href="../lists/languages.html?filter=2014">2014</a> by <a href="../lists/creators.html#Peter_Krautzberger">Peter Krautzberger</a>.
+
+kpiTable
+ #821 <span title="TotalRank: 1321 Jobs: 62 Users: 398 Facts: 861 Links: 946">on PLDB</span>
+ 8 Years Old
+ 1.4k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging AsciiMath">Books</span>
+ 0 <span title="Academic publications about or leveraging AsciiMath">Papers</span>
+
+
+
+
+
+paragraph
+ AsciiMath is an easy-to-write markup language for mathematics.
+
+list
+ - the <a href="http://asciimath.org/">AsciiMath website</a>
+ - AsciiMath is developed on <a href="https://github.com/mathjax/asciimathml">GitHub</a> and has 863 stars
+ - See also: <a href="latex.html">LaTeX</a>
+ - Have a question about AsciiMath not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/asciimath">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ sum_(i=1)^n i^3=((n(n+1))/2)^2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav souper.html cirru.html

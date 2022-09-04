@@ -1,0 +1,69 @@
+title swizzle
+
+import settings.scroll
+htmlTitle swizzle - Esoteric programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/swizzle.pldb
+
+paragraph
+ swizzle is an <a href="../lists/languages.html?filter=esolang">esoteric programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a> by <a href="../lists/creators.html#Robert_Swierczek">Robert Swierczek</a>.
+
+kpiTable
+ #2299 <span title="TotalRank: 2684 Jobs: 62 Users: 1921 Facts: 1676 Links: 946">on PLDB</span>
+ 4 Years Old
+ 29 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging swizzle">Books</span>
+ 0 <span title="Academic publications about or leveraging swizzle">Papers</span>
+
+
+
+
+
+paragraph
+ An esoteric programming language
+
+list
+ - swizzle is developed on <a href="https://github.com/rswier/swizzle">GitHub</a> and has 22 stars
+ - Have a question about swizzle not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/swizzle">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ {M
+     1=i
+     (i 100 &lt;=?
+         (i 15 % 0 ==?
+             &quot;FizzBuzz&quot; P;
+         :(i 3 % 0 ==?
+             &quot;Fizz&quot; P;
+         :(i 5 % 0 ==?
+             &quot;Buzz&quot; P;
+         :
+             i &quot;%d&quot; P;;
+         )))
+         10 &quot;%c&quot; P;;
+         i++;
+     @)
+ }
+ M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav rasp.html emerald-lang.html

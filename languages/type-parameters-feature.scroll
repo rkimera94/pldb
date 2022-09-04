@@ -1,0 +1,54 @@
+title Type Parameters
+
+import settings.scroll
+htmlTitle Type Parameters - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/type-parameters-feature.pldb
+
+paragraph
+ Type Parameters are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In computer programming languages, TypeParameter is a frequently used generic label used in templates to reference an unknown data type, data structure, or class.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/TypeParameter">Type Parameters Wikipedia page</a>
+ - Have a question about Type Parameters not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/type-parameters-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Type Parameters include <a href="typescript.html">TypeScript</a>
+
+exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
+
+code
+ function identity&lt;T&gt;(arg: T): T {
+    return arg;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav type-casting-feature.html unary-operators-feature.html

@@ -1,0 +1,49 @@
+title Duck Typing
+
+import settings.scroll
+htmlTitle Duck Typing - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/duck-typing-feature.pldb
+
+paragraph
+ Duck Typing is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In duck typing, an object's suitability is determined by the presence of certain methods and properties, rather than the type of the object itself. Duck typing is similar to, but distinct from structural typing. Structural typing is a static typing system that determines type compatibility and equivalence by a type's structure, whereas duck typing is dynamic and determines type compatibility by only that part of a type's structure that is accessed during run time. Protocols and interfaces can provide some of the benefits of duck typing, but duck typing is distinct in that no explicit interface is defined.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Duck_typing">Duck Typing Wikipedia page</a>
+ - Have a question about Duck Typing not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/duck-typing-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Duck Typing include <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav dispose-blocks-feature.html first-class-functions-feature.html

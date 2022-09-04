@@ -1,0 +1,53 @@
+title KB
+
+import settings.scroll
+htmlTitle KB - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kb.pldb
+
+paragraph
+ KB is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1990">1990</a>.
+
+kpiTable
+ #2006 <span title="TotalRank: 2295 Jobs: 62 Users: 2580 Facts: 1287 Links: 946">on PLDB</span>
+ 32 Years Old
+ 0 <span title="Books about or leveraging KB">Books</span>
+ 0 <span title="Academic publications about or leveraging KB">Papers</span>
+
+
+
+
+
+paragraph
+ A knowledge representation package for Common Lisp
+
+list
+ - KB is listed on <a href="https://hopl.info/showlanguage.prx?exp=7724">HOPL</a>
+ - Read more about KB on the web: <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1569&context=cis_reports">1</a>
+ - Have a question about KB not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/kb">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ (defconcept circle () (center radius)) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav karl.html kivy-lang.html

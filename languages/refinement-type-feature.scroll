@@ -1,0 +1,52 @@
+title Refinement Types
+
+import settings.scroll
+htmlTitle Refinement Types - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/refinement-type-feature.pldb
+
+paragraph
+ Refinement Types are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A type endowed with a predicate which is assumed to hold for any element of the refined type.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Refinement_type">Refinement Types Wikipedia page</a>
+ - Have a question about Refinement Types not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/refinement-type-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Refinement Types include <a href="raku.html">Raku</a>
+
+exampleCodeHeader Example from <a href="raku.html">Raku</a>:
+
+code
+ subset Color of Any where Color | CMYK_Color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav reference-feature.html runtime-guards-feature.html

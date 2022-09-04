@@ -1,0 +1,103 @@
+title Rockstar
+
+import settings.scroll
+htmlTitle Rockstar - Esoteric programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rockstar.pldb
+
+paragraph
+ Rockstar is an <a href="../lists/languages.html?filter=esolang">esoteric programming language</a> created in <a href="../lists/languages.html?filter=2018">2018</a>.
+
+kpiTable
+ #536 <span title="TotalRank: 972 Jobs: 62 Users: 1509 Facts: 246 Links: 664">on PLDB</span>
+ 4 Years Old
+ 71 <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging Rockstar">Books</span>
+ 0 <span title="Academic publications about or leveraging Rockstar">Papers</span>
+
+paragraph
+ Try now: <a href="https://tio.run/#rockstar">TIO</a>
+
+
+
+paragraph
+ Rockstar is a dynamically typed Turing-complete programming language. Rockstar is designed for creating computer programs that are also song lyrics, and is heavily influenced by the lyrical conventions of 1980s hard rock and power ballads.
+
+list
+ - the <a href="https://codewithrockstar.com/">Rockstar website</a>
+ - Rockstar is developed on <a href="https://github.com/dylanbeattie/rockstar">GitHub</a> and has 63 stars
+ - Explore Rockstar snippets on <a href="http://www.rosettacode.org/wiki/Category:Rockstar">Rosetta Code</a>
+ - <a href="https://codewithrockstar.com/">codewithrockstar.com</a> was registered in 2018
+ - Have a question about Rockstar not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/rockstar">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ Midnight takes your heart and your soul
+ While your heart is as high as your soul
+ Put your heart without your soul into your heart
+ 
+ Give back your heart
+ 
+ 
+ Desire is a lovestruck ladykiller
+ My world is nothing 
+ Fire is ice
+ Hate is water
+ Until my world is Desire,
+ Build my world up
+ If Midnight taking my world, Fire is nothing and Midnight taking my world, Hate is nothing
+ Shout &quot;FizzBuzz!&quot;
+ Take it to the top
+ 
+ If Midnight taking my world, Fire is nothing
+ Shout &quot;Fizz!&quot;
+ Take it to the top
+ 
+ If Midnight taking my world, Hate is nothing
+ Say &quot;Buzz!&quot;
+ Take it to the top
+ 
+ Whisper my world 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/r/Rockstar.rock'>hello-world</a>:
+code
+ Scream &quot;Hello World&quot;
+ 
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "Hello world"
+  Token "
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token Scream
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav refal.html java-properties.html

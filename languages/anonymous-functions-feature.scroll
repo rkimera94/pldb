@@ -1,0 +1,67 @@
+title Anonymous Functions
+
+import settings.scroll
+htmlTitle Anonymous Functions - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/anonymous-functions-feature.pldb
+
+paragraph
+ Anonymous Functions are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In computer programming, an anonymous function (function literal, lambda abstraction, or lambda expression) is a function definition that is not bound to an identifier.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Anonymous_function">Anonymous Functions Wikipedia page</a>
+ - Have a question about Anonymous Functions not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/anonymous-functions-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Anonymous Functions include <a href="javascript.html">JavaScript</a>, <a href="elixir.html">Elixir</a>, <a href="coconut.html">Coconut</a>, <a href="hope.html">HOPE</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ (() =&gt; console.log(&quot;hello world&quot;))()
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ fn -&gt; IO.puts(&quot;hello world&quot;) end
+
+exampleCodeHeader Example from <a href="coconut.html">Coconut</a>:
+
+code
+ x -&gt; x ** 2
+
+exampleCodeHeader Example from <a href="hope.html">HOPE</a>:
+
+code
+ lambda(x,y) =&gt; x + y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav zipper-feature.html assignment-feature.html

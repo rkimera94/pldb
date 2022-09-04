@@ -1,0 +1,59 @@
+title Map Functions
+
+import settings.scroll
+htmlTitle Map Functions - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/map-functions-feature.pldb
+
+paragraph
+ Map Functions are a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ Map is the name of a higher-order function that applies a given function to each element of a functor, e.g. a list, returning a list of results in the same order.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Map_(higher-order_function)">Map Functions Wikipedia page</a>
+ - Have a question about Map Functions not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/map-functions-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Map Functions include <a href="javascript.html">JavaScript</a>, <a href="haskell.html">Haskell</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
+
+code
+ [1,2.1].map(Math.round)
+
+exampleCodeHeader Example from <a href="haskell.html">Haskell</a>:
+
+code
+ class Functor f where
+    fmap :: (a -&gt; b) -&gt; f a -&gt; f b
+    (&lt;$) :: a -&gt; f b -&gt; f a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav manual-memory-management-feature.html method-chaining-feature.html

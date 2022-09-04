@@ -1,0 +1,73 @@
+title Inheritance
+
+import settings.scroll
+htmlTitle Inheritance - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/inheritance-feature.pldb
+
+paragraph
+ Inheritance is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation.
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)">Inheritance Wikipedia page</a>
+ - Have a question about Inheritance not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/inheritance-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Inheritance include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="php.html">PHP</a>, <a href="scala.html">Scala</a>, <a href="typescript.html">TypeScript</a>, <a href="dart.html">Dart</a>, <a href="groovy.html">Groovy</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="pug.html">Pug</a>, <a href="systemverilog.html">SystemVerilog</a>, <a href="twig.html">Twig</a>, <a href="apex.html">Apex</a>
+
+exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>, <a href="typescript.html">TypeScript</a>:
+
+code
+ class B {}
+ class A extends B {}
+
+exampleCodeHeader Example from <a href="python.html">Python</a>:
+
+code
+ class SumComputer(object):
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def transform(self, x):
+        raise NotImplementedError
+    def inputs(self):
+        return range(self.a, self.b)
+    def compute(self):
+        return sum(self.transform(value) for value in self.inputs())
+  class SquareSumComputer(SumComputer):
+      def transform(self, x):
+          return x * x
+  class CubeSumComputer(SumComputer):
+      def transform(self, x):
+          return x * x * x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav garbage-collection-feature.html iterators-feature.html

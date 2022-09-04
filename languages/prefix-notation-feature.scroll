@@ -1,0 +1,57 @@
+title Prefix Notation
+
+import settings.scroll
+htmlTitle Prefix Notation - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/prefix-notation-feature.pldb
+
+paragraph
+ Prefix Notation is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ A mathematical notation in which operators precede their operands. For example: "+ 3 4"
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Polish_notation">Prefix Notation Wikipedia page</a>
+ - Have a question about Prefix Notation not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/prefix-notation-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Prefix Notation include <a href="scheme.html">Scheme</a>, <a href="racket.html">Racket</a>, <a href="slope.html">Slope</a>
+
+exampleCodeHeader Example from <a href="scheme.html">Scheme</a>, <a href="racket.html">Racket</a>:
+
+code
+ (+ 1 2 3)
+
+exampleCodeHeader Example from <a href="slope.html">Slope</a>:
+
+code
+ (+ 1 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav postfix-notation-feature.html scientific-notation-feature.html

@@ -1,0 +1,52 @@
+title Message Passing
+
+import settings.scroll
+htmlTitle Message Passing - Language feature
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/message-passing-feature.pldb
+
+paragraph
+ Message Passing is a <a href="../lists/features.html">language feature</a>.
+
+
+
+
+
+
+
+paragraph
+ In computer science, message passing is a technique for invoking behavior (i.e., running a program) on a computer. The invoking program sends a message to a process (which may be an actor or object) and relies on that process and its supporting infrastructure to then select and run some appropriate code. Message passing differs from conventional programming where a process, subroutine, or function is directly invoked by name. <a href="https://en.wikipedia.org/wiki/Message_passing">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/Message_passing">Message Passing Wikipedia page</a>
+ - Have a question about Message Passing not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/message-passing-feature">Edit this page</a>
+
+html
+ <br>
+
+paragraph
+ Languages <b>with</b> Message Passing include <a href="go.html">Go</a>, <a href="scala.html">Scala</a>, <a href="objective-c.html">Objective-C</a>, <a href="erlang.html">Erlang</a>, <a href="elixir.html">Elixir</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="self.html">Self</a>, <a href="applescript.html">Applescript</a>, <a href="hypercard.html">HyperCard</a>, <a href="concurrent-ml.html">Concurrent ML</a>
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ send(pid, :ping)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav print-debugging-feature.html pattern-matching-feature.html

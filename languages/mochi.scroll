@@ -1,0 +1,58 @@
+title mochi
+
+import settings.scroll
+htmlTitle mochi - Programming language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/mochi.pldb
+
+paragraph
+ mochi is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2014">2014</a>.
+
+kpiTable
+ #912 <span title="TotalRank: 1410 Jobs: 62 Users: 487 Facts: 861 Links: 946">on PLDB</span>
+ 8 Years Old
+ 1.0k <span title="Crude user estimate from a linear model.">Users</span>
+ 0 <span title="Books about or leveraging mochi">Books</span>
+ 0 <span title="Academic publications about or leveraging mochi">Papers</span>
+
+
+
+
+
+paragraph
+ Mochi is a dynamically typed programming language for functional programming and actor-style programming. Its interpreter is written in Python3. The interpreter translates a program written in Mochi to Python3's AST / bytecode.
+
+list
+ - mochi is developed on <a href="https://github.com/i2y/mochi">GitHub</a> and has 909 stars
+ - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/pya/mochi-kernel">Kernel</a> for mochi
+ - Have a question about mochi not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/mochi">Edit this page</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from the web:
+code
+ def factorial(n, m):
+    if n == 1:
+        m
+    else:
+        factorial(n - 1, n * m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav ssharp.html xproc.html

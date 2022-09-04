@@ -1,0 +1,52 @@
+title B3 IR
+
+import settings.scroll
+htmlTitle B3 IR - Intermediate representation language
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/b3-ir.pldb
+
+paragraph
+ B3 IR is an <a href="../lists/languages.html?filter=ir">intermediate representation language</a> created in <a href="../lists/languages.html?filter=2016">2016</a>.
+
+kpiTable
+ #1624 <span title="TotalRank: 2057 Jobs: 62 Users: 2171 Facts: 1049 Links: 946">on PLDB</span>
+ 6 Years Old
+ 0 <span title="Books about or leveraging B3 IR">Books</span>
+ 0 <span title="Academic publications about or leveraging B3 IR">Papers</span>
+
+
+
+
+
+paragraph
+ B3 IR is a C-like SSA representation of a procedure. A procedure has a root block at which it starts execution when it is invoked. A procedure does not have to terminate, but if it does, then it can be either due to a Return, which gracefully returns some value, or by a side-exit at designated instructions. B3 gives the client a lot of flexibility to implement many different kinds of side-exits. B3 is designed to represent procedures for the purpose of transforming them. Knowing what transformations are legal requires knowing what a procedure does. A transformation is valid if it does not change the observable behavior of a procedure. This document tells you what B3 procedures do by telling you what each construct in B3 IR does.
+
+list
+ - the <a href="https://webkit.org/docs/b3/intermediate-representation.html">B3 IR website</a>
+ - B3 IR is backed by <a href="../lists/corporations.html#Apple">Apple</a>
+ - B3 IR compiles to <a href="x86-64-isa.html">x86-64</a> or <a href="arm.html">ARM</a>
+ - Have a question about B3 IR not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
+ - <a href="https://edit.pldb.com/edit/b3-ir">Edit this page</a>
+
+html
+ <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyboardNav avro.html bare.html

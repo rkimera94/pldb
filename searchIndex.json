@@ -2110,11 +2110,6 @@
     "id": "turbo-pascal"
   },
   {
-    "label": "Gradle",
-    "appeared": "2008",
-    "id": "gradle"
-  },
-  {
     "label": "CodeQL",
     "appeared": "2018",
     "id": "codeql"
@@ -2128,6 +2123,11 @@
     "label": "CPL",
     "appeared": "1963",
     "id": "cpl"
+  },
+  {
+    "label": "Gradle",
+    "appeared": "2008",
+    "id": "gradle"
   },
   {
     "label": "GW-BASIC",
@@ -2210,14 +2210,14 @@
     "id": "g-code"
   },
   {
-    "label": "Natural Language Toolkit",
-    "appeared": "2001",
-    "id": "nltk"
-  },
-  {
     "label": "JAI",
     "appeared": "2014",
     "id": "jai"
+  },
+  {
+    "label": "Natural Language Toolkit",
+    "appeared": "2001",
+    "id": "nltk"
   },
   {
     "label": "CSV",
@@ -2620,14 +2620,14 @@
     "id": "systemz"
   },
   {
-    "label": "skulpt",
-    "appeared": "2009",
-    "id": "skulpt"
-  },
-  {
     "label": "mlir",
     "appeared": "2019",
     "id": "mlir"
+  },
+  {
+    "label": "skulpt",
+    "appeared": "2009",
+    "id": "skulpt"
   },
   {
     "label": "Malbolge",
@@ -2850,14 +2850,14 @@
     "id": "netrexx"
   },
   {
-    "label": "mgmt",
-    "appeared": "2015",
-    "id": "mgmt"
-  },
-  {
     "label": "BNF",
     "appeared": "1956",
     "id": "bnf"
+  },
+  {
+    "label": "mgmt",
+    "appeared": "2015",
+    "id": "mgmt"
   },
   {
     "label": "Gambas",
@@ -3683,6 +3683,11 @@
     "id": "triton"
   },
   {
+    "label": "beef-lang",
+    "appeared": "2019",
+    "id": "beef-lang"
+  },
+  {
     "label": "PCRE",
     "appeared": "1997",
     "id": "pcre"
@@ -3746,11 +3751,6 @@
     "label": "NESL",
     "appeared": "1993",
     "id": "nesl"
-  },
-  {
-    "label": "beef-lang",
-    "appeared": "2019",
-    "id": "beef-lang"
   },
   {
     "label": "Ron",
@@ -4410,14 +4410,14 @@
     "id": "http-2"
   },
   {
-    "label": "Easybuild",
-    "appeared": "2014",
-    "id": "easybuild"
-  },
-  {
     "label": "SMIL",
     "appeared": "1997",
     "id": "synchronized-multimedia-integration-language"
+  },
+  {
+    "label": "Easybuild",
+    "appeared": "2014",
+    "id": "easybuild"
   },
   {
     "label": "CSS Doodle",
@@ -4530,14 +4530,14 @@
     "id": "lisaac"
   },
   {
-    "label": "Semantic Patch Language",
-    "appeared": "2006",
-    "id": "smpl"
-  },
-  {
     "label": "Volt",
     "appeared": "2011",
     "id": "volt"
+  },
+  {
+    "label": "Semantic Patch Language",
+    "appeared": "2006",
+    "id": "smpl"
   },
   {
     "label": "Melody",
@@ -4564,14 +4564,14 @@
     "id": "sha-3-hash-function"
   },
   {
-    "label": "Ren'Py",
-    "appeared": "2004",
-    "id": "renpy"
-  },
-  {
     "label": "T",
     "appeared": "1980",
     "id": "t"
+  },
+  {
+    "label": "Ren'Py",
+    "appeared": "2004",
+    "id": "renpy"
   },
   {
     "label": "Spatial",
@@ -4729,6 +4729,16 @@
     "id": "chaiscript"
   },
   {
+    "label": "svgbob",
+    "appeared": "2016",
+    "id": "svgbob"
+  },
+  {
+    "label": "Wasp",
+    "appeared": "2019",
+    "id": "wasp-lang"
+  },
+  {
     "label": "S-PLUS",
     "appeared": "1988",
     "id": "s-plus"
@@ -4777,16 +4787,6 @@
     "label": "Ion",
     "appeared": "2016",
     "id": "ion"
-  },
-  {
-    "label": "svgbob",
-    "appeared": "2016",
-    "id": "svgbob"
-  },
-  {
-    "label": "Wasp",
-    "appeared": "2019",
-    "id": "wasp-lang"
   },
   {
     "label": "Wyvern",
@@ -5099,13 +5099,13 @@
     "id": "chevrotain"
   },
   {
+    "label": "Video Graphics Array",
+    "id": "vga-standard"
+  },
+  {
     "label": "Argdown",
     "appeared": "2014",
     "id": "argdown"
-  },
-  {
-    "label": "Video Graphics Array",
-    "id": "vga-standard"
   },
   {
     "label": "Blockly",
@@ -5447,14 +5447,14 @@
     "id": "reko-decompiler"
   },
   {
-    "label": "Gwion",
-    "appeared": "2016",
-    "id": "gwion"
-  },
-  {
     "label": "Newick format",
     "appeared": "1986",
     "id": "newick-format"
+  },
+  {
+    "label": "Gwion",
+    "appeared": "2016",
+    "id": "gwion"
   },
   {
     "label": "pie-lang",
@@ -5561,14 +5561,14 @@
     "id": "nuget-pm"
   },
   {
-    "label": "Shakespeare",
-    "appeared": "1993",
-    "id": "shakespeare"
-  },
-  {
     "label": "Xgboost",
     "appeared": "2014",
     "id": "xgboost-model"
+  },
+  {
+    "label": "Shakespeare",
+    "appeared": "1993",
+    "id": "shakespeare"
   },
   {
     "label": "PDP-11",
@@ -5621,14 +5621,14 @@
     "id": "kona"
   },
   {
-    "label": "Cone",
-    "appeared": "2017",
-    "id": "cone"
-  },
-  {
     "label": "Generics",
     "appeared": "1973",
     "id": "generics-feature"
+  },
+  {
+    "label": "Cone",
+    "appeared": "2017",
+    "id": "cone"
   },
   {
     "label": "SWI-Prolog",
@@ -5731,14 +5731,14 @@
     "id": "stackless-python"
   },
   {
-    "label": "WebIDL",
-    "appeared": "2012",
-    "id": "web-idl"
-  },
-  {
     "label": "kasaya",
     "appeared": "2018",
     "id": "kasaya"
+  },
+  {
+    "label": "WebIDL",
+    "appeared": "2012",
+    "id": "web-idl"
   },
   {
     "label": "dex",
@@ -5889,6 +5889,11 @@
     "label": "BEEF",
     "appeared": "1961",
     "id": "beef"
+  },
+  {
+    "label": "Explorer",
+    "appeared": "2020",
+    "id": "explorer"
   },
   {
     "label": "harlan",
@@ -6190,14 +6195,14 @@
     "id": "fhir"
   },
   {
-    "label": "FreeMarker",
-    "appeared": "2000",
-    "id": "freemarker"
-  },
-  {
     "label": "INTELLECT",
     "appeared": "1977",
     "id": "intellect"
+  },
+  {
+    "label": "FreeMarker",
+    "appeared": "2000",
+    "id": "freemarker"
   },
   {
     "label": "Gerbil Scheme",
@@ -6303,6 +6308,11 @@
     "label": "Babylonian numerals",
     "appeared": "-2000",
     "id": "babylonian-numerals"
+  },
+  {
+    "label": "Glicol",
+    "appeared": "2020",
+    "id": "glicol"
   },
   {
     "label": "Parenscript",
@@ -6530,11 +6540,6 @@
     "id": "ttsneo"
   },
   {
-    "label": "Explorer",
-    "appeared": "2020",
-    "id": "explorer"
-  },
-  {
     "label": "GAML",
     "appeared": "1991",
     "id": "gaml"
@@ -6553,11 +6558,6 @@
     "label": "Soy",
     "appeared": "2008",
     "id": "soy"
-  },
-  {
-    "label": "Glicol",
-    "appeared": "2020",
-    "id": "glicol"
   },
   {
     "label": "Connection Machine",

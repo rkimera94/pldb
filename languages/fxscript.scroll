@@ -19,6 +19,8 @@ kpiTable
 
 
 
+
+
 paragraph
  FXScript is a scripting language for Final Cut Pro and Final Cut Express.  FXBuilder is the scripting utility in which users are able to modify existing FCP FXScripts or program completely new ones. For example, to scale an image, only two lines are necessary to scale an image from its full size to half size:  scale(Region, CenterOfScale, 0.5, 0.5); blitrect(ImageBuffer, OrigRegion, Destination-Buffer, Region);  First the region, which might be a rectangle, is scaled by the statement scale and its parameters. <a href="https://en.wikipedia.org/wiki/FXScript">Read more on Wikipedia...</a>
 

@@ -19,6 +19,8 @@ kpiTable
 
 
 
+
+
 paragraph
  asm.js is an intermediate programming language designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, the typical language used for such applications. asm.js consists of a strict subset of JavaScript, into which code written in statically-typed languages with manual memory management (such as C) is translated by a source-to-source compiler such as Emscripten (based on LLVM). Performance is improved by limiting language features to those amenable to ahead-of-time optimization and other performance improvements. <a href="https://en.wikipedia.org/wiki/Asm.js">Read more on Wikipedia...</a>
 

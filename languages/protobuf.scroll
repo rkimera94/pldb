@@ -25,6 +25,8 @@ monacoEditor protobuf
    optional string email = 3;
  }
 
+
+
 paragraph
  Protocol Buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data. <a href="https://en.wikipedia.org/wiki/Protocol_Buffers">Read more on Wikipedia...</a>
 

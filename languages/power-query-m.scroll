@@ -28,6 +28,8 @@ monacoEditor powerquery
  let x = 1 + 1  in x * 2   // a let expression 
  error "A"                 // error with message "A"
 
+
+
 paragraph
  The Power Query M formula language is optimized for building highly flexible data mashup queries. It's a functional, case sensitive language similar to F#.
 

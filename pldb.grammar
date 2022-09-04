@@ -150,6 +150,10 @@ rijuReplNode
  single
  contentKey id
  inScope fileExtensionsNode descriptionNode websiteNode githubRepoNode exampleNode
+screenshotNode
+ description For visual languages, a picture is worth a thousand words. Provide the URL to the screenshot in the form: https://pldb.com/site/screenshots/[pldbId].png
+ extends abstractUrlNode
+ cruxFromId
 websiteNode
  description URL of the official homepage for the language project.
  extends abstractUrlNode

@@ -23,6 +23,8 @@ monacoEditor cypher
  OPTIONAL MATCH (content)-[r]-()
  DELETE r, content
 
+
+
 paragraph
  Cypher is a declarative graph query language that allows for expressive and efficient querying and updating of a property graph. Cypher is a relatively simple but still very powerful language. Very complicated database queries can easily be expressed through Cypher. <a href="https://en.wikipedia.org/wiki/Cypher_Query_Language">Read more on Wikipedia...</a>
 

@@ -19,6 +19,8 @@ kpiTable
 
 
 
+
+
 paragraph
  Sweave is a function in the statistical programming language R that enables integration of R code into LaTeX or LyX documents. The purpose is "to create dynamic reports, which can be updated automatically if data or analysis change".The data analysis is performed at the moment of writing the report, or more exactly, at the moment of compiling the Sweave code with Sweave (i.e., essentially with R) and subsequently with LaTeX. This can facilitate the creation of up-to-date reports for the author. <a href="https://en.wikipedia.org/wiki/Sweave">Read more on Wikipedia...</a>
 

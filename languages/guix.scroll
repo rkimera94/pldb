@@ -19,6 +19,8 @@ kpiTable
 
 
 
+
+
 paragraph
  GNU Guix () is a cross-platform package manager and a tool to instantiate and manage Unix-like operating systems, based on the Nix package manager with Guile Scheme APIs and specializes in providing exclusively free software. Differing from traditional package managers, Guix (like Nix) utilizes a purely functional deployment model where software is installed into unique directories generated through cryptographic hashes. Dependencies from each software are included within each hash, solving the problem of dependency hell. <a href="https://en.wikipedia.org/wiki/GNU_Guix">Read more on Wikipedia...</a>
 

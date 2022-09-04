@@ -339,6 +339,7 @@ semanticScholarNode
  string sourceDomain semanticscholar.org
  single
 descriptionNode
+ boolean alwaysRecommended true
  cruxFromId
  extends abstractFactNode
  baseNodeType blobNode
@@ -812,6 +813,7 @@ githubLanguageTypeNode
  description Either data, programming, markup, prose, or nil.
  crux type
 creatorsNode
+ boolean alwaysRecommended true
  description Name(s) of the original creators of the language delimited by " and "
  cells keywordCell
  catchAllCellType creatorNameCell
@@ -832,6 +834,7 @@ announcementMethodNode
  single
 countryNode
  description What country was the language first developed in?
+ boolean alwaysRecommended true
  cells keywordCell
  catchAllCellType countryNameCell
  extends abstractFactNode
@@ -1387,6 +1390,7 @@ gdbSupportNode
  string sourceDomain sourceware.org
  single
 isOpenSourceNode
+ boolean alwaysRecommended true
  description Is it an open source project?
  extends abstractBooleanNode
  cruxFromId

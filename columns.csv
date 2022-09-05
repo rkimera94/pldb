@@ -139,12 +139,12 @@ Index,Column,Values,Coverage,Example,Description,Source,SourceLink,Definition,De
 138,githubLanguage.group,41,1%,Shell,Name of the parent language. Languages in a group are counted in the statistics as the parent language.,,,githubLanguage.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L54
 139,features.hasOperatorOverloading,41,1%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L338
 140,rijuRepl.description,40,1%,"A different take on assembly, with the goal of creating tiny executables",Description of the repo on GitHub.,,,githubRepo.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L41
-141,subreddit.memberCount.2017,40,1%,8,,,,primitives.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/primitives.grammar#L86
+141,subreddit.memberCount.2017,40,1%,10666,,,,primitives.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/primitives.grammar#L86
 142,rijuRepl.githubRepo,39,1%,https://gcc.gnu.org/git.html,URL of the official GitHub repo for the project if it hosted there.,github.com,https://github.com,githubRepo.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L1
 143,rijuRepl.fileExtensions,39,1%,C cc cpp cxx c++ h hh hpp hxx h++,"An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).",,,githubLanguage.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
 144,features.hasAssignment,38,1%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L236
 145,stackOverflowSurvey.2021.percentageUsing,38,1%,0.01,What percentage of survey respondents report using this language?,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L27
-146,stackOverflowSurvey.2021.fans,38,1%,309,How many developers reported wanting to learn this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
+146,stackOverflowSurvey.2021.fans,38,1%,1069,How many developers reported wanting to learn this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
 147,stackOverflowSurvey.2021.medianSalary,38,1%,54049,Median salary reported by developers using this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L17
 148,stackOverflowSurvey.2021.users,38,1%,1068,How many developers reported using this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
 149,features.hasImports,37,1%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L246
@@ -192,13 +192,13 @@ Index,Column,Values,Coverage,Example,Description,Source,SourceLink,Definition,De
 191,features.hasSingleDispatch,8,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L83
 192,tokenKeyword,7,0%,assignmentToken,Links a feature entry to the related token keyword in the pldb grammar.,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L15
 193,subsetOf,7,0%,c,Is this language a subset of another?,,,relationships.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L17
-194,supersetOf,7,0%,json,Is this language a superset of another?,,,relationships.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L23
-195,gitlabRepo,7,0%,https://gitlab.com/FascinatedBox/lily,URL of the official GitLab repo for the language project.,gitlab.com,https://gitlab.com,gitlabRepo.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/gitlabRepo.grammar#L1
-196,features.hasStaticTyping,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L380
-197,features.hasHomoiconicity,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L37
-198,features.hasPatternMatching,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L220
-199,features.hasCaseInsensitiveIdentifiers,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L336
-200,influencedBy,6,0%,apl j k nial,What languages influenced this one?,,,relationships.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L11
+194,influencedBy,7,0%,apl j k nial,What languages influenced this one?,,,relationships.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L11
+195,supersetOf,7,0%,json,Is this language a superset of another?,,,relationships.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L23
+196,gitlabRepo,7,0%,https://gitlab.com/FascinatedBox/lily,URL of the official GitLab repo for the language project.,gitlab.com,https://gitlab.com,gitlabRepo.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/gitlabRepo.grammar#L1
+197,features.hasStaticTyping,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L380
+198,features.hasHomoiconicity,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L37
+199,features.hasPatternMatching,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L220
+200,features.hasCaseInsensitiveIdentifiers,7,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L336
 201,features.hasMixins,6,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L316
 202,features.hasFunctionComposition,6,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L389
 203,features.hasBitWiseOperators,6,0%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L89

@@ -264,14 +264,14 @@ replace KEYWORDS_TABLE
   Class|5|6%|<a href='../languages/objective-c.html'>Objective-C</a> <a href='../languages/visual-basic.html'>Visual Basic</a> <a href='../languages/visual-basic-dot-net.html'>Visual Basic .NET</a> <a href='../languages/visual-basic-dot-net.html'>Visual Basic .NET</a> <a href='../languages/apex.html'>Apex</a>
   load|5|6%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a> <a href='../languages/slope.html'>Slope</a> <a href='../languages/eclipse-command-language.html'>Eclipse Command Language</a>
   list|5|6%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/abap.html'>ABAP</a> <a href='../languages/apex.html'>Apex</a> <a href='../languages/ligo.html'>Ligo</a> <a href='../languages/sophia.html'>Sophia</a>
-  TYPE|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/apex.html'>Apex</a>
-  DO|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/apex.html'>Apex</a> <a href='../languages/redshift.html'>Amazon Redshift</a>
-  CONTAINS|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a> <a href='../languages/cypher.html'>Cypher Query Language</a>
-  ACTION|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/sqlite.html'>SQLite</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   forall|5|6%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/chapel.html'>Chapel</a> <a href='../languages/opa.html'>Opa</a> <a href='../languages/fstar.html'>F*</a> <a href='../languages/felix.html'>Felix</a>
   @|5|6%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/objective-c.html'>Objective-C</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/coffeescript.html'>CoffeeScript</a> <a href='../languages/angelscript.html'>Angelscript</a>
   >|5|6%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/pascal.html'>Pascal</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
   =|5|6%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/pascal.html'>Pascal</a> <a href='../languages/visual-basic-dot-net.html'>Visual Basic .NET</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  TYPE|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/apex.html'>Apex</a>
+  DO|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/apex.html'>Apex</a> <a href='../languages/redshift.html'>Amazon Redshift</a>
+  CONTAINS|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a> <a href='../languages/cypher.html'>Cypher Query Language</a>
+  ACTION|5|6%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/sqlite.html'>SQLite</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   USE|5|6%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   USAGE|5|6%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   SYSTEM|5|6%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a> <a href='../languages/apex.html'>Apex</a> <a href='../languages/redshift.html'>Amazon Redshift</a>
@@ -378,6 +378,10 @@ replace KEYWORDS_TABLE
   atomic|4|4%|<a href='../languages/objective-c.html'>Objective-C</a> <a href='../languages/f-sharp.html'>F#</a> <a href='../languages/chapel.html'>Chapel</a> <a href='../languages/x10.html'>X10</a>
   append|4|4%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/pug.html'>Pug</a> <a href='../languages/abap.html'>ABAP</a> <a href='../languages/freefem.html'>Freefem</a>
   cond|4|4%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/erlang.html'>Erlang</a> <a href='../languages/abap.html'>ABAP</a> <a href='../languages/slope.html'>Slope</a>
+  infixr|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/clean.html'>Clean</a> <a href='../languages/koka.html'>Koka</a> <a href='../languages/ats.html'>ATS</a>
+  infixl|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/clean.html'>Clean</a> <a href='../languages/koka.html'>Koka</a> <a href='../languages/ats.html'>ATS</a>
+  ;|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  ::|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
   SIZE|4|4%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   SEQUENCE|4|4%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   POSITION|4|4%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
@@ -386,10 +390,6 @@ replace KEYWORDS_TABLE
   FILE|4|4%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a> <a href='../languages/freefem.html'>Freefem</a>
   DATA|4|4%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   ACCESS|4|4%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/qbasic.html'>QBasic</a>
-  infixr|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/clean.html'>Clean</a> <a href='../languages/koka.html'>Koka</a> <a href='../languages/ats.html'>ATS</a>
-  infixl|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/clean.html'>Clean</a> <a href='../languages/koka.html'>Koka</a> <a href='../languages/ats.html'>ATS</a>
-  ;|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
-  ::|4|4%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
   pure|4|4%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/f-sharp.html'>F#</a> <a href='../languages/vhdl.html'>VHDL</a> <a href='../languages/systemverilog.html'>SystemVerilog</a>
   proc|4|4%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/haskell.html'>Haskell</a> <a href='../languages/chapel.html'>Chapel</a> <a href='../languages/nimrod.html'>nimrod</a>
   move|4|4%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/mips.html'>MIPS architecture</a> <a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a>
@@ -582,15 +582,15 @@ replace KEYWORDS_TABLE
   DATE|3|3%|<a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   ALIAS|3|3%|<a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/qbasic.html'>QBasic</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   quote|3|3%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/julia.html'>Julia</a> <a href='../languages/eclipse-command-language.html'>Eclipse Command Language</a>
+  ?|3|3%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  ,|3|3%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  !|3|3%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/angelscript.html'>Angelscript</a>
   RESULT|3|3%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   PARAMETER|3|3%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   OPTIONAL|3|3%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/cypher.html'>Cypher Query Language</a>
   NONE|3|3%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
   INTERFACE|3|3%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/apex.html'>Apex</a>
   CYCLE|3|3%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/transact-sql.html'>Transact-SQL</a>
-  ?|3|3%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/angelscript.html'>Angelscript</a>
-  ,|3|3%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/hope.html'>HOPE</a> <a href='../languages/angelscript.html'>Angelscript</a>
-  !|3|3%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/angelscript.html'>Angelscript</a>
   fn|3|3%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/elixir.html'>Elixir</a> <a href='../languages/ats.html'>ATS</a>
   XOR|3|3%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/cypher.html'>Cypher Query Language</a>
   VIRTUAL|3|3%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/sqlite.html'>SQLite</a> <a href='../languages/apex.html'>Apex</a>
@@ -1135,6 +1135,14 @@ replace KEYWORDS_TABLE
   restrict|2|2%|<a href='../languages/objective-c.html'>Objective-C</a> <a href='../languages/systemverilog.html'>SystemVerilog</a>
   set!|2|2%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/slope.html'>Slope</a>
   format|2|2%|<a href='../languages/scheme.html'>Scheme</a> <a href='../languages/abap.html'>ABAP</a>
+  newtype|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/q-sharp.html'>Q#</a>
+  foreign|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/clean.html'>Clean</a>
+  ~|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  ||2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  }|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/angelscript.html'>Angelscript</a>
+  \|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/visual-basic-dot-net.html'>Visual Basic .NET</a>
+  #|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/hope.html'>HOPE</a>
+  ->|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/hope.html'>HOPE</a>
   UNIT|2|2%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a>
   STOP|2|2%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a>
   STATUS|2|2%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a>
@@ -1155,14 +1163,6 @@ replace KEYWORDS_TABLE
   BLANK|2|2%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a>
   ASSIGNMENT|2|2%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/postgresql.html'>PostgreSQL</a>
   ASSIGN|2|2%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/cobol.html'>COBOL</a>
-  newtype|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/q-sharp.html'>Q#</a>
-  foreign|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/clean.html'>Clean</a>
-  ~|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/angelscript.html'>Angelscript</a>
-  ||2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/angelscript.html'>Angelscript</a>
-  }|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/angelscript.html'>Angelscript</a>
-  \|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/visual-basic-dot-net.html'>Visual Basic .NET</a>
-  #|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/hope.html'>HOPE</a>
-  ->|2|2%|<a href='../languages/haskell.html'>Haskell</a> <a href='../languages/hope.html'>HOPE</a>
   pub|2|2%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/reason.html'>Reason</a>
   ZEROFILL|2|2%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/mariadb.html'>MariaDB</a>
   YEAR_MONTH|2|2%|<a href='../languages/mysql.html'>MySQL</a> <a href='../languages/mariadb.html'>MariaDB</a>
@@ -4788,6 +4788,25 @@ replace KEYWORDS_TABLE
   cdr|1|1%|<a href='../languages/scheme.html'>Scheme</a>
   car|1|1%|<a href='../languages/scheme.html'>Scheme</a>
   cons|1|1%|<a href='../languages/scheme.html'>Scheme</a>
+  qualified|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  mdo|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  hiding|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  deriving|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  family|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  -}|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  {-,|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  {,|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  `|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  \_|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  |]|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  [|,|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  \*|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  =>|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  <-|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  -<<|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  -<|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  ''|1|1%|<a href='../languages/haskell.html'>Haskell</a>
+  '|1|1%|<a href='../languages/haskell.html'>Haskell</a>
   UNFORMATTED|1|1%|<a href='../languages/fortran.html'>Fortran</a>
   TARGET|1|1%|<a href='../languages/fortran.html'>Fortran</a>
   SUBROUTINE|1|1%|<a href='../languages/fortran.html'>Fortran</a>
@@ -4826,25 +4845,6 @@ replace KEYWORDS_TABLE
   BACKSPACE|1|1%|<a href='../languages/fortran.html'>Fortran</a>
   ALLOCATABLE|1|1%|<a href='../languages/fortran.html'>Fortran</a>
   ADVANCE|1|1%|<a href='../languages/fortran.html'>Fortran</a>
-  qualified|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  mdo|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  hiding|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  deriving|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  family|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  -}|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  {-,|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  {,|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  `|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  \_|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  |]|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  [|,|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  \*|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  =>|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  <-|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  -<<|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  -<|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  ''|1|1%|<a href='../languages/haskell.html'>Haskell</a>
-  '|1|1%|<a href='../languages/haskell.html'>Haskell</a>
   unsized|1|1%|<a href='../languages/rust.html'>Rust</a>
   priv|1|1%|<a href='../languages/rust.html'>Rust</a>
   offsetof|1|1%|<a href='../languages/rust.html'>Rust</a>

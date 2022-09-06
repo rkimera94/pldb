@@ -6,10 +6,10 @@ htmlTitle Aardvark - Programming language
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/aardvark.pldb
 
 paragraph
- Aardvark is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2020">2020</a> by <a href="../lists/creators.html#Hg0428,_JustCoding123,_CompilingCoder,_TheBoys619,_PlasDev,_ZDev1">Hg0428, JustCoding123, CompilingCoder, TheBoys619, PlasDev, ZDev1</a>.
+ Aardvark is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=2020">2020</a> by <a href="../lists/creators.html#Hg0428">Hg0428</a> and <a href="../lists/creators.html#JustCoding123">JustCoding123</a> and <a href="../lists/creators.html#CompilingCoder">CompilingCoder</a> and <a href="../lists/creators.html#TheBoys619">TheBoys619</a> and <a href="../lists/creators.html#PlasDev">PlasDev</a> and <a href="../lists/creators.html#ZDev1">ZDev1</a>.
 
 kpiTable
- #2933 <span title="TotalRank: 3171 Jobs: 62 Users: 2163 Facts: 2360 Links: 946">on PLDB</span>
+ #2331 <span title="TotalRank: 2692 Jobs: 62 Users: 2141 Facts: 1684 Links: 946">on PLDB</span>
  2 Years Old
  0 <span title="Books about or leveraging Aardvark">Books</span>
  0 <span title="Academic publications about or leveraging Aardvark">Papers</span>
@@ -25,13 +25,20 @@ paragraph
 
 list
  - the <a href="https://docs.programit.repl.co">Aardvark website</a>
- - Aardvark is developed on <a href="https://github.com/Aardvark-team/Adk">GitHub</a>
+ - Aardvark is developed on <a href="https://github.com/Aardvark-team/Adk">GitHub</a> and has 5 stars
  - Have a question about Aardvark not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.
  - <a href="https://edit.pldb.com/edit/aardvark">Edit this page</a>
 
 html
  <br>
 
+exampleCodeHeader Example from the web:
+code
+ &amp;consts:
+ 
+ 0, String, &quot;Hello, World!&quot;    ; Stores &quot;Hello, World!&quot; at index 0 in the pool
+ 
+ &amp;consts_end:
 
 
 
@@ -49,5 +56,4 @@ html
 
 
 
-
-keyboardNav aardvark-lang.html edh.html
+keyboardNav incipit.html link.html

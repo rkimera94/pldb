@@ -56,7 +56,7 @@ replace COLUMN_METADATA_TABLE
   42|githubRepo.description|702|15%|(Obsolete) Archive of Rant 3.x.|Description of the repo on GitHub.|||githubRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L41
   43|domainName.registered|619|13%|2016|When was this domain first registered?|||website.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/website.grammar#L20
   44|features.hasComments|615|13%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L153
-  45|isOpenSource|571|12%|true|Is it an open source project?|||history.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L59
+  45|isOpenSource|571|12%|true|Is it an open source project?|||history.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L53
   46|features.hasSemanticIndentation|570|12%|false||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L366
   47|features.hasLineComments|537|11%|true|I define a line comment as a character(s) that starts a comment that cannot be stopped except by a line break character or end of file character.|||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L155
   48|githubLanguage|529|11%|X PixMap|GitHub has a set of supported languages as defined here: https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml|github.com|https://github.com|githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L1
@@ -98,7 +98,7 @@ replace COLUMN_METADATA_TABLE
   84|githubLanguage.codemirror_mode|216|5%|clike|A String name of the CodeMirror Mode used for highlighting whenever a file is edited. This must match a mode from https://git.io/vi9Fx|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L22
   85|tiobe|202|4%|CIL|Tiobe maintains a well known ranking of programming languages here: https://www.tiobe.com/tiobe-index/|tiobe.com|https://tiobe.com|tiobe.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/tiobe.grammar#L1
   86|multiLineCommentTokens|170|4%|/* */|A comment with a start delimiter and end token (which can be the same) that can span multiple lines.|||featureTokens.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/featureTokens.grammar#L22
-  87|corporateDevelopers|166|4%|Microsoft|Which corporation(s) sponsors the development of the project, if any.|||history.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L53
+  87|originCommunity|166|4%|Microsoft|In what community(ies) did the language first originate?|||originCommunity.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/originCommunity.grammar#L1
   88|fileExtensions|159|3%|n|An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
   89|related|157|3%|dot|What languages are related? This serves as a catch all, and it is better to use a more specific relationship node such as "supersetOf".|||relationships.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/relationships.grammar#L4
   90|aka|155|3%|BRL|Another name for the language. Entries can have multiple aka lines.|||name.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L18
@@ -159,7 +159,7 @@ replace COLUMN_METADATA_TABLE
   145|stackOverflowSurvey.2021.percentageUsing|38|1%|0.01|What percentage of survey respondents report using this language?|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L27
   146|stackOverflowSurvey.2021.fans|38|1%|1069|How many developers reported wanting to learn this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
   147|stackOverflowSurvey.2021.medianSalary|38|1%|54049|Median salary reported by developers using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L17
-  148|stackOverflowSurvey.2021.users|38|1%|437|How many developers reported using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
+  148|stackOverflowSurvey.2021.users|38|1%|1068|How many developers reported using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
   149|features.hasImports|37|1%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L246
   150|features.hasFunctions|34|1%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L460
   151|compilerExplorer|34|1%|Ada|This language's name on https://godbolt.org|godbolt.org|https://godbolt.org|compilerExplorer.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/compilerExplorer.grammar#L1

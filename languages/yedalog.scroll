@@ -24,7 +24,7 @@ paragraph
   We introduce Yedalog, a declarative programming language that allows programmers to mix data-parallel pipelines and computation seamlessly in a single language. By contrast, most existing tools for data-parallel computation embed a sublanguage of data-parallel pipelines in a general-purpose language, or vice versa. Yedalog extends Datalog, incorporating not only computational features from logic programming, but also features for working with data structured as nested records. Yedalog programs can run both on a single machine, and distributed across a cluster in batch and interactive modes, allowing programmers to mix different modes of execution easily.
 
 list
- - Yedalog is backed by <a href="../lists/corporations.html#Google">Google</a>
+ - Yedalog first developed in <a href="../lists/originCommunities.html#Google">Google</a>
  - See also: <a href="datalog.html">Datalog</a>
  - Read more about Yedalog on the web: <a href="https://research.google/pubs/pub43462/">1</a>
  - Have a question about Yedalog not answered here? <a href="https://github.com/breck7/pldb/issues/new">Open an issue</a> explaining what you need.

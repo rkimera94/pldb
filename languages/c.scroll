@@ -9,7 +9,7 @@ paragraph
  C is a <a href="../lists/languages.html?filter=pl">programming language</a> created in <a href="../lists/languages.html?filter=1972">1972</a> by <a href="../lists/creators.html#Dennis_Ritchie">Dennis Ritchie</a>.
 
 kpiTable
- #3 <span title="TotalRank: 10 Jobs: 5 Users: 5 Facts: 18 Links: 0">on PLDB</span>
+ #3 <span title="TotalRank: 10 Jobs: 5 Users: 5 Facts: 17 Links: 0">on PLDB</span>
  50 Years Old
  3.8m <span title="Crude user estimate from a linear model.">Users</span>
  78 <span title="Books about or leveraging C">Books</span>
@@ -107,7 +107,9 @@ code
      printf(&quot;hello, world\n&quot;);
  }
 
-
+exampleCodeHeader <a href='https://news.ycombinator.com/item?id=32621392'>Fun fact</a>:
+code
+  C gets credit for the // comments, starting in 1972, but that&#39;s not really accurate. BCPL -- which begat B which begat C -- had // comments but they were not included in C until C99. C++ (which isn&#39;t included in their top 30 languages) brought back // comments from BCPL sometime between 1979 and 1985 (the first public release of cfront). Many C compilers included // comments as an extension prior to C99 but those were inspired by C++
 
 subsection <a href="../lists/keywords.html?filter=c">Keywords</a> in C
 paragraph

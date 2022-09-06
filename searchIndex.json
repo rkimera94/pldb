@@ -1235,14 +1235,14 @@
     "id": "pegjs"
   },
   {
-    "label": "Algol",
-    "appeared": "1958",
-    "id": "algol"
-  },
-  {
     "label": "YARA",
     "appeared": "2008",
     "id": "yara"
+  },
+  {
+    "label": "Algol",
+    "appeared": "1958",
+    "id": "algol"
   },
   {
     "label": "MIME",
@@ -1390,11 +1390,6 @@
     "id": "npm-pm"
   },
   {
-    "label": "SaltStack",
-    "appeared": "2011",
-    "id": "saltstack"
-  },
-  {
     "label": "ABC",
     "appeared": "1980",
     "id": "abc"
@@ -1413,6 +1408,11 @@
     "label": "LOLCODE",
     "appeared": "2007",
     "id": "lolcode"
+  },
+  {
+    "label": "SaltStack",
+    "appeared": "2011",
+    "id": "saltstack"
   },
   {
     "label": "Coq",
@@ -1715,11 +1715,6 @@
     "id": "symbol"
   },
   {
-    "label": "Semantic Versioning",
-    "appeared": "2011",
-    "id": "semver"
-  },
-  {
     "label": "PRQL",
     "appeared": "2022",
     "id": "prql"
@@ -1728,6 +1723,11 @@
     "label": "Nginx",
     "appeared": "2004",
     "id": "nginx-config"
+  },
+  {
+    "label": "Semantic Versioning",
+    "appeared": "2011",
+    "id": "semver"
   },
   {
     "label": "ink",
@@ -1750,14 +1750,14 @@
     "id": "turtle"
   },
   {
-    "label": "halide",
-    "appeared": "2010",
-    "id": "halide"
-  },
-  {
     "label": "Bourne shell",
     "appeared": "1977",
     "id": "bourne-shell"
+  },
+  {
+    "label": "halide",
+    "appeared": "2010",
+    "id": "halide"
   },
   {
     "label": "reStructuredText",
@@ -1890,14 +1890,14 @@
     "id": "sather"
   },
   {
-    "label": "Miranda",
-    "appeared": "1985",
-    "id": "miranda"
-  },
-  {
     "label": "Office Open XML",
     "appeared": "2006",
     "id": "ooxml"
+  },
+  {
+    "label": "Miranda",
+    "appeared": "1985",
+    "id": "miranda"
   },
   {
     "label": "Apache Maven",
@@ -2700,11 +2700,6 @@
     "id": "atmel-avr"
   },
   {
-    "label": "starlark",
-    "appeared": "2018",
-    "id": "starlark"
-  },
-  {
     "label": "KiCad Legacy Layout",
     "appeared": "1992",
     "id": "kicad"
@@ -2723,6 +2718,11 @@
     "label": "NewtonScript",
     "appeared": "1993",
     "id": "newtonscript"
+  },
+  {
+    "label": "starlark",
+    "appeared": "2018",
+    "id": "starlark"
   },
   {
     "label": "FreeBASIC",
@@ -2835,6 +2835,11 @@
     "id": "dxf"
   },
   {
+    "label": "BNF",
+    "appeared": "1956",
+    "id": "bnf"
+  },
+  {
     "label": "IGOR Pro",
     "appeared": "1993",
     "id": "igor-pro"
@@ -2848,11 +2853,6 @@
     "label": "NetRexx",
     "appeared": "1996",
     "id": "netrexx"
-  },
-  {
-    "label": "BNF",
-    "appeared": "1956",
-    "id": "bnf"
   },
   {
     "label": "mgmt",
@@ -2960,11 +2960,6 @@
     "id": "jakt"
   },
   {
-    "label": "Closure Templates",
-    "appeared": "2009",
-    "id": "closure-templates"
-  },
-  {
     "label": "ooc",
     "appeared": "2009",
     "id": "ooc"
@@ -2978,6 +2973,11 @@
     "label": "Bazel",
     "appeared": "2015",
     "id": "bazel"
+  },
+  {
+    "label": "Closure Templates",
+    "appeared": "2009",
+    "id": "closure-templates"
   },
   {
     "label": "Parrot",
@@ -4031,11 +4031,6 @@
     "id": "hackett"
   },
   {
-    "label": "MiniZinc",
-    "appeared": "2012",
-    "id": "minizinc"
-  },
-  {
     "label": "Thymeleaf",
     "appeared": "2011",
     "id": "thymeleaf"
@@ -4043,6 +4038,11 @@
   {
     "label": "Digital Visual Interface",
     "id": "dvi-standard"
+  },
+  {
+    "label": "MiniZinc",
+    "appeared": "2012",
+    "id": "minizinc"
   },
   {
     "label": "SysML",
@@ -4445,14 +4445,14 @@
     "id": "hfs-plus"
   },
   {
-    "label": "BlitzMax",
-    "appeared": "2014",
-    "id": "blitzmax"
-  },
-  {
     "label": "ohm",
     "appeared": "2014",
     "id": "ohm"
+  },
+  {
+    "label": "BlitzMax",
+    "appeared": "2014",
+    "id": "blitzmax"
   },
   {
     "label": "Polymorphism",
@@ -4475,14 +4475,14 @@
     "id": "stripe"
   },
   {
-    "label": "Augmented Backus-Naur Form",
-    "appeared": "2008",
-    "id": "abnf"
-  },
-  {
     "label": "OpenEdge ABL",
     "appeared": "2006",
     "id": "openedge-advanced-business-language"
+  },
+  {
+    "label": "Augmented Backus-Naur Form",
+    "appeared": "2008",
+    "id": "abnf"
   },
   {
     "label": "FM broadcasting",
@@ -4704,11 +4704,6 @@
     "id": "tap"
   },
   {
-    "label": "Bro",
-    "appeared": "1994",
-    "id": "bro"
-  },
-  {
     "label": "Tap code",
     "appeared": "1941",
     "id": "tap-code"
@@ -4717,6 +4712,11 @@
     "label": "LOGLAN",
     "appeared": "1982",
     "id": "loglan"
+  },
+  {
+    "label": "Bro",
+    "appeared": "1994",
+    "id": "bro"
   },
   {
     "label": "lamdu-editor",
@@ -4819,14 +4819,14 @@
     "id": "poplog"
   },
   {
-    "label": "Hodor",
-    "appeared": "2015",
-    "id": "hodor"
-  },
-  {
     "label": "MusicXML",
     "appeared": "2004",
     "id": "musicxml"
+  },
+  {
+    "label": "Hodor",
+    "appeared": "2015",
+    "id": "hodor"
   },
   {
     "label": "Real-time Transport Protocol",
@@ -5158,6 +5158,16 @@
     "id": "mun-lang"
   },
   {
+    "label": "SQLPL",
+    "appeared": "2009",
+    "id": "sqlpl"
+  },
+  {
+    "label": "Post Office Protocol",
+    "appeared": "1957",
+    "id": "pop-protocol"
+  },
+  {
     "label": "Uno",
     "appeared": "2002",
     "id": "uno"
@@ -5246,16 +5256,6 @@
     "label": "Aheui",
     "appeared": "2012",
     "id": "aheui"
-  },
-  {
-    "label": "SQLPL",
-    "appeared": "2009",
-    "id": "sqlpl"
-  },
-  {
-    "label": "Post Office Protocol",
-    "appeared": "1957",
-    "id": "pop-protocol"
   },
   {
     "label": "AsciiMath",

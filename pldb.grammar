@@ -395,6 +395,11 @@ wikipediaExampleNode
  description Example(s) of this language on the Wikipedia page.
  crux example
  single false
+funFactNode
+ cells keywordCell urlCell
+ description A text or code block containing a fun or unusual fact about the language.
+ cruxFromId
+ extends abstractCodeNode
 keywordsNode
  description What are all the keywords in this language?
  extends abstractFactNode

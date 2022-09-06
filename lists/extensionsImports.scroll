@@ -198,9 +198,9 @@ replace TABLE
   Batchfile|../languages/batch.html|bat cmd
   Smali|../languages/smali.html|smali
   ABAP|../languages/abap.html|abap ABAP
-  SaltStack|../languages/saltstack.html|sls
   Monkey|../languages/monkey.html|monkey monkey2
   LOLCODE|../languages/lolcode.html|lol
+  SaltStack|../languages/saltstack.html|sls
   Coq|../languages/coq.html|coq v
   Frege|../languages/frege.html|fr
   Cython|../languages/cython.html|pyx pxd pxi
@@ -310,10 +310,10 @@ replace TABLE
   AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
   UPC|../languages/unified-parallel-c.html|upc
   EBNF|../languages/ebnf.html|ebnf
-  starlark|../languages/starlark.html|bzl star
   KiCad Legacy Layout|../languages/kicad.html|sch lib brd kicad_pcb kicad_wks kicad_mod
   Textile|../languages/textile.html|textile
   Object Rexx|../languages/object-rexx.html|rxs rex
+  starlark|../languages/starlark.html|bzl star
   FreeBASIC|../languages/freebasic.html|bi bas
   Cobra|../languages/cobra.html|cobra
   NSIS|../languages/nsis.html|nsi nsh
@@ -322,8 +322,8 @@ replace TABLE
   Tea|../languages/tea.html|tea
   PEG|../languages/peg.html|peg
   Gerber Image|../languages/gerber-image.html|gbr cmp gbl gbo gbp gbs gko gml gpb gpt gtl gto gtp gts ncl sol
-  IGOR Pro|../languages/igor-pro.html|ipf
   BNF|../languages/bnf.html|bnf
+  IGOR Pro|../languages/igor-pro.html|ipf
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5
   Cryptol|../languages/cryptol.html|cry
   Nit|../languages/nit.html|nit
@@ -331,8 +331,8 @@ replace TABLE
   GNU Assembler|../languages/gas.html|s S
   ERB|../languages/erb.html|erb erbdeface rhtml
   Mu|../languages/mu.html|mu
-  Closure Templates|../languages/closure-templates.html|soy
   ooc|../languages/ooc.html|ooc
+  Closure Templates|../languages/closure-templates.html|soy
   Parrot|../languages/parrot-vm.html|parrot
   Felix|../languages/felix.html|flx flxh
   ASN.1|../languages/asn-1.html|asn asn1
@@ -408,8 +408,8 @@ replace TABLE
   SugarSS|../languages/sugarss.html|sss
   astro|../languages/astro.html|astro
   BlitzMax|../languages/blitzmax.html|bmx
-  Augmented Backus-Naur Form|../languages/abnf.html|abnf
   OpenEdge ABL|../languages/openedge-advanced-business-language.html|p cls w
+  Augmented Backus-Naur Form|../languages/abnf.html|abnf
   Volt|../languages/volt.html|volt
   Semantic Patch Language|../languages/smpl.html|cocci
   Slash|../languages/slash.html|sl sla
@@ -448,6 +448,7 @@ replace TABLE
   Basis Codec|../languages/basis-universal-format.html|basis
   RDoc|../languages/rdoc.html|rdoc
   DIGITAL Command Language|../languages/digital-command-language.html|com
+  SQLPL|../languages/sqlpl.html|sql db2
   Uno|../languages/uno.html|uno
   Jolie|../languages/jolie.html|ol iol
   Handlebars|../languages/handlebars.html|handlebars hbs
@@ -459,7 +460,6 @@ replace TABLE
   RenderScript|../languages/renderscript.html|rs rsh
   Jsonnet|../languages/jsonnet.html|jsonnet libsonnet
   Aheui|../languages/aheui.html|aheui
-  SQLPL|../languages/sqlpl.html|sql db2
   PIR|../languages/parrot-internal-representation.html|pir
   XProc|../languages/xproc.html|xpl xproc
   Inno Setup|../languages/inno-setup.html|iss isl

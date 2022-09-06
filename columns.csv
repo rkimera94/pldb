@@ -1,21 +1,21 @@
 Index,Column,Values,Coverage,Example,Description,Source,SourceLink,Definition,DefinitionLink
-1,title,4679,100%,Janus,The official title of the language,,,name.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L2
+1,title,4680,100%,Janus,The official title of the language,,,name.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L2
 2,appeared,4325,92%,2014,What year was the language publicly released and/or announced?,,,history.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L12
-3,type,4679,100%,pl,Which category in PLDB's subjective ontology does this entity fit into.,,,type.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/type.grammar#L4
-4,pldbId,4679,100%,05AB1E,computed,,,A computed value,
-5,rank,4679,100%,0,computed,,,A computed value,
-6,languageRank,4065,87%,0,computed,,,A computed value,
-7,factCount,4679,100%,6,computed,,,A computed value,
+3,type,4680,100%,pl,Which category in PLDB's subjective ontology does this entity fit into.,,,type.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/type.grammar#L4
+4,pldbId,4680,100%,05AB1E,computed,,,A computed value,
+5,rank,4680,100%,0,computed,,,A computed value,
+6,languageRank,4066,87%,0,computed,,,A computed value,
+7,factCount,4680,100%,6,computed,,,A computed value,
 8,lastActivity,4335,93%,2022,computed,,,A computed value,
-9,exampleCount,4679,100%,0,computed,,,A computed value,
-10,bookCount,4679,100%,0,computed,,,A computed value,
-11,paperCount,4679,100%,0,computed,,,A computed value,
-12,numberOfUsers,4679,100%,0,computed,,,A computed value,
-13,numberOfJobs,4679,100%,0,computed,,,A computed value,
+9,exampleCount,4680,100%,0,computed,,,A computed value,
+10,bookCount,4680,100%,0,computed,,,A computed value,
+11,paperCount,4680,100%,0,computed,,,A computed value,
+12,numberOfUsers,4680,100%,0,computed,,,A computed value,
+13,numberOfJobs,4680,100%,0,computed,,,A computed value,
 14,githubBigQuery.repos,421,9%,1,How many repos for this language are listed in Google's BigQuery Public GitHub Dataset snapshot.,,,githubBigQuery.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubBigQuery.grammar#L13
-15,creators,863,18%,Niklaus Wirth,"Name(s) of the original creators of the language delimited by "" and """,,,history.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L3
+15,creators,864,18%,Niklaus Wirth,"Name(s) of the original creators of the language delimited by "" and """,,,history.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L3
 16,githubRepo,732,16%,https://github.com/brownplt/pyret-lang,URL of the official GitHub repo for the project if it hosted there.,github.com,https://github.com,githubRepo.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L1
-17,website,1381,30%,http://berkin.me/rant,URL of the official homepage for the language project.,,,website.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/website.grammar#L1
+17,website,1382,30%,http://berkin.me/rant,URL of the official homepage for the language project.,,,website.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/website.grammar#L1
 18,wikipedia,1903,41%,https://en.wikipedia.org/wiki/Apache_Velocity,"URL of the entity on Wikipedia, if and only if it has a page dedicated to it.",wikipedia.org,https://wikipedia.org,wikipedia.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/wikipedia.grammar#L2
 19,centralPackageRepositoryCount,3033,65%,0,"If you've searched for a CPM for this language and can't find one, set 0 as the count.",,,packages.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/packages.grammar#L6
 20,reference,2019,43%,https://github.com/andrejbauer/plzoo,"A link to more info about this entity. You can add raw links and then auto ""upgrade"" them using some of the importer code.",,,reference.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/reference.grammar#L1
@@ -74,7 +74,7 @@ Index,Column,Values,Coverage,Example,Description,Source,SourceLink,Definition,De
 73,rosettaCode,330,7%,ABAP,A link to this language on Rosetta Code - http://www.rosettacode.org/,rosettacode.org,https://rosettacode.org,rosettaCode.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/rosettaCode.grammar#L1
 74,stringToken,330,7%,"""",What token(s) is used to delimite a string?,,,featureTokens.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/featureTokens.grammar#L34
 75,pygmentsHighlighter.fileExtensions,325,7%,j,"An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).",,,githubLanguage.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
-76,standsFor,315,7%,3D Manufacturing Format,"If the language name is an abbreviation, what does/did it stand for?",,,name.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L13
+76,standsFor,316,7%,3D Manufacturing Format,"If the language name is an abbreviation, what does/did it stand for?",,,name.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L13
 77,printToken,312,7%,print,What token(s) is used to print a message?,,,featureTokens.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/featureTokens.grammar#L28
 78,features.hasPrintDebugging,310,7%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L352
 79,country,282,6%,United States,What country was the language first developed in?,,,history.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/history.grammar#L45
@@ -146,7 +146,7 @@ Index,Column,Values,Coverage,Example,Description,Source,SourceLink,Definition,De
 145,stackOverflowSurvey.2021.percentageUsing,38,1%,0.01,What percentage of survey respondents report using this language?,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L27
 146,stackOverflowSurvey.2021.fans,38,1%,1069,How many developers reported wanting to learn this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
 147,stackOverflowSurvey.2021.medianSalary,38,1%,54049,Median salary reported by developers using this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L17
-148,stackOverflowSurvey.2021.users,38,1%,1068,How many developers reported using this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
+148,stackOverflowSurvey.2021.users,38,1%,437,How many developers reported using this language.,,,stackOverflowSurvey.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
 149,features.hasImports,37,1%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L246
 150,features.hasFunctions,34,1%,true,,,,features.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L460
 151,compilerExplorer,34,1%,Ada,This language's name on https://godbolt.org,godbolt.org,https://godbolt.org,compilerExplorer.grammar,https://github.com/breck7/pldb/blob/main/database/grammar/compilerExplorer.grammar#L1

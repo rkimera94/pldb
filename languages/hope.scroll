@@ -42,6 +42,8 @@ code
  --- fact 0 &lt;= 1;
  --- fact n &lt;= n*fact(n-1);
 
+
+
 subsection <a href="../lists/keywords.html?filter=hope">Keywords</a> in HOPE
 paragraph
  and or not char num div mod dec X # : -> ; --- if then else > <= + ( ) , infix - truval :: nil " <> == in where data ++ lambda

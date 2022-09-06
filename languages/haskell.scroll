@@ -105,6 +105,8 @@ code
  Prelude Data.Int&gt; fromInteger (2^64 :: Integer) :: Int32
  0
 
+
+
 subsection <a href="../lists/keywords.html?filter=haskell">Keywords</a> in Haskell
 paragraph
  ! ' '' - -< -<< -> :: ; <- , = => > ? # \* @ [|, |] \ \_ ` {, } {-, -} | ~ as case of class data family instance default deriving do forall foreign hiding if then else import infix infixl infixr let in mdo module newtype proc qualified rec type where

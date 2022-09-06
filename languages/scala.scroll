@@ -118,6 +118,8 @@ code
  urls.par.map(fromURL(_))
  println(&quot;time: &quot; + (System.currentTimeMillis - t) + &quot;ms&quot;)
 
+
+
 subsection <a href="../lists/keywords.html?filter=scala">Keywords</a> in Scala
 paragraph
  abstract case catch class def do else extends false final finally for forSome if implicit import lazy match new null object override package private protected return sealed super this throw trait try true type val var while with yield

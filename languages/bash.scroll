@@ -74,6 +74,8 @@ exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Bash_(Unix
 code
  cd &quot;$SOMEWHERE&quot; &amp;&amp; ./do_something || echo &quot;An error occurred&quot; &gt;&amp;2
 
+
+
 subsection <a href="../lists/keywords.html?filter=bash">Keywords</a> in Bash
 paragraph
  if then do else elif while until for in esac fi fin fil done exit set unset export function

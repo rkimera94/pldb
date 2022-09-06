@@ -177,6 +177,8 @@ code
  value = channel.receive
  puts value # =&gt; 2
 
+
+
 subsection <a href="../lists/keywords.html?filter=crystal">Keywords</a> in Crystal
 paragraph
  abstract do if nil? self unless alias else in of sizeof until as elsif include out struct when as? end instance_sizeof pointerof super while asm ensure is_a? private then with begin enum lib protected true yield break extend macro require type case false module rescue typeof class for next return uninitialized def fun nil select union

@@ -145,6 +145,8 @@ code
  julia&gt; println(&quot;Hello world!&quot;, &quot; I&#39;m on cloud &quot;, f(0, 4), &quot; as Julia supports recognizable syntax!&quot;)
  Hello world! I&#39;m on cloud 9 as Julia supports recognizable syntax!
 
+
+
 subsection <a href="../lists/keywords.html?filter=julia">Keywords</a> in Julia
 paragraph
  begin while if for try return break continue function macro quote let local global const do struct abstract typealias bitstype type immutable module baremodule using import export importall end else catch finally true false

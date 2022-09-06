@@ -45,6 +45,8 @@ code
   ( FILTER ( &#39;DimProduct&#39;, [SafetyStockLevel] &lt; 200 ) )
  ORDER BY [EnglishProductName] ASC
 
+
+
 subsection <a href="../lists/keywords.html?filter=dax">Keywords</a> in DAX
 paragraph
  VAR RETURN NOT EVALUATE DATATABLE ORDER BY START AT DEFINE MEASURE ASC DESC IN BOOLEAN DOUBLE INTEGER DATETIME CURRENCY STRING

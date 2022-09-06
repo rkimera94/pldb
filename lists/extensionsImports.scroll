@@ -260,13 +260,13 @@ replace TABLE
   Dhall|../languages/dhall.html|dhall
   Dogescript|../languages/dogescript.html|djs
   CodeQL|../languages/codeql.html|ql qll
-  Gradle|../languages/gradle.html|gradle
   S|../languages/s.html|S R .Rhistory .Rprofile .Renviron
   QML|../languages/qml.html|qml qbs
   Lex|../languages/lex.html|l lex
   LilyPond|../languages/lilypond.html|ly ily
   Nu|../languages/nu.html|nu
   Curry|../languages/curry.html|curry
+  Gradle|../languages/gradle.html|gradle
   WDL|../languages/wdl.html|wdl
   BibTeX|../languages/bibtex.html|bib bibtex
   G-code|../languages/g-code.html|g cnc gco gcode mpt mpf nc
@@ -372,11 +372,11 @@ replace TABLE
   Filebench WML|../languages/filebench-wml.html|f
   Eagle|../languages/eagle.html|sch brd
   Angelscript|../languages/angelscript.html|as angelscript
+  beef-lang|../languages/beef-lang.html|bf
   GAMS|../languages/general-algebraic-modeling-system.html|gms
   QMake|../languages/qmake.html|pro pri
   FAUST|../languages/faust.html|dsp
   Newspeak|../languages/newspeak.html|ns2
-  beef-lang|../languages/beef-lang.html|bf
   MiniD|../languages/minid.html|minid
   Logtalk|../languages/logtalk.html|lgt logtalk
   Whiley|../languages/whiley.html|whiley
@@ -405,15 +405,14 @@ replace TABLE
   Ezhil|../languages/ezhil.html|n
   Easybuild|../languages/easybuild.html|eb
   basic calculator|../languages/bc.html|bc
-  SugarSS|../languages/sugarss.html|sss
   astro|../languages/astro.html|astro
+  SugarSS|../languages/sugarss.html|sss
   BlitzMax|../languages/blitzmax.html|bmx
   OpenEdge ABL|../languages/openedge-advanced-business-language.html|p cls w
   Augmented Backus-Naur Form|../languages/abnf.html|abnf
   Volt|../languages/volt.html|volt
   Semantic Patch Language|../languages/smpl.html|cocci
   Slash|../languages/slash.html|sl sla
-  Ren'Py|../languages/renpy.html|rpy
   Mask|../languages/maskjs.html|mask
   Cirru|../languages/cirru.html|cirru
   Gherkin|../languages/gherkin.html|feature story
@@ -428,6 +427,7 @@ replace TABLE
   MOO|../languages/moo.html|moo
   Boron|../languages/boron.html|b sb
   Rescript|../languages/rescript.html|res
+  Ren'Py|../languages/renpy.html|rpy
   EmberScript|../languages/emberscript.html|em emberscript
   clay|../languages/clay.html|clay
   TAP|../languages/tap.html|tap

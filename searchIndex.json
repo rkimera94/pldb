@@ -2115,11 +2115,6 @@
     "id": "codeql"
   },
   {
-    "label": "Gradle",
-    "appeared": "2008",
-    "id": "gradle"
-  },
-  {
     "label": "GW-BASIC",
     "appeared": "1983",
     "id": "gw-basic"
@@ -2163,6 +2158,11 @@
     "label": "Nial",
     "appeared": "1981",
     "id": "nial"
+  },
+  {
+    "label": "Gradle",
+    "appeared": "2008",
+    "id": "gradle"
   },
   {
     "label": "Visual FoxPro",
@@ -2330,14 +2330,14 @@
     "id": "mustache"
   },
   {
-    "label": "DBase",
-    "appeared": "1979",
-    "id": "dbase"
-  },
-  {
     "label": "Mercurial",
     "appeared": "2005",
     "id": "mercurial"
+  },
+  {
+    "label": "DBase",
+    "appeared": "1979",
+    "id": "dbase"
   },
   {
     "label": "Ext4",
@@ -2620,14 +2620,14 @@
     "id": "systemz"
   },
   {
-    "label": "skulpt",
-    "appeared": "2009",
-    "id": "skulpt"
-  },
-  {
     "label": "mlir",
     "appeared": "2019",
     "id": "mlir"
+  },
+  {
+    "label": "skulpt",
+    "appeared": "2009",
+    "id": "skulpt"
   },
   {
     "label": "Malbolge",
@@ -2775,6 +2775,11 @@
     "id": "nsis"
   },
   {
+    "label": "RDFa",
+    "appeared": "2004",
+    "id": "rdfa"
+  },
+  {
     "label": "BlitzBasic",
     "appeared": "2000",
     "id": "blitzbasic"
@@ -2783,11 +2788,6 @@
     "label": "ARexx",
     "appeared": "1987",
     "id": "arexx"
-  },
-  {
-    "label": "RDFa",
-    "appeared": "2004",
-    "id": "rdfa"
   },
   {
     "label": "Xtend",
@@ -3010,6 +3010,11 @@
     "id": "asn-1"
   },
   {
+    "label": "XL",
+    "appeared": "2000",
+    "id": "xl-lang"
+  },
+  {
     "label": "PL/M",
     "appeared": "1973",
     "id": "pl-m"
@@ -3018,11 +3023,6 @@
     "label": "CORAL",
     "appeared": "1964",
     "id": "coral"
-  },
-  {
-    "label": "XL",
-    "appeared": "2000",
-    "id": "xl-lang"
   },
   {
     "label": "SRL",
@@ -3109,14 +3109,14 @@
     "id": "bbcode"
   },
   {
-    "label": "Impala",
-    "appeared": "2012",
-    "id": "impala"
-  },
-  {
     "label": "PIC microcontroller",
     "appeared": "1975",
     "id": "pic-microcontroller"
+  },
+  {
+    "label": "Impala",
+    "appeared": "2012",
+    "id": "impala"
   },
   {
     "label": "Fancy",
@@ -3524,11 +3524,6 @@
     "id": "amiga-e"
   },
   {
-    "label": "CSON",
-    "appeared": "2011",
-    "id": "cson"
-  },
-  {
     "label": "TI MSP430",
     "appeared": "2009",
     "id": "msp430"
@@ -3537,6 +3532,11 @@
     "label": "micro-editor",
     "appeared": "2016",
     "id": "micro-editor"
+  },
+  {
+    "label": "CSON",
+    "appeared": "2011",
+    "id": "cson"
   },
   {
     "label": "GAP",
@@ -3683,6 +3683,11 @@
     "id": "triton"
   },
   {
+    "label": "beef-lang",
+    "appeared": "2019",
+    "id": "beef-lang"
+  },
+  {
     "label": "PCRE",
     "appeared": "1997",
     "id": "pcre"
@@ -3746,11 +3751,6 @@
     "label": "NESL",
     "appeared": "1993",
     "id": "nesl"
-  },
-  {
-    "label": "beef-lang",
-    "appeared": "2019",
-    "id": "beef-lang"
   },
   {
     "label": "Ron",
@@ -4026,11 +4026,6 @@
     "id": "sha-1-hash-function"
   },
   {
-    "label": "Hackett",
-    "appeared": "2017",
-    "id": "hackett"
-  },
-  {
     "label": "Thymeleaf",
     "appeared": "2011",
     "id": "thymeleaf"
@@ -4038,6 +4033,11 @@
   {
     "label": "Digital Visual Interface",
     "id": "dvi-standard"
+  },
+  {
+    "label": "Hackett",
+    "appeared": "2017",
+    "id": "hackett"
   },
   {
     "label": "MiniZinc",
@@ -4415,24 +4415,19 @@
     "id": "synchronized-multimedia-integration-language"
   },
   {
-    "label": "Easybuild",
-    "appeared": "2014",
-    "id": "easybuild"
-  },
-  {
     "label": "CSS Doodle",
     "appeared": "2017",
     "id": "css-doodle"
   },
   {
+    "label": "Easybuild",
+    "appeared": "2014",
+    "id": "easybuild"
+  },
+  {
     "label": "basic calculator",
     "appeared": "1975",
     "id": "bc"
-  },
-  {
-    "label": "SugarSS",
-    "appeared": "2016",
-    "id": "sugarss"
   },
   {
     "label": "astro",
@@ -4443,6 +4438,11 @@
     "label": "HFS Plus",
     "appeared": "1998",
     "id": "hfs-plus"
+  },
+  {
+    "label": "SugarSS",
+    "appeared": "2016",
+    "id": "sugarss"
   },
   {
     "label": "ohm",
@@ -4564,11 +4564,6 @@
     "id": "sha-3-hash-function"
   },
   {
-    "label": "Ren'Py",
-    "appeared": "2004",
-    "id": "renpy"
-  },
-  {
     "label": "Spatial",
     "appeared": "2018",
     "id": "spatial"
@@ -4654,6 +4649,11 @@
     "id": "chisel"
   },
   {
+    "label": "Ren'Py",
+    "appeared": "2004",
+    "id": "renpy"
+  },
+  {
     "label": "T",
     "appeared": "1980",
     "id": "t"
@@ -4734,6 +4734,11 @@
     "id": "svgbob"
   },
   {
+    "label": "Wasp",
+    "appeared": "2019",
+    "id": "wasp-lang"
+  },
+  {
     "label": "S-PLUS",
     "appeared": "1988",
     "id": "s-plus"
@@ -4784,16 +4789,6 @@
     "id": "ion"
   },
   {
-    "label": "Wasp",
-    "appeared": "2019",
-    "id": "wasp-lang"
-  },
-  {
-    "label": "Wyvern",
-    "appeared": "2012",
-    "id": "wyvern"
-  },
-  {
     "label": "rant",
     "appeared": "2014",
     "id": "rant"
@@ -4802,6 +4797,11 @@
     "label": "manhood",
     "appeared": "2014",
     "id": "manhood"
+  },
+  {
+    "label": "Wyvern",
+    "appeared": "2012",
+    "id": "wyvern"
   },
   {
     "label": "SourcePawn",
@@ -4889,14 +4889,14 @@
     "id": "zz"
   },
   {
-    "label": "lispyscript",
-    "appeared": "2012",
-    "id": "lispyscript"
-  },
-  {
     "label": "SQL/PSM",
     "appeared": "1996",
     "id": "sql-psm"
+  },
+  {
+    "label": "lispyscript",
+    "appeared": "2012",
+    "id": "lispyscript"
   },
   {
     "label": "Notepad++",
@@ -5571,14 +5571,14 @@
     "id": "xgboost-model"
   },
   {
-    "label": "Shakespeare",
-    "appeared": "1993",
-    "id": "shakespeare"
-  },
-  {
     "label": "PDP-11",
     "appeared": "1970",
     "id": "pdp-11-machine"
+  },
+  {
+    "label": "Shakespeare",
+    "appeared": "1993",
+    "id": "shakespeare"
   },
   {
     "label": "tiledb",
@@ -5631,14 +5631,14 @@
     "id": "generics-feature"
   },
   {
-    "label": "Cone",
-    "appeared": "2017",
-    "id": "cone"
-  },
-  {
     "label": "SWI-Prolog",
     "appeared": "1987",
     "id": "swi-prolog"
+  },
+  {
+    "label": "Cone",
+    "appeared": "2017",
+    "id": "cone"
   },
   {
     "label": "Knitr",
@@ -5741,14 +5741,14 @@
     "id": "kasaya"
   },
   {
-    "label": "WebIDL",
-    "appeared": "2012",
-    "id": "web-idl"
-  },
-  {
     "label": "dex",
     "appeared": "2018",
     "id": "dex"
+  },
+  {
+    "label": "WebIDL",
+    "appeared": "2012",
+    "id": "web-idl"
   },
   {
     "label": "X BitMap",
@@ -5854,6 +5854,11 @@
     "label": "Amazon Redshift",
     "appeared": "2012",
     "id": "redshift"
+  },
+  {
+    "label": "Aardvark",
+    "appeared": "2020",
+    "id": "aardvark"
   },
   {
     "label": "G-Portugol",
@@ -6503,11 +6508,6 @@
     "label": "blockml",
     "appeared": "2014",
     "id": "blockml"
-  },
-  {
-    "label": "Aardvark",
-    "appeared": "2020",
-    "id": "aardvark"
   },
   {
     "label": "Acme",

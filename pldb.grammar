@@ -406,7 +406,7 @@ factSponsorsNode
  description Sponsor a fact(s) and PLDB will prioritize research into this language or column type.
  cruxFromId
  extends abstractFactNode
- inScope factSponsorNode
+ catchAllNodeType factSponsorNode
  boolean includeChildrenInCsv false
  single
 keywordsNode
@@ -964,12 +964,12 @@ dblpPublicationsHitsNode
  description How many matching publications?
  single
 factSponsorNode
- description The number of cells sponsored, the transaction id, the sponsor's url and the sponsor's name.
+ description The number of facts sponsored, a transaction id (all payment types supported), the sponsor's url and the sponsor's name.
  example
   2 982m320sd https://breckyunits.com Breck Yunits
   10 abcfde2 https://mozilla.org Mozilla
  cells intCell transactionIdCell urlCell
- catchAllCellType
+ catchAllCellType stringCell
 featureExampleCodeNode
  description Example usage of the feature.
  baseNodeType blobNode
@@ -1460,7 +1460,7 @@ pldbNode
  description A database about programming languages and related concepts.
  catchAllNodeType errorNode
  todo Should not have to manually list each node type here, but should be able to mark some tag as inscope. Should be fixed upstream in Jtree.
- inScope blankLineNode descriptionNode wikipediaNode equationNode exampleNode fileExtensionsNode githubLanguageNode abstractGitRepoUrlNode helloWorldCollectionNode creatorsNode appearedNode announcementUrlNode countryNode titleNode wordRankNode standsForNode akaNode pseudoExampleNode abstractFeatureGrammarLinkNode featuresNode referenceNode replitNode tryItOnlineNode twitterNode typeNode websiteNode wikipediaNode fileTypeNode linguistGrammarRepoNode tiobeNode meetupNode webReplNode linkedInSkillNode projectEulerNode hoplNode subredditNode redditDiscussionNode quineRelayNode ubuntuPackageNode codeMirrorNode monacoNode rosettaCodeNode antlrNode originCommunityNode cheatSheetUrlNode isOpenSourceNode indeedJobsNode hackerNewsDiscussionsNode firstAnnouncementNode announcementMethodNode abstractRelationshipNode packageCountNode packageInstallsNode packageRepositoryNode packageAuthorsNode packagesIncludingVersionsNode forLanguagesNode conferenceNode abstractCommonTokenNode languageServerProtocolProjectNode abstractParadigmNode latestReleaseNode nativeLanguageNode jupyterKernelNode keywordsNode stackOverflowSurveyNode centralPackageRepositoryCountNode gdbSupportNode rijuReplNode esolangNode goodreadsNode dblpNode abstractFlagNode oldNameNode pygmentsHighlighterNode leachim6Node domainNameNode isbndbNode semanticScholarNode githubBigQueryNode compilerExplorerNode pyplNode documentationNode screenshotNode demoVideoNode funFactNode
+ inScope blankLineNode descriptionNode wikipediaNode equationNode exampleNode fileExtensionsNode githubLanguageNode abstractGitRepoUrlNode helloWorldCollectionNode creatorsNode appearedNode announcementUrlNode countryNode titleNode wordRankNode standsForNode akaNode pseudoExampleNode abstractFeatureGrammarLinkNode featuresNode referenceNode replitNode tryItOnlineNode twitterNode typeNode websiteNode wikipediaNode fileTypeNode linguistGrammarRepoNode tiobeNode meetupNode webReplNode linkedInSkillNode projectEulerNode hoplNode subredditNode redditDiscussionNode quineRelayNode ubuntuPackageNode codeMirrorNode monacoNode rosettaCodeNode antlrNode originCommunityNode cheatSheetUrlNode isOpenSourceNode indeedJobsNode hackerNewsDiscussionsNode firstAnnouncementNode announcementMethodNode abstractRelationshipNode packageCountNode packageInstallsNode packageRepositoryNode packageAuthorsNode packagesIncludingVersionsNode forLanguagesNode conferenceNode abstractCommonTokenNode languageServerProtocolProjectNode abstractParadigmNode latestReleaseNode nativeLanguageNode jupyterKernelNode keywordsNode stackOverflowSurveyNode centralPackageRepositoryCountNode gdbSupportNode rijuReplNode esolangNode goodreadsNode dblpNode abstractFlagNode oldNameNode pygmentsHighlighterNode leachim6Node domainNameNode isbndbNode semanticScholarNode githubBigQueryNode compilerExplorerNode pyplNode documentationNode screenshotNode demoVideoNode funFactNode factSponsorsNode
  cells fileNameCell
  string fileExtension pldb
  example

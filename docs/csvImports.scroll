@@ -78,7 +78,7 @@ replace COLUMN_METADATA_TABLE
   64|linguistGrammarRepo.committerCount|398|9%|2|How many people have made commits in this repo?|||linguistGrammarRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/linguistGrammarRepo.grammar#L28
   65|linguistGrammarRepo.lastCommit|398|9%|2018|What year was the last commit made?|||linguistGrammarRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/linguistGrammarRepo.grammar#L20
   66|linguistGrammarRepo.firstCommit|398|9%|2013|What year was the first commit made?|||linguistGrammarRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/linguistGrammarRepo.grammar#L16
-  67|wordRank|377|8%|16|Some creators use a common English word as their language's name. For these we note how common the word is, where "the" is 1.|||name.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L8
+  67|wordRank|378|8%|5584|Some creators use a common English word as their language's name. For these we note how common the word is, where "the" is 1.|||name.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L8
   68|leachim6.fileExtensions|368|8%|m|An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
   69|linguistGrammarRepo.sampleCount|365|8%|1|How many language samples in this repo?|||linguistGrammarRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/linguistGrammarRepo.grammar#L24
   70|features.hasStrings|351|7%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L397
@@ -157,7 +157,7 @@ replace COLUMN_METADATA_TABLE
   143|rijuRepl.fileExtensions|39|1%|C cc cpp cxx c++ h hh hpp hxx h++|An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
   144|features.hasAssignment|38|1%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L236
   145|stackOverflowSurvey.2021.percentageUsing|38|1%|0.01|What percentage of survey respondents report using this language?|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L27
-  146|stackOverflowSurvey.2021.fans|38|1%|1069|How many developers reported wanting to learn this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
+  146|stackOverflowSurvey.2021.fans|38|1%|309|How many developers reported wanting to learn this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L22
   147|stackOverflowSurvey.2021.medianSalary|38|1%|54049|Median salary reported by developers using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L17
   148|stackOverflowSurvey.2021.users|38|1%|1068|How many developers reported using this language.|||stackOverflowSurvey.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/stackOverflowSurvey.grammar#L12
   149|features.hasImports|37|1%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L246
@@ -221,15 +221,15 @@ replace COLUMN_METADATA_TABLE
   207|features.hasModules|6|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L456
   208|features.hasIterators|6|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L264
   209|features.hasInterfaces|6|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L252
-  210|features.hasNamespaces|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L318
-  211|features.canDoShebang|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L91
-  212|features.hasGotos|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L228
-  213|features.hasInfixNotation|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L250
-  214|features.hasPartialApplication|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L63
-  215|features.hasAsyncAwait|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L45
-  216|features.hasGenerics|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L77
-  217|packageAuthors|4|0%|13699|How many people contribute packages to this cpm?|||packages.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/packages.grammar#L19
-  218|oldName|4|0%|VisiStat|What is the old name of this language?|||name.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L23
+  210|oldName|5|0%|SuperForth|What is the old name of this language?|||name.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L23
+  211|features.hasNamespaces|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L318
+  212|features.canDoShebang|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L91
+  213|features.hasGotos|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L228
+  214|features.hasInfixNotation|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L250
+  215|features.hasPartialApplication|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L63
+  216|features.hasAsyncAwait|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L45
+  217|features.hasGenerics|5|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L77
+  218|packageAuthors|4|0%|13699|How many people contribute packages to this cpm?|||packages.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/packages.grammar#L19
   219|features.hasTypedHoles|4|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L47
   220|features.hasMaps|4|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L434
   221|features.hasPipes|4|0%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L344

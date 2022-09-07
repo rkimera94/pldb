@@ -64,6 +64,11 @@ antlrNode
  description A link to the ANTLR grammar for this language (https://github.com/antlr/grammars-v4/tree/master/LANGUAGE)
  cruxFromId
  string sourceDomain antlr.org
+hoplNode
+ extends abstractUrlGuidNode
+ cells keywordCell urlCell
+ description The matching language on Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site (https://hopl.info/)
+ string sourceDomain hopl.info
 jupyterKernelNode
  extends abstractUrlGuidNode
  single false
@@ -179,11 +184,6 @@ codeMirrorNode
  extends abstractOneWordGuidNode
  description A link to a CodeMirror syntax highlighting package for this language (https://github.com/codemirror/codemirror5/tree/master/mode/LANGUAGE)
  string sourceDomain codemirror.net
-hoplNode
- extends abstractOneWordGuidNode
- cells keywordCell intCell
- description The matching language on Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site (https://hopl.info/)
- string sourceDomain hopl.info
 meetupNode
  description Some languages have active meetup groups on Meetup.com 
  extends abstractOneWordGuidNode

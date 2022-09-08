@@ -91,9 +91,11 @@ code
 
 exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Clojure'>Wikipedia</a>:
 code
- ([382 318 466 963 619 22 21 273 45 596] [808 639 804 471 394 904 952 75 289 778] ...
- [484 216 622 139 651 592 379 228 242 355])
- Distinct: 1000
+ ;; A typical entry point of a Clojure program:
+ ;;   `-main` function
+ (defn -main ; name
+   [&amp; args] ; (variable) parameters
+   (println &quot;Hello, World!&quot;)) ; body
 
 
 

@@ -1385,11 +1385,6 @@
     "id": "abap"
   },
   {
-    "label": "npm",
-    "appeared": "2010",
-    "id": "npm-pm"
-  },
-  {
     "label": "ABC",
     "appeared": "1980",
     "id": "abc"
@@ -1408,6 +1403,11 @@
     "label": "LOLCODE",
     "appeared": "2007",
     "id": "lolcode"
+  },
+  {
+    "label": "npm",
+    "appeared": "2010",
+    "id": "npm-pm"
   },
   {
     "label": "Coq",
@@ -1500,11 +1500,6 @@
     "id": "koka"
   },
   {
-    "label": "CSP",
-    "appeared": "1978",
-    "id": "csp"
-  },
-  {
     "label": "Clipper",
     "appeared": "1985",
     "id": "clipper"
@@ -1518,6 +1513,11 @@
     "label": "Oxygene",
     "appeared": "2002",
     "id": "oxygene"
+  },
+  {
+    "label": "CSP",
+    "appeared": "1978",
+    "id": "csp"
   },
   {
     "label": "vi",
@@ -1595,11 +1595,6 @@
     "id": "gzip"
   },
   {
-    "label": "Ninja",
-    "appeared": "2012",
-    "id": "ninja"
-  },
-  {
     "label": "RPG",
     "appeared": "1959",
     "id": "ibm-rpg"
@@ -1633,6 +1628,11 @@
     "label": "SI",
     "appeared": "1960",
     "id": "si"
+  },
+  {
+    "label": "Ninja",
+    "appeared": "2012",
+    "id": "ninja"
   },
   {
     "label": "Flow",
@@ -1725,14 +1725,14 @@
     "id": "prql"
   },
   {
-    "label": "Semantic Versioning",
-    "appeared": "2011",
-    "id": "semver"
-  },
-  {
     "label": "ink",
     "appeared": "2015",
     "id": "ink"
+  },
+  {
+    "label": "Semantic Versioning",
+    "appeared": "2011",
+    "id": "semver"
   },
   {
     "label": "Java Bytecode",
@@ -1755,11 +1755,6 @@
     "id": "ace"
   },
   {
-    "label": "halide",
-    "appeared": "2010",
-    "id": "halide"
-  },
-  {
     "label": "S-expressions",
     "appeared": "1960",
     "id": "s-expressions"
@@ -1773,6 +1768,11 @@
     "label": "reStructuredText",
     "appeared": "2002",
     "id": "restructuredtext"
+  },
+  {
+    "label": "halide",
+    "appeared": "2010",
+    "id": "halide"
   },
   {
     "label": "NetLogo",
@@ -1895,14 +1895,14 @@
     "id": "ooxml"
   },
   {
-    "label": "Miranda",
-    "appeared": "1985",
-    "id": "miranda"
-  },
-  {
     "label": "Apache Maven",
     "appeared": "2004",
     "id": "maven-pom"
+  },
+  {
+    "label": "Miranda",
+    "appeared": "1985",
+    "id": "miranda"
   },
   {
     "label": "gravity",
@@ -1995,11 +1995,6 @@
     "id": "beef"
   },
   {
-    "label": "YANG",
-    "appeared": "2014",
-    "id": "yang"
-  },
-  {
     "label": "Thrift",
     "appeared": "2007",
     "id": "thrift"
@@ -2008,6 +2003,11 @@
     "label": "Velocity",
     "appeared": "2003",
     "id": "apache-velocity"
+  },
+  {
+    "label": "YANG",
+    "appeared": "2014",
+    "id": "yang"
   },
   {
     "label": "Google Cloud Platform",
@@ -2230,14 +2230,14 @@
     "id": "csv"
   },
   {
-    "label": "LotusScript",
-    "appeared": "1996",
-    "id": "lotusscript"
-  },
-  {
     "label": "x86-64",
     "appeared": "2000",
     "id": "x86-64-isa"
+  },
+  {
+    "label": "LotusScript",
+    "appeared": "1996",
+    "id": "lotusscript"
   },
   {
     "label": "Fennel",
@@ -2265,11 +2265,6 @@
     "id": "cfml"
   },
   {
-    "label": "AGC",
-    "appeared": "1966",
-    "id": "apollo-guidance-computer"
-  },
-  {
     "label": "Stylus",
     "appeared": "2010",
     "id": "stylus"
@@ -2293,6 +2288,11 @@
     "label": "PARI/GP",
     "appeared": "1985",
     "id": "pari-gp"
+  },
+  {
+    "label": "AGC",
+    "appeared": "1966",
+    "id": "apollo-guidance-computer"
   },
   {
     "label": "NATO phonetic alphabet",
@@ -2480,6 +2480,11 @@
     "id": "bbc-basic"
   },
   {
+    "label": "Punched tape",
+    "appeared": "1943",
+    "id": "punched-tape"
+  },
+  {
     "label": "GLSL",
     "appeared": "1992",
     "id": "glsl"
@@ -2503,11 +2508,6 @@
     "label": "Epigram",
     "appeared": "2004",
     "id": "epigram"
-  },
-  {
-    "label": "Punched tape",
-    "appeared": "1943",
-    "id": "punched-tape"
   },
   {
     "label": "Max",
@@ -2660,14 +2660,14 @@
     "id": "dtrace"
   },
   {
-    "label": "Click",
-    "appeared": "1999",
-    "id": "click"
-  },
-  {
     "label": "kitten",
     "appeared": "2012",
     "id": "kitten"
+  },
+  {
+    "label": "Click",
+    "appeared": "1999",
+    "id": "click"
   },
   {
     "label": "Alice",
@@ -2705,11 +2705,6 @@
     "id": "ebnf"
   },
   {
-    "label": "starlark",
-    "appeared": "2018",
-    "id": "starlark"
-  },
-  {
     "label": "FreeBASIC",
     "appeared": "2004",
     "id": "freebasic"
@@ -2733,6 +2728,11 @@
     "label": "NewtonScript",
     "appeared": "1993",
     "id": "newtonscript"
+  },
+  {
+    "label": "starlark",
+    "appeared": "2018",
+    "id": "starlark"
   },
   {
     "label": "roy",
@@ -2845,21 +2845,6 @@
     "id": "bnf"
   },
   {
-    "label": "IGOR Pro",
-    "appeared": "1993",
-    "id": "igor-pro"
-  },
-  {
-    "label": "WML",
-    "appeared": "2006",
-    "id": "wml"
-  },
-  {
-    "label": "NetRexx",
-    "appeared": "1996",
-    "id": "netrexx"
-  },
-  {
     "label": "mgmt",
     "appeared": "2015",
     "id": "mgmt"
@@ -2873,6 +2858,21 @@
     "label": "JOSS",
     "appeared": "1966",
     "id": "joss"
+  },
+  {
+    "label": "IGOR Pro",
+    "appeared": "1993",
+    "id": "igor-pro"
+  },
+  {
+    "label": "WML",
+    "appeared": "2006",
+    "id": "wml"
+  },
+  {
+    "label": "NetRexx",
+    "appeared": "1996",
+    "id": "netrexx"
   },
   {
     "label": "Hierarchical Data Format",
@@ -2900,11 +2900,6 @@
     "id": "nit"
   },
   {
-    "label": "Cryptol",
-    "appeared": "2014",
-    "id": "cryptol"
-  },
-  {
     "label": "Refal",
     "appeared": "1968",
     "id": "refal"
@@ -2913,6 +2908,11 @@
     "label": "Rockstar",
     "appeared": "2018",
     "id": "rockstar"
+  },
+  {
+    "label": "Cryptol",
+    "appeared": "2014",
+    "id": "cryptol"
   },
   {
     "label": "FASTA",
@@ -2945,14 +2945,14 @@
     "id": "erb"
   },
   {
-    "label": "Mu",
-    "appeared": "2014",
-    "id": "mu"
-  },
-  {
     "label": "Commodore BASIC",
     "appeared": "1977",
     "id": "commodore-basic"
+  },
+  {
+    "label": "Mu",
+    "appeared": "2014",
+    "id": "mu"
   },
   {
     "label": "LINQ",
@@ -2980,11 +2980,6 @@
     "id": "jakt"
   },
   {
-    "label": "Closure Templates",
-    "appeared": "2009",
-    "id": "closure-templates"
-  },
-  {
     "label": "Parrot",
     "appeared": "2002",
     "id": "parrot-vm"
@@ -2993,6 +2988,11 @@
     "label": "RISC-V",
     "appeared": "2010",
     "id": "risc-v"
+  },
+  {
+    "label": "Closure Templates",
+    "appeared": "2009",
+    "id": "closure-templates"
   },
   {
     "label": "Felix",
@@ -3514,6 +3514,21 @@
     "id": "msp430"
   },
   {
+    "label": "micro-editor",
+    "appeared": "2016",
+    "id": "micro-editor"
+  },
+  {
+    "label": "CSON",
+    "appeared": "2011",
+    "id": "cson"
+  },
+  {
+    "label": "GAP",
+    "appeared": "1986",
+    "id": "gap"
+  },
+  {
     "label": "HLSL",
     "appeared": "2002",
     "id": "hlsl"
@@ -3532,21 +3547,6 @@
     "label": "Amiga E",
     "appeared": "1993",
     "id": "amiga-e"
-  },
-  {
-    "label": "micro-editor",
-    "appeared": "2016",
-    "id": "micro-editor"
-  },
-  {
-    "label": "CSON",
-    "appeared": "2011",
-    "id": "cson"
-  },
-  {
-    "label": "GAP",
-    "appeared": "1986",
-    "id": "gap"
   },
   {
     "label": "dgraph",
@@ -3569,11 +3569,6 @@
     "id": "hdmi-standard"
   },
   {
-    "label": "PAWN",
-    "appeared": "2006",
-    "id": "pawn"
-  },
-  {
     "label": "SymPy",
     "appeared": "2007",
     "id": "sympy"
@@ -3582,6 +3577,11 @@
     "label": "codecept",
     "appeared": "2015",
     "id": "codecept"
+  },
+  {
+    "label": "PAWN",
+    "appeared": "2006",
+    "id": "pawn"
   },
   {
     "label": "UTC",
@@ -4045,14 +4045,14 @@
     "id": "sysml"
   },
   {
-    "label": "MiniZinc",
-    "appeared": "2012",
-    "id": "minizinc"
-  },
-  {
     "label": "Network Time Protocol",
     "appeared": "1981",
     "id": "ntp"
+  },
+  {
+    "label": "MiniZinc",
+    "appeared": "2012",
+    "id": "minizinc"
   },
   {
     "label": "DAX",
@@ -4455,14 +4455,14 @@
     "id": "polymorphism-feature"
   },
   {
-    "label": "BlitzMax",
-    "appeared": "2014",
-    "id": "blitzmax"
-  },
-  {
     "label": "TI-BASIC",
     "appeared": "1970",
     "id": "ti-basic"
+  },
+  {
+    "label": "BlitzMax",
+    "appeared": "2014",
+    "id": "blitzmax"
   },
   {
     "label": "Binary code",
@@ -4480,19 +4480,24 @@
     "id": "openedge-advanced-business-language"
   },
   {
-    "label": "Augmented Backus-Naur Form",
-    "appeared": "2008",
-    "id": "abnf"
-  },
-  {
     "label": "FM broadcasting",
     "appeared": "1950",
     "id": "fm-standard"
   },
   {
+    "label": "Augmented Backus-Naur Form",
+    "appeared": "2008",
+    "id": "abnf"
+  },
+  {
     "label": "SmallBASIC",
     "appeared": "2001",
     "id": "smallbasic"
+  },
+  {
+    "label": "IBM 1620",
+    "appeared": "1959",
+    "id": "1620sps"
   },
   {
     "label": "Esterel",
@@ -4709,14 +4714,14 @@
     "id": "clay"
   },
   {
-    "label": "TAP",
-    "appeared": "1988",
-    "id": "tap"
-  },
-  {
     "label": "lamdu-editor",
     "appeared": "2011",
     "id": "lamdu-editor"
+  },
+  {
+    "label": "TAP",
+    "appeared": "1988",
+    "id": "tap"
   },
   {
     "label": "Bro",
@@ -4809,6 +4814,11 @@
     "id": "sourcepawn"
   },
   {
+    "label": "MusicXML",
+    "appeared": "2004",
+    "id": "musicxml"
+  },
+  {
     "label": "True BASIC",
     "appeared": "1983",
     "id": "true-basic"
@@ -4817,11 +4827,6 @@
     "label": "POPLOG",
     "appeared": "1992",
     "id": "poplog"
-  },
-  {
-    "label": "MusicXML",
-    "appeared": "2004",
-    "id": "musicxml"
   },
   {
     "label": "Hodor",
@@ -4919,6 +4924,11 @@
     "id": "gentoo-ebuild"
   },
   {
+    "label": "1C Enterprise Script",
+    "appeared": "2002",
+    "id": "1c-enterprise"
+  },
+  {
     "label": "Logos",
     "appeared": "2010",
     "id": "logos"
@@ -4994,6 +5004,11 @@
     "id": "p"
   },
   {
+    "label": "lobster",
+    "appeared": "2011",
+    "id": "lobster"
+  },
+  {
     "label": "Etoys",
     "appeared": "1996",
     "id": "etoys"
@@ -5007,11 +5022,6 @@
     "label": "CLOS",
     "appeared": "1988",
     "id": "clos"
-  },
-  {
-    "label": "lobster",
-    "appeared": "2011",
-    "id": "lobster"
   },
   {
     "label": "VML",
@@ -5196,11 +5206,6 @@
     "label": "SMT",
     "appeared": "2003",
     "id": "smt"
-  },
-  {
-    "label": "1C Enterprise Script",
-    "appeared": "2002",
-    "id": "1c-enterprise"
   },
   {
     "label": "Eclipse Command Language",
@@ -5440,11 +5445,6 @@
     "label": "crush",
     "appeared": "2020",
     "id": "crush"
-  },
-  {
-    "label": "IBM 1620",
-    "appeared": "1959",
-    "id": "1620sps"
   },
   {
     "label": "Reko",
@@ -6225,6 +6225,11 @@
     "id": "pl-0"
   },
   {
+    "label": "ferret",
+    "appeared": "2017",
+    "id": "ferret"
+  },
+  {
     "label": "Graph Modeling Language",
     "appeared": "1997",
     "id": "graph-modeling-language"
@@ -6273,11 +6278,6 @@
     "label": "EXEC 2",
     "appeared": "1970",
     "id": "exec-2"
-  },
-  {
-    "label": "ferret",
-    "appeared": "2017",
-    "id": "ferret"
   },
   {
     "label": "Pattern Matching",
@@ -7429,6 +7429,11 @@
     "id": "basic-plus"
   },
   {
+    "label": "Sketchpad",
+    "appeared": "1962",
+    "id": "sketchpad"
+  },
+  {
     "label": "FRACTRAN",
     "appeared": "1996",
     "id": "fractran"
@@ -7527,11 +7532,6 @@
     "label": "Mentat",
     "appeared": "1987",
     "id": "mentat"
-  },
-  {
-    "label": "Sketchpad",
-    "appeared": "1962",
-    "id": "sketchpad"
   },
   {
     "label": "[x]it!",
@@ -9904,16 +9904,6 @@
     "id": "lawvere"
   },
   {
-    "label": "ZBasic",
-    "appeared": "1980",
-    "id": "zbasic"
-  },
-  {
-    "label": "LOGIN",
-    "appeared": "1986",
-    "id": "login"
-  },
-  {
     "label": "ecsharp",
     "appeared": "2008",
     "id": "ecsharp"
@@ -9927,6 +9917,16 @@
     "label": "Schematron",
     "appeared": "1999",
     "id": "schematron"
+  },
+  {
+    "label": "ZBasic",
+    "appeared": "1980",
+    "id": "zbasic"
+  },
+  {
+    "label": "LOGIN",
+    "appeared": "1986",
+    "id": "login"
   },
   {
     "label": "Netlib",
@@ -10129,6 +10129,11 @@
     "id": "linc-4gl"
   },
   {
+    "label": "Nimskull",
+    "appeared": "2021",
+    "id": "nimskull"
+  },
+  {
     "label": "Apple BASIC",
     "appeared": "1978",
     "id": "apple-basic"
@@ -10161,11 +10166,6 @@
   {
     "label": "Datomic",
     "id": "datomic"
-  },
-  {
-    "label": "Nimskull",
-    "appeared": "2021",
-    "id": "nimskull"
   },
   {
     "label": "clike",
@@ -10597,6 +10597,11 @@
     "id": "texy"
   },
   {
+    "label": "3APL",
+    "appeared": "1998",
+    "id": "3apl"
+  },
+  {
     "label": "JAWS Scripting Language",
     "appeared": "2008",
     "id": "jaws-scripting-language"
@@ -10675,6 +10680,11 @@
     "label": "DAP FORTRAN",
     "appeared": "1975",
     "id": "dap-fortran"
+  },
+  {
+    "label": "20-GATE",
+    "appeared": "1961",
+    "id": "20-gate"
   },
   {
     "label": "formality",
@@ -11194,6 +11204,11 @@
     "label": "whalecalf",
     "appeared": "2000",
     "id": "whalecalf"
+  },
+  {
+    "label": "2-pak",
+    "appeared": "1975",
+    "id": "2-pak"
   },
   {
     "label": "3D Logo",
@@ -12978,11 +12993,6 @@
     "id": "qute"
   },
   {
-    "label": "3APL",
-    "appeared": "1998",
-    "id": "3apl"
-  },
-  {
     "label": "DDML",
     "appeared": "1999",
     "id": "ddml"
@@ -13121,11 +13131,6 @@
     "label": "emerald-lang",
     "appeared": "2019",
     "id": "emerald-lang"
-  },
-  {
-    "label": "20-GATE",
-    "appeared": "1961",
-    "id": "20-gate"
   },
   {
     "label": "funl",
@@ -13830,9 +13835,14 @@
     "id": "zim-format"
   },
   {
-    "label": "2-pak",
-    "appeared": "1975",
-    "id": "2-pak"
+    "label": "1.pak",
+    "appeared": "1973",
+    "id": "1-pak"
+  },
+  {
+    "label": "2OBJ",
+    "appeared": "1995",
+    "id": "2obj"
   },
   {
     "label": "AArch64",
@@ -18026,16 +18036,6 @@
     "label": "Zoem",
     "appeared": "2005",
     "id": "zoem"
-  },
-  {
-    "label": "1.pak",
-    "appeared": "1973",
-    "id": "1-pak"
-  },
-  {
-    "label": "2OBJ",
-    "appeared": "1995",
-    "id": "2obj"
   },
   {
     "label": "3-LISP",
@@ -22292,11 +22292,6 @@
     "id": "xoc-compiler"
   },
   {
-    "label": "2lisp",
-    "appeared": "1982",
-    "id": "2lisp"
-  },
-  {
     "label": "AUTOCODER II",
     "appeared": "1958",
     "id": "autocoder-ii"
@@ -22402,6 +22397,11 @@
   {
     "label": "worst",
     "id": "worst"
+  },
+  {
+    "label": "2lisp",
+    "appeared": "1982",
+    "id": "2lisp"
   },
   {
     "label": "3RIP",

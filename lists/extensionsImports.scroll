@@ -219,10 +219,10 @@ replace TABLE
   Turing|../languages/turing.html|t tu
   M4|../languages/m4.html|m4 mc
   Lean|../languages/lean.html|lean hlean
-  Ninja|../languages/ninja.html|ninja
   Pure Data|../languages/puredata.html|pd
   Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope
   CIL|../languages/cilk.html|cil
+  Ninja|../languages/ninja.html|ninja
   Csound|../languages/csound.html|csd sco orc udo
   Twig|../languages/twig.html|twig
   OWL|../languages/owl.html|owl
@@ -249,9 +249,9 @@ replace TABLE
   x86 Assembly|../languages/x86-assembly.html|s ms
   YASnippet|../languages/yasnippet.html|yasnippet
   beef-lang|../languages/beef.html|bf
-  YANG|../languages/yang.html|yang
   Thrift|../languages/thrift.html|thrift
   Velocity|../languages/apache-velocity.html|vm fhtml
+  YANG|../languages/yang.html|yang
   Pig Latin|../languages/pig.html|pig
   Gosu|../languages/gosu.html|gs gsp gst gsx vark
   Unicon|../languages/unicon.html|icn
@@ -277,11 +277,11 @@ replace TABLE
   EJS|../languages/ejs.html|ejs ect ejst jst
   FoxPRO|../languages/foxpro.html|PRG prg
   CFML|../languages/cfml.html|cfm cfc
-  AGC|../languages/apollo-guidance-computer.html|agc
   Stylus|../languages/stylus.html|styl
   Alloy|../languages/alloy.html|als
   Objective-J|../languages/objective-j.html|j sj
   Classroom Object Oriented Language|../languages/cool.html|cl
+  AGC|../languages/apollo-guidance-computer.html|agc
   GDB|../languages/gdb.html|gdb gdbinit
   Jison|../languages/jison.html|jison
   mustache|../languages/mustache.html|mustache
@@ -311,11 +311,11 @@ replace TABLE
   AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
   UPC|../languages/unified-parallel-c.html|upc
   EBNF|../languages/ebnf.html|ebnf
-  starlark|../languages/starlark.html|bzl star
   FreeBASIC|../languages/freebasic.html|bi bas
   KiCad Legacy Layout|../languages/kicad.html|sch lib brd kicad_pcb kicad_wks kicad_mod
   Textile|../languages/textile.html|textile
   Object Rexx|../languages/object-rexx.html|rxs rex
+  starlark|../languages/starlark.html|bzl star
   Cobra|../languages/cobra.html|cobra
   NSIS|../languages/nsis.html|nsi nsh
   BlitzBasic|../languages/blitzbasic.html|bb decls
@@ -333,8 +333,8 @@ replace TABLE
   ERB|../languages/erb.html|erb erbdeface rhtml
   Mu|../languages/mu.html|mu
   ooc|../languages/ooc.html|ooc
-  Closure Templates|../languages/closure-templates.html|soy
   Parrot|../languages/parrot-vm.html|parrot
+  Closure Templates|../languages/closure-templates.html|soy
   Felix|../languages/felix.html|flx flxh
   ASN.1|../languages/asn-1.html|asn asn1
   Zip file format|../languages/zip-format.html|zip
@@ -363,11 +363,11 @@ replace TABLE
   SCSS|../languages/scss.html|sass scss
   Xtext|../languages/xtext.html|xtext
   Shapefile|../languages/shapefile.html|shp shx dbf
+  CSON|../languages/cson.html|cson
+  GAP|../languages/gap.html|g gap gd gi tst
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli
   Asymptote|../languages/asymptote.html|asy
   XSLT|../languages/xslt.html|xslt xsl xpl
-  CSON|../languages/cson.html|cson
-  GAP|../languages/gap.html|g gap gd gi tst
   PAWN|../languages/pawn.html|pwn inc
   UrWeb|../languages/urweb.html|ur urs
   Filebench WML|../languages/filebench-wml.html|f
@@ -438,6 +438,7 @@ replace TABLE
   MQL5|../languages/mql.html|mq5 mqh mq4
   EML|../languages/mbox.html|eml mbox
   Gentoo Ebuild|../languages/gentoo-ebuild.html|ebuild
+  1C Enterprise Script|../languages/1c-enterprise.html|bsl os
   Logos|../languages/logos.html|xm x xi xmi
   Objective C++|../languages/objective-cpp.html|mm hh
   monte|../languages/monte.html|mt
@@ -453,7 +454,6 @@ replace TABLE
   Jolie|../languages/jolie.html|ol iol
   Handlebars|../languages/handlebars.html|handlebars hbs
   SMT|../languages/smt.html|smt2 smt
-  1C Enterprise Script|../languages/1c-enterprise.html|bsl os
   Eclipse Command Language|../languages/eclipse-command-language.html|ecl
   Nix|../languages/nix.html|nix
   Spin|../languages/spin.html|spin

@@ -19,7 +19,7 @@
   <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
   <meta name="generator" content="Scroll v31.4.1"></meta>
   <meta property="og:title" content="Does every programming language have line comments?"></meta>
-  <meta property="og:description" content="July 13, 2022 — About 85% of the languages in PLDB have line comments."></meta>
+  <meta property="og:description" content=""></meta>
   <meta property="og:image" content="https://pldb.com/posts//line-comments.png"></meta>
   <link rel="alternate" type="application/rss+xml" title="PLDB" href="feed.xml"></link>
   <meta name="twitter:card" content="summary_large_image"></meta>
@@ -107,19 +107,19 @@
 
 
 
-<p class="scrollParagraphComponent">A language supports line comments if it defines a special token (nowadays usually <code>//</code> or <code>#</code>) where everything after that token until the end of the line becomes a comment. Example:</p>
+<p class="scrollParagraphComponent">A language supports line comments if it defines a special token (nowadays usually <code<code>//</code</code> or <code<code>#</code</code>) where everything after that token until the end of the line becomes a comment. Example:</p>
 
 <code class="scrollCodeBlockComponent">print "Hello world" # this is a comment</code>
 
-<p class="scrollParagraphComponent">These are different from <a href="../languages/multiline-comments-feature.html">multiline comments</a> which are delimited by a pair of tokens (such as <code>%{</code> and <code>}%</code>).</p>
+<p class="scrollParagraphComponent">These are different from <a href="../languages/multiline-comments-feature.html">multiline comments</a> which are delimited by a pair of tokens (such as <code<code>%{</code</code> and <code<code>}%</code</code>).</p>
 
 <h4 class="scrollSubsectionComponent">The majority of languages use // or # to start a line comment</h4>
 
-<p class="scrollParagraphComponent"><strong>38%</strong> of programming languages follow <a href="../languages/c.html">C</a> and use <code>//</code>. C (1972) follows <a href="../languages/b.html">B</a> (1969) which follows <a href="../languages/bcpl.html">BCPL</a> (1966).</p>
+<p class="scrollParagraphComponent"><strong<strong>38%</strong</strong> of programming languages follow <a href="../languages/c.html">C</a> and use <code<code>//</code</code>. C (1972) follows <a href="../languages/b.html">B</a> (1969) which follows <a href="../languages/bcpl.html">BCPL</a> (1966).</p>
 
-<p class="scrollParagraphComponent"><strong>22%</strong> use <code>#</code>, which has become very popular thanks to languages like <a href="../languages/python.html">Python</a>, <a href="../languages/perl.html">Perl</a>, and <a href="../languages/ruby.html">Ruby</a>.</p>
+<p class="scrollParagraphComponent"><strong<strong>22%</strong</strong> use <code<code>#</code</code>, which has become very popular thanks to languages like <a href="../languages/python.html">Python</a>, <a href="../languages/perl.html">Perl</a>, and <a href="../languages/ruby.html">Ruby</a>.</p>
 
-<p class="scrollParagraphComponent">The SQL languages all generally use <code>--</code>.</p>
+<p class="scrollParagraphComponent">The SQL languages all generally use <code<code>--</code</code>.</p>
 
 <p class="scrollParagraphComponent">The era of experimentation with line comment tokens appears to be over: the last time a new line comment token appeared in the <a href="../lists/top250.html">top 250</a> was 1993.</p>
 
@@ -135,18 +135,18 @@
 
 <p class="scrollParagraphComponent">Like everything, there are exceptions to the common cases. A few languages, such as <a href="../languages/spss.html">SPSS</a>, have a more restrictive form of line comment where the line comment token has to be the first token on the line.</p>
 
-<p class="scrollParagraphComponent">A few languages also support multiple line comment tokens. The <a href="../languages/ini.html">Ini config format</a> supports both <code>;</code> and <code>#</code>.</p>
+<p class="scrollParagraphComponent">A few languages also support multiple line comment tokens. The <a href="../languages/ini.html">Ini config format</a> supports both <code<code>;</code</code> and <code<code>#</code</code>.</p>
 
 <div class="scrollQuoteComponent">Analyze this data yourself in <a href="https://observablehq.com/@breck7/line-comments-in-programming-languages">Observable</a></div>
 <div class="scrollQuoteComponent">Analyze this data yourself in <a href="https://ohayo.computer?filename=does-every-programming-language-support-line-comments.html.ohayo&data=html.h1%20Line%20comments%0Aweb.get%20https%3A%2F%2Fpldb.com%2Flanguages.csv%0A%20filter.where%20rank%20%3C%20300%0A%20%20columns.keep%20appeared%20title%20rank%20languageRank%20features.hasLineComments%20lineCommentToken%0A%20%20%20columns.rename%20features.hasLineComments%20hasLineComments%0A%20%20%20%20filter.where%20hasLineComments%20!%3D%20%0A%20%20%20%20%20tables.basic%0A%20%20%20%20%20%20group.by%20hasLineComments%0A%20%20%20%20%20%20%20tables.basic%0A%20%20%20%20%20%20filter.where%20hasLineComments%20%3D%20false%0A%20%20%20%20%20%20%20tables.basic%0A%20%20%20%20%20%20filter.where%20lineCommentToken%20!%3D%20%0A%20%20%20%20%20%20%20group.by%20lineCommentToken%0A%20%20%20%20%20%20%20%20reduce%20appeared%20min%20firstAppeared%0A%20%20%20%20%20%20%20%20roughjs.pie%20Line%20comment%20token%20usage%0A%20%20%20%20%20%20%20%20%20label%20lineCommentToken%0A%20%20%20%20%20%20%20%20%20value%20count%0A%20%20%20%20%20%20%20%20rows.sortByReverse%20count%0A%20%20%20%20%20%20%20%20%20tables.basic">Ohayo</a></div><p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/does-every-programming-language-support-line-comments.scroll">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit a66418f561de261d27f953c7c51534522cd71ae7" href="https://github.com/breck7/pldb/commit/a66418f561de261d27f953c7c51534522cd71ae7">v2022</a> · </span>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit cb55e190e8fe05812c1ef9afcd63d75fe4c342e3" href="https://github.com/breck7/pldb/commit/cb55e190e8fe05812c1ef9afcd63d75fe4c342e3">v2022</a> · </span>
    <a href="../pages/about.html">Day 11</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>
    <span>·</span>
-   <a href="https://build.pldb.com">Editor</a>
+   <a href="https://build.pldb.com">Build</a>
    <span>·</span>
    <a href="../pages/acknowledgements.html">Acknowledgements</a>
    <span>·</span>

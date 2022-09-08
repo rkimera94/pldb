@@ -768,6 +768,7 @@ replace KEYWORDS_TABLE
   total|2|2%|<a href='../languages/fstar.html'>F*</a> <a href='../languages/abap.html'>ABAP</a>
   logic|2|2%|<a href='../languages/fstar.html'>F*</a> <a href='../languages/systemverilog.html'>SystemVerilog</a>
   attributes|2|2%|<a href='../languages/fstar.html'>F*</a> <a href='../languages/abap.html'>ABAP</a>
+  LIST|2|2%|<a href='../languages/qbasic.html'>QBasic</a> <a href='../languages/apex.html'>Apex</a>
   values|2|2%|<a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a>
   reduced|2|2%|<a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a>
   order|2|2%|<a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a>
@@ -779,7 +780,6 @@ replace KEYWORDS_TABLE
   copy|2|2%|<a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a>
   clear|2|2%|<a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/abap.html'>ABAP</a>
   asc|2|2%|<a href='../languages/sparql.html'>SPARQL</a> <a href='../languages/apex.html'>Apex</a>
-  LIST|2|2%|<a href='../languages/qbasic.html'>QBasic</a> <a href='../languages/apex.html'>Apex</a>
   database|2|2%|<a href='../languages/opa.html'>Opa</a> <a href='../languages/abap.html'>ABAP</a>
   client|2|2%|<a href='../languages/opa.html'>Opa</a> <a href='../languages/abap.html'>ABAP</a>
   step|2|2%|<a href='../languages/autoit.html'>AutoIt</a> <a href='../languages/maxima.html'>Maxima</a>
@@ -2992,11 +2992,6 @@ replace KEYWORDS_TABLE
   andbegin|1|1%|<a href='../languages/fstar.html'>F*</a>
   unopteq|1|1%|<a href='../languages/fstar.html'>F*</a>
   noeq|1|1%|<a href='../languages/fstar.html'>F*</a>
-  silent|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
-  minus|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
-  drop|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
-  construct|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
-  ask|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
   WEND|1|1%|<a href='../languages/qbasic.html'>QBasic</a>
   STEP|1|1%|<a href='../languages/qbasic.html'>QBasic</a>
   SINGLE|1|1%|<a href='../languages/qbasic.html'>QBasic</a>
@@ -3005,6 +3000,11 @@ replace KEYWORDS_TABLE
   BYVAL|1|1%|<a href='../languages/qbasic.html'>QBasic</a>
   BASE|1|1%|<a href='../languages/qbasic.html'>QBasic</a>
   APPEND|1|1%|<a href='../languages/qbasic.html'>QBasic</a>
+  silent|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
+  minus|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
+  drop|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
+  construct|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
+  ask|1|1%|<a href='../languages/sparql.html'>SPARQL</a>
   xml_parser|1|1%|<a href='../languages/opa.html'>Opa</a>
   server|1|1%|<a href='../languages/opa.html'>Opa</a>
   parser|1|1%|<a href='../languages/opa.html'>Opa</a>

@@ -131,7 +131,7 @@ crontab -e</code>
 
 <code class="scrollCodeBlockComponent">add_header 'Access-Control-Allow-Origin' '*' always; add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always; add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range' always; add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range' always;</code>
 
-<code class="scrollCodeBlockComponent"># Update nginx conf to allow CORS using the snippet above:
+<code class="scrollCodeBlockComponent"># Update nginx conf to allow CORS using the snippet above (putting that on line 58 seems to work):
 vim /etc/nginx/nginx.conf
 sudo systemctl restart nginx
 # Test that it worked here, swapping XXX with IP address of server: https://v20.ohayo.computer/?filename=testcorsonpldb&nodeBreakSymbol=%7E&edgeSymbol=_&data=web.get_http%253A%252F%252FXXX.XXX.XXX.XXX%252Fpldb.csv%7E_tables.basic</code>
@@ -150,7 +150,7 @@ sudo systemctl restart nginx
 <p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/pages/about-this-web-server.scroll">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 55cf992d375c9e55aa73021e95f3cc0d379ffb52" href="https://github.com/breck7/pldb/commit/55cf992d375c9e55aa73021e95f3cc0d379ffb52">v2022</a> · </span>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3e8d7d1958a5f922fae92335b62d27b76ebc6de4" href="https://github.com/breck7/pldb/commit/3e8d7d1958a5f922fae92335b62d27b76ebc6de4">v2022</a> · </span>
    <a href="../pages/about.html">Day 11</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>

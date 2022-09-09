@@ -6025,14 +6025,14 @@
     "id": "ole-protocol"
   },
   {
-    "label": "OpenLisp",
-    "appeared": "1988",
-    "id": "openlisp"
-  },
-  {
     "label": "fo",
     "appeared": "2018",
     "id": "fo"
+  },
+  {
+    "label": "OpenLisp",
+    "appeared": "1988",
+    "id": "openlisp"
   },
   {
     "label": "Swagger",
@@ -7344,6 +7344,11 @@
     "id": "partiql"
   },
   {
+    "label": "Property Specification Language",
+    "appeared": "2004",
+    "id": "property-specification-language"
+  },
+  {
     "label": "HAL/S",
     "appeared": "1972",
     "id": "hal-s"
@@ -7392,11 +7397,6 @@
     "label": "Sublime Syntax",
     "appeared": "2008",
     "id": "sublime-syntax"
-  },
-  {
-    "label": "Property Specification Language",
-    "appeared": "2004",
-    "id": "property-specification-language"
   },
   {
     "label": "Tuple space",
@@ -7784,6 +7784,11 @@
     "id": "json-graph-format"
   },
   {
+    "label": "Liberty BASIC",
+    "appeared": "1992",
+    "id": "liberty-basic"
+  },
+  {
     "label": "Pyrex",
     "appeared": "2002",
     "id": "pyrex"
@@ -7827,11 +7832,6 @@
     "label": "TextMate Language",
     "appeared": "2004",
     "id": "tmlanguage"
-  },
-  {
-    "label": "Liberty BASIC",
-    "appeared": "1992",
-    "id": "liberty-basic"
   },
   {
     "label": "Virgil",
@@ -8801,6 +8801,11 @@
     "id": "kuin"
   },
   {
+    "label": "Gist",
+    "appeared": "1977",
+    "id": "gist"
+  },
+  {
     "label": "Yabasic",
     "appeared": "1995",
     "id": "yabasic"
@@ -8889,11 +8894,6 @@
     "label": "ARM Templates",
     "appeared": "2017",
     "id": "arm-templates"
-  },
-  {
-    "label": "Gist",
-    "appeared": "1977",
-    "id": "gist"
   },
   {
     "label": "Clinical Document Architecture",
@@ -9094,6 +9094,11 @@
     "label": "Battlestar",
     "appeared": "2014",
     "id": "battlestar"
+  },
+  {
+    "label": "ActiveVFP",
+    "appeared": "2001",
+    "id": "activevfp"
   },
   {
     "label": "Atom",
@@ -10363,6 +10368,16 @@
     "id": "vyxal"
   },
   {
+    "label": "JIS X 0201",
+    "appeared": "1969",
+    "id": "jis-x-0201"
+  },
+  {
+    "label": "Just Another Scripting Syntax",
+    "appeared": "2009",
+    "id": "jass"
+  },
+  {
     "label": "Trellis",
     "appeared": "1985",
     "id": "trellis"
@@ -10475,11 +10490,6 @@
     "label": "ColorForth",
     "appeared": "1992",
     "id": "colorforth"
-  },
-  {
-    "label": "ActiveVFP",
-    "appeared": "2001",
-    "id": "activevfp"
   },
   {
     "label": "S/SL",
@@ -11276,6 +11286,11 @@
     "id": "abel"
   },
   {
+    "label": "Actors",
+    "appeared": "1971",
+    "id": "actors"
+  },
+  {
     "label": "ADAM",
     "appeared": "1964",
     "id": "adam"
@@ -11802,16 +11817,6 @@
     "label": "xt3d",
     "appeared": "2000",
     "id": "xt3d"
-  },
-  {
-    "label": "JIS X 0201",
-    "appeared": "1969",
-    "id": "jis-x-0201"
-  },
-  {
-    "label": "Just Another Scripting Syntax",
-    "appeared": "2009",
-    "id": "jass"
   },
   {
     "label": "Data General Business Basic",
@@ -12768,11 +12773,6 @@
     "id": "y-lang"
   },
   {
-    "label": "Actor",
-    "appeared": "1988",
-    "id": "actor"
-  },
-  {
     "label": "Gello Expression Language",
     "appeared": "2001",
     "id": "gello"
@@ -12786,6 +12786,11 @@
     "label": "ZigZag",
     "appeared": "1965",
     "id": "zigzag"
+  },
+  {
+    "label": "Actor",
+    "appeared": "1988",
+    "id": "actor"
   },
   {
     "label": "CA-Telon",
@@ -13955,6 +13960,11 @@
     "id": "acsl"
   },
   {
+    "label": "ACT ONE",
+    "appeared": "1983",
+    "id": "act-one"
+  },
+  {
     "label": "Actalk",
     "appeared": "1989",
     "id": "actalk"
@@ -13970,9 +13980,24 @@
     "id": "active-u-datalog"
   },
   {
-    "label": "Actors",
-    "appeared": "1971",
-    "id": "actors"
+    "label": "Actus",
+    "appeared": "1979",
+    "id": "actus"
+  },
+  {
+    "label": "Ada 95",
+    "appeared": "1995",
+    "id": "ada-95"
+  },
+  {
+    "label": "Ada 9X",
+    "appeared": "1988",
+    "id": "ada-9x"
+  },
+  {
+    "label": "ADABTPL",
+    "appeared": "1987",
+    "id": "adabtpl"
   },
   {
     "label": "ADES II",
@@ -18116,29 +18141,13 @@
     "id": "3rip"
   },
   {
+    "label": "AC Toolbox",
+    "id": "ac-toolbox"
+  },
+  {
     "label": "ACSI-Matic",
     "appeared": "1959",
     "id": "acsi-matic"
-  },
-  {
-    "label": "ACT ONE",
-    "appeared": "1983",
-    "id": "act-one"
-  },
-  {
-    "label": "Actus",
-    "appeared": "1979",
-    "id": "actus"
-  },
-  {
-    "label": "Ada 95",
-    "appeared": "1995",
-    "id": "ada-95"
-  },
-  {
-    "label": "Ada 9X",
-    "appeared": "1988",
-    "id": "ada-9x"
   },
   {
     "label": "Ada/TL",
@@ -18146,9 +18155,8 @@
     "id": "ada-tl"
   },
   {
-    "label": "ADABTPL",
-    "appeared": "1987",
-    "id": "adabtpl"
+    "label": "Adagio",
+    "id": "adagio"
   },
   {
     "label": "Adaplex",
@@ -22415,14 +22423,6 @@
     "label": "2lisp",
     "appeared": "1982",
     "id": "2lisp"
-  },
-  {
-    "label": "AC Toolbox",
-    "id": "ac-toolbox"
-  },
-  {
-    "label": "Adagio",
-    "id": "adagio"
   },
   {
     "label": "adam-standard",

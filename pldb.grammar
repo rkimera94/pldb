@@ -86,6 +86,12 @@ subredditNode
  description Url of a subreddit(s) for this language.
  example
   subreddit php
+twitterNode
+ extends abstractUrlGuidNode
+ description Official Twitter handle of the entity, if any.
+ inScope twitterFollowersNode
+ string sourceDomain twitter.com
+ cruxFromId
 abstractUrlNode
  cells keywordCell urlCell
  extends abstractFactNode
@@ -210,11 +216,6 @@ tryItOnlineNode
  extends abstractOneWordGuidNode
  description A link to try this language on https://tio.run
  string sourceDomain tio.run
-twitterNode
- extends abstractOneWordGuidNode
- description Official Twitter handle of the entity, if any.
- inScope twitterFollowersNode
- string sourceDomain twitter.com
 ubuntuPackageNode
  extends abstractOneWordGuidNode
  description The name of an Ubuntu package for the language from https://packages.ubuntu.com/.

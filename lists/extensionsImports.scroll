@@ -139,8 +139,8 @@ replace TABLE
   SVG|../languages/svg.html|svg
   Limbo|../languages/limbo.html|b m
   Scilab|../languages/scilab.html|sci sce tst
-  QBasic|../languages/qbasic.html|BAS bas
   MediaWiki|../languages/mediawiki.html|mediawiki wiki
+  QBasic|../languages/qbasic.html|BAS bas
   VBA|../languages/vba.html|bas cls frm frx vba
   SuperCollider|../languages/supercollider.html|sc scd
   Opa|../languages/opa.html|opa
@@ -196,17 +196,17 @@ replace TABLE
   Sass|../languages/sass.html|sass scss
   Zephir|../languages/zephir.html|zep
   Batchfile|../languages/batch.html|bat cmd
-  Smali|../languages/smali.html|smali
   ABAP|../languages/abap.html|abap ABAP
+  Smali|../languages/smali.html|smali
   LOLCODE|../languages/lolcode.html|lol
   Coq|../languages/coq.html|coq v
   Monkey|../languages/monkey.html|monkey monkey2
   SaltStack|../languages/saltstack.html|sls
   Frege|../languages/frege.html|fr
-  Cython|../languages/cython.html|pyx pxd pxi
   SystemVerilog|../languages/systemverilog.html|sv svh vh header file
-  Jinja|../languages/jinja.html|jinja j2 jinja2
+  Cython|../languages/cython.html|pyx pxd pxi
   Terra|../languages/terra.html|t
+  Jinja|../languages/jinja.html|jinja j2 jinja2
   Modelica|../languages/modelica.html|mo
   ATS|../languages/ats.html|dats hats sats
   Koka|../languages/koka.html|kk kki
@@ -219,9 +219,9 @@ replace TABLE
   Turing|../languages/turing.html|t tu
   M4|../languages/m4.html|m4 mc
   Lean|../languages/lean.html|lean hlean
-  Pure Data|../languages/puredata.html|pd
   Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope
   CIL|../languages/cilk.html|cil
+  Pure Data|../languages/puredata.html|pd
   Csound|../languages/csound.html|csd sco orc udo
   Ninja|../languages/ninja.html|ninja
   Twig|../languages/twig.html|twig
@@ -233,9 +233,9 @@ replace TABLE
   Nginx|../languages/nginx-config.html|nginx nginxconf vhost nginx.conf
   Turtle|../languages/turtle.html|ttl
   reStructuredText|../languages/restructuredtext.html|rst rest resttxt rsttxt
-  Nearley|../languages/nearley.html|ne nearley
   NetLogo|../languages/netlogo.html|nlogo nlogo3d nls
   Inform|../languages/inform.html|ni i7x
+  Nearley|../languages/nearley.html|ne nearley
   Transact-SQL|../languages/transact-sql.html|sql
   Marko|../languages/marko.html|marko
   JSON-LD|../languages/json-ld.html|jsonld
@@ -247,19 +247,19 @@ replace TABLE
   muPad|../languages/mupad.html|mu
   RMarkdown|../languages/rmarkdown.html|rmd qmd
   x86 Assembly|../languages/x86-assembly.html|s ms
-  YASnippet|../languages/yasnippet.html|yasnippet
   beef-lang|../languages/beef.html|bf
+  YASnippet|../languages/yasnippet.html|yasnippet
   Thrift|../languages/thrift.html|thrift
   Velocity|../languages/apache-velocity.html|vm fhtml
-  YANG|../languages/yang.html|yang
   Pig Latin|../languages/pig.html|pig
+  YANG|../languages/yang.html|yang
   Gosu|../languages/gosu.html|gs gsp gst gsx vark
   Unicon|../languages/unicon.html|icn
   kaitai|../languages/kaitai.html|ksy
   RAML|../languages/raml.html|raml
   Nextflow|../languages/nextflow.html|nf
-  Dhall|../languages/dhall.html|dhall
   Dogescript|../languages/dogescript.html|djs
+  Dhall|../languages/dhall.html|dhall
   CodeQL|../languages/codeql.html|ql qll
   S|../languages/s.html|S R .Rhistory .Rprofile .Renviron
   QML|../languages/qml.html|qml qbs
@@ -270,15 +270,15 @@ replace TABLE
   Gradle|../languages/gradle.html|gradle
   WDL|../languages/wdl.html|wdl
   BibTeX|../languages/bibtex.html|bib bibtex
+  Alloy|../languages/alloy.html|als
   G-code|../languages/g-code.html|g cnc gco gcode mpt mpf nc
   CSV|../languages/csv.html|csv
-  Fennel|../languages/fennel.html|fnl
   wisp|../languages/wisp.html|wisp
+  Fennel|../languages/fennel.html|fnl
   EJS|../languages/ejs.html|ejs ect ejst jst
   FoxPRO|../languages/foxpro.html|PRG prg
   CFML|../languages/cfml.html|cfm cfc
   Stylus|../languages/stylus.html|styl
-  Alloy|../languages/alloy.html|als
   Objective-J|../languages/objective-j.html|j sj
   Classroom Object Oriented Language|../languages/cool.html|cl
   AGC|../languages/apollo-guidance-computer.html|agc
@@ -349,10 +349,10 @@ replace TABLE
   gleam|../languages/gleam.html|gleam
   Latte|../languages/latte.html|latte
   Java Properties|../languages/java-properties.html|properties
+  Wavefront Object|../languages/wavefront-object.html|obj
   Clarion|../languages/clarion.html|clw
   Cypher Query Language|../languages/cypher.html|cyp cypher
   Ragel|../languages/ragel.html|rl
-  Wavefront Object|../languages/wavefront-object.html|obj
   P4|../languages/p4.html|p4
   Ch|../languages/chuck.html|ck
   Rascal|../languages/rascal.html|rsc
@@ -373,11 +373,11 @@ replace TABLE
   Filebench WML|../languages/filebench-wml.html|f
   Eagle|../languages/eagle.html|sch brd
   Angelscript|../languages/angelscript.html|as angelscript
+  MiniD|../languages/minid.html|minid
   GAMS|../languages/general-algebraic-modeling-system.html|gms
   QMake|../languages/qmake.html|pro pri
   FAUST|../languages/faust.html|dsp
   Newspeak|../languages/newspeak.html|ns2
-  MiniD|../languages/minid.html|minid
   Logtalk|../languages/logtalk.html|lgt logtalk
   TSV|../languages/tsv.html|tsv
   Whiley|../languages/whiley.html|whiley
@@ -430,8 +430,8 @@ replace TABLE
   Ren'Py|../languages/renpy.html|rpy
   EmberScript|../languages/emberscript.html|em emberscript
   clay|../languages/clay.html|clay
-  TAP|../languages/tap.html|tap
   chaiscript|../languages/chaiscript.html|chai
+  TAP|../languages/tap.html|tap
   Bro|../languages/bro.html|bro
   SourcePawn|../languages/sourcepawn.html|sp inc
   Bluespec|../languages/bluespec.html|bsv
@@ -447,9 +447,9 @@ replace TABLE
   Property list|../languages/plist.html|plist
   Umple|../languages/umple.html|ump
   Basis Codec|../languages/basis-universal-format.html|basis
+  SQLPL|../languages/sqlpl.html|sql db2
   RDoc|../languages/rdoc.html|rdoc
   DIGITAL Command Language|../languages/digital-command-language.html|com
-  SQLPL|../languages/sqlpl.html|sql db2
   Uno|../languages/uno.html|uno
   Jolie|../languages/jolie.html|ol iol
   Handlebars|../languages/handlebars.html|handlebars hbs
@@ -562,6 +562,7 @@ replace TABLE
   Todotxt|../languages/todotxt.html|todo.txt todotxt
   STON|../languages/ston.html|ston
   XC|../languages/xc.html|xc
+  TextMate Language|../languages/tmlanguage.html|tmLanguage
   UnrealScript|../languages/unrealscript.html|uc
   Scala Markup Language|../languages/scaml.html|scaml
   DataWeave|../languages/dataweave.html|dwl
@@ -586,7 +587,6 @@ replace TABLE
   Darcs Advanced Revision Control System|../languages/darcs-patch.html|darcspatch dpatch
   Myghty|../languages/myghty.html|myt autodelegate
   rbs|../languages/rbs.html|rbs
-  TextMate Language|../languages/tmlanguage.html|tmLanguage
   plam|../languages/plam.html|plam
   Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf
   crmsh|../languages/crmsh.html|crmsh pcmk

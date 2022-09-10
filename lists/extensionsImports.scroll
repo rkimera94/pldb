@@ -63,9 +63,9 @@ replace TABLE
   Regular Expressions|../languages/regex.html|regexp regex
   Nim|../languages/nim.html|nim nimcfg nimble nimrod nims
   HTTP|../languages/http.html|http
-  CUDA|../languages/cuda.html|cu cuh
   Verilog|../languages/verilog.html|v veo
   awk|../languages/awk.html|awk auk gawk mawk nawk
+  CUDA|../languages/cuda.html|cu cuh
   Eiffel|../languages/eiffel.html|e
   Elm|../languages/elm.html|elm
   PostScript|../languages/postscript.html|ps eps epsi pfa
@@ -73,9 +73,9 @@ replace TABLE
   Chapel|../languages/chapel.html|chpl
   Emacs Lisp|../languages/emacs-lisp.html|el emacs emacsdesktop elc
   GNU Octave|../languages/octave.html|m
-  Standard ML|../languages/standard-ml.html|sml ml fun sig
   Modula-2|../languages/modula-2.html|mod m2 def MOD DEF mi md
   LLVM IR|../languages/llvmir.html|ll
+  Standard ML|../languages/standard-ml.html|sml ml fun sig
   REBOL|../languages/rebol.html|r reb r2 r3 rebol
   Tex|../languages/tex.html|tex aux bbx cbx cls dtx ins lbx ltx mkii mkiv mkvi sty toc
   VHDL|../languages/vhdl.html|vhdl vhd vhf vhi vho vhs vht vhw
@@ -84,8 +84,8 @@ replace TABLE
   MUMPS|../languages/mumps.html|mumps m
   Rexx|../languages/rexx.html|cmd exec rexx rex pprx rx arexx
   fish|../languages/fish.html|fish load
-  Zig|../languages/zig.html|zig
   Modula-3|../languages/modula-3.html|i3 ig m3 mg
+  Zig|../languages/zig.html|zig
   GraphQL|../languages/graphql.html|graphql gql graphqls
   YAML|../languages/yaml.html|yml mir reek rviz sublime-syntax syntax yaml yaml-tmlanguage yamlsed ymlmysql
   Self|../languages/self.html|self
@@ -133,6 +133,7 @@ replace TABLE
   Ballerina|../languages/ballerina.html|bal
   PostCSS|../languages/postcss.html|pcss postcss
   Pike|../languages/pike.html|pike pmod
+  Agda|../languages/agda.html|agda lagda
   Icon|../languages/icon.html|icon ICON
   FLUX|../languages/flux.html|fx flux
   SVG|../languages/svg.html|svg
@@ -142,7 +143,6 @@ replace TABLE
   MediaWiki|../languages/mediawiki.html|mediawiki wiki
   VBA|../languages/vba.html|bas cls frm frx vba
   SuperCollider|../languages/supercollider.html|sc scd
-  Agda|../languages/agda.html|agda lagda
   Opa|../languages/opa.html|opa
   sed|../languages/sed.html|sed [gs]sed
   SPARQL|../languages/sparql.html|sparql rq
@@ -163,12 +163,12 @@ replace TABLE
   Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt
   Squirrel|../languages/squirrel.html|nut
   jq|../languages/jq.html|jq
-  Processing|../languages/processing.html|pde
-  Mercury|../languages/mercury.html|m moo
   MoonScript|../languages/moonscript.html|moon
   DOT|../languages/dot.html|dot gv
   PureBasic|../languages/purebasic.html|pb pbi
   xBase|../languages/xbase.html|prg ch prw
+  Processing|../languages/processing.html|pde
+  Mercury|../languages/mercury.html|m moo
   Maxima|../languages/maxima.html|mac max
   Factor|../languages/factor.html|factor
   X10|../languages/x10.html|x10
@@ -289,8 +289,8 @@ replace TABLE
   PL/pgSQL|../languages/plpgsql.html|pgsql sql
   Smarty|../languages/smarty.html|tpl
   SIL|../languages/swift-il.html|sil
-  Pony|../languages/pony.html|pony
   Euphoria|../languages/euphoria.html|e ex exw edb
+  Pony|../languages/pony.html|pony
   Metal|../languages/metal.html|metal
   Papyrus|../languages/papyrus.html|psc
   BBC BASIC|../languages/bbc-basic.html|bbc
@@ -404,8 +404,8 @@ replace TABLE
   MAXScript|../languages/maxscript.html|ms mcr
   Ezhil|../languages/ezhil.html|n
   basic calculator|../languages/bc.html|bc
-  Easybuild|../languages/easybuild.html|eb
   astro|../languages/astro.html|astro
+  Easybuild|../languages/easybuild.html|eb
   SugarSS|../languages/sugarss.html|sss
   BlitzMax|../languages/blitzmax.html|bmx
   OpenEdge ABL|../languages/openedge-advanced-business-language.html|p cls w
@@ -433,8 +433,8 @@ replace TABLE
   TAP|../languages/tap.html|tap
   chaiscript|../languages/chaiscript.html|chai
   Bro|../languages/bro.html|bro
-  Bluespec|../languages/bluespec.html|bsv
   SourcePawn|../languages/sourcepawn.html|sp inc
+  Bluespec|../languages/bluespec.html|bsv
   MQL5|../languages/mql.html|mq5 mqh mq4
   EML|../languages/mbox.html|eml mbox
   Gentoo Ebuild|../languages/gentoo-ebuild.html|ebuild
@@ -482,9 +482,10 @@ replace TABLE
   Xgboost|../languages/xgboost-model.html|model
   GraphIt|../languages/graph-it.html|gt
   DNS Zone|../languages/zone.html|zone arpa
-  WebIDL|../languages/web-idl.html|webidl
   X BitMap|../languages/x-bitmap.html|xbm
+  WebIDL|../languages/web-idl.html|webidl
   PogoScript|../languages/pogoscript.html|pogo
+  Adventure Game Studio Script|../languages/ags-script.html|asc ash
   Grace|../languages/grace.html|grace
   JSX|../languages/jsx.html|jsx
   Kit|../languages/kit.html|kit
@@ -508,7 +509,6 @@ replace TABLE
   Z|../languages/z-expressions.html|zz
   Rouge|../languages/rouge.html|rg
   Pep8|../languages/pep8.html|pep
-  Adventure Game Studio Script|../languages/ags-script.html|asc ash
   ApacheConf|../languages/apacheconf.html|apacheconf vhost .htaccess apache.conf apache2.conf
   Blade|../languages/blade.html|blade bladephp
   Embedded Crystal|../languages/ecr.html|ecr
@@ -562,7 +562,6 @@ replace TABLE
   Todotxt|../languages/todotxt.html|todo.txt todotxt
   STON|../languages/ston.html|ston
   XC|../languages/xc.html|xc
-  TextMate Language|../languages/tmlanguage.html|tmLanguage
   UnrealScript|../languages/unrealscript.html|uc
   Scala Markup Language|../languages/scaml.html|scaml
   DataWeave|../languages/dataweave.html|dwl
@@ -587,6 +586,7 @@ replace TABLE
   Darcs Advanced Revision Control System|../languages/darcs-patch.html|darcspatch dpatch
   Myghty|../languages/myghty.html|myt autodelegate
   rbs|../languages/rbs.html|rbs
+  TextMate Language|../languages/tmlanguage.html|tmLanguage
   plam|../languages/plam.html|plam
   Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf
   crmsh|../languages/crmsh.html|crmsh pcmk
@@ -594,6 +594,7 @@ replace TABLE
   Kuin|../languages/kuin.html|kn
   ObjDump|../languages/objdump.html|objdump
   Groovy Server Pages|../languages/groovy-server-pages.html|gsp
+  Adobe Font Metrics|../languages/adobe-font-metrics.html|afm
   M4Sugar|../languages/m4sugar.html|m4
   Spline Font Database|../languages/spline-font-database.html|sfd
   SubRip Text|../languages/subrip-text.html|srt
@@ -625,7 +626,6 @@ replace TABLE
   Dasm|../languages/dasm.html|dasm16 dasm
   Programming Language for Business|../languages/plb.html|rl ps cb
   Unity3D Asset|../languages/unity3d-asset.html|anim asset mask mat meta prefab unity
-  Adobe Font Metrics|../languages/adobe-font-metrics.html|afm
   CoNLL-U|../languages/conll-u.html|conllu conll
   FIGlet Font|../languages/figlet-font.html|flf
   RPM Spec|../languages/rpm-spec.html|spec

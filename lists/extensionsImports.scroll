@@ -237,8 +237,8 @@ replace TABLE
   Inform|../languages/inform.html|ni i7x
   Nearley|../languages/nearley.html|ne nearley
   Transact-SQL|../languages/transact-sql.html|sql
-  Marko|../languages/marko.html|marko
   JSON-LD|../languages/json-ld.html|jsonld
+  Marko|../languages/marko.html|marko
   AutoHotkey|../languages/autohotkey.html|ahk ahkl
   RobotFramework|../languages/robotframework.html|robot resource
   Less|../languages/less.html|less
@@ -260,13 +260,13 @@ replace TABLE
   Nextflow|../languages/nextflow.html|nf
   Dogescript|../languages/dogescript.html|djs
   Dhall|../languages/dhall.html|dhall
-  CodeQL|../languages/codeql.html|ql qll
-  S|../languages/s.html|S R .Rhistory .Rprofile .Renviron
   QML|../languages/qml.html|qml qbs
   Lex|../languages/lex.html|l lex
   LilyPond|../languages/lilypond.html|ly ily
   Nu|../languages/nu.html|nu
   Curry|../languages/curry.html|curry
+  CodeQL|../languages/codeql.html|ql qll
+  S|../languages/s.html|S R .Rhistory .Rprofile .Renviron
   WDL|../languages/wdl.html|wdl
   Gradle|../languages/gradle.html|gradle
   BibTeX|../languages/bibtex.html|bib bibtex
@@ -286,15 +286,15 @@ replace TABLE
   Jison|../languages/jison.html|jison
   mustache|../languages/mustache.html|mustache
   Futhark|../languages/futhark.html|fut
-  PL/pgSQL|../languages/plpgsql.html|pgsql sql
   Smarty|../languages/smarty.html|tpl
   SIL|../languages/swift-il.html|sil
+  PL/pgSQL|../languages/plpgsql.html|pgsql sql
   Euphoria|../languages/euphoria.html|e ex exw edb
   Pony|../languages/pony.html|pony
   Metal|../languages/metal.html|metal
   Papyrus|../languages/papyrus.html|psc
-  BBC BASIC|../languages/bbc-basic.html|bbc
   GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader
+  BBC BASIC|../languages/bbc-basic.html|bbc
   Max|../languages/max.html|maxpat maxhelp maxproj mxt pat
   PowerBuilder|../languages/powerbuilder.html|pbt sra sru srw
   AspectJ|../languages/aspectj.html|aj
@@ -321,10 +321,10 @@ replace TABLE
   Xtend|../languages/xtend.html|xtend
   Tea|../languages/tea.html|tea
   PEG|../languages/peg.html|peg
-  BlitzBasic|../languages/blitzbasic.html|bb decls
   Gerber Image|../languages/gerber-image.html|gbr cmp gbl gbo gbp gbs gko gml gpb gpt gtl gto gtp gts ncl sol
-  BNF|../languages/bnf.html|bnf
+  BlitzBasic|../languages/blitzbasic.html|bb decls
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5
+  BNF|../languages/bnf.html|bnf
   IGOR Pro|../languages/igor-pro.html|ipf
   Nit|../languages/nit.html|nit
   Cryptol|../languages/cryptol.html|cry
@@ -370,8 +370,8 @@ replace TABLE
   CSON|../languages/cson.html|cson
   PAWN|../languages/pawn.html|pwn inc
   Filebench WML|../languages/filebench-wml.html|f
-  UrWeb|../languages/urweb.html|ur urs
   Eagle|../languages/eagle.html|sch brd
+  UrWeb|../languages/urweb.html|ur urs
   Angelscript|../languages/angelscript.html|as angelscript
   GAMS|../languages/general-algebraic-modeling-system.html|gms
   QMake|../languages/qmake.html|pro pri
@@ -484,6 +484,7 @@ replace TABLE
   DNS Zone|../languages/zone.html|zone arpa
   X BitMap|../languages/x-bitmap.html|xbm
   WebIDL|../languages/web-idl.html|webidl
+  X PixMap|../languages/x-pixmap.html|xpm pm
   PogoScript|../languages/pogoscript.html|pogo
   Adventure Game Studio Script|../languages/ags-script.html|asc ash
   Grace|../languages/grace.html|grace
@@ -497,7 +498,6 @@ replace TABLE
   parasail|../languages/parasail.html|psi psl
   Ren|../languages/ren-notation.html|ren
   Zimpl|../languages/zimpl.html|zimpl zmpl zpl
-  X PixMap|../languages/x-pixmap.html|xpm pm
   Earl Grey|../languages/earl-grey.html|eg
   Creole|../languages/creole.html|creole
   FreeMarker|../languages/freemarker.html|ftl

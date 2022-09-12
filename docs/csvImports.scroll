@@ -30,7 +30,7 @@ replace COLUMN_METADATA_TABLE
   16|githubRepo|776|16%|https://github.com/breck7/note|URL of the official GitHub repo for the project if it hosted there.|github.com|https://github.com|githubRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L1
   17|website|1398|30%|http://berkin.me/rant|URL of the official homepage for the language project.|||website.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/website.grammar#L1
   18|wikipedia|1903|40%|https://en.wikipedia.org/wiki/Apache_Velocity|URL of the entity on Wikipedia, if and only if it has a page dedicated to it.|wikipedia.org|https://wikipedia.org|wikipedia.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/wikipedia.grammar#L2
-  19|hopl|4724|100%|1662954792000|The matching language on Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site (https://hopl.info/)|hopl.info|https://hopl.info|hopl.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/hopl.grammar#L1
+  19|hopl|4724|100%|1662976953000|The matching language on Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site (https://hopl.info/)|hopl.info|https://hopl.info|hopl.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/hopl.grammar#L1
   20|centralPackageRepositoryCount|3032|64%|0|If you've searched for a CPM for this language and can't find one, set 0 as the count.|||packages.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/packages.grammar#L6
   21|reference|2020|43%|https://github.com/andrejbauer/plzoo|A link to more info about this entity. You can add raw links and then auto "upgrade" them using some of the importer code.|||reference.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/reference.grammar#L1
   22|hoplId|1816|38%|1681|computed|||A computed value|
@@ -44,7 +44,7 @@ replace COLUMN_METADATA_TABLE
   30|wikipedia.related|1286|27%|java|What languages does Wikipedia have as related?|||wikipedia.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/wikipedia.grammar#L14
   31|fileType|1267|27%|text|What is the file encoding for programs in this language?|||type.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/type.grammar#L14
   32|isbndb|1092|23%|0|Books about this language from ISBNdb.|isbndb.com|https://isbndb.com|isbndb.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/isbndb.grammar#L1
-  33|description|891|19%|A nsfw esolang.|Description of the repo on GitHub.|||githubRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L41
+  33|description|892|19%|A nsfw esolang.|Description of the repo on GitHub.|||githubRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L41
   34|domainName|864|18%|wiki.xxiivv.com|If the project website is on its own domain.|||website.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/website.grammar#L12
   35|semanticScholar|760|16%|0|Papers about this language from Semantic Scholar.|semanticscholar.org|https://semanticscholar.org|semanticScholar.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/semanticScholar.grammar#L1
   36|githubRepo.updated|713|15%|2022|What year was the last commit made?|||githubRepo.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubRepo.grammar#L14
@@ -88,7 +88,7 @@ replace COLUMN_METADATA_TABLE
   74|rosettaCode|330|7%|ABAP|A link to this language on Rosetta Code - http://www.rosettacode.org/|rosettacode.org|https://rosettacode.org|rosettaCode.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/rosettaCode.grammar#L1
   75|stringToken|330|7%|"|What token(s) is used to delimite a string?|||featureTokens.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/featureTokens.grammar#L34
   76|pygmentsHighlighter.fileExtensions|325|7%|j|An Array of associated extensions (the first one is considered the primary extension, the others should be listed alphabetically).|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L14
-  77|originCommunity|322|7%|Microsoft|In what community(ies) did the language first originate?|||originCommunity.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/originCommunity.grammar#L1
+  77|originCommunity|323|7%|Microsoft|In what community(ies) did the language first originate?|||originCommunity.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/originCommunity.grammar#L1
   78|standsFor|316|7%|3D Manufacturing Format|If the language name is an abbreviation, what does/did it stand for?|||name.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/name.grammar#L13
   79|printToken|312|7%|print|What token(s) is used to print a message?|||featureTokens.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/featureTokens.grammar#L28
   80|features.hasPrintDebugging|310|7%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L352
@@ -106,7 +106,7 @@ replace COLUMN_METADATA_TABLE
   92|helloWorldCollection|149|3%|A Programming Language|Hello world written in this language from http://helloworldcollection.de/|helloworldcollection.de|https://helloworldcollection.de|helloWorldCollection.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/helloWorldCollection.grammar#L1
   93|features.hasIntegers|147|3%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L256
   94|githubLanguage.aliases|142|3%|AFDKO|An Array of additional aliases (implicitly includes name.downcase).|||githubLanguage.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/githubLanguage.grammar#L45
-  95|tryItOnline|129|3%|perl6|A link to try this language on https://tio.run|tio.run|https://tio.run|tryItOnline.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/tryItOnline.grammar#L1
+  95|tryItOnline|128|3%|perl6|A link to try this language on https://tio.run|tio.run|https://tio.run|tryItOnline.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/tryItOnline.grammar#L1
   96|features.hasFloats|127|3%|true||||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L204
   97|featureKeyword|119|3%|canDoShebang|Links a feature entry to the related feature keyword in the pldb grammar.|||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L12
   98|pseudoExample|119|3%|# Hello PLDB|As short an example as possible.|||features.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/features.grammar#L1
@@ -121,7 +121,7 @@ replace COLUMN_METADATA_TABLE
   107|domainName.awisRank.2017|87|2%|102718||||primitives.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/primitives.grammar#L83
   108|projectEuler.memberCount.2019|87|2%|9||||primitives.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/primitives.grammar#L86
   109|codeMirror|80|2%|apl|A link to a CodeMirror syntax highlighting package for this language (https://github.com/codemirror/codemirror5/tree/master/mode/LANGUAGE)|codemirror.net|https://codemirror.net|codemirror.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/codemirror.grammar#L1
-  110|monaco|75|2%|cpp|A link to a Monaco syntax highlighting package for this language.|microsoft.github.io/monaco-editor/|https://microsoft.github.io/monaco-editor/|monaco.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/monaco.grammar#L1
+  110|monaco|74|2%|cpp|A link to a Monaco syntax highlighting package for this language.|microsoft.github.io/monaco-editor/|https://microsoft.github.io/monaco-editor/|monaco.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/monaco.grammar#L1
   111|jupyterKernel|73|2%|http://coconut-lang.org/|A link to a Jupyter Kernel for this language.|jupyter.org|https://jupyter.org|jupyter.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/jupyter.grammar#L1
   112|subreddit.memberCount.2022|72|2%|202070||||primitives.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/primitives.grammar#L86
   113|subreddit|72|2%|https://reddit.com/r/C_Programming|Url of a subreddit(s) for this language.|reddit.com|https://reddit.com|reddit.grammar|https://github.com/breck7/pldb/blob/main/database/grammar/reddit.grammar#L1

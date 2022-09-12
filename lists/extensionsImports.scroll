@@ -158,9 +158,9 @@ replace TABLE
   Ioke|../languages/ioke.html|ik
   Vue|../languages/vuejs.html|vue
   Cap'n Proto|../languages/capn-proto.html|capnp
-  Ceylon|../languages/ceylon.html|ceylon ceyloncite web
   F*|../languages/fstar.html|fst fsti
   Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt
+  Ceylon|../languages/ceylon.html|ceylon ceyloncite web
   Squirrel|../languages/squirrel.html|nut
   jq|../languages/jq.html|jq
   MoonScript|../languages/moonscript.html|moon
@@ -170,10 +170,10 @@ replace TABLE
   Processing|../languages/processing.html|pde
   Mercury|../languages/mercury.html|m moo
   Maxima|../languages/maxima.html|mac max
-  Factor|../languages/factor.html|factor
-  X10|../languages/x10.html|x10
   CMake|../languages/cmake.html|cmake cmakein CMakeLists.txt
   Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window
+  Factor|../languages/factor.html|factor
+  X10|../languages/x10.html|x10
   Lasso|../languages/lasso.html|lasso LassoApp las lasso8 lasso9 lasso[89]
   Clean|../languages/clean.html|icl dcl abc sapl
   Stata|../languages/stata.html|do ado doh ihlp mata matah sthlp
@@ -198,8 +198,8 @@ replace TABLE
   Batchfile|../languages/batch.html|bat cmd
   ABAP|../languages/abap.html|abap ABAP
   Smali|../languages/smali.html|smali
-  LOLCODE|../languages/lolcode.html|lol
   Coq|../languages/coq.html|coq v
+  LOLCODE|../languages/lolcode.html|lol
   Monkey|../languages/monkey.html|monkey monkey2
   SaltStack|../languages/saltstack.html|sls
   Frege|../languages/frege.html|fr
@@ -296,6 +296,7 @@ replace TABLE
   GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader
   BBC BASIC|../languages/bbc-basic.html|bbc
   Max|../languages/max.html|maxpat maxhelp maxproj mxt pat
+  AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
   PowerBuilder|../languages/powerbuilder.html|pbt sra sru srw
   AspectJ|../languages/aspectj.html|aj
   EDN|../languages/edn.html|edn
@@ -309,9 +310,8 @@ replace TABLE
   DTrace|../languages/dtrace.html|d
   Click|../languages/click.html|click
   EBNF|../languages/ebnf.html|ebnf
-  AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
-  UPC|../languages/unified-parallel-c.html|upc
   FreeBASIC|../languages/freebasic.html|bi bas
+  UPC|../languages/unified-parallel-c.html|upc
   KiCad Legacy Layout|../languages/kicad.html|sch lib brd kicad_pcb kicad_wks kicad_mod
   Textile|../languages/textile.html|textile
   Object Rexx|../languages/object-rexx.html|rxs rex
@@ -562,6 +562,7 @@ replace TABLE
   Todotxt|../languages/todotxt.html|todo.txt todotxt
   STON|../languages/ston.html|ston
   XC|../languages/xc.html|xc
+  TextMate Language|../languages/tmlanguage.html|tmLanguage
   UnrealScript|../languages/unrealscript.html|uc
   Scala Markup Language|../languages/scaml.html|scaml
   DataWeave|../languages/dataweave.html|dwl
@@ -587,7 +588,6 @@ replace TABLE
   Darcs Advanced Revision Control System|../languages/darcs-patch.html|darcspatch dpatch
   Myghty|../languages/myghty.html|myt autodelegate
   rbs|../languages/rbs.html|rbs
-  TextMate Language|../languages/tmlanguage.html|tmLanguage
   plam|../languages/plam.html|plam
   Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf
   crmsh|../languages/crmsh.html|crmsh pcmk

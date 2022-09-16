@@ -36,8 +36,8 @@ replace TABLE
   Erlang|../languages/erlang.html|erl hrl appsrc es escript xrl yrl
   Pascal|../languages/pascal.html|pp pas inc dfm dpr lpr pascal
   Mathematica|../languages/mathematica.html|mathematica cdf m ma mt nb nbp wl wlt
-  Prolog|../languages/prolog.html|pl pro P prolog yap ecl
   Ada|../languages/ada.html|adb ads ada
+  Prolog|../languages/prolog.html|pl pro P prolog yap ecl
   Elixir|../languages/elixir.html|ex exs eex
   Julia|../languages/julia.html|jl
   Kotlin|../languages/kotlin.html|kt kts ktm
@@ -50,8 +50,8 @@ replace TABLE
   F#|../languages/f-sharp.html|fs fsi fsx fsscript
   D|../languages/d.html|d di
   BASIC|../languages/basic.html|bas
-  Dart|../languages/dart.html|dart
   Bash|../languages/bash.html|sh bash bats cgi command env fcgi ksh shin tmux tool zsh zsh-theme ebuild eclass exheres-0 exlib .bashrc bashrc .bash_* bash_* zshrc .zshrc .kshrc kshrc PKGBUILD
+  Dart|../languages/dart.html|dart
   Racket|../languages/racket.html|rkt rktl rktd scrbl plt ss scm
   Assembly language|../languages/assembly-language.html|asm a51 i inc nas nasm
   CoffeeScript|../languages/coffeescript.html|coffee litcoffee _coffee cake cjsx iced
@@ -65,16 +65,16 @@ replace TABLE
   Nim|../languages/nim.html|nim nimcfg nimble nimrod nims
   HTTP|../languages/http.html|http
   Verilog|../languages/verilog.html|v veo
-  CUDA|../languages/cuda.html|cu cuh
   Eiffel|../languages/eiffel.html|e
+  CUDA|../languages/cuda.html|cu cuh
   Elm|../languages/elm.html|elm
   PostScript|../languages/postscript.html|ps eps epsi pfa
   Haxe|../languages/haxe.html|hx hxml hxsl
   Chapel|../languages/chapel.html|chpl
   Emacs Lisp|../languages/emacs-lisp.html|el emacs emacsdesktop elc
   GNU Octave|../languages/octave.html|m
-  Standard ML|../languages/standard-ml.html|sml ml fun sig
   LLVM IR|../languages/llvmir.html|ll
+  Standard ML|../languages/standard-ml.html|sml ml fun sig
   Modula-2|../languages/modula-2.html|mod m2 def MOD DEF mi md
   REBOL|../languages/rebol.html|r reb r2 r3 rebol
   Tex|../languages/tex.html|tex aux bbx cbx cls dtx ins lbx ltx mkii mkiv mkvi sty toc
@@ -99,8 +99,8 @@ replace TABLE
   Visual Basic .NET|../languages/visual-basic-dot-net.html|vb vbhtml
   ASP|../languages/asp.html|asp asax ascx ashx asmx aspx axd
   Scratch|../languages/scratch.html|scratch sb sprite sb2 sprite2
-  VBScript|../languages/vbscript.html|vbs vbe wsf wsc VBS
   Idris|../languages/idris.html|idr lidr
+  VBScript|../languages/vbscript.html|vbs vbe wsf wsc VBS
   PureScript|../languages/purescript.html|purs
   Io|../languages/io.html|io
   V|../languages/v.html|v
@@ -123,6 +123,7 @@ replace TABLE
   Brainfuck|../languages/brainfuck.html|b bf
   AutoIt|../languages/autoit.html|au3
   AMPL|../languages/ampl.html|ampl mod run dat
+  Ballerina|../languages/ballerina.html|bal
   HAML|../languages/haml.html|haml hamldeface
   OpenCL|../languages/opencl.html|cl opencl
   Hy|../languages/hy.html|hy
@@ -130,7 +131,6 @@ replace TABLE
   Arc|../languages/arc.html|arc
   Fantom|../languages/fantom.html|fan
   Perl 6|../languages/perl-6.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t
-  Ballerina|../languages/ballerina.html|bal
   PostCSS|../languages/postcss.html|pcss postcss
   Pike|../languages/pike.html|pike pmod
   SVG|../languages/svg.html|svg
@@ -142,8 +142,8 @@ replace TABLE
   MediaWiki|../languages/mediawiki.html|mediawiki wiki
   QBasic|../languages/qbasic.html|BAS bas
   VBA|../languages/vba.html|bas cls frm frx vba
-  SuperCollider|../languages/supercollider.html|sc scd
   API Blueprint|../languages/api-blueprint.html|apib
+  SuperCollider|../languages/supercollider.html|sc scd
   Opa|../languages/opa.html|opa
   sed|../languages/sed.html|sed [gs]sed
   Bison|../languages/bison.html|bison
@@ -166,9 +166,9 @@ replace TABLE
   DOT|../languages/dot.html|dot gv
   PureBasic|../languages/purebasic.html|pb pbi
   xBase|../languages/xbase.html|prg ch prw
+  MoonScript|../languages/moonscript.html|moon
   Processing|../languages/processing.html|pde
   Mercury|../languages/mercury.html|m moo
-  MoonScript|../languages/moonscript.html|moon
   jq|../languages/jq.html|jq
   Maxima|../languages/maxima.html|mac max
   CMake|../languages/cmake.html|cmake cmakein CMakeLists.txt
@@ -288,8 +288,8 @@ replace TABLE
   Futhark|../languages/futhark.html|fut
   Smarty|../languages/smarty.html|tpl
   SIL|../languages/swift-il.html|sil
-  Pony|../languages/pony.html|pony
   Euphoria|../languages/euphoria.html|e ex exw edb
+  Pony|../languages/pony.html|pony
   PL/pgSQL|../languages/plpgsql.html|pgsql sql
   Metal|../languages/metal.html|metal
   Papyrus|../languages/papyrus.html|psc
@@ -550,6 +550,7 @@ replace TABLE
   Miva|../languages/miva.html|mv mvc mvt
   winxed|../languages/winxed.html|winxed
   TI-89 series|../languages/ti-89-basic.html|89p
+  BARE|../languages/bare.html|bare
   mint|../languages/mint.html|mint
   verifpal|../languages/verifpal.html|vp
   Linux Kernel Module|../languages/linux-kernel-module.html|ko mod
@@ -577,6 +578,7 @@ replace TABLE
   Velocity Template Language|../languages/vtl-lang.html|vtl
   Recfiles|../languages/recfiles.html|rec
   AmbientTalk|../languages/ambienttalk.html|at
+  bag-format|../languages/bag-format.html|bag
   Boogie|../languages/boogie.html|bpl
   nimrod|../languages/nimrod.html|nim nimrod
   plink-bed-format|../languages/plink-bed-format.html|bed
@@ -593,7 +595,6 @@ replace TABLE
   crmsh|../languages/crmsh.html|crmsh pcmk
   GN|../languages/generate-ninja.html|gn gni
   Kuin|../languages/kuin.html|kn
-  Autoconf|../languages/autoconf.html|ac
   ObjDump|../languages/objdump.html|objdump
   Groovy Server Pages|../languages/groovy-server-pages.html|gsp
   Adobe Font Metrics|../languages/adobe-font-metrics.html|afm
@@ -607,7 +608,6 @@ replace TABLE
   ten|../languages/ten.html|ten
   Urbiscript|../languages/urbiscript.html|u
   RTF|../languages/rtf.html|rtf
-  BARE|../languages/bare.html|bare
   boa|../languages/boa.html|boa
   epsilon|../languages/epsilon.html|eol
   Freefem|../languages/freefem.html|edp
@@ -624,6 +624,7 @@ replace TABLE
   Marine Trading Markup Language|../languages/mtml.html|mtml
   phylip|../languages/phylip.html|phy ph
   TI Program|../languages/ti-basic-assembly.html|8xp 8xk 8xktxt 8xptxt
+  Autoconf|../languages/autoconf.html|ac
   FloScript|../languages/floscript.html|flo
   Dasm|../languages/dasm.html|dasm16 dasm
   Programming Language for Business|../languages/plb.html|rl ps cb
@@ -643,7 +644,6 @@ replace TABLE
   Z-flat|../languages/z-flat.html|zf
   Kami|../languages/kami.html|km
   Breccia|../languages/breccia.html|brec
-  bag-format|../languages/bag-format.html|bag
   git-config|../languages/git-config.html|gitconfig
   janet|../languages/janet.html|janet
   mpl|../languages/mpl.html|mpl

@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Type Casting include <a href="c.html">C</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="typescript.html">TypeScript</a>
+ Languages <b>with</b> Type Casting include <a href="c.html">C</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="typescript.html">TypeScript</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="c.html">C</a>:
 
@@ -58,6 +58,11 @@ exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
 
 code
  &lt;number&gt;something;
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ let x = (int)(3.14)
 
 
 

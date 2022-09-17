@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Manual Memory Management include <a href="c.html">C</a>, <a href="cpp.html">C++</a>
+ Languages <b>with</b> Manual Memory Management include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="c.html">C</a>:
 
@@ -39,6 +39,17 @@ code
  {
    int *poin = malloc(4);
    free(poin);
+ }
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ use std::mem::c::{malloc, free}
+ 
+ fn main() {
+     let mut ptr = malloc(8)
+     free(ptr)
+     ptr = nil
  }
 
 

@@ -1,6 +1,6 @@
 importOnly
 replace EXTENSION_COUNT
- 1,516
+ 1,517
 replace TABLE
  pipeTable
   name|nameLink|extensions
@@ -41,30 +41,30 @@ replace TABLE
   Julia|../languages/julia.html|jl
   Elixir|../languages/elixir.html|ex exs eex
   Mathematica|../languages/mathematica.html|mathematica cdf m ma mt nb nbp wl wlt
-  CUDA|../languages/cuda.html|cu cuh
   Modula-2|../languages/modula-2.html|mod m2 def MOD DEF mi md
+  CUDA|../languages/cuda.html|cu cuh
   Scheme|../languages/scheme.html|scm ss sch sld sls sps 
   Tcl|../languages/tcl.html|tcl tbc adp tclin tm rvt
   Assembly language|../languages/assembly-language.html|asm a51 i inc nas nasm
   Dart|../languages/dart.html|dart
   BASIC|../languages/basic.html|bas
   Arduino|../languages/arduino.html|ino
-  ActionScript|../languages/actionscript.html|as
   awk|../languages/awk.html|awk auk gawk mawk nawk
+  ActionScript|../languages/actionscript.html|as
   Regular Expressions|../languages/regex.html|regexp regex
   Bash|../languages/bash.html|sh bash bats cgi command env fcgi ksh shin tmux tool zsh zsh-theme ebuild eclass exheres-0 exlib .bashrc bashrc .bash_* bash_* zshrc .zshrc .kshrc kshrc PKGBUILD
   F#|../languages/f-sharp.html|fs fsi fsx fsscript
   HTTP|../languages/http.html|http
   Crystal|../languages/crystal.html|cr
   Delphi|../languages/delphi.html|pas dpr
+  VBA|../languages/vba.html|bas cls frm frx vba
   OCaml|../languages/ocaml.html|ml mli eliom eliomi ml4 mll mly
   Verilog|../languages/verilog.html|v veo
-  VBA|../languages/vba.html|bas cls frm frx vba
   Smalltalk|../languages/smalltalk.html|st cs
-  Eiffel|../languages/eiffel.html|e
   Modula-3|../languages/modula-3.html|i3 ig m3 mg
-  D|../languages/d.html|d di
+  Eiffel|../languages/eiffel.html|e
   Reason|../languages/reason.html|re rei
+  D|../languages/d.html|d di
   Sage|../languages/sagemath.html|sage sagews
   Solidity|../languages/solidity.html|sol
   Yacc|../languages/yacc.html|y yacc yy
@@ -235,8 +235,8 @@ replace TABLE
   RDoc|../languages/rdoc.html|rdoc
   Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope
   B|../languages/b.html|b
-  AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
   TLA|../languages/tla.html|tla
+  AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
   ERB|../languages/erb.html|erb erbdeface rhtml
   Dhall|../languages/dhall.html|dhall
   Marko|../languages/marko.html|marko
@@ -249,8 +249,8 @@ replace TABLE
   Ninja|../languages/ninja.html|ninja
   Wolfram Language|../languages/wolfram.html|nb m wl
   PEG.js|../languages/pegjs.html|pegjs
-  Q|../languages/q.html|q
   Puppet|../languages/puppet.html|pp
+  Q|../languages/q.html|q
   Bicep|../languages/bicep.html|bicep
   Oxygene|../languages/oxygene.html|oxygene
   Seed7|../languages/seed7.html|sd7 s7i
@@ -317,9 +317,9 @@ replace TABLE
   Ring|../languages/ring.html|ring rh rform
   XSLT|../languages/xslt.html|xslt xsl xpl
   WDL|../languages/wdl.html|wdl
-  SIL|../languages/swift-il.html|sil
   Augmented Backus-Naur Form|../languages/abnf.html|abnf
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5
+  SIL|../languages/swift-il.html|sil
   beef-lang|../languages/beef.html|bf
   Dogescript|../languages/dogescript.html|djs
   CWL|../languages/common-workflow-language.html|cwl
@@ -341,8 +341,8 @@ replace TABLE
   IGOR Pro|../languages/igor-pro.html|ipf
   Zip file format|../languages/zip-format.html|zip
   Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf
-  PIR|../languages/parrot-internal-representation.html|pir
   eC|../languages/ec.html|ec eh
+  PIR|../languages/parrot-internal-representation.html|pir
   Velocity|../languages/apache-velocity.html|vm fhtml
   RUNOFF|../languages/runoff.html|rnh rno
   CSV|../languages/csv.html|csv
@@ -354,6 +354,7 @@ replace TABLE
   SubRip Text|../languages/subrip-text.html|srt
   beads-lang|../languages/beads-lang.html|beads
   Dockerfile|../languages/dockerfile.html|dockerfile
+  Jule|../languages/x.html|.jule
   Felix|../languages/felix.html|flx flxh
   SQLPL|../languages/sqlpl.html|sql db2
   MiniD|../languages/minid.html|minid
@@ -372,8 +373,8 @@ replace TABLE
   Clarion|../languages/clarion.html|clw
   mustache|../languages/mustache.html|mustache
   BBC BASIC|../languages/bbc-basic.html|bbc
-  MQL5|../languages/mql.html|mq5 mqh mq4
   Shapefile|../languages/shapefile.html|shp shx dbf
+  MQL5|../languages/mql.html|mq5 mqh mq4
   FIGlet Font|../languages/figlet-font.html|flf
   Textile|../languages/textile.html|textile
   Futhark|../languages/futhark.html|fut
@@ -425,9 +426,9 @@ replace TABLE
   CartoCSS|../languages/cartocss.html|mss
   ooc|../languages/ooc.html|ooc
   RenderScript|../languages/renderscript.html|rs rsh
+  vyper|../languages/vyper.html|vy
   Jasmin|../languages/jasmin.html|j
   Literate Agda|../languages/literate-agda.html|lagda
-  vyper|../languages/vyper.html|vy
   Nit|../languages/nit.html|nit
   Game Maker Language|../languages/game-maker-language.html|gml
   clay|../languages/clay.html|clay
@@ -708,4 +709,4 @@ replace TABLE
   rdata-format|../languages/rdata-format.html|Rdata rdata rda RData
   cimfast|../languages/cimfast.html|cel
 replace LANG_WITH_DATA_COUNT
- 703
+ 704

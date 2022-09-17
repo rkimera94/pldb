@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Anonymous Functions include <a href="javascript.html">JavaScript</a>, <a href="elixir.html">Elixir</a>, <a href="coconut.html">Coconut</a>, <a href="hope.html">HOPE</a>
+ Languages <b>with</b> Anonymous Functions include <a href="javascript.html">JavaScript</a>, <a href="elixir.html">Elixir</a>, <a href="coconut.html">Coconut</a>, <a href="hope.html">HOPE</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -49,6 +49,14 @@ exampleCodeHeader Example from <a href="hope.html">HOPE</a>:
 
 code
  lambda(x,y) =&gt; x + y
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ let anonymous = fn() {
+     outln(&quot;Anonymous Function&quot;)
+ }
+ anonymous()
 
 
 

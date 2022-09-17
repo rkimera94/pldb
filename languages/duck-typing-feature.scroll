@@ -28,9 +28,15 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Duck Typing include <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>
+ Languages <b>with</b> Duck Typing include <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="x.html">Jule</a>
 
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
 
+code
+ type[T]
+ fn lock_object(obj: T) {
+     obj.lock()
+ }
 
 
 

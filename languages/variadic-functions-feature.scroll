@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Variadic Functions include <a href="c.html">C</a>, <a href="php.html">PHP</a>, <a href="go.html">Go</a>, <a href="slope.html">Slope</a>
+ Languages <b>with</b> Variadic Functions include <a href="c.html">C</a>, <a href="php.html">PHP</a>, <a href="go.html">Go</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="c.html">C</a>:
 
@@ -64,6 +64,13 @@ exampleCodeHeader Example from <a href="slope.html">Slope</a>:
 
 code
  (lambda (...) (apply + ...))
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ fn average(x: ...f64) f64 {
+     // ...
+ }
 
 
 

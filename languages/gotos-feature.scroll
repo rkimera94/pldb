@@ -31,7 +31,7 @@ paragraph
  Languages <b>without</b> Gotos include <a href="nim.html">Nim</a>, <a href="slope.html">Slope</a>
 
 paragraph
- Languages <b>with</b> Gotos include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="basic.html">BASIC</a>
+ Languages <b>with</b> Gotos include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="basic.html">BASIC</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="c.html">C</a>, <a href="cpp.html">C++</a>:
 
@@ -71,6 +71,11 @@ code
  15 REM It fills the screen with the phrase &quot;HELLO&quot;
  20 PRINT &quot;HELLO&quot;
  30 GOTO 20
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ goto a_label
 
 
 

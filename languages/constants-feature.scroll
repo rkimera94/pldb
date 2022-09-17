@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Constants include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="go.html">Go</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="dart.html">Dart</a>, <a href="f-sharp.html">F#</a>, <a href="groovy.html">Groovy</a>, <a href="chapel.html">Chapel</a>, <a href="systemverilog.html">SystemVerilog</a>, <a href="angelscript.html">Angelscript</a>, <a href="apex.html">Apex</a>, <a href="eclipse-command-language.html">Eclipse Command Language</a>, <a href="nimrod.html">nimrod</a>
+ Languages <b>with</b> Constants include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="go.html">Go</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="dart.html">Dart</a>, <a href="f-sharp.html">F#</a>, <a href="groovy.html">Groovy</a>, <a href="chapel.html">Chapel</a>, <a href="systemverilog.html">SystemVerilog</a>, <a href="angelscript.html">Angelscript</a>, <a href="x.html">Jule</a>, <a href="apex.html">Apex</a>, <a href="eclipse-command-language.html">Eclipse Command Language</a>, <a href="nimrod.html">nimrod</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -47,6 +47,11 @@ code
  Name = &quot;John&quot;  
  # Not a constant
  name = &quot;John&quot;
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ const PI = 3.14159265359
 
 
 

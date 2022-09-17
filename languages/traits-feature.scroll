@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Traits include <a href="php.html">PHP</a>
+ Languages <b>with</b> Traits include <a href="php.html">PHP</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="php.html">PHP</a>:
 
@@ -55,6 +55,14 @@ code
  class WebSite extends SomeClass
  {
      use TSingleton;
+ }
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ trait Person {
+     fn full_name(self) str
+     fn age() byte
  }
 
 

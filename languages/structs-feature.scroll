@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Structs include <a href="c.html">C</a>, <a href="ion.html">Ion</a>
+ Languages <b>with</b> Structs include <a href="c.html">C</a>, <a href="ion.html">Ion</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="c.html">C</a>:
 
@@ -46,6 +46,15 @@ code
  { first : &quot;Tom&quot; , last: &quot;Riddle&quot; }  // Structure with two fields
  {&quot;first&quot;:&quot;Tom&quot;,&quot;last&quot;:&quot;Riddle&quot;}     // The same value with confusing style
  {center:{x:1.0, y:12.5}, radius:3}  // Nested struct
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ struct Employee {
+     first_name: str
+     last_name: str
+     salary: f32
+ }
 
 
 

@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Generics include <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="ada.html">Ada</a>, <a href="typescript.html">TypeScript</a>, <a href="felix.html">Felix</a>
+ Languages <b>with</b> Generics include <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="ada.html">Ada</a>, <a href="typescript.html">TypeScript</a>, <a href="felix.html">Felix</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -102,6 +102,14 @@ code
  fun g (x) =&gt; f (f x);
  println$ g 1, g &quot;hello&quot;;
  println$ _map f (1,&quot;hello&quot;,2.0);
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ type[T]
+ fn generic_function(s: []T) {
+     // ...
+ }
 
 
 

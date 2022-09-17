@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Assert Statements include <a href="java.html">Java</a>, <a href="c.html">C</a>
+ Languages <b>with</b> Assert Statements include <a href="java.html">Java</a>, <a href="c.html">C</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -55,6 +55,18 @@ code
    assert(0 &lt;= a[i] &amp;&amp; a[i] &lt; 10);
    a[a[i]] = a[i];
    }
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ use std::debug
+ use std::debug::assert::{assert}
+ 
+ fn main() {
+     std::debug::ENABLE = true
+     let x = 200
+     assert(x &lt; 200)
+ }
 
 
 

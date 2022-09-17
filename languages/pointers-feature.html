@@ -114,7 +114,7 @@
 
 <p class="scrollParagraphComponent">Languages <b>without</b> Pointers include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="elixir.html">Elixir</a></p>
 
-<p class="scrollParagraphComponent">Languages <b>with</b> Pointers include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="go.html">Go</a>, <a href="csharp.html">C#</a>, <a href="objective-c.html">Objective-C</a>, <a href="cobol.html">COBOL</a>, <a href="ada.html">Ada</a>, <a href="d.html">D</a>, <a href="eiffel.html">Eiffel</a>, <a href="modula-2.html">Modula-2</a>, <a href="oberon.html">Oberon</a>, <a href="pl-i.html">PL/I</a>, <a href="freebasic.html">FreeBASIC</a>, <a href="felix.html">Felix</a>, <a href="blitzmax.html">BlitzMax</a>, <a href="fortran-90.html">Fortran 90</a></p>
+<p class="scrollParagraphComponent">Languages <b>with</b> Pointers include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="csharp.html">C#</a>, <a href="cobol.html">COBOL</a>, <a href="go.html">Go</a>, <a href="ada.html">Ada</a>, <a href="objective-c.html">Objective-C</a>, <a href="modula-2.html">Modula-2</a>, <a href="eiffel.html">Eiffel</a>, <a href="d.html">D</a>, <a href="oberon.html">Oberon</a>, <a href="pl-i.html">PL/I</a>, <a href="freebasic.html">FreeBASIC</a>, <a href="felix.html">Felix</a>, <a href="blitzmax.html">BlitzMax</a>, <a href="fortran-90.html">Fortran 90</a></p>
 
 <div class="exampleCodeHeader">Example from <a href="c.html">C</a>:</div>
 
@@ -123,6 +123,12 @@
 <div class="exampleCodeHeader">Example from <a href="cpp.html">C++</a>:</div>
 
 <code class="scrollCodeBlockComponent">int *p;</code>
+
+<div class="exampleCodeHeader">Example from <a href="csharp.html">C#</a>:</div>
+
+<code class="scrollCodeBlockComponent">// Pointers supported only under certain conditions.
+// Get 16 bytes of memory from the process&#39;s unmanaged memory
+IntPtr pointer = System.Runtime.InteropServices.Marshal.AllocHGlobal(16);</code>
 
 <div class="exampleCodeHeader">Example from <a href="go.html">Go</a>:</div>
 
@@ -143,12 +149,6 @@ func main() {
   fmt.Println(j) // see the new value of j
 }
 </code>
-
-<div class="exampleCodeHeader">Example from <a href="csharp.html">C#</a>:</div>
-
-<code class="scrollCodeBlockComponent">// Pointers supported only under certain conditions.
-// Get 16 bytes of memory from the process&#39;s unmanaged memory
-IntPtr pointer = System.Runtime.InteropServices.Marshal.AllocHGlobal(16);</code>
 
 <div class="exampleCodeHeader">Example from <a href="felix.html">Felix</a>:</div>
 
@@ -202,8 +202,8 @@ end do</code>
 <p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/pointers-feature.pldb">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 7527bf8dbb0b67bd77bf235218bcabafaa00f46e" href="https://github.com/breck7/pldb/commit/7527bf8dbb0b67bd77bf235218bcabafaa00f46e">v2022</a> · </span>
-   <a href="../pages/about.html">Day 19</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 35a06149d1e1cf4edca67b3c1757da1bd6dab718" href="https://github.com/breck7/pldb/commit/35a06149d1e1cf4edca67b3c1757da1bd6dab718">v2022</a> · </span>
+   <a href="../pages/about.html">Day 20</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>
    <span>·</span>

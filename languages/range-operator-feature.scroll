@@ -28,18 +28,18 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Range Operator include <a href="ruby.html">Ruby</a>, <a href="perl.html">Perl</a>, <a href="haskell.html">Haskell</a>, <a href="elixir.html">Elixir</a>
-
-exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
-
-code
- (3...6)
+ Languages <b>with</b> Range Operator include <a href="perl.html">Perl</a>, <a href="ruby.html">Ruby</a>, <a href="haskell.html">Haskell</a>, <a href="elixir.html">Elixir</a>
 
 exampleCodeHeader Example from <a href="perl.html">Perl</a>:
 
 code
  # https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node38.html
  @array = (1..10);
+
+exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
+
+code
+ (3...6)
 
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 

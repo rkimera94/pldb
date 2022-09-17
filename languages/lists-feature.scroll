@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Lists include <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="go.html">Go</a>, <a href="json.html">JSON</a>, <a href="elixir.html">Elixir</a>, <a href="rebol.html">REBOL</a>, <a href="graphql.html">GraphQL</a>, <a href="edn.html">EDN</a>, <a href="boron.html">Boron</a>, <a href="ion.html">Ion</a>
+ Languages <b>with</b> Lists include <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="json.html">JSON</a>, <a href="go.html">Go</a>, <a href="elixir.html">Elixir</a>, <a href="graphql.html">GraphQL</a>, <a href="rebol.html">REBOL</a>, <a href="edn.html">EDN</a>, <a href="ion.html">Ion</a>, <a href="boron.html">Boron</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -40,15 +40,15 @@ exampleCodeHeader Example from <a href="python.html">Python</a>:
 code
  myList = [1, 2, 3, 4, 5]
 
-exampleCodeHeader Example from <a href="go.html">Go</a>:
-
-code
- myList := []int{1, 2, 3}
-
 exampleCodeHeader Example from <a href="json.html">JSON</a>:
 
 code
  [1, 2, 3]
+
+exampleCodeHeader Example from <a href="go.html">Go</a>:
+
+code
+ myList := []int{1, 2, 3}
 
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
@@ -89,4 +89,4 @@ code
 
 
 
-keyboardNav functions-feature.html monads-feature.html
+keyboardNav union-types-feature.html access-modifiers-feature.html

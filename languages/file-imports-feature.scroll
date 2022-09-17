@@ -30,7 +30,7 @@ paragraph
  Languages <b>without</b> File Imports include <a href="html.html">HTML</a>, <a href="json.html">JSON</a>
 
 paragraph
- Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="perl.html">Perl</a>, <a href="csharp.html">C#</a>, <a href="matlab.html">MATLAB</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="haskell.html">Haskell</a>, <a href="css.html">CSS</a>, <a href="typescript.html">TypeScript</a>, <a href="objective-c.html">Objective-C</a>, <a href="clojure.html">Clojure</a>, <a href="erlang.html">Erlang</a>, <a href="elixir.html">Elixir</a>, <a href="kotlin.html">Kotlin</a>, <a href="julia.html">Julia</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="f-sharp.html">F#</a>, <a href="crystal.html">Crystal</a>, <a href="racket.html">Racket</a>, <a href="nodejs.html">Node.js</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="slope.html">Slope</a>, <a href="flow9.html">Flow9</a>, <a href="xtext.html">Xtext</a>, <a href="scroll.html">Scroll</a>
+ Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="swift.html">Swift</a>, <a href="go.html">Go</a>, <a href="css.html">CSS</a>, <a href="haskell.html">Haskell</a>, <a href="rust.html">Rust</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="kotlin.html">Kotlin</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="nodejs.html">Node.js</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="flow9.html">Flow9</a>, <a href="scroll.html">Scroll</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -73,34 +73,16 @@ code
  include &#39;vars.php&#39;;
  require &#39;filename&#39;; // FATAL error if fails
 
-exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
-
-code
- load &#39;filename.rb&#39;
- require &#39;filename&#39;
- require &#39;trig.rb&#39;
-
-exampleCodeHeader Example from <a href="r.html">R</a>:
-
-code
- source(&quot;filename.r&quot;)
-
-exampleCodeHeader Example from <a href="go.html">Go</a>:
-
-code
- import (
-    &quot;fmt&quot;
-    &quot;math&quot;
- )
- import . &quot;fmt&quot;
- import _ &quot;io&quot;
- import log &quot;github.com/foo/bar&quot;
- import m &quot;math&quot;
-
 exampleCodeHeader Example from <a href="perl.html">Perl</a>:
 
 code
  use Digest::MD5 &#39;md5_hex&#39;;
+
+exampleCodeHeader Example from <a href="matlab.html">MATLAB</a>:
+
+code
+ import pkg.cls1
+ import pkg.pkfcn
 
 exampleCodeHeader Example from <a href="csharp.html">C#</a>:
 
@@ -115,11 +97,17 @@ code
      }
  }
 
-exampleCodeHeader Example from <a href="matlab.html">MATLAB</a>:
+exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
 
 code
- import pkg.cls1
- import pkg.pkfcn
+ load &#39;filename.rb&#39;
+ require &#39;filename&#39;
+ require &#39;trig.rb&#39;
+
+exampleCodeHeader Example from <a href="r.html">R</a>:
+
+code
+ source(&quot;filename.r&quot;)
 
 exampleCodeHeader Example from <a href="swift.html">Swift</a>:
 
@@ -130,15 +118,22 @@ code
  let vc = UIViewController()
  let label = UILabel()
 
-exampleCodeHeader Example from <a href="rust.html">Rust</a>:
+exampleCodeHeader Example from <a href="go.html">Go</a>:
 
 code
- use ::std::fs;  // Imports from the `std` crate, not the module below.
- use self::std::fs as self_fs;  // Imports the module below.
- mod my;
- use self::foo::Zoo as _;
- #[path = &quot;foo.rs&quot;]
- mod c;
+ import (
+    &quot;fmt&quot;
+    &quot;math&quot;
+ )
+ import . &quot;fmt&quot;
+ import _ &quot;io&quot;
+ import log &quot;github.com/foo/bar&quot;
+ import m &quot;math&quot;
+
+exampleCodeHeader Example from <a href="css.html">CSS</a>:
+
+code
+ @import &#39;custom.css&#39;;
 
 exampleCodeHeader Example from <a href="haskell.html">Haskell</a>:
 
@@ -150,10 +145,15 @@ code
  import Mod hiding (x,y,(+++))
  import qualified Mod hiding (x,y)
 
-exampleCodeHeader Example from <a href="css.html">CSS</a>:
+exampleCodeHeader Example from <a href="rust.html">Rust</a>:
 
 code
- @import &#39;custom.css&#39;;
+ use ::std::fs;  // Imports from the `std` crate, not the module below.
+ use self::std::fs as self_fs;  // Imports the module below.
+ mod my;
+ use self::foo::Zoo as _;
+ #[path = &quot;foo.rs&quot;]
+ mod c;
 
 exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
 
@@ -163,14 +163,6 @@ code
  /// &lt;reference path=&quot;components/someclass.ts&quot;/&gt;
  import moo = module(&#39;moo&#39;);
  /// &lt;amd-dependency path=&quot;legacy/moduleA&quot; name=&quot;moduleA&quot;/&gt;
-
-exampleCodeHeader Example from <a href="objective-c.html">Objective-C</a>:
-
-code
- // #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
- #import &lt;Foundation/Foundation.h&gt;
- #include &lt;asl.h&gt;
- #include &lt;mach/mach.h&gt;
 
 exampleCodeHeader Example from <a href="clojure.html">Clojure</a>:
 
@@ -188,14 +180,12 @@ code
  (require &#39;clojure.contrib.def &#39;clojure.contrib.except &#39;clojure.contrib.sql)
  (require &#39;(clojure.contrib def except sql))
 
-exampleCodeHeader Example from <a href="erlang.html">Erlang</a>:
+exampleCodeHeader Example from <a href="kotlin.html">Kotlin</a>:
 
 code
- -include(&quot;my_records.hrl&quot;).
- -include(&quot;incdir/my_records.hrl&quot;).
- -include(&quot;/home/user/proj/my_records.hrl&quot;).
- -include(&quot;$PROJ_ROOT/my_records.hrl&quot;).
- -include_lib(&quot;kernel/include/file.hrl&quot;).
+ import foo.Bar // Bar is now accessible without qualification
+ import foo.* // everything in &#39;foo&#39; becomes accessible
+ import bar.Bar as bBar // bBar stands for &#39;bar.Bar&#39;
 
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
@@ -212,12 +202,22 @@ code
  # Invokes the custom code defined in Foo as an extension point
  use Foo
 
-exampleCodeHeader Example from <a href="kotlin.html">Kotlin</a>:
+exampleCodeHeader Example from <a href="erlang.html">Erlang</a>:
 
 code
- import foo.Bar // Bar is now accessible without qualification
- import foo.* // everything in &#39;foo&#39; becomes accessible
- import bar.Bar as bBar // bBar stands for &#39;bar.Bar&#39;
+ -include(&quot;my_records.hrl&quot;).
+ -include(&quot;incdir/my_records.hrl&quot;).
+ -include(&quot;/home/user/proj/my_records.hrl&quot;).
+ -include(&quot;$PROJ_ROOT/my_records.hrl&quot;).
+ -include_lib(&quot;kernel/include/file.hrl&quot;).
+
+exampleCodeHeader Example from <a href="objective-c.html">Objective-C</a>:
+
+code
+ // #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
+ #import &lt;Foundation/Foundation.h&gt;
+ #include &lt;asl.h&gt;
+ #include &lt;mach/mach.h&gt;
 
 exampleCodeHeader Example from <a href="julia.html">Julia</a>:
 
@@ -245,6 +245,16 @@ exampleCodeHeader Example from <a href="bash.html">Bash</a>:
 code
  source ./bash.sh
 
+exampleCodeHeader Example from <a href="crystal.html">Crystal</a>:
+
+code
+ require &quot;../../spec_helper&quot;
+
+exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
+
+code
+ const jtree = require(&quot;jtree&quot;)
+
 exampleCodeHeader Example from <a href="f-sharp.html">F#</a>:
 
 code
@@ -253,20 +263,10 @@ code
  open List
  open Seq
 
-exampleCodeHeader Example from <a href="crystal.html">Crystal</a>:
-
-code
- require &quot;../../spec_helper&quot;
-
 exampleCodeHeader Example from <a href="racket.html">Racket</a>:
 
 code
  (require (prefix-in tcp: racket/tcp))
-
-exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
-
-code
- const jtree = require(&quot;jtree&quot;)
 
 exampleCodeHeader Example from <a href="ballerina.html">Ballerina</a>:
 
@@ -279,6 +279,12 @@ exampleCodeHeader Example from <a href="x10.html">X10</a>:
 code
  import x10.io.Console;
 
+exampleCodeHeader Example from <a href="xtext.html">Xtext</a>:
+
+code
+ import &quot;http://www.xtext.org/example/Domainmodel&quot;
+ import &quot;http://www.xtext.org/example/Domainmodel&quot; as dmodel
+
 exampleCodeHeader Example from <a href="slope.html">Slope</a>:
 
 code
@@ -289,12 +295,6 @@ exampleCodeHeader Example from <a href="flow9.html">Flow9</a>:
 
 code
  import runtime;
-
-exampleCodeHeader Example from <a href="xtext.html">Xtext</a>:
-
-code
- import &quot;http://www.xtext.org/example/Domainmodel&quot;
- import &quot;http://www.xtext.org/example/Domainmodel&quot; as dmodel
 
 exampleCodeHeader Example from <a href="scroll.html">Scroll</a>:
 

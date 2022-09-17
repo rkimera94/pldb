@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Generics include <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="typescript.html">TypeScript</a>, <a href="ada.html">Ada</a>, <a href="felix.html">Felix</a>
+ Languages <b>with</b> Generics include <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="ada.html">Ada</a>, <a href="typescript.html">TypeScript</a>, <a href="felix.html">Felix</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -64,13 +64,6 @@ code
      }
  }
 
-exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
-
-code
- function identity&lt;T&gt;(arg: T): T {
-    return arg;
- }
-
 exampleCodeHeader Example from <a href="ada.html">Ada</a>:
 
 code
@@ -94,6 +87,13 @@ code
        Storage : Vector (1 .. Allocated_Size);
     end record;
  end Stacks;
+
+exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
+
+code
+ function identity&lt;T&gt;(arg: T): T {
+    return arg;
+ }
 
 exampleCodeHeader Example from <a href="felix.html">Felix</a>:
 
@@ -121,4 +121,4 @@ code
 
 
 
-keyboardNav increment-and-decrement-operators-feature.html symbol-table-feature.html
+keyboardNav switch-statements-feature.html message-passing-feature.html

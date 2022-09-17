@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Generators include <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="csharp.html">C#</a>
+ Languages <b>with</b> Generators include <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -68,6 +68,19 @@ exampleCodeHeader Example from <a href="python.html">Python</a>:
 code
  https://wiki.python.org/moin/Generators
 
+exampleCodeHeader Example from <a href="csharp.html">C#</a>:
+
+code
+ // Method that takes an iterable input (possibly an array)
+ // and returns all even numbers.
+ public static IEnumerable&lt;int&gt; GetEven(IEnumerable&lt;int&gt; numbers) {
+     foreach (int i in numbers) {
+         if ((i % 2) == 0) {
+             yield return i;
+         }
+     }
+ }
+
 exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
 
 code
@@ -83,19 +96,6 @@ code
  end
  
  100.times { puts count.next }
-
-exampleCodeHeader Example from <a href="csharp.html">C#</a>:
-
-code
- // Method that takes an iterable input (possibly an array)
- // and returns all even numbers.
- public static IEnumerable&lt;int&gt; GetEven(IEnumerable&lt;int&gt; numbers) {
-     foreach (int i in numbers) {
-         if ((i % 2) == 0) {
-             yield return i;
-         }
-     }
- }
 
 
 

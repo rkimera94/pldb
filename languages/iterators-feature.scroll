@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Iterators include <a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="ruby.html">Ruby</a>, <a href="matlab.html">MATLAB</a>, <a href="rust.html">Rust</a>
+ Languages <b>with</b> Iterators include <a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="matlab.html">MATLAB</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -58,13 +58,6 @@ code
    std::cout &lt;&lt; *it;  // And print value of &#39;items&#39; for current index.
  }
 
-exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
-
-code
- (0...42).each do |n|
-   puts n
- end
-
 exampleCodeHeader Example from <a href="matlab.html">MATLAB</a>:
 
 code
@@ -74,6 +67,13 @@ code
  for n = myArray
     % ... do something with n
     disp(n)  % Echo integer to Command Window
+ end
+
+exampleCodeHeader Example from <a href="ruby.html">Ruby</a>:
+
+code
+ (0...42).each do |n|
+   puts n
  end
 
 exampleCodeHeader Example from <a href="rust.html">Rust</a>:

@@ -231,9 +231,9 @@ replace TABLE
   LiveScript|../languages/livescript.html|ls _ls
   Dafny|../languages/dafny.html|dfy
   Gradle|../languages/gradle.html|gradle
-  Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope
-  RDoc|../languages/rdoc.html|rdoc
   Batchfile|../languages/batch.html|bat cmd
+  RDoc|../languages/rdoc.html|rdoc
+  Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope
   B|../languages/b.html|b
   AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc
   TLA|../languages/tla.html|tla
@@ -371,6 +371,7 @@ replace TABLE
   X BitMap|../languages/x-bitmap.html|xbm
   Clarion|../languages/clarion.html|clw
   mustache|../languages/mustache.html|mustache
+  BBC BASIC|../languages/bbc-basic.html|bbc
   MQL5|../languages/mql.html|mq5 mqh mq4
   FIGlet Font|../languages/figlet-font.html|flf
   Shapefile|../languages/shapefile.html|shp shx dbf
@@ -399,7 +400,6 @@ replace TABLE
   GDScript|../languages/gdscript.html|gd
   TSV|../languages/tsv.html|tsv
   Creole|../languages/creole.html|creole
-  BBC BASIC|../languages/bbc-basic.html|bbc
   Eclipse Command Language|../languages/eclipse-command-language.html|ecl
   Tea|../languages/tea.html|tea
   PIC|../languages/pic.html|pic chem
@@ -493,8 +493,8 @@ replace TABLE
   Jison Lex|../languages/jison-lex.html|jisonlex
   Logos|../languages/logos.html|xm x xi xmi
   Molfile|../languages/molfile-format.html|mol
-  Object Rexx|../languages/object-rexx.html|rxs rex
   TAP|../languages/tap.html|tap
+  Object Rexx|../languages/object-rexx.html|rxs rex
   Sweave|../languages/sweave.html|rnw
   Cypher Query Language|../languages/cypher.html|cyp cypher
   MXML|../languages/mxml.html|mxml
@@ -595,8 +595,8 @@ replace TABLE
   mint|../languages/mint.html|mint
   Mscgen|../languages/mscgen.html|msc
   Filterscript|../languages/filterscript.html|fs
-  janet|../languages/janet.html|janet
   groff|../languages/groff.html|[1-9] man 1p 3pm
+  janet|../languages/janet.html|janet
   crmsh|../languages/crmsh.html|crmsh pcmk
   Scala Markup Language|../languages/scaml.html|scaml
   hoon|../languages/hoon.html|hoon

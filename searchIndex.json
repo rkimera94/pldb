@@ -665,11 +665,6 @@
     "id": "ecmascript"
   },
   {
-    "label": "V",
-    "appeared": "2019",
-    "id": "v"
-  },
-  {
     "label": "Haxe",
     "appeared": "2005",
     "id": "haxe"
@@ -685,6 +680,11 @@
     "id": "liquid"
   },
   {
+    "label": "ML",
+    "appeared": "1973",
+    "id": "ml"
+  },
+  {
     "label": "Oberon",
     "appeared": "1986",
     "id": "oberon"
@@ -693,11 +693,6 @@
     "label": "Applescript",
     "appeared": "1993",
     "id": "applescript"
-  },
-  {
-    "label": "ML",
-    "appeared": "1973",
-    "id": "ml"
   },
   {
     "label": "OpenGL",
@@ -780,6 +775,11 @@
     "id": "nginx-config"
   },
   {
+    "label": "V",
+    "appeared": "2019",
+    "id": "v"
+  },
+  {
     "label": "UDP",
     "appeared": "1980",
     "id": "udp"
@@ -815,14 +815,14 @@
     "id": "bcpl"
   },
   {
-    "label": "Unity",
-    "appeared": "2005",
-    "id": "unity-engine"
-  },
-  {
     "label": "Visual Basic .NET",
     "appeared": "2001",
     "id": "visual-basic-dot-net"
+  },
+  {
+    "label": "Unity",
+    "appeared": "2005",
+    "id": "unity-engine"
   },
   {
     "label": "Apache Maven",
@@ -990,14 +990,14 @@
     "id": "mumps"
   },
   {
-    "label": "Jinja",
-    "appeared": "2006",
-    "id": "jinja"
-  },
-  {
     "label": "Occam",
     "appeared": "1983",
     "id": "occam"
+  },
+  {
+    "label": "Jinja",
+    "appeared": "2006",
+    "id": "jinja"
   },
   {
     "label": "Emacs Lisp",
@@ -1160,14 +1160,14 @@
     "id": "flow"
   },
   {
-    "label": "Slim",
-    "appeared": "2011",
-    "id": "slim-lang"
-  },
-  {
     "label": "NewLisp",
     "appeared": "1991",
     "id": "newlisp"
+  },
+  {
+    "label": "Slim",
+    "appeared": "2011",
+    "id": "slim-lang"
   },
   {
     "label": "xBase",
@@ -1930,14 +1930,14 @@
     "id": "simulink"
   },
   {
-    "label": "SGML",
-    "appeared": "1986",
-    "id": "sgml"
-  },
-  {
     "label": "AutoHotkey",
     "appeared": "2003",
     "id": "autohotkey"
+  },
+  {
+    "label": "SGML",
+    "appeared": "1986",
+    "id": "sgml"
   },
   {
     "label": "Turbo Pascal",
@@ -2060,14 +2060,14 @@
     "id": "asn-1"
   },
   {
-    "label": "NATO phonetic alphabet",
-    "appeared": "1956",
-    "id": "nato-phonetic-alphabet"
-  },
-  {
     "label": "Classroom Object Oriented Language",
     "appeared": "1996",
     "id": "cool"
+  },
+  {
+    "label": "NATO phonetic alphabet",
+    "appeared": "1956",
+    "id": "nato-phonetic-alphabet"
   },
   {
     "label": "COMTRAN",
@@ -2550,24 +2550,19 @@
     "id": "gerber-image"
   },
   {
-    "label": "Altair BASIC",
-    "appeared": "1975",
-    "id": "altair-basic"
-  },
-  {
     "label": "HLSL",
     "appeared": "2002",
     "id": "hlsl"
   },
   {
+    "label": "Altair BASIC",
+    "appeared": "1975",
+    "id": "altair-basic"
+  },
+  {
     "label": "Eve",
     "appeared": "2016",
     "id": "eve"
-  },
-  {
-    "label": "AutoCAD DXF",
-    "appeared": "1982",
-    "id": "dxf"
   },
   {
     "label": "Ring",
@@ -2578,6 +2573,11 @@
     "label": "XSLT",
     "appeared": "1998",
     "id": "xslt"
+  },
+  {
+    "label": "AutoCAD DXF",
+    "appeared": "1982",
+    "id": "dxf"
   },
   {
     "label": "WDL",
@@ -2625,6 +2625,11 @@
     "id": "closure-templates"
   },
   {
+    "label": "NL",
+    "appeared": "1993",
+    "id": "nl"
+  },
+  {
     "label": "Ladder Logic",
     "appeared": "1994",
     "id": "ladder-logic"
@@ -2633,11 +2638,6 @@
     "label": "Enso",
     "appeared": "2015",
     "id": "enso"
-  },
-  {
-    "label": "NL",
-    "appeared": "1993",
-    "id": "nl"
   },
   {
     "label": "Luna",
@@ -3398,6 +3398,11 @@
     "id": "usb-standard"
   },
   {
+    "label": "MQL5",
+    "appeared": "2005",
+    "id": "mql"
+  },
+  {
     "label": "Fuzzy Markup Language",
     "appeared": "2004",
     "id": "fml"
@@ -3406,11 +3411,6 @@
     "label": "Shapefile",
     "appeared": "1995",
     "id": "shapefile"
-  },
-  {
-    "label": "MQL5",
-    "appeared": "2005",
-    "id": "mql"
   },
   {
     "label": "FIGlet Font",
@@ -4094,6 +4094,16 @@
     "id": "bmp-format"
   },
   {
+    "label": "COMPONENT PASCAL",
+    "appeared": "1997",
+    "id": "component-pascal"
+  },
+  {
+    "label": "carth",
+    "appeared": "2018",
+    "id": "carth"
+  },
+  {
     "label": "Gettext Catalog",
     "appeared": "1990",
     "id": "gettext"
@@ -4109,16 +4119,6 @@
     "id": "telcomp"
   },
   {
-    "label": "COMPONENT PASCAL",
-    "appeared": "1997",
-    "id": "component-pascal"
-  },
-  {
-    "label": "carth",
-    "appeared": "2018",
-    "id": "carth"
-  },
-  {
     "label": "BlitzMax",
     "appeared": "2014",
     "id": "blitzmax"
@@ -4127,6 +4127,16 @@
     "label": "ALEF",
     "appeared": "1992",
     "id": "alef"
+  },
+  {
+    "label": "Mask",
+    "appeared": "2012",
+    "id": "maskjs"
+  },
+  {
+    "label": "Omgrofl",
+    "appeared": "2006",
+    "id": "omgrofl"
   },
   {
     "label": "Yorick",
@@ -4142,16 +4152,6 @@
     "label": "Rascal",
     "appeared": "2013",
     "id": "rascal"
-  },
-  {
-    "label": "Mask",
-    "appeared": "2012",
-    "id": "maskjs"
-  },
-  {
-    "label": "Omgrofl",
-    "appeared": "2006",
-    "id": "omgrofl"
   },
   {
     "label": "commonmark",
@@ -4218,11 +4218,6 @@
     "id": "tbox-lib"
   },
   {
-    "label": "vyper",
-    "appeared": "2016",
-    "id": "vyper"
-  },
-  {
     "label": "Jasmin",
     "appeared": "1997",
     "id": "jasmin"
@@ -4231,6 +4226,11 @@
     "label": "Literate Agda",
     "appeared": "2009",
     "id": "literate-agda"
+  },
+  {
+    "label": "vyper",
+    "appeared": "2016",
+    "id": "vyper"
   },
   {
     "label": "skulpt",
@@ -4248,14 +4248,14 @@
     "id": "hasklig"
   },
   {
-    "label": "Speakeasy",
-    "appeared": "2006",
-    "id": "speakeasy"
-  },
-  {
     "label": "Game Maker Language",
     "appeared": "1999",
     "id": "game-maker-language"
+  },
+  {
+    "label": "Speakeasy",
+    "appeared": "2006",
+    "id": "speakeasy"
   },
   {
     "label": "codecept",

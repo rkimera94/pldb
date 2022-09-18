@@ -95,7 +95,6 @@ replace TABLE
   ANTLR|../languages/antlr.html|g4
   Red|../languages/red.html|red reds
   LLVM IR|../languages/llvmir.html|ll
-  V|../languages/v.html|v
   Haxe|../languages/haxe.html|hx hxml hxsl
   Oz|../languages/oz.html|oz
   Liquid|../languages/liquid.html|liquid
@@ -107,6 +106,7 @@ replace TABLE
   Idris|../languages/idris.html|idr lidr
   sed|../languages/sed.html|sed [gs]sed
   Nginx|../languages/nginx-config.html|nginx nginxconf vhost nginx.conf
+  V|../languages/v.html|v
   Lasso|../languages/lasso.html|lasso LassoApp las lasso8 lasso9 lasso[89]
   AMPL|../languages/ampl.html|ampl mod run dat
   PicoLisp|../languages/picolisp.html|l
@@ -157,8 +157,8 @@ replace TABLE
   Turing|../languages/turing.html|t tu
   Pug|../languages/pug.html|jade pug
   JSP|../languages/java-server-pages.html|jsp
-  Slim|../languages/slim-lang.html|slim
   NewLisp|../languages/newlisp.html|nl lisp lsp kif
+  Slim|../languages/slim-lang.html|slim
   xBase|../languages/xbase.html|prg ch prw
   IDL|../languages/idl.html|pro dlm
   QML|../languages/qml.html|qml qbs
@@ -373,8 +373,8 @@ replace TABLE
   Clarion|../languages/clarion.html|clw
   mustache|../languages/mustache.html|mustache
   BBC BASIC|../languages/bbc-basic.html|bbc
-  Shapefile|../languages/shapefile.html|shp shx dbf
   MQL5|../languages/mql.html|mq5 mqh mq4
+  Shapefile|../languages/shapefile.html|shp shx dbf
   FIGlet Font|../languages/figlet-font.html|flf
   Textile|../languages/textile.html|textile
   Futhark|../languages/futhark.html|fut
@@ -416,19 +416,19 @@ replace TABLE
   Harbour|../languages/harbour.html|hb prg ch hbp
   Mu|../languages/mu.html|mu
   POV-Ray SDL|../languages/pov-ray-sdl.html|pov inc
-  Gettext Catalog|../languages/gettext.html|po pot
   COMPONENT PASCAL|../languages/component-pascal.html|cp cps
+  Gettext Catalog|../languages/gettext.html|po pot
   BlitzMax|../languages/blitzmax.html|bmx
-  Yorick|../languages/yorick.html|i
-  Rascal|../languages/rascal.html|rsc
   Mask|../languages/maskjs.html|mask
   Omgrofl|../languages/omgrofl.html|omgrofl
+  Yorick|../languages/yorick.html|i
+  Rascal|../languages/rascal.html|rsc
   CartoCSS|../languages/cartocss.html|mss
   ooc|../languages/ooc.html|ooc
   RenderScript|../languages/renderscript.html|rs rsh
-  vyper|../languages/vyper.html|vy
   Jasmin|../languages/jasmin.html|j
   Literate Agda|../languages/literate-agda.html|lagda
+  vyper|../languages/vyper.html|vy
   Nit|../languages/nit.html|nit
   Game Maker Language|../languages/game-maker-language.html|gml
   clay|../languages/clay.html|clay

@@ -254,11 +254,11 @@ replace TABLE
   Bicep|../languages/bicep.html|bicep
   Oxygene|../languages/oxygene.html|oxygene
   Seed7|../languages/seed7.html|sd7 s7i
-  GDB|../languages/gdb.html|gdb gdbinit
   Befunge|../languages/befunge.html|befunge
+  GDB|../languages/gdb.html|gdb gdbinit
   AutoHotkey|../languages/autohotkey.html|ahk ahkl
-  PowerBuilder|../languages/powerbuilder.html|pbt sra sru srw
   BibTeX|../languages/bibtex.html|bib bibtex
+  PowerBuilder|../languages/powerbuilder.html|pbt sra sru srw
   Twig|../languages/twig.html|twig
   Less|../languages/less.html|less
   SaltStack|../languages/saltstack.html|sls
@@ -311,6 +311,7 @@ replace TABLE
   JCL|../languages/jcl.html|jcl
   Unicon|../languages/unicon.html|icn
   Pure Data|../languages/puredata.html|pd
+  beef-lang|../languages/beef.html|bf
   PEG|../languages/peg.html|peg
   Gerber Image|../languages/gerber-image.html|gbr cmp gbl gbo gbp gbs gko gml gpb gpt gtl gto gtp gts ncl sol
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli
@@ -320,14 +321,13 @@ replace TABLE
   Augmented Backus-Naur Form|../languages/abnf.html|abnf
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5
   SIL|../languages/swift-il.html|sil
-  beef-lang|../languages/beef.html|bf
   Dogescript|../languages/dogescript.html|djs
   CWL|../languages/common-workflow-language.html|cwl
   Closure Templates|../languages/closure-templates.html|soy
   NL|../languages/nl.html|nl
+  SourcePawn|../languages/sourcepawn.html|sp inc
   Gosu|../languages/gosu.html|gs gsp gst gsx vark
   OpenVera|../languages/openvera.html|vr
-  SourcePawn|../languages/sourcepawn.html|sp inc
   GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader
   Koka|../languages/koka.html|kk kki
   EBNF|../languages/ebnf.html|ebnf
@@ -387,10 +387,10 @@ replace TABLE
   XProc|../languages/xproc.html|xpl xproc
   Apex|../languages/apex.html|cls
   CoNLL-U|../languages/conll-u.html|conllu conll
-  GNU Assembler|../languages/gas.html|s S
-  Asymptote|../languages/asymptote.html|asy
   BNF|../languages/bnf.html|bnf
   Filebench WML|../languages/filebench-wml.html|f
+  GNU Assembler|../languages/gas.html|s S
+  Asymptote|../languages/asymptote.html|asy
   DM|../languages/dm.html|dm dmf
   DNS Zone|../languages/zone.html|zone arpa
   Vim script|../languages/vim-script.html|vim vba vimrc vmb .vimrc .exrc .gvimrc _vimrc _exrc _gvimrc gvimrc
@@ -506,8 +506,8 @@ replace TABLE
   1C Enterprise Script|../languages/1c-enterprise.html|bsl os
   Q#|../languages/q-sharp.html|qs
   Module Management System|../languages/module-management-system.html|mms mmk
-  Newspeak|../languages/newspeak.html|ns2
   Genshi|../languages/genshi.html|kid
+  Newspeak|../languages/newspeak.html|ns2
   XPages|../languages/xpages.html|xsp-config xspmetadata
   JSON with Comments|../languages/json-with-comments.html|jsonc code-snippets sublime-build sublime-commands sublime-completions sublime-keymap sublime-macro sublime-menu sublime-mousemap sublime-project sublime-settings sublime-theme sublime-workspace sublime_metrics sublime_session
   monte|../languages/monte.html|mt

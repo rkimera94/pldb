@@ -58,9 +58,9 @@ replace TABLE
   Crystal|../languages/crystal.html|cr
   Delphi|../languages/delphi.html|pas dpr
   VBA|../languages/vba.html|bas cls frm frx vba
-  OCaml|../languages/ocaml.html|ml mli eliom eliomi ml4 mll mly
   Verilog|../languages/verilog.html|v veo
   Smalltalk|../languages/smalltalk.html|st cs
+  OCaml|../languages/ocaml.html|ml mli eliom eliomi ml4 mll mly
   Modula-3|../languages/modula-3.html|i3 ig m3 mg
   Eiffel|../languages/eiffel.html|e
   Reason|../languages/reason.html|re rei
@@ -81,8 +81,8 @@ replace TABLE
   OpenCL|../languages/opencl.html|cl opencl
   Vue|../languages/vuejs.html|vue
   ASP|../languages/asp.html|asp asax ascx ashx asmx aspx axd
-  XQuery|../languages/xquery.html|xq xql xqm xqy xquery
   Smali|../languages/smali.html|smali
+  XQuery|../languages/xquery.html|xq xql xqm xqy xquery
   Scratch|../languages/scratch.html|scratch sb sprite sb2 sprite2
   Nim|../languages/nim.html|nim nimcfg nimble nimrod nims
   LFE|../languages/lfe.html|lfe hrl
@@ -91,8 +91,8 @@ replace TABLE
   PureBasic|../languages/purebasic.html|pb pbi
   Chapel|../languages/chapel.html|chpl
   Markdown|../languages/markdown.html|md livemd markdown mdown mdwn mdx mkd mkdn mkdown ronn scd workbook
-  WebAssembly|../languages/wasm.html|wasm wast wat
   ANTLR|../languages/antlr.html|g4
+  WebAssembly|../languages/wasm.html|wasm wast wat
   Red|../languages/red.html|red reds
   LLVM IR|../languages/llvmir.html|ll
   Haxe|../languages/haxe.html|hx hxml hxsl
@@ -104,8 +104,8 @@ replace TABLE
   fish|../languages/fish.html|fish load
   VBScript|../languages/vbscript.html|vbs vbe wsf wsc VBS
   Idris|../languages/idris.html|idr lidr
-  sed|../languages/sed.html|sed [gs]sed
   Nginx|../languages/nginx-config.html|nginx nginxconf vhost nginx.conf
+  sed|../languages/sed.html|sed [gs]sed
   V|../languages/v.html|v
   Lasso|../languages/lasso.html|lasso LassoApp las lasso8 lasso9 lasso[89]
   AMPL|../languages/ampl.html|ampl mod run dat
@@ -127,9 +127,9 @@ replace TABLE
   Brainfuck|../languages/brainfuck.html|b bf
   PL/SQL|../languages/pl-sql.html|pls bdy ddl fnc pck pkb pks plb plsql prc spc sql tpb tps trg vw
   Fantom|../languages/fantom.html|fan
+  BlitzBasic|../languages/blitzbasic.html|bb decls
   Limbo|../languages/limbo.html|b m
   Agda|../languages/agda.html|agda lagda
-  BlitzBasic|../languages/blitzbasic.html|bb decls
   HAML|../languages/haml.html|haml hamldeface
   MUMPS|../languages/mumps.html|mumps m
   Jinja|../languages/jinja.html|jinja j2 jinja2
@@ -162,11 +162,11 @@ replace TABLE
   xBase|../languages/xbase.html|prg ch prw
   IDL|../languages/idl.html|pro dlm
   QML|../languages/qml.html|qml qbs
+  Boo|../languages/boo.html|boo
   Zephir|../languages/zephir.html|zep
   Hy|../languages/hy.html|hy
-  Boo|../languages/boo.html|boo
-  GNU Octave|../languages/octave.html|m
   Mercury|../languages/mercury.html|m moo
+  GNU Octave|../languages/octave.html|m
   Io|../languages/io.html|io
   Lean|../languages/lean.html|lean hlean
   PostCSS|../languages/postcss.html|pcss postcss
@@ -178,8 +178,8 @@ replace TABLE
   LOLCODE|../languages/lolcode.html|lol
   SystemVerilog|../languages/systemverilog.html|sv svh vh header file
   SNOBOL|../languages/snobol.html|snobol
-  Opa|../languages/opa.html|opa
   Clean|../languages/clean.html|icl dcl abc sapl
+  Opa|../languages/opa.html|opa
   J|../languages/j.html|ijs
   QBasic|../languages/qbasic.html|BAS bas
   Bison|../languages/bison.html|bison
@@ -231,8 +231,8 @@ replace TABLE
   LiveScript|../languages/livescript.html|ls _ls
   Dafny|../languages/dafny.html|dfy
   Gradle|../languages/gradle.html|gradle
-  Batchfile|../languages/batch.html|bat cmd
   RDoc|../languages/rdoc.html|rdoc
+  Batchfile|../languages/batch.html|bat cmd
   Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope
   B|../languages/b.html|b
   TLA|../languages/tla.html|tla
@@ -241,8 +241,8 @@ replace TABLE
   Dhall|../languages/dhall.html|dhall
   Marko|../languages/marko.html|marko
   GAMS|../languages/general-algebraic-modeling-system.html|gms
-  Arc|../languages/arc.html|arc
   M4|../languages/m4.html|m4 mc
+  Arc|../languages/arc.html|arc
   JSON-LD|../languages/json-ld.html|jsonld
   Pod|../languages/pod.html|pod
   Objective-J|../languages/objective-j.html|j sj
@@ -279,11 +279,11 @@ replace TABLE
   JScript|../languages/jscript.html|js jse wsf wsc
   Cap'n Proto|../languages/capn-proto.html|capnp
   Pig Latin|../languages/pig.html|pig
-  EJS|../languages/ejs.html|ejs ect ejst jst
   EML|../languages/mbox.html|eml mbox
+  EJS|../languages/ejs.html|ejs ect ejst jst
   starlark|../languages/starlark.html|bzl star
-  Latte|../languages/latte.html|latte
   Bluespec|../languages/bluespec.html|bsv
+  Latte|../languages/latte.html|latte
   Stylus|../languages/stylus.html|styl
   JFlex|../languages/jflex.html|flex jflex
   K|../languages/k.html|k
@@ -380,6 +380,7 @@ replace TABLE
   Futhark|../languages/futhark.html|fut
   Angelscript|../languages/angelscript.html|as angelscript
   NCAR Command Language|../languages/ncl.html|ncl
+  BNF|../languages/bnf.html|bnf
   LookML|../languages/lookml.html|lookml modellkml viewlkml
   Volt|../languages/volt.html|volt
   Literate CoffeeScript|../languages/literate-coffeescript.html|litcoffee coffeemd
@@ -387,7 +388,6 @@ replace TABLE
   XProc|../languages/xproc.html|xpl xproc
   Apex|../languages/apex.html|cls
   CoNLL-U|../languages/conll-u.html|conllu conll
-  BNF|../languages/bnf.html|bnf
   Filebench WML|../languages/filebench-wml.html|f
   GNU Assembler|../languages/gas.html|s S
   Asymptote|../languages/asymptote.html|asy
@@ -413,12 +413,12 @@ replace TABLE
   Cryptol|../languages/cryptol.html|cry
   OpenSCAD|../languages/openscad.html|scad
   Meson|../languages/meson.html|meson.build meson_options.txt
+  BlitzMax|../languages/blitzmax.html|bmx
   Harbour|../languages/harbour.html|hb prg ch hbp
   Mu|../languages/mu.html|mu
   POV-Ray SDL|../languages/pov-ray-sdl.html|pov inc
   COMPONENT PASCAL|../languages/component-pascal.html|cp cps
   Gettext Catalog|../languages/gettext.html|po pot
-  BlitzMax|../languages/blitzmax.html|bmx
   Mask|../languages/maskjs.html|mask
   Omgrofl|../languages/omgrofl.html|omgrofl
   Yorick|../languages/yorick.html|i
@@ -448,8 +448,8 @@ replace TABLE
   Jupyter Notebook|../languages/jupyter-notebook.html|ipynb
   GCC Machine Description|../languages/gcc-machine-description.html|md
   Golo|../languages/golo.html|golo
-  Shen|../languages/shen.html|shen
   Ch|../languages/chuck.html|ck
+  Shen|../languages/shen.html|shen
   Fancy|../languages/fancy.html|fy fancypack
   WebIDL|../languages/web-idl.html|webidl
   GraphIt|../languages/graph-it.html|gt
@@ -650,6 +650,7 @@ replace TABLE
   Darcs Advanced Revision Control System|../languages/darcs-patch.html|darcspatch dpatch
   Marine Trading Markup Language|../languages/mtml.html|mtml
   TASM|../languages/tasm.html|asm ASM tasm
+  boa|../languages/boa.html|boa
   PromQL|../languages/promql.html|promql
   Spice|../languages/spice.html|spice
   Typoscript|../languages/typoscript.html|typoscript
@@ -662,7 +663,6 @@ replace TABLE
   Public Key File|../languages/public-key-file.html|asc pub
   REALBasic (now Xojo)|../languages/realbasic.html|rbbas rbfrm rbmnu rbres rbtbar rbuistate
   WebAssembly Text Format|../languages/wast.html|wast
-  boa|../languages/boa.html|boa
   Freefem|../languages/freefem.html|edp
   Pickle|../languages/pickle-format.html|pkl
   Autoconf|../languages/autoconf.html|ac

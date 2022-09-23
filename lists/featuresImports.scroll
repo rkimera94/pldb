@@ -68,7 +68,7 @@ replace TABLE
   Unicode Identifers|../languages/unicode-identifiers-feature.html|δ = 0.00001|4|0|-
   Typed Holes|../languages/typed-holes-feature.html|2 + _ => 2 + [int&#124;float]|4|0|-
   Range Operator|../languages/range-operator-feature.html|1 ... 10|4|0|-
-  Polymorphism|../languages/polymorphism-feature.html|a + "b"; 1 + 2|4|0|-
+  Polymorphism|../languages/polymorphism-feature.html|a + "b"; 1 + 2|4|1|-
   Pipes|../languages/pipes-feature.html|ls pldb &#124; wc|4|0|-
   Multiple Dispatch|../languages/multiple-dispatch-feature.html|collide_with(x::Spaceship, y::Spaceship)|4|2|-
   Gotos|../languages/gotos-feature.html|goto 10|4|2|-

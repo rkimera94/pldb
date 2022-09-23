@@ -21,13 +21,13 @@ replace TABLE
   MySQL|../languages/mysql.html|queryLanguage|1995|15
   R|../languages/r.html|pl|1993|16
   JSON|../languages/json.html|dataNotation|2001|17
-  COBOL|../languages/cobol.html|pl|1959|18
-  Swift|../languages/swift.html|pl|2014|19
-  Go|../languages/go.html|pl|2009|20
+  Go|../languages/go.html|pl|2009|18
+  COBOL|../languages/cobol.html|pl|1959|19
+  Swift|../languages/swift.html|pl|2014|20
   Scala|../languages/scala.html|pl|2004|21
   CSS|../languages/css.html|stylesheetLanguage|1996|22
-  Haskell|../languages/haskell.html|pl|1990|23
-  Rust|../languages/rust.html|pl|2010|24
+  Rust|../languages/rust.html|pl|2010|23
+  Haskell|../languages/haskell.html|pl|1990|24
   PostgreSQL|../languages/postgresql.html|queryLanguage|1986|25
   Lisp|../languages/lisp.html|pl|1958|26
   Pascal|../languages/pascal.html|pl|1970|27
@@ -61,8 +61,8 @@ replace TABLE
   Arduino|../languages/arduino.html|pl|2005|55
   Crystal|../languages/crystal.html|pl|2014|56
   ActionScript|../languages/actionscript.html|pl|1998|57
-  awk|../languages/awk.html|pl|1977|58
-  Node.js|../languages/nodejs.html|pl|2009|59
+  Node.js|../languages/nodejs.html|pl|2009|58
+  awk|../languages/awk.html|pl|1977|59
   F#|../languages/f-sharp.html|pl|2005|60
   Delphi|../languages/delphi.html|pl|1995|61
   VBA|../languages/vba.html|pl|1993|62
@@ -86,8 +86,8 @@ replace TABLE
   Yacc|../languages/yacc.html|grammarLanguage|1975|80
   GraphQL|../languages/graphql.html|queryLanguage|2012|81
   Groovy|../languages/groovy.html|pl|2003|82
-  VHDL|../languages/vhdl.html|hardwareDescriptionLanguage|1983|83
-  LaTeX|../languages/latex.html|textMarkup|1985|84
+  LaTeX|../languages/latex.html|textMarkup|1985|83
+  VHDL|../languages/vhdl.html|hardwareDescriptionLanguage|1983|84
   Racket|../languages/racket.html|pl|1994|85
   TLS|../languages/tls.html|protocol|1999|86
   Smali|../languages/smali.html|assembly|2010|87
@@ -396,8 +396,8 @@ replace TABLE
   PL/0|../languages/pl-0.html|pl|1976|390
   KaTeX|../languages/katex.html|textMarkup|2013|391
   Cap'n Proto|../languages/capn-proto.html|idl|2013|392
-  Augmented Backus-Naur Form|../languages/abnf.html|grammarLanguage|2008|393
-  Netwide Assembler|../languages/nasm.html|assembly|1996|394
+  Netwide Assembler|../languages/nasm.html|assembly|1996|393
+  Augmented Backus-Naur Form|../languages/abnf.html|grammarLanguage|2008|394
   JCL|../languages/jcl.html|pl|1964|395
   Dc|../languages/dc.html|pl|1978|396
   CLU|../languages/clu.html|pl|1975|397
@@ -550,13 +550,13 @@ replace TABLE
   Plain English|../languages/plain-english.html|pl|2018|544
   CWEB|../languages/cweb.html|textMarkup|1987|545
   Creole|../languages/creole.html|textMarkup|2007|546
-  beads-lang|../languages/beads-lang.html|pl|2016|547
+  Jule|../languages/x.html|pl|2021|547
   kaitai|../languages/kaitai.html|idl|2016|548
-  Thymeleaf|../languages/thymeleaf.html|template|2011|549
-  Futhark|../languages/futhark.html|pl|2013|550
-  QR code|../languages/qr-code.html|barCodeFormat|1994|551
-  mgmt|../languages/mgmt.html|pl|2015|552
-  Jule|../languages/x.html|pl|2021|553
+  beads-lang|../languages/beads-lang.html|pl|2016|549
+  Thymeleaf|../languages/thymeleaf.html|template|2011|550
+  Futhark|../languages/futhark.html|pl|2013|551
+  QR code|../languages/qr-code.html|barCodeFormat|1994|552
+  mgmt|../languages/mgmt.html|pl|2015|553
   ACT-III|../languages/act-iii.html|pl|1956|554
   RoboMind|../languages/robomind.html|pl|2005|555
   SysML|../languages/sysml.html|pl|2000|556

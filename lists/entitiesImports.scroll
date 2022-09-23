@@ -30,16 +30,16 @@ replace TABLE
   Scala|../languages/scala.html|pl|2004|24
   COBOL|../languages/cobol.html|pl|1959|25
   Haskell|../languages/haskell.html|pl|1990|26
-  Pascal|../languages/pascal.html|pl|1970|27
-  Rust|../languages/rust.html|pl|2010|28
+  Rust|../languages/rust.html|pl|2010|27
+  Pascal|../languages/pascal.html|pl|1970|28
   PostgreSQL|../languages/postgresql.html|queryLanguage|1986|29
   Ada|../languages/ada.html|pl|1980|30
   Lisp|../languages/lisp.html|pl|1958|31
   SAS|../languages/sas.html|pl|1976|32
   TypeScript|../languages/typescript.html|pl|2012|33
   Lua|../languages/lua.html|pl|1993|34
-  Prolog|../languages/prolog.html|pl|1972|35
-  ARM|../languages/arm.html|assembly|1985|36
+  ARM|../languages/arm.html|assembly|1985|35
+  Prolog|../languages/prolog.html|pl|1972|36
   PowerShell|../languages/powershell.html|pl|2006|37
   Objective-C|../languages/objective-c.html|pl|1984|38
   Kotlin|../languages/kotlin.html|pl|2011|39
@@ -63,8 +63,8 @@ replace TABLE
   ASCII|../languages/ascii.html|characterEncoding|1963|57
   Arduino|../languages/arduino.html|pl|2005|58
   Node.js|../languages/nodejs.html|pl|2009|59
-  awk|../languages/awk.html|pl|1977|60
-  ActionScript|../languages/actionscript.html|pl|1998|61
+  ActionScript|../languages/actionscript.html|pl|1998|60
+  awk|../languages/awk.html|pl|1977|61
   Regular Expressions|../languages/regex.html|queryLanguage|1951|62
   Bash|../languages/bash.html|pl|1989|63
   F#|../languages/f-sharp.html|pl|2005|64
@@ -143,8 +143,8 @@ replace TABLE
   ML|../languages/ml.html|pl|1973|137
   Oberon|../languages/oberon.html|pl|1986|138
   Applescript|../languages/applescript.html|pl|1993|139
-  OpenGL|../languages/opengl.html|library|1992|140
-  MediaWiki|../languages/mediawiki.html|wikiMarkup|2002|141
+  MediaWiki|../languages/mediawiki.html|wikiMarkup|2002|140
+  OpenGL|../languages/opengl.html|library|1992|141
   Simula|../languages/simula.html|pl|1965|142
   LabVIEW G|../languages/labview.html|pl|1986|143
   REST|../languages/rest.html|protocol|1996|144
@@ -522,9 +522,9 @@ replace TABLE
   XSLT|../languages/xslt.html|xmlFormat|1998|516
   AutoCAD DXF|../languages/dxf.html|application|1982|517
   WDL|../languages/wdl.html|pl|2012|518
-  Augmented Backus-Naur Form|../languages/abnf.html|grammarLanguage|2008|519
-  Hierarchical Data Format|../languages/hdf.html|binaryDataFormat|1992|520
-  SIL|../languages/swift-il.html|ir|2012|521
+  Hierarchical Data Format|../languages/hdf.html|binaryDataFormat|1992|519
+  SIL|../languages/swift-il.html|ir|2012|520
+  Augmented Backus-Naur Form|../languages/abnf.html|grammarLanguage|2008|521
   mermaid|../languages/mermaid.html|textMarkup|2014|522
   CWL|../languages/common-workflow-language.html|pl|2014|523
   Dogescript|../languages/dogescript.html|pl|2013|524
@@ -581,8 +581,8 @@ replace TABLE
   Microsoft Macro Assembler|../languages/microsoft-macro-assembler.html|assembly|1981|575
   Yes It Is|../languages/yii.html|framework|2006|576
   dynamo-visual-language|../languages/dynamo-visual-language.html|visual|2011|577
-  Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|application|1988|578
-  Microdata HTML|../languages/microdata.html|schema|2013|579
+  Microdata HTML|../languages/microdata.html|schema|2013|578
+  Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|application|1988|579
   eC|../languages/ec.html|pl|2004|580
   PIR|../languages/parrot-internal-representation.html|pl|2006|581
   OpenLisp|../languages/openlisp.html|pl|1988|582
@@ -605,25 +605,25 @@ replace TABLE
   MDX|../languages/mdx.html|textMarkup|2017|599
   Plain English|../languages/plain-english.html|pl|2018|600
   CodeQL|../languages/codeql.html|queryLanguage|2018|601
-  CFML|../languages/cfml.html|pl|1995|602
-  KiXtart|../languages/kixtart.html|pl|1991|603
-  PAWN|../languages/pawn.html|pl|2006|604
-  Pony|../languages/pony.html|pl|2012|605
-  ACT-III|../languages/act-iii.html|pl|1956|606
-  RoboMind|../languages/robomind.html|pl|2005|607
-  SubRip Text|../languages/subrip-text.html|application|2005|608
-  Pizza|../languages/pizza.html|pl|2001|609
-  NewtonScript|../languages/newtonscript.html|pl|1993|610
-  beads-lang|../languages/beads-lang.html|pl|2016|611
+  Jule|../languages/x.html|pl|2021|602
+  CFML|../languages/cfml.html|pl|1995|603
+  KiXtart|../languages/kixtart.html|pl|1991|604
+  PAWN|../languages/pawn.html|pl|2006|605
+  Pony|../languages/pony.html|pl|2012|606
+  ACT-III|../languages/act-iii.html|pl|1956|607
+  RoboMind|../languages/robomind.html|pl|2005|608
+  SubRip Text|../languages/subrip-text.html|application|2005|609
+  Pizza|../languages/pizza.html|pl|2001|610
+  NewtonScript|../languages/newtonscript.html|pl|1993|611
   ALGOL 58|../languages/algol-58.html|pl|1958|612
-  Keras|../languages/keras.html|library|2015|613
-  PyTorch|../languages/pytorch.html|library|2016|614
-  Dockerfile|../languages/dockerfile.html|pl|2013|615
-  Jekyll|../languages/jekyll.html|application|2008|616
-  Svelte|../languages/svelte.html|pl|2019|617
-  Information Presentation Facility|../languages/ipf.html|pl|1997|618
-  MBASIC|../languages/mbasic.html|pl|1983|619
-  Jule|../languages/x.html|pl|2021|620
+  beads-lang|../languages/beads-lang.html|pl|2016|613
+  Keras|../languages/keras.html|library|2015|614
+  PyTorch|../languages/pytorch.html|library|2016|615
+  Dockerfile|../languages/dockerfile.html|pl|2013|616
+  Jekyll|../languages/jekyll.html|application|2008|617
+  Svelte|../languages/svelte.html|pl|2019|618
+  Information Presentation Facility|../languages/ipf.html|pl|1997|619
+  MBASIC|../languages/mbasic.html|pl|1983|620
   KML|../languages/kml.html|xmlFormat|2007|621
   flowchart.fun|../languages/flowchart-fun.html|textMarkup|2021|622
   ARexx|../languages/arexx.html|pl|1987|623

@@ -2355,14 +2355,14 @@
     "id": "livecode"
   },
   {
-    "label": "Parrot",
-    "appeared": "2002",
-    "id": "parrot-vm"
-  },
-  {
     "label": "tornado",
     "appeared": "2009",
     "id": "tornado"
+  },
+  {
+    "label": "Parrot",
+    "appeared": "2002",
+    "id": "parrot-vm"
   },
   {
     "label": "DTrace",
@@ -3523,14 +3523,14 @@
     "id": "tinyc-compiler"
   },
   {
-    "label": "BNF",
-    "appeared": "1956",
-    "id": "bnf"
-  },
-  {
     "label": "J#",
     "appeared": "2002",
     "id": "jsharp"
+  },
+  {
+    "label": "BNF",
+    "appeared": "1956",
+    "id": "bnf"
   },
   {
     "label": "LookML",
@@ -3662,16 +3662,6 @@
     "id": "asymptote"
   },
   {
-    "label": "GNU Assembler",
-    "appeared": "1986",
-    "id": "gas"
-  },
-  {
-    "label": "Lisaac",
-    "appeared": "2003",
-    "id": "lisaac"
-  },
-  {
     "label": "DM",
     "appeared": "1994",
     "id": "dm"
@@ -3680,6 +3670,16 @@
     "label": "BPEL",
     "appeared": "2001",
     "id": "bpel"
+  },
+  {
+    "label": "GNU Assembler",
+    "appeared": "1986",
+    "id": "gas"
+  },
+  {
+    "label": "Lisaac",
+    "appeared": "2003",
+    "id": "lisaac"
   },
   {
     "label": "DNS Zone",
@@ -4054,11 +4054,6 @@
     "id": "telnet-protocol"
   },
   {
-    "label": "Logica",
-    "appeared": "2020",
-    "id": "logica"
-  },
-  {
     "label": "zephyr-asdl",
     "appeared": "1997",
     "id": "zephyr-asdl"
@@ -4067,6 +4062,11 @@
     "label": "chibicc",
     "appeared": "2019",
     "id": "chibicc"
+  },
+  {
+    "label": "Logica",
+    "appeared": "2020",
+    "id": "logica"
   },
   {
     "label": "XL",
@@ -4657,14 +4657,14 @@
     "id": "xlwings-editor"
   },
   {
-    "label": "Committee on Uniform Security Identification Procedures",
-    "appeared": "1968",
-    "id": "cusip"
-  },
-  {
     "label": "storyscript",
     "appeared": "2017",
     "id": "storyscript"
+  },
+  {
+    "label": "Committee on Uniform Security Identification Procedures",
+    "appeared": "1968",
+    "id": "cusip"
   },
   {
     "label": "Brightscript",
@@ -6757,11 +6757,6 @@
     "id": "spiral"
   },
   {
-    "label": "DAX",
-    "appeared": "2009",
-    "id": "dax"
-  },
-  {
     "label": "CMS-2",
     "appeared": "1968",
     "id": "cms-2"
@@ -6775,6 +6770,11 @@
     "label": "F-Script",
     "appeared": "2009",
     "id": "f-script"
+  },
+  {
+    "label": "DAX",
+    "appeared": "2009",
+    "id": "dax"
   },
   {
     "label": "Symbol Tables",

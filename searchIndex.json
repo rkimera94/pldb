@@ -4079,11 +4079,6 @@
     "id": "apt"
   },
   {
-    "label": "bosque",
-    "appeared": "2019",
-    "id": "bosque"
-  },
-  {
     "label": "Mu",
     "appeared": "2014",
     "id": "mu"
@@ -4097,6 +4092,11 @@
     "label": "carth",
     "appeared": "2018",
     "id": "carth"
+  },
+  {
+    "label": "bosque",
+    "appeared": "2019",
+    "id": "bosque"
   },
   {
     "label": "BMP file format",
@@ -5032,6 +5032,11 @@
     "id": "kodu-game-lab"
   },
   {
+    "label": "Flutter",
+    "appeared": "2017",
+    "id": "flutter-framework"
+  },
+  {
     "label": "Esterel",
     "appeared": "1980",
     "id": "esterel"
@@ -5040,11 +5045,6 @@
     "label": "PL360",
     "appeared": "1967",
     "id": "pl360"
-  },
-  {
-    "label": "Flutter",
-    "appeared": "2017",
-    "id": "flutter-framework"
   },
   {
     "label": "ARC processor",
@@ -6484,14 +6484,14 @@
     "id": "inchi"
   },
   {
-    "label": "CORAL",
-    "appeared": "1964",
-    "id": "coral"
-  },
-  {
     "label": "Memex",
     "appeared": "1945",
     "id": "memex-machine"
+  },
+  {
+    "label": "CORAL",
+    "appeared": "1964",
+    "id": "coral"
   },
   {
     "label": "visdown",
@@ -6692,11 +6692,6 @@
     "id": "telos"
   },
   {
-    "label": "muon",
-    "appeared": "2019",
-    "id": "muon"
-  },
-  {
     "label": "Atmel AVR instruction set",
     "appeared": "1996",
     "id": "avr"
@@ -6705,6 +6700,11 @@
     "label": "S-PLUS",
     "appeared": "1988",
     "id": "s-plus"
+  },
+  {
+    "label": "muon",
+    "appeared": "2019",
+    "id": "muon"
   },
   {
     "label": "OCL",
@@ -6757,6 +6757,11 @@
     "id": "spiral"
   },
   {
+    "label": "DAX",
+    "appeared": "2009",
+    "id": "dax"
+  },
+  {
     "label": "CMS-2",
     "appeared": "1968",
     "id": "cms-2"
@@ -6765,11 +6770,6 @@
     "label": "Business Basic",
     "appeared": "1970",
     "id": "business-basic"
-  },
-  {
-    "label": "DAX",
-    "appeared": "2009",
-    "id": "dax"
   },
   {
     "label": "F-Script",
@@ -6782,6 +6782,11 @@
     "id": "symbol-table-feature"
   },
   {
+    "label": "potion",
+    "appeared": "2008",
+    "id": "potion"
+  },
+  {
     "label": "Tuple space",
     "appeared": "1988",
     "id": "tuple-space"
@@ -6790,11 +6795,6 @@
     "label": "WDDX",
     "appeared": "1998",
     "id": "wddx"
-  },
-  {
-    "label": "potion",
-    "appeared": "2008",
-    "id": "potion"
   },
   {
     "label": "raptorjit",
@@ -6885,16 +6885,6 @@
     "id": "jayfor"
   },
   {
-    "label": "Michigan Algorithm Decoder",
-    "appeared": "1959",
-    "id": "mad"
-  },
-  {
-    "label": "Amiga E",
-    "appeared": "1993",
-    "id": "amiga-e"
-  },
-  {
     "label": "Templates",
     "appeared": "1995",
     "id": "templates-feature"
@@ -6930,6 +6920,21 @@
     "id": "jsonnet"
   },
   {
+    "label": "Michigan Algorithm Decoder",
+    "appeared": "1959",
+    "id": "mad"
+  },
+  {
+    "label": "Amiga E",
+    "appeared": "1993",
+    "id": "amiga-e"
+  },
+  {
+    "label": "Edge Side Includes",
+    "appeared": "2001",
+    "id": "edge-side-includes"
+  },
+  {
     "label": "OPS5",
     "appeared": "1977",
     "id": "ops5"
@@ -6938,11 +6943,6 @@
     "label": "Liberty BASIC",
     "appeared": "1992",
     "id": "liberty-basic"
-  },
-  {
-    "label": "Edge Side Includes",
-    "appeared": "2001",
-    "id": "edge-side-includes"
   },
   {
     "label": "Vale",
@@ -7109,11 +7109,6 @@
     "id": "family-basic"
   },
   {
-    "label": "astro",
-    "appeared": "2016",
-    "id": "astro"
-  },
-  {
     "label": "Cadence SKILL",
     "appeared": "1990",
     "id": "cadence-skill"
@@ -7122,6 +7117,11 @@
     "label": "Airtable",
     "appeared": "2012",
     "id": "airtable-app"
+  },
+  {
+    "label": "astro",
+    "appeared": "2016",
+    "id": "astro"
   },
   {
     "label": "Livr",
@@ -7209,14 +7209,14 @@
     "id": "minizinc"
   },
   {
-    "label": "POP-2",
-    "appeared": "1967",
-    "id": "pop-2"
-  },
-  {
     "label": "MSX BASIC",
     "appeared": "1984",
     "id": "msx-basic"
+  },
+  {
+    "label": "POP-2",
+    "appeared": "1967",
+    "id": "pop-2"
   },
   {
     "label": "multicodec",
@@ -7572,6 +7572,11 @@
     "id": "hodor"
   },
   {
+    "label": "RubyGems",
+    "appeared": "2018",
+    "id": "rubygems-pm"
+  },
+  {
     "label": "QUEL",
     "appeared": "1976",
     "id": "quel"
@@ -7580,11 +7585,6 @@
     "label": "Text Adventure Development System",
     "appeared": "1988",
     "id": "tads"
-  },
-  {
-    "label": "RubyGems",
-    "appeared": "2018",
-    "id": "rubygems-pm"
   },
   {
     "label": "MultiDimensional eXpressions",
@@ -7887,11 +7887,6 @@
     "id": "orca-pl"
   },
   {
-    "label": "Coco/R",
-    "appeared": "1990",
-    "id": "coco-r"
-  },
-  {
     "label": "Basic4ppc",
     "appeared": "2005",
     "id": "basic4ppc"
@@ -7900,6 +7895,11 @@
     "label": "JSL",
     "appeared": "1989",
     "id": "jsl"
+  },
+  {
+    "label": "Coco/R",
+    "appeared": "1990",
+    "id": "coco-r"
   },
   {
     "label": "CBOR",
@@ -8297,6 +8297,11 @@
     "id": "vtml"
   },
   {
+    "label": "CEEMAC",
+    "appeared": "1980",
+    "id": "ceemac"
+  },
+  {
     "label": "swizzle",
     "appeared": "2018",
     "id": "swizzle"
@@ -8389,14 +8394,14 @@
     "id": "kuka"
   },
   {
-    "label": "baysick",
-    "appeared": "2009",
-    "id": "baysick"
-  },
-  {
     "label": "Links",
     "appeared": "2006",
     "id": "links-programming-language"
+  },
+  {
+    "label": "baysick",
+    "appeared": "2009",
+    "id": "baysick"
   },
   {
     "label": "C/AL",
@@ -8449,6 +8454,11 @@
     "id": "datafun"
   },
   {
+    "label": "son",
+    "appeared": "2017",
+    "id": "son"
+  },
+  {
     "label": "dedukti",
     "appeared": "2009",
     "id": "dedukti"
@@ -8477,11 +8487,6 @@
     "label": "Reactive Plan Language",
     "appeared": "1993",
     "id": "rpl-lang"
-  },
-  {
-    "label": "son",
-    "appeared": "2017",
-    "id": "son"
   },
   {
     "label": "NEWP",
@@ -8539,6 +8544,11 @@
     "id": "sdf"
   },
   {
+    "label": "ko",
+    "appeared": "2018",
+    "id": "ko"
+  },
+  {
     "label": "Sawzall",
     "appeared": "2003",
     "id": "sawzall"
@@ -8552,11 +8562,6 @@
     "label": "ARM Templates",
     "appeared": "2017",
     "id": "arm-templates"
-  },
-  {
-    "label": "ko",
-    "appeared": "2018",
-    "id": "ko"
   },
   {
     "label": "reforth",
@@ -8587,11 +8592,6 @@
     "label": "Action Code Script",
     "appeared": "2004",
     "id": "action-code-script"
-  },
-  {
-    "label": "CEEMAC",
-    "appeared": "1980",
-    "id": "ceemac"
   },
   {
     "label": "BeBasic",
@@ -8772,6 +8772,11 @@
     "id": "cbasic"
   },
   {
+    "label": "WinWrap Basic",
+    "appeared": "1993",
+    "id": "winwrap-basic"
+  },
+  {
     "label": "Irvine Dataflow",
     "appeared": "1975",
     "id": "id"
@@ -8785,11 +8790,6 @@
     "label": "Matrix Market Coordinate Format",
     "appeared": "1996",
     "id": "coordinate-format"
-  },
-  {
-    "label": "WinWrap Basic",
-    "appeared": "1993",
-    "id": "winwrap-basic"
   },
   {
     "label": "Continuity of Care Document",
@@ -9114,6 +9114,11 @@
     "label": "SenseTalk",
     "appeared": "2001",
     "id": "sensetalk"
+  },
+  {
+    "label": "CECIL",
+    "appeared": "1992",
+    "id": "cecil"
   },
   {
     "label": "Ruby Document format",
@@ -9789,11 +9794,6 @@
     "id": "signal"
   },
   {
-    "label": "CECIL",
-    "appeared": "1992",
-    "id": "cecil"
-  },
-  {
     "label": "Meditech Interpretive Information System",
     "appeared": "1986",
     "id": "miis"
@@ -9911,6 +9911,11 @@
     "label": "myrddin",
     "appeared": "2016",
     "id": "myrddin"
+  },
+  {
+    "label": "CBOR data definition language",
+    "appeared": "2017",
+    "id": "cddl"
   },
   {
     "label": "chain-format",
@@ -10368,11 +10373,6 @@
     "label": "bioscript",
     "appeared": "2019",
     "id": "bioscript"
-  },
-  {
-    "label": "CBOR data definition language",
-    "appeared": "2017",
-    "id": "cddl"
   },
   {
     "label": "Ion Schema Language",
@@ -14649,6 +14649,10 @@
     "id": "babel"
   },
   {
+    "label": "CCS",
+    "id": "ccs"
+  },
+  {
     "label": "DUEL",
     "appeared": "1993",
     "id": "duel"
@@ -16626,10 +16630,6 @@
     "id": "binary-equation"
   },
   {
-    "label": "CCS",
-    "id": "ccs"
-  },
-  {
     "label": "COPE",
     "appeared": "1977",
     "id": "cope"
@@ -17466,6 +17466,26 @@
     "label": "CAYLEY",
     "appeared": "1975",
     "id": "cayley"
+  },
+  {
+    "label": "CCEL",
+    "appeared": "1993",
+    "id": "ccel"
+  },
+  {
+    "label": "CDL++",
+    "appeared": "1997",
+    "id": "cdlpp"
+  },
+  {
+    "label": "Cedar Fortran",
+    "appeared": "1984",
+    "id": "cedar-fortran"
+  },
+  {
+    "label": "CELIP",
+    "appeared": "1990",
+    "id": "celip"
   },
   {
     "label": "D4",
@@ -18511,29 +18531,9 @@
     "id": "case-sensitivity-feature"
   },
   {
-    "label": "CCEL",
-    "appeared": "1993",
-    "id": "ccel"
-  },
-  {
-    "label": "CDL++",
-    "appeared": "1997",
-    "id": "cdlpp"
-  },
-  {
-    "label": "Cedar Fortran",
-    "appeared": "1984",
-    "id": "cedar-fortran"
-  },
-  {
     "label": "Cedar",
     "appeared": "1983",
     "id": "cedar"
-  },
-  {
-    "label": "CELIP",
-    "appeared": "1990",
-    "id": "celip"
   },
   {
     "label": "CELLSIM",

@@ -155,8 +155,8 @@ replace TABLE
   Makefile|../languages/makefile.html|mak d make makefile mk mkfile Makefile Makefile.* GNUmakefile
   Scilab|../languages/scilab.html|sci sce tst
   Turing|../languages/turing.html|t tu
-  Pug|../languages/pug.html|jade pug
   JSP|../languages/java-server-pages.html|jsp
+  Pug|../languages/pug.html|jade pug
   NewLisp|../languages/newlisp.html|nl lisp lsp kif
   Slim|../languages/slim-lang.html|slim
   xBase|../languages/xbase.html|prg ch prw
@@ -243,8 +243,8 @@ replace TABLE
   GAMS|../languages/general-algebraic-modeling-system.html|gms
   M4|../languages/m4.html|m4 mc
   Arc|../languages/arc.html|arc
-  JSON-LD|../languages/json-ld.html|jsonld
   Pod|../languages/pod.html|pod
+  JSON-LD|../languages/json-ld.html|jsonld
   Objective-J|../languages/objective-j.html|j sj
   Ninja|../languages/ninja.html|ninja
   Wolfram Language|../languages/wolfram.html|nb m wl
@@ -291,8 +291,8 @@ replace TABLE
   AspectJ|../languages/aspectj.html|aj
   RMarkdown|../languages/rmarkdown.html|rmd qmd
   CIL|../languages/cilk.html|cil
-  Parrot|../languages/parrot-vm.html|parrot
   DTrace|../languages/dtrace.html|d
+  Parrot|../languages/parrot-vm.html|parrot
   TXL|../languages/txl.html|txl
   Max|../languages/max.html|maxpat maxhelp maxproj mxt pat
   Smarty|../languages/smarty.html|tpl
@@ -310,8 +310,8 @@ replace TABLE
   Fennel|../languages/fennel.html|fnl
   JCL|../languages/jcl.html|jcl
   Unicon|../languages/unicon.html|icn
-  Pure Data|../languages/puredata.html|pd
   beef-lang|../languages/beef.html|bf
+  Pure Data|../languages/puredata.html|pd
   PEG|../languages/peg.html|peg
   Gerber Image|../languages/gerber-image.html|gbr cmp gbl gbo gbp gbs gko gml gpb gpt gtl gto gtp gts ncl sol
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli
@@ -328,8 +328,8 @@ replace TABLE
   SourcePawn|../languages/sourcepawn.html|sp inc
   Gosu|../languages/gosu.html|gs gsp gst gsx vark
   OpenVera|../languages/openvera.html|vr
-  GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader
   Koka|../languages/koka.html|kk kki
+  GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader
   EBNF|../languages/ebnf.html|ebnf
   Ren'Py|../languages/renpy.html|rpy
   Curry|../languages/curry.html|curry
@@ -340,6 +340,7 @@ replace TABLE
   Eagle|../languages/eagle.html|sch brd
   IGOR Pro|../languages/igor-pro.html|ipf
   Zip file format|../languages/zip-format.html|zip
+  CFML|../languages/cfml.html|cfm cfc
   Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf
   eC|../languages/ec.html|ec eh
   PIR|../languages/parrot-internal-representation.html|pir
@@ -349,7 +350,6 @@ replace TABLE
   CSV|../languages/csv.html|csv
   CodeQL|../languages/codeql.html|ql qll
   Jule|../languages/x.html|.jule
-  CFML|../languages/cfml.html|cfm cfc
   PAWN|../languages/pawn.html|pwn inc
   Pony|../languages/pony.html|pony
   SubRip Text|../languages/subrip-text.html|srt
@@ -377,11 +377,12 @@ replace TABLE
   Shapefile|../languages/shapefile.html|shp shx dbf
   FIGlet Font|../languages/figlet-font.html|flf
   Textile|../languages/textile.html|textile
+  chaiscript|../languages/chaiscript.html|chai
   Futhark|../languages/futhark.html|fut
   Angelscript|../languages/angelscript.html|as angelscript
   NCAR Command Language|../languages/ncl.html|ncl
-  BNF|../languages/bnf.html|bnf
   LookML|../languages/lookml.html|lookml modellkml viewlkml
+  BNF|../languages/bnf.html|bnf
   Volt|../languages/volt.html|volt
   Literate CoffeeScript|../languages/literate-coffeescript.html|litcoffee coffeemd
   QMake|../languages/qmake.html|pro pri
@@ -391,11 +392,10 @@ replace TABLE
   Filebench WML|../languages/filebench-wml.html|f
   Asymptote|../languages/asymptote.html|asy
   DM|../languages/dm.html|dm dmf
-  GNU Assembler|../languages/gas.html|s S
   DNS Zone|../languages/zone.html|zone arpa
   Vim script|../languages/vim-script.html|vim vba vimrc vmb .vimrc .exrc .gvimrc _vimrc _exrc _gvimrc gvimrc
+  GNU Assembler|../languages/gas.html|s S
   DIGITAL Command Language|../languages/digital-command-language.html|com
-  chaiscript|../languages/chaiscript.html|chai
   Linden Scripting Language|../languages/lsl.html|lsl lslp
   Cobra|../languages/cobra.html|cobra
   TSV|../languages/tsv.html|tsv
@@ -422,8 +422,8 @@ replace TABLE
   Gettext Catalog|../languages/gettext.html|po pot
   Mask|../languages/maskjs.html|mask
   Omgrofl|../languages/omgrofl.html|omgrofl
-  Yorick|../languages/yorick.html|i
   Rascal|../languages/rascal.html|rsc
+  Yorick|../languages/yorick.html|i
   ooc|../languages/ooc.html|ooc
   RenderScript|../languages/renderscript.html|rs rsh
   Jasmin|../languages/jasmin.html|j
@@ -534,8 +534,8 @@ replace TABLE
   ObjDump|../languages/objdump.html|objdump
   Recfiles|../languages/recfiles.html|rec
   Formatted Table|../languages/formatted-table.html|for eamfs
-  Redcode|../languages/redcode.html|cw
   Snap!|../languages/snap.html|ypr ysp xml
+  Redcode|../languages/redcode.html|cw
   TextMate Language|../languages/tmlanguage.html|tmLanguage
   GN|../languages/generate-ninja.html|gn gni
   Embedded Crystal|../languages/ecr.html|ecr
@@ -551,13 +551,13 @@ replace TABLE
   Adventure Game Studio Script|../languages/ags-script.html|asc ash
   Cirru|../languages/cirru.html|cirru
   Nymph|../languages/nymph.html|n
+  Charity|../languages/charity.html|ch
   Jsonnet|../languages/jsonnet.html|jsonnet libsonnet
   MXF|../languages/material-exchange-format.html|mxf
   Z|../languages/z-expressions.html|zz
   Ligo|../languages/ligo.html|religo
   JSLT|../languages/jslt.html|jslt
   astro|../languages/astro.html|astro
-  Charity|../languages/charity.html|ch
   Pawn|../languages/pawn-scripting-language.html|pwn inc sma p
   TOM object-oriented|../languages/tom-oopl.html|t
   Grace|../languages/grace.html|grace
@@ -634,8 +634,8 @@ replace TABLE
   git-config|../languages/git-config.html|gitconfig
   USD|../languages/usd.html|usd usda
   SubX|../languages/subx.html|subx
-  Myghty|../languages/myghty.html|myt autodelegate
   Todotxt|../languages/todotxt.html|todo.txt todotxt
+  Myghty|../languages/myghty.html|myt autodelegate
   Sun Raster|../languages/sun-raster-format.html|sun ras
   Rita|../languages/rita.html|rita
   RTF|../languages/rtf.html|rtf

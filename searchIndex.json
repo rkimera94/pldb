@@ -800,14 +800,14 @@
     "id": "picolisp"
   },
   {
-    "label": "Standard ML",
-    "appeared": "1990",
-    "id": "standard-ml"
-  },
-  {
     "label": "BCPL",
     "appeared": "1966",
     "id": "bcpl"
+  },
+  {
+    "label": "Standard ML",
+    "appeared": "1990",
+    "id": "standard-ml"
   },
   {
     "label": "Protocol Buffers",
@@ -990,24 +990,24 @@
     "id": "mumps"
   },
   {
-    "label": "Jinja",
-    "appeared": "2006",
-    "id": "jinja"
-  },
-  {
     "label": "Occam",
     "appeared": "1983",
     "id": "occam"
   },
   {
-    "label": "Emacs Lisp",
-    "appeared": "1985",
-    "id": "emacs-lisp"
+    "label": "Jinja",
+    "appeared": "2006",
+    "id": "jinja"
   },
   {
     "label": "ColdFusion",
     "appeared": "1995",
     "id": "coldfusion"
+  },
+  {
+    "label": "Emacs Lisp",
+    "appeared": "1985",
+    "id": "emacs-lisp"
   },
   {
     "label": "Qt",
@@ -1080,14 +1080,14 @@
     "id": "idyll"
   },
   {
-    "label": "TOML",
-    "appeared": "2013",
-    "id": "toml"
-  },
-  {
     "label": "Ballerina",
     "appeared": "2015",
     "id": "ballerina"
+  },
+  {
+    "label": "TOML",
+    "appeared": "2013",
+    "id": "toml"
   },
   {
     "label": "XAML",
@@ -1215,14 +1215,14 @@
     "id": "octave"
   },
   {
-    "label": "Io",
-    "appeared": "2002",
-    "id": "io"
-  },
-  {
     "label": "Lean",
     "appeared": "2015",
     "id": "lean"
+  },
+  {
+    "label": "Io",
+    "appeared": "2002",
+    "id": "io"
   },
   {
     "label": "PostCSS",
@@ -1445,14 +1445,14 @@
     "id": "pl-i"
   },
   {
-    "label": "HCL",
-    "appeared": "2014",
-    "id": "hcl"
-  },
-  {
     "label": "API Blueprint",
     "appeared": "2013",
     "id": "api-blueprint"
+  },
+  {
+    "label": "HCL",
+    "appeared": "2014",
+    "id": "hcl"
   },
   {
     "label": "WSDL",
@@ -1580,14 +1580,14 @@
     "id": "netlogo"
   },
   {
-    "label": "Factor",
-    "appeared": "2003",
-    "id": "factor"
-  },
-  {
     "label": "Lex",
     "appeared": "1975",
     "id": "lex"
+  },
+  {
+    "label": "Factor",
+    "appeared": "2003",
+    "id": "factor"
   },
   {
     "label": "Microsoft BASIC",
@@ -1655,11 +1655,6 @@
     "id": "intercal"
   },
   {
-    "label": "YARA",
-    "appeared": "2008",
-    "id": "yara"
-  },
-  {
     "label": "Office Open XML",
     "appeared": "2006",
     "id": "ooxml"
@@ -1668,6 +1663,11 @@
     "label": "Whitespace",
     "appeared": "2003",
     "id": "whitespace"
+  },
+  {
+    "label": "YARA",
+    "appeared": "2008",
+    "id": "yara"
   },
   {
     "label": "PL/pgSQL",
@@ -1703,6 +1703,11 @@
     "label": "Modelica",
     "appeared": "1997",
     "id": "modelica"
+  },
+  {
+    "label": "chevrotain",
+    "appeared": "2015",
+    "id": "chevrotain"
   },
   {
     "label": "Dafny",
@@ -1758,11 +1763,6 @@
     "label": "AsciiDoc",
     "appeared": "2002",
     "id": "asciidoc"
-  },
-  {
-    "label": "chevrotain",
-    "appeared": "2015",
-    "id": "chevrotain"
   },
   {
     "label": "DNS",
@@ -2095,11 +2095,6 @@
     "id": "scala-js"
   },
   {
-    "label": "YASnippet",
-    "appeared": "2008",
-    "id": "yasnippet"
-  },
-  {
     "label": "CLU",
     "appeared": "1975",
     "id": "clu"
@@ -2113,6 +2108,11 @@
     "label": "ink",
     "appeared": "2015",
     "id": "ink"
+  },
+  {
+    "label": "YASnippet",
+    "appeared": "2008",
+    "id": "yasnippet"
   },
   {
     "label": "Ext4",
@@ -2150,11 +2150,6 @@
     "id": "squeak"
   },
   {
-    "label": "Dc",
-    "appeared": "1978",
-    "id": "dc"
-  },
-  {
     "label": "UrWeb",
     "appeared": "2008",
     "id": "urweb"
@@ -2168,6 +2163,11 @@
     "label": "RStudio",
     "appeared": "2011",
     "id": "rstudio-editor"
+  },
+  {
+    "label": "Dc",
+    "appeared": "1978",
+    "id": "dc"
   },
   {
     "label": "HyperCard",
@@ -2260,6 +2260,11 @@
     "id": "nltk"
   },
   {
+    "label": "chrysaLisp",
+    "appeared": "2015",
+    "id": "chrysalisp"
+  },
+  {
     "label": "Multics",
     "appeared": "1967",
     "id": "multics"
@@ -2285,19 +2290,14 @@
     "id": "latte"
   },
   {
-    "label": "chrysaLisp",
-    "appeared": "2015",
-    "id": "chrysalisp"
+    "label": "Pygments",
+    "appeared": "2006",
+    "id": "pygments"
   },
   {
     "label": "Stylus",
     "appeared": "2010",
     "id": "stylus"
-  },
-  {
-    "label": "Pygments",
-    "appeared": "2006",
-    "id": "pygments"
   },
   {
     "label": "JFlex",
@@ -2610,14 +2610,14 @@
     "id": "mermaid"
   },
   {
-    "label": "CWL",
-    "appeared": "2014",
-    "id": "common-workflow-language"
-  },
-  {
     "label": "Dogescript",
     "appeared": "2013",
     "id": "dogescript"
+  },
+  {
+    "label": "CWL",
+    "appeared": "2014",
+    "id": "common-workflow-language"
   },
   {
     "label": "Closure Templates",
@@ -3014,14 +3014,14 @@
     "id": "x"
   },
   {
-    "label": "PAWN",
-    "appeared": "2006",
-    "id": "pawn"
-  },
-  {
     "label": "KiXtart",
     "appeared": "1991",
     "id": "kixtart"
+  },
+  {
+    "label": "PAWN",
+    "appeared": "2006",
+    "id": "pawn"
   },
   {
     "label": "ACT-III",
@@ -3209,14 +3209,14 @@
     "id": "spin"
   },
   {
-    "label": "P4",
-    "appeared": "2014",
-    "id": "p4"
-  },
-  {
     "label": "Readable",
     "appeared": "2018",
     "id": "readable"
+  },
+  {
+    "label": "P4",
+    "appeared": "2014",
+    "id": "p4"
   },
   {
     "label": "Slope",
@@ -3647,11 +3647,6 @@
     "id": "conll-u"
   },
   {
-    "label": "Filebench WML",
-    "appeared": "2011",
-    "id": "filebench-wml"
-  },
-  {
     "label": "Joy",
     "appeared": "2001",
     "id": "joy"
@@ -3660,6 +3655,11 @@
     "label": "Kubernetes",
     "appeared": "2014",
     "id": "kubernetes"
+  },
+  {
+    "label": "Filebench WML",
+    "appeared": "2011",
+    "id": "filebench-wml"
   },
   {
     "label": "Asymptote",
@@ -4238,14 +4238,14 @@
     "id": "skulpt"
   },
   {
-    "label": "Nit",
-    "appeared": "2008",
-    "id": "nit"
-  },
-  {
     "label": "hasklig",
     "appeared": "2012",
     "id": "hasklig"
+  },
+  {
+    "label": "Nit",
+    "appeared": "2008",
+    "id": "nit"
   },
   {
     "label": "Game Maker Language",
@@ -4318,6 +4318,16 @@
     "id": "euclidean-geometry"
   },
   {
+    "label": "OPL",
+    "appeared": "1984",
+    "id": "opl"
+  },
+  {
+    "label": "Ravenscar profile",
+    "appeared": "1997",
+    "id": "ravenscar-profile"
+  },
+  {
     "label": "UNITY",
     "appeared": "1988",
     "id": "unity"
@@ -4331,16 +4341,6 @@
     "label": "Objective C++",
     "appeared": "1993",
     "id": "objective-cpp"
-  },
-  {
-    "label": "OPL",
-    "appeared": "1984",
-    "id": "opl"
-  },
-  {
-    "label": "Ravenscar profile",
-    "appeared": "1997",
-    "id": "ravenscar-profile"
   },
   {
     "label": "m3db",
@@ -4553,6 +4553,11 @@
     "id": "activevfp"
   },
   {
+    "label": "Ch",
+    "appeared": "2003",
+    "id": "chuck"
+  },
+  {
     "label": "Geography Markup Language",
     "appeared": "2000",
     "id": "geo-ml"
@@ -4597,6 +4602,11 @@
     "id": "golo"
   },
   {
+    "label": "chef",
+    "appeared": "2002",
+    "id": "chef"
+  },
+  {
     "label": "Cesil",
     "appeared": "1974",
     "id": "cesil"
@@ -4607,19 +4617,14 @@
     "id": "vml"
   },
   {
-    "label": "Ch",
-    "appeared": "2003",
-    "id": "chuck"
+    "label": "MATHLAB",
+    "appeared": "1964",
+    "id": "mathlab"
   },
   {
     "label": "Shen",
     "appeared": "2011",
     "id": "shen"
-  },
-  {
-    "label": "MATHLAB",
-    "appeared": "1964",
-    "id": "mathlab"
   },
   {
     "label": "Fibonacci",
@@ -4635,11 +4640,6 @@
     "label": "WebIDL",
     "appeared": "2012",
     "id": "web-idl"
-  },
-  {
-    "label": "chef",
-    "appeared": "2002",
-    "id": "chef"
   },
   {
     "label": "JOSS",
@@ -5525,6 +5525,11 @@
     "id": "reko-decompiler"
   },
   {
+    "label": "YAWL",
+    "appeared": "2006",
+    "id": "yawl"
+  },
+  {
     "label": "Opal",
     "appeared": "1994",
     "id": "opal"
@@ -5533,11 +5538,6 @@
     "label": "FML",
     "appeared": "2012",
     "id": "fml-lang"
-  },
-  {
-    "label": "YAWL",
-    "appeared": "2006",
-    "id": "yawl"
   },
   {
     "label": "comby",
@@ -5575,16 +5575,6 @@
     "id": "flow9"
   },
   {
-    "label": "HiveQL",
-    "appeared": "2011",
-    "id": "hiveql"
-  },
-  {
-    "label": "Quaint",
-    "appeared": "2014",
-    "id": "quaint"
-  },
-  {
     "label": "ALGO",
     "appeared": "1958",
     "id": "algo"
@@ -5598,6 +5588,16 @@
     "label": "Handel-C",
     "appeared": "1996",
     "id": "handel-c"
+  },
+  {
+    "label": "HiveQL",
+    "appeared": "2011",
+    "id": "hiveql"
+  },
+  {
+    "label": "Quaint",
+    "appeared": "2014",
+    "id": "quaint"
   },
   {
     "label": "femtolisp",
@@ -5960,11 +5960,6 @@
     "id": "circle-lang"
   },
   {
-    "label": "I-expressions",
-    "appeared": "2003",
-    "id": "i-expressions"
-  },
-  {
     "label": "XPages",
     "appeared": "2008",
     "id": "xpages"
@@ -6013,6 +6008,11 @@
     "label": "Google Sheets",
     "appeared": "2006",
     "id": "google-sheets-app"
+  },
+  {
+    "label": "I-expressions",
+    "appeared": "2003",
+    "id": "i-expressions"
   },
   {
     "label": "Smartsheet",
@@ -6129,11 +6129,6 @@
     "id": "bee"
   },
   {
-    "label": "Interlisp",
-    "appeared": "1966",
-    "id": "interlisp"
-  },
-  {
     "label": "ferret",
     "appeared": "2017",
     "id": "ferret"
@@ -6157,6 +6152,11 @@
     "label": "HP BASIC for OpenVMS",
     "appeared": "1982",
     "id": "hp-basic-for-openvms"
+  },
+  {
+    "label": "Interlisp",
+    "appeared": "1966",
+    "id": "interlisp"
   },
   {
     "label": ".QL",
@@ -6673,6 +6673,15 @@
     "id": "catala"
   },
   {
+    "label": "Algebraic Data Type",
+    "id": "algebraic-types-feature"
+  },
+  {
+    "label": "TELOS",
+    "appeared": "1990",
+    "id": "telos"
+  },
+  {
     "label": "Scribe",
     "appeared": "1980",
     "id": "scribe"
@@ -6681,15 +6690,6 @@
     "label": "COWSEL",
     "appeared": "1964",
     "id": "cowsel"
-  },
-  {
-    "label": "Algebraic Data Type",
-    "id": "algebraic-types-feature"
-  },
-  {
-    "label": "TELOS",
-    "appeared": "1990",
-    "id": "telos"
   },
   {
     "label": "Atmel AVR instruction set",
@@ -6767,16 +6767,6 @@
     "id": "symbol-table-feature"
   },
   {
-    "label": "CMS-2",
-    "appeared": "1968",
-    "id": "cms-2"
-  },
-  {
-    "label": "Business Basic",
-    "appeared": "1970",
-    "id": "business-basic"
-  },
-  {
     "label": "potion",
     "appeared": "2008",
     "id": "potion"
@@ -6795,6 +6785,16 @@
     "label": "WDDX",
     "appeared": "1998",
     "id": "wddx"
+  },
+  {
+    "label": "CMS-2",
+    "appeared": "1968",
+    "id": "cms-2"
+  },
+  {
+    "label": "Business Basic",
+    "appeared": "1970",
+    "id": "business-basic"
   },
   {
     "label": "raptorjit",
@@ -7074,6 +7074,21 @@
     "id": "watcom"
   },
   {
+    "label": "JSLT",
+    "appeared": "2017",
+    "id": "jslt"
+  },
+  {
+    "label": "Berkeley DB",
+    "appeared": "1994",
+    "id": "berkeley-db-lib"
+  },
+  {
+    "label": "MUSIC/SP",
+    "appeared": "1972",
+    "id": "music-sp"
+  },
+  {
     "label": "Casio BASIC",
     "appeared": "2006",
     "id": "casio-basic"
@@ -7092,21 +7107,6 @@
     "label": "TRAC",
     "appeared": "1964",
     "id": "trac"
-  },
-  {
-    "label": "JSLT",
-    "appeared": "2017",
-    "id": "jslt"
-  },
-  {
-    "label": "Berkeley DB",
-    "appeared": "1994",
-    "id": "berkeley-db-lib"
-  },
-  {
-    "label": "MUSIC/SP",
-    "appeared": "1972",
-    "id": "music-sp"
   },
   {
     "label": "Family BASIC",
@@ -7214,14 +7214,14 @@
     "id": "msx-basic"
   },
   {
-    "label": "POP-2",
-    "appeared": "1967",
-    "id": "pop-2"
-  },
-  {
     "label": "multicodec",
     "appeared": "2015",
     "id": "multicodec"
+  },
+  {
+    "label": "POP-2",
+    "appeared": "1967",
+    "id": "pop-2"
   },
   {
     "label": "Oak",
@@ -7522,6 +7522,11 @@
     "id": "lemon"
   },
   {
+    "label": "Lucidchart",
+    "appeared": "2008",
+    "id": "lucid-chart-app"
+  },
+  {
     "label": "PBASIC",
     "appeared": "1988",
     "id": "pbasic"
@@ -7535,11 +7540,6 @@
     "label": "NELIAC",
     "appeared": "1958",
     "id": "neliac"
-  },
-  {
-    "label": "Lucidchart",
-    "appeared": "2008",
-    "id": "lucid-chart-app"
   },
   {
     "label": "Hush",
@@ -7897,14 +7897,14 @@
     "id": "jsl"
   },
   {
-    "label": "Coco/R",
-    "appeared": "1990",
-    "id": "coco-r"
-  },
-  {
     "label": "CBOR",
     "appeared": "2013",
     "id": "cbor"
+  },
+  {
+    "label": "Coco/R",
+    "appeared": "1990",
+    "id": "coco-r"
   },
   {
     "label": "STON",
@@ -8212,6 +8212,11 @@
     "id": "stoneknifeforth"
   },
   {
+    "label": "minikanren",
+    "appeared": "2013",
+    "id": "minikanren"
+  },
+  {
     "label": "Winbatch",
     "appeared": "1989",
     "id": "winbatch"
@@ -8220,11 +8225,6 @@
     "label": "FL",
     "appeared": "1989",
     "id": "fl"
-  },
-  {
-    "label": "minikanren",
-    "appeared": "2013",
-    "id": "minikanren"
   },
   {
     "label": "AUTOCODER",
@@ -8374,6 +8374,11 @@
     "id": "pipelines"
   },
   {
+    "label": "KUKA Robot Language",
+    "appeared": "2010",
+    "id": "kuka"
+  },
+  {
     "label": "MAGMA",
     "appeared": "1993",
     "id": "magma"
@@ -8387,11 +8392,6 @@
     "label": "Janus",
     "appeared": "1982",
     "id": "janus-lang"
-  },
-  {
-    "label": "KUKA Robot Language",
-    "appeared": "2010",
-    "id": "kuka"
   },
   {
     "label": "Links",
@@ -8782,6 +8782,11 @@
     "id": "ccd"
   },
   {
+    "label": "solid",
+    "appeared": "2013",
+    "id": "solid"
+  },
+  {
     "label": "Irvine Dataflow",
     "appeared": "1975",
     "id": "id"
@@ -8797,14 +8802,14 @@
     "id": "coordinate-format"
   },
   {
-    "label": "solid",
-    "appeared": "2013",
-    "id": "solid"
-  },
-  {
     "label": "DATABUS",
     "appeared": "1972",
     "id": "databus"
+  },
+  {
+    "label": "Short Code computer language",
+    "appeared": "1949",
+    "id": "short-code-computer-language"
   },
   {
     "label": "Binary Alignment Map",
@@ -8820,11 +8825,6 @@
     "label": "Obliq",
     "appeared": "1993",
     "id": "obliq"
-  },
-  {
-    "label": "Short Code computer language",
-    "appeared": "1949",
-    "id": "short-code-computer-language"
   },
   {
     "label": "sporth",
@@ -9116,21 +9116,6 @@
     "id": "idl-sl"
   },
   {
-    "label": "SenseTalk",
-    "appeared": "2001",
-    "id": "sensetalk"
-  },
-  {
-    "label": "CECIL",
-    "appeared": "1992",
-    "id": "cecil"
-  },
-  {
-    "label": "Ruby Document format",
-    "appeared": "1995",
-    "id": "ruby-document-format"
-  },
-  {
     "label": "yeti",
     "appeared": "2007",
     "id": "yeti"
@@ -9144,6 +9129,21 @@
     "label": "g-fu",
     "appeared": "2019",
     "id": "g-fu"
+  },
+  {
+    "label": "SenseTalk",
+    "appeared": "2001",
+    "id": "sensetalk"
+  },
+  {
+    "label": "CECIL",
+    "appeared": "1992",
+    "id": "cecil"
+  },
+  {
+    "label": "Ruby Document format",
+    "appeared": "1995",
+    "id": "ruby-document-format"
   },
   {
     "label": "Atari Microsoft BASIC",
@@ -9189,6 +9189,11 @@
     "label": "Chinese BASIC",
     "appeared": "1980",
     "id": "chinese-basic"
+  },
+  {
+    "label": "Chipmunk Basic",
+    "appeared": "1989",
+    "id": "chipmunk-basic"
   },
   {
     "label": "Graphics BASIC",
@@ -9408,16 +9413,6 @@
     "id": "hotdog"
   },
   {
-    "label": "Laning and Zierler system",
-    "appeared": "1953",
-    "id": "laning-and-zierler-system"
-  },
-  {
-    "label": "praxis-lang",
-    "appeared": "2011",
-    "id": "praxis-lang"
-  },
-  {
     "label": "inko",
     "appeared": "2015",
     "id": "inko"
@@ -9466,6 +9461,11 @@
     "label": "Nuua",
     "appeared": "2018",
     "id": "nuua"
+  },
+  {
+    "label": "Chrome",
+    "appeared": "2008",
+    "id": "chrome-programming-language"
   },
   {
     "label": "FOAF",
@@ -9533,6 +9533,16 @@
     "label": "Y",
     "appeared": "1981",
     "id": "y"
+  },
+  {
+    "label": "Laning and Zierler system",
+    "appeared": "1953",
+    "id": "laning-and-zierler-system"
+  },
+  {
+    "label": "praxis-lang",
+    "appeared": "2011",
+    "id": "praxis-lang"
   },
   {
     "label": "Apple ProDOS",
@@ -9635,9 +9645,24 @@
     "id": "fxml"
   },
   {
-    "label": "Chipmunk Basic",
-    "appeared": "1989",
-    "id": "chipmunk-basic"
+    "label": "RapidQ",
+    "appeared": "2000",
+    "id": "rapidq"
+  },
+  {
+    "label": "SCM",
+    "appeared": "1990",
+    "id": "scm"
+  },
+  {
+    "label": "Split-C",
+    "appeared": "1995",
+    "id": "split-c"
+  },
+  {
+    "label": "METAPOST",
+    "appeared": "1994",
+    "id": "metapost"
   },
   {
     "label": "Gren",
@@ -9739,26 +9764,6 @@
     "id": "whirl"
   },
   {
-    "label": "RapidQ",
-    "appeared": "2000",
-    "id": "rapidq"
-  },
-  {
-    "label": "SCM",
-    "appeared": "1990",
-    "id": "scm"
-  },
-  {
-    "label": "Split-C",
-    "appeared": "1995",
-    "id": "split-c"
-  },
-  {
-    "label": "METAPOST",
-    "appeared": "1994",
-    "id": "metapost"
-  },
-  {
     "label": "tamgu",
     "appeared": "2019",
     "id": "tamgu"
@@ -9844,6 +9849,16 @@
     "id": "metacomco"
   },
   {
+    "label": "IBM BASIC",
+    "appeared": "1981",
+    "id": "ibm-basic"
+  },
+  {
+    "label": "Augment",
+    "appeared": "1974",
+    "id": "augment"
+  },
+  {
     "label": "Magik",
     "appeared": "1989",
     "id": "magik"
@@ -9889,11 +9904,6 @@
     "id": "nvdl"
   },
   {
-    "label": "Chrome",
-    "appeared": "2008",
-    "id": "chrome-programming-language"
-  },
-  {
     "label": "FCL",
     "appeared": "1989",
     "id": "fcl"
@@ -9926,16 +9936,6 @@
     "label": "Fortran 90",
     "appeared": "1990",
     "id": "fortran-90"
-  },
-  {
-    "label": "IBM BASIC",
-    "appeared": "1981",
-    "id": "ibm-basic"
-  },
-  {
-    "label": "Augment",
-    "appeared": "1974",
-    "id": "augment"
   },
   {
     "label": "ZBasic",
@@ -9971,6 +9971,11 @@
     "label": "wah",
     "appeared": "2017",
     "id": "wah"
+  },
+  {
+    "label": "Ciel",
+    "appeared": "2010",
+    "id": "ciel"
   },
   {
     "label": "Refer",
@@ -10232,6 +10237,36 @@
     "id": "croma"
   },
   {
+    "label": "Mallard BASIC",
+    "appeared": "1985",
+    "id": "mallard-basic"
+  },
+  {
+    "label": "Janus",
+    "appeared": "1990",
+    "id": "janus-programming-language"
+  },
+  {
+    "label": "LISP 2",
+    "appeared": "1963",
+    "id": "lisp-2"
+  },
+  {
+    "label": "Ratfiv",
+    "appeared": "1980",
+    "id": "ratfiv"
+  },
+  {
+    "label": "BASIC A+",
+    "appeared": "1983",
+    "id": "basic-ap"
+  },
+  {
+    "label": "ISBL",
+    "appeared": "1980",
+    "id": "isbl"
+  },
+  {
     "label": "lever",
     "appeared": "2015",
     "id": "lever"
@@ -10255,6 +10290,11 @@
     "label": "Piet",
     "appeared": "1990",
     "id": "piet-programming-language"
+  },
+  {
+    "label": "CHILL",
+    "appeared": "1980",
+    "id": "chill"
   },
   {
     "label": "PICO",
@@ -10413,36 +10453,6 @@
     "label": "SubX",
     "appeared": "2019",
     "id": "subx"
-  },
-  {
-    "label": "Mallard BASIC",
-    "appeared": "1985",
-    "id": "mallard-basic"
-  },
-  {
-    "label": "Janus",
-    "appeared": "1990",
-    "id": "janus-programming-language"
-  },
-  {
-    "label": "LISP 2",
-    "appeared": "1963",
-    "id": "lisp-2"
-  },
-  {
-    "label": "Ratfiv",
-    "appeared": "1980",
-    "id": "ratfiv"
-  },
-  {
-    "label": "BASIC A+",
-    "appeared": "1983",
-    "id": "basic-ap"
-  },
-  {
-    "label": "ISBL",
-    "appeared": "1980",
-    "id": "isbl"
   },
   {
     "label": "UBJSON",
@@ -10674,11 +10684,6 @@
     "id": "todotxt"
   },
   {
-    "label": "Ciel",
-    "appeared": "2010",
-    "id": "ciel"
-  },
-  {
     "label": "Join Java",
     "appeared": "2000",
     "id": "join-java"
@@ -10697,6 +10702,11 @@
     "label": "RascalMPL",
     "appeared": "2010",
     "id": "rascalmpl"
+  },
+  {
+    "label": "CheetahTemplate",
+    "appeared": "2001",
+    "id": "cheetah"
   },
   {
     "label": "huginn",
@@ -10910,11 +10920,6 @@
     "label": "r4",
     "appeared": "2009",
     "id": "r4"
-  },
-  {
-    "label": "CHILL",
-    "appeared": "1980",
-    "id": "chill"
   },
   {
     "label": "Algebraic Logic Functional",
@@ -11239,11 +11244,6 @@
     "id": "little-b"
   },
   {
-    "label": "CheetahTemplate",
-    "appeared": "2001",
-    "id": "cheetah"
-  },
-  {
     "label": "ZPL",
     "appeared": "1993",
     "id": "zpl"
@@ -11521,11 +11521,6 @@
     "id": "twelf"
   },
   {
-    "label": "Ciao",
-    "appeared": "1984",
-    "id": "ciao-programming-language"
-  },
-  {
     "label": "TASM",
     "id": "tasm"
   },
@@ -11533,6 +11528,11 @@
     "label": "Tosh is a text-based editor for Scratch projects.",
     "appeared": "2015",
     "id": "tosh"
+  },
+  {
+    "label": "Ciao",
+    "appeared": "1984",
+    "id": "ciao-programming-language"
   },
   {
     "label": "Agilent VEE",
@@ -12017,6 +12017,11 @@
     "label": "Leda",
     "appeared": "1995",
     "id": "leda"
+  },
+  {
+    "label": "CHIP",
+    "appeared": "1985",
+    "id": "chip-programming-language"
   },
   {
     "label": "System 2",
@@ -12522,6 +12527,11 @@
     "id": "high-tech-basic"
   },
   {
+    "label": "MathType",
+    "appeared": "1987",
+    "id": "mathtype"
+  },
+  {
     "label": "BEFLIX",
     "appeared": "1963",
     "id": "beflix"
@@ -12717,11 +12727,6 @@
     "id": "xt3d"
   },
   {
-    "label": "MathType",
-    "appeared": "1987",
-    "id": "mathtype"
-  },
-  {
     "label": "flame-ir",
     "appeared": "2015",
     "id": "flame-ir"
@@ -12834,11 +12839,6 @@
     "label": "ABSYS",
     "appeared": "1966",
     "id": "absys"
-  },
-  {
-    "label": "CHIP",
-    "appeared": "1985",
-    "id": "chip-programming-language"
   },
   {
     "label": "Mentat",
@@ -14227,6 +14227,11 @@
     "id": "bolt"
   },
   {
+    "label": "Chimera",
+    "appeared": "1994",
+    "id": "chimera"
+  },
+  {
     "label": "CLASS",
     "appeared": "1970",
     "id": "class"
@@ -14583,6 +14588,11 @@
     "id": "chartio-app"
   },
   {
+    "label": "chocolatey-pm",
+    "appeared": "2011",
+    "id": "chocolatey-pm"
+  },
+  {
     "label": "dynamo-pm",
     "appeared": "2013",
     "id": "dynamo-pm"
@@ -14745,11 +14755,6 @@
     "id": "rlox"
   },
   {
-    "label": "Chika",
-    "appeared": "2019",
-    "id": "chika"
-  },
-  {
     "label": "Horse64",
     "appeared": "2020",
     "id": "horse64"
@@ -14818,6 +14823,11 @@
     "label": "Caramel",
     "appeared": "2020",
     "id": "caramel"
+  },
+  {
+    "label": "Chika",
+    "appeared": "2019",
+    "id": "chika"
   },
   {
     "label": "6gunz",
@@ -15027,11 +15037,6 @@
     "label": "Argos",
     "appeared": "1992",
     "id": "argos"
-  },
-  {
-    "label": "Chimera",
-    "appeared": "1994",
-    "id": "chimera"
   },
   {
     "label": "DDF",
@@ -15447,11 +15452,6 @@
     "label": "bistro-smalltalk",
     "appeared": "2016",
     "id": "bistro-smalltalk"
-  },
-  {
-    "label": "Cheri",
-    "appeared": "2010",
-    "id": "cheri"
   },
   {
     "label": "coi-protocol",
@@ -15873,6 +15873,11 @@
     "id": "bx"
   },
   {
+    "label": "Cheri",
+    "appeared": "2010",
+    "id": "cheri"
+  },
+  {
     "label": "cleanlang",
     "appeared": "2017",
     "id": "cleanlang"
@@ -16130,11 +16135,6 @@
     "label": "chaos-lang",
     "appeared": "2020",
     "id": "chaos-lang"
-  },
-  {
-    "label": "chirp",
-    "appeared": "2008",
-    "id": "chirp"
   },
   {
     "label": "ciao",
@@ -16433,9 +16433,9 @@
     "id": "bush"
   },
   {
-    "label": "chocolatey-pm",
-    "appeared": "2011",
-    "id": "chocolatey-pm"
+    "label": "chirp",
+    "appeared": "2008",
+    "id": "chirp"
   },
   {
     "label": "Clausal Language",
@@ -17522,6 +17522,26 @@
     "id": "charybdis"
   },
   {
+    "label": "ChemTrains",
+    "appeared": "1992",
+    "id": "chemtrains"
+  },
+  {
+    "label": "Chronolog",
+    "appeared": "1985",
+    "id": "chronolog"
+  },
+  {
+    "label": "ChronologMC",
+    "appeared": "1996",
+    "id": "chronologmc"
+  },
+  {
+    "label": "ChronologZ",
+    "appeared": "1993",
+    "id": "chronologz"
+  },
+  {
     "label": "D4",
     "appeared": "2001",
     "id": "d4"
@@ -17982,11 +18002,6 @@
     "label": "chappe-code",
     "appeared": "1792",
     "id": "chappe-code"
-  },
-  {
-    "label": "checkout",
-    "appeared": "2011",
-    "id": "checkout"
   },
   {
     "label": "Classic-Ada",
@@ -18573,31 +18588,6 @@
     "label": "Celsius WebScript",
     "appeared": "2006",
     "id": "celsius-webscript"
-  },
-  {
-    "label": "ChemTrains",
-    "appeared": "1992",
-    "id": "chemtrains"
-  },
-  {
-    "label": "Chicon",
-    "appeared": "1998",
-    "id": "chicon"
-  },
-  {
-    "label": "Chronolog",
-    "appeared": "1985",
-    "id": "chronolog"
-  },
-  {
-    "label": "ChronologMC",
-    "appeared": "1996",
-    "id": "chronologmc"
-  },
-  {
-    "label": "ChronologZ",
-    "appeared": "1993",
-    "id": "chronologz"
   },
   {
     "label": "Cigale",
@@ -22189,6 +22179,16 @@
     "label": "Candy Codes",
     "appeared": "2022",
     "id": "candy-codes"
+  },
+  {
+    "label": "checkout",
+    "appeared": "2011",
+    "id": "checkout"
+  },
+  {
+    "label": "Chicon",
+    "appeared": "1998",
+    "id": "chicon"
   },
   {
     "label": "CIRCAL",

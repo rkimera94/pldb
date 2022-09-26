@@ -133,8 +133,8 @@ replace TABLE
   HAML|../languages/haml.html|haml hamldeface
   MUMPS|../languages/mumps.html|mumps m
   Jinja|../languages/jinja.html|jinja j2 jinja2
-  Emacs Lisp|../languages/emacs-lisp.html|el emacs emacsdesktop elc
   ColdFusion|../languages/coldfusion.html|cfm cfml
+  Emacs Lisp|../languages/emacs-lisp.html|el emacs emacsdesktop elc
   Coq|../languages/coq.html|coq v
   Monkey|../languages/monkey.html|monkey monkey2
   AutoIt|../languages/autoit.html|au3
@@ -146,8 +146,8 @@ replace TABLE
   Vala|../languages/vala.html|vala vapi
   Terra|../languages/terra.html|t
   Squirrel|../languages/squirrel.html|nut
-  TOML|../languages/toml.html|toml Pipfile poetry.lock
   Ballerina|../languages/ballerina.html|bal
+  TOML|../languages/toml.html|toml Pipfile poetry.lock
   Zig|../languages/zig.html|zig
   Icon|../languages/icon.html|icon ICON
   X10|../languages/x10.html|x10
@@ -167,8 +167,8 @@ replace TABLE
   Hy|../languages/hy.html|hy
   Mercury|../languages/mercury.html|m moo
   GNU Octave|../languages/octave.html|m
-  Io|../languages/io.html|io
   Lean|../languages/lean.html|lean hlean
+  Io|../languages/io.html|io
   PostCSS|../languages/postcss.html|pcss postcss
   Nemerle|../languages/nemerle.html|n
   Object Pascal|../languages/object-pascal.html|p pp pas
@@ -199,8 +199,8 @@ replace TABLE
   NumPy|../languages/numpy.html|numpy numpyw numsc
   Multi-User Forth|../languages/muf.html|muf m
   Click|../languages/click.html|click
-  HCL|../languages/hcl.html|hcl nomad tf tfvars workflow
   API Blueprint|../languages/api-blueprint.html|apib
+  HCL|../languages/hcl.html|hcl nomad tf tfvars workflow
   YANG|../languages/yang.html|yang
   Isabelle|../languages/isabelle.html|ROOT thy
   Pike|../languages/pike.html|pike pmod
@@ -214,8 +214,8 @@ replace TABLE
   Csound|../languages/csound.html|csd sco orc udo
   Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window
   NetLogo|../languages/netlogo.html|nlogo nlogo3d nls
-  Factor|../languages/factor.html|factor
   Lex|../languages/lex.html|l lex
+  Factor|../languages/factor.html|factor
   Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt
   Wavefront Object|../languages/wavefront-object.html|obj
   odin|../languages/odin.html|odin
@@ -321,8 +321,8 @@ replace TABLE
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5
   SIL|../languages/swift-il.html|sil
   Augmented Backus-Naur Form|../languages/abnf.html|abnf
-  CWL|../languages/common-workflow-language.html|cwl
   Dogescript|../languages/dogescript.html|djs
+  CWL|../languages/common-workflow-language.html|cwl
   Closure Templates|../languages/closure-templates.html|soy
   NL|../languages/nl.html|nl
   SourcePawn|../languages/sourcepawn.html|sp inc
@@ -446,9 +446,9 @@ replace TABLE
   ECL|../languages/ecl.html|ecl eclxml
   GAP|../languages/gap.html|g gap gd gi tst
   Jupyter Notebook|../languages/jupyter-notebook.html|ipynb
+  Ch|../languages/chuck.html|ck
   GCC Machine Description|../languages/gcc-machine-description.html|md
   Golo|../languages/golo.html|golo
-  Ch|../languages/chuck.html|ck
   Shen|../languages/shen.html|shen
   Fancy|../languages/fancy.html|fy fancypack
   WebIDL|../languages/web-idl.html|webidl
@@ -635,6 +635,7 @@ replace TABLE
   USD|../languages/usd.html|usd usda
   SubX|../languages/subx.html|subx
   Todotxt|../languages/todotxt.html|todo.txt todotxt
+  CheetahTemplate|../languages/cheetah.html|tmpl spt
   Myghty|../languages/myghty.html|myt autodelegate
   Sun Raster|../languages/sun-raster-format.html|sun ras
   Rita|../languages/rita.html|rita
@@ -642,7 +643,6 @@ replace TABLE
   Link|../languages/link.html|link
   Procfile|../languages/procfile.html|Procfile
   srv|../languages/srv.html|srv
-  CheetahTemplate|../languages/cheetah.html|tmpl spt
   ASP.NET|../languages/asp-dot-net.html|asax ascx ashx asmx aspx axd
   Kami|../languages/kami.html|km
   Kal|../languages/kal.html|kal

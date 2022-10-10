@@ -26,36 +26,36 @@ replace TABLE
   Ada|../languages/ada.html|adb ads ada|3
   COBOL|../languages/cobol.html|cbl cob cpy ccp cobol COB CPY|7
   Scala|../languages/scala.html|scala sc kojo sbt|4
+  PowerShell|../languages/powershell.html|ps1 psd1 psm1|3
   Pascal|../languages/pascal.html|pp pas inc dfm dpr lpr pascal|7
   Rust|../languages/rust.html|rs rlib rsin rs.in|4
   Haskell|../languages/haskell.html|hs lhs hs-boot hsc|4
+  Kotlin|../languages/kotlin.html|kt kts ktm|3
   SAS|../languages/sas.html|sas SAS|2
   TypeScript|../languages/typescript.html|ts tsx cts mts|4
   Lua|../languages/lua.html|lua fcgi nse p8 pd_lua rbxs rockspec wlua|8
   Prolog|../languages/prolog.html|pl pro P prolog yap ecl|6
-  PowerShell|../languages/powershell.html|ps1 psd1 psm1|3
+  Assembly language|../languages/assembly-language.html|asm a51 i inc nas nasm|6
   Objective-C|../languages/objective-c.html|h m mm C|4
   Clojure|../languages/clojure.html|clj cljs cljc edn bb boot cl2 cljshl cljscm cljx hic|11
-  Kotlin|../languages/kotlin.html|kt kts ktm|3
   Erlang|../languages/erlang.html|erl hrl appsrc es escript xrl yrl|7
   Julia|../languages/julia.html|jl|1
   Mathematica|../languages/mathematica.html|mathematica cdf m ma mt nb nbp wl wlt|9
   Elixir|../languages/elixir.html|ex exs eex|3
-  Modula-2|../languages/modula-2.html|mod m2 def MOD DEF mi md|7
   CUDA|../languages/cuda.html|cu cuh|2
+  Modula-2|../languages/modula-2.html|mod m2 def MOD DEF mi md|7
   Scheme|../languages/scheme.html|scm ss sch sld sls sps |7
   Tcl|../languages/tcl.html|tcl tbc adp tclin tm rvt|6
-  Assembly language|../languages/assembly-language.html|asm a51 i inc nas nasm|6
   BASIC|../languages/basic.html|bas|1
   Dart|../languages/dart.html|dart|1
   Arduino|../languages/arduino.html|ino|1
   ActionScript|../languages/actionscript.html|as|1
-  awk|../languages/awk.html|awk auk gawk mawk nawk|5
   Regular Expressions|../languages/regex.html|regexp regex|2
+  awk|../languages/awk.html|awk auk gawk mawk nawk|5
   Bash|../languages/bash.html|sh bash bats cgi command env fcgi ksh shin tmux tool zsh zsh-theme ebuild eclass exheres-0 exlib .bashrc bashrc .bash_* bash_* zshrc .zshrc .kshrc kshrc PKGBUILD|26
   F#|../languages/f-sharp.html|fs fsi fsx fsscript|4
-  Crystal|../languages/crystal.html|cr|1
   HTTP|../languages/http.html|http|1
+  Crystal|../languages/crystal.html|cr|1
   Delphi|../languages/delphi.html|pas dpr|2
   VBA|../languages/vba.html|bas cls frm frx vba|5
   Verilog|../languages/verilog.html|v veo|2
@@ -75,8 +75,8 @@ replace TABLE
   Common Lisp|../languages/common-lisp.html|lisp lsp l cl fasl asd ny podsl sexp|9
   APL|../languages/apl.html|apl dyalog aplf aplo apln aplc apli|7
   CoffeeScript|../languages/coffeescript.html|coffee litcoffee _coffee cake cjsx iced|6
-  PostScript|../languages/postscript.html|ps eps epsi pfa|4
   GraphQL|../languages/graphql.html|graphql gql graphqls|3
+  PostScript|../languages/postscript.html|ps eps epsi pfa|4
   YAML|../languages/yaml.html|yml mir reek rviz sublime-syntax syntax yaml yaml-tmlanguage yamlsed ymlmysql|10
   OpenCL|../languages/opencl.html|cl opencl|2
   Vue|../languages/vuejs.html|vue|1
@@ -308,8 +308,8 @@ replace TABLE
   muPad|../languages/mupad.html|mu|1
   Unicon|../languages/unicon.html|icn|1
   JCL|../languages/jcl.html|jcl|1
-  jq|../languages/jq.html|jq|1
   mlir|../languages/mlir.html|mlir|1
+  jq|../languages/jq.html|jq|1
   Pure Data|../languages/puredata.html|pd|1
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli|5
   Fennel|../languages/fennel.html|fnl|1
@@ -373,8 +373,8 @@ replace TABLE
   X BitMap|../languages/x-bitmap.html|xbm|1
   FIGlet Font|../languages/figlet-font.html|flf|1
   kaitai|../languages/kaitai.html|ksy|1
-  mustache|../languages/mustache.html|mustache|1
   Textile|../languages/textile.html|textile|1
+  mustache|../languages/mustache.html|mustache|1
   BBC BASIC|../languages/bbc-basic.html|bbc|1
   Shapefile|../languages/shapefile.html|shp shx dbf|3
   Z shell|../languages/z-shell.html|.ZSH|1
@@ -504,8 +504,8 @@ replace TABLE
   Logos|../languages/logos.html|xm x xi xmi|4
   Molfile|../languages/molfile-format.html|mol|1
   Spline Font Database|../languages/spline-font-database.html|sfd|1
-  MXML|../languages/mxml.html|mxml|1
   Lux|../languages/lux.html|lux|1
+  MXML|../languages/mxml.html|mxml|1
   Sweave|../languages/sweave.html|rnw|1
   EEX|../languages/eex.html|eex htmlheex htmlleex|3
   JSX|../languages/jsx.html|jsx|1

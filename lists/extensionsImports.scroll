@@ -1,6 +1,6 @@
 importOnly
 replace EXTENSION_COUNT
- 1,540
+ 1,542
 replace TABLE
  pipeTable
   name|nameLink|extensions|numberOfExtensions
@@ -705,6 +705,7 @@ replace TABLE
   Hot Cocoa Lisp|../languages/hotcocoalisp.html|hcl|1
   arrow|../languages/arrow.html|arw|1
   Parasolid|../languages/parasolid.html|x_t x_b|2
+  Uniform eXchange Format|../languages/uxf.html|uxf, ux*|2
   bag-format|../languages/bag-format.html|bag|1
   juttle|../languages/juttle.html|juttle|1
   RAISE Specification Language|../languages/rsl.html|rsl|1
@@ -744,4 +745,4 @@ replace TABLE
   proverif-lang|../languages/proverif-lang.html|pv|1
   rdata-format|../languages/rdata-format.html|Rdata rdata rda RData|4
 replace LANG_WITH_DATA_COUNT
- 739
+ 740

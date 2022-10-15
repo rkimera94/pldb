@@ -36,8 +36,8 @@ replace TABLE
   Lua|../languages/lua.html|lua fcgi nse p8 pd_lua rbxs rockspec wlua|8
   HTTP|../languages/http.html|http|1
   Prolog|../languages/prolog.html|pl pro P prolog yap ecl|6
-  Objective-C|../languages/objective-c.html|h m mm C|4
   Assembly language|../languages/assembly-language.html|asm a51 i inc nas nasm|6
+  Objective-C|../languages/objective-c.html|h m mm C|4
   Clojure|../languages/clojure.html|clj cljs cljc edn bb boot cl2 cljshl cljscm cljx hic|11
   Erlang|../languages/erlang.html|erl hrl appsrc es escript xrl yrl|7
   Mathematica|../languages/mathematica.html|mathematica cdf m ma mt nb nbp wl wlt|9
@@ -66,8 +66,8 @@ replace TABLE
   Eiffel|../languages/eiffel.html|e|1
   Modula-3|../languages/modula-3.html|i3 ig m3 mg|4
   Reason|../languages/reason.html|re rei|2
-  Elm|../languages/elm.html|elm|1
   Yacc|../languages/yacc.html|y yacc yy|3
+  Elm|../languages/elm.html|elm|1
   Sage|../languages/sagemath.html|sage sagews|2
   D|../languages/d.html|d di|2
   Racket|../languages/racket.html|rkt rktl rktd scrbl plt ss scm|7
@@ -86,15 +86,15 @@ replace TABLE
   Smali|../languages/smali.html|smali|1
   Scratch|../languages/scratch.html|scratch sb sprite sb2 sprite2|5
   Nim|../languages/nim.html|nim nimcfg nimble nimrod nims|5
-  Liquid|../languages/liquid.html|liquid|1
   Nginx|../languages/nginx-config.html|nginx nginxconf vhost nginx.conf|4
+  Liquid|../languages/liquid.html|liquid|1
   Forth|../languages/forth.html|fth 4th f for forth fr frt fs|8
   Visual Basic .NET|../languages/visual-basic.net.html|vb vbhtml|2
   LFE|../languages/lfe.html|lfe hrl|2
   PureBasic|../languages/purebasic.html|pb pbi|2
   Chapel|../languages/chapel.html|chpl|1
-  ANTLR|../languages/antlr.html|g4|1
   LabVIEW G|../languages/labview.html|lvproj lvclass lvlib|3
+  ANTLR|../languages/antlr.html|g4|1
   Markdown|../languages/markdown.html|md livemd markdown mdown mdwn mdx mkd mkdn mkdown ronn scd workbook|12
   VBScript|../languages/vbscript.html|vbs vbe wsf wsc VBS|5
   WebAssembly|../languages/wasm.html|wasm wast wat|3
@@ -130,8 +130,8 @@ replace TABLE
   Fantom|../languages/fantom.html|fan|1
   ABAP|../languages/abap.html|abap ABAP|2
   Limbo|../languages/limbo.html|b m|2
-  BlitzBasic|../languages/blitzbasic.html|bb decls|2
   Agda|../languages/agda.html|agda lagda|2
+  BlitzBasic|../languages/blitzbasic.html|bb decls|2
   HAML|../languages/haml.html|haml hamldeface|2
   MUMPS|../languages/mumps.html|mumps m|2
   Coq|../languages/coq.html|coq v|2
@@ -212,10 +212,10 @@ replace TABLE
   ClojureScript|../languages/clojurescript.html|cljs|1
   AGC|../languages/apollo-guidance-computer.html|agc|1
   Turtle|../languages/turtle.html|ttl|1
-  Perl 6|../languages/perl-6.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t|11
   Sass|../languages/sass.html|sass scss|2
-  Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window|6
+  Perl 6|../languages/perl-6.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t|11
   NetLogo|../languages/netlogo.html|nlogo nlogo3d nls|3
+  Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window|6
   Factor|../languages/factor.html|factor|1
   Lex|../languages/lex.html|l lex|2
   Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt|6
@@ -234,8 +234,8 @@ replace TABLE
   Gradle|../languages/gradle.html|gradle|1
   Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope|21
   B|../languages/b.html|b|1
-  Batchfile|../languages/batch.html|bat cmd|2
   Dafny|../languages/dafny.html|dfy|1
+  Batchfile|../languages/batch.html|bat cmd|2
   AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc|3
   ERB|../languages/erb.html|erb erbdeface rhtml|3
   Dhall|../languages/dhall.html|dhall|1
@@ -321,6 +321,7 @@ replace TABLE
   PEG|../languages/peg.html|peg|1
   Gerber Image|../languages/gerber-image.html|gbr cmp gbl gbo gbp gbs gko gml gpb gpt gtl gto gtp gts ncl sol|16
   SIL|../languages/swift-il.html|sil|1
+  Dogescript|../languages/dogescript.html|djs|1
   NL|../languages/nl.html|nl|1
   Closure Templates|../languages/closure-templates.html|soy|1
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5|7
@@ -329,7 +330,6 @@ replace TABLE
   Gosu|../languages/gosu.html|gs gsp gst gsx vark|5
   OpenVera|../languages/openvera.html|vr|1
   WDL|../languages/wdl.html|wdl|1
-  Dogescript|../languages/dogescript.html|djs|1
   Koka|../languages/koka.html|kk kki|2
   Augmented Backus-Naur Form|../languages/abnf.html|abnf|1
   GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader|22
@@ -351,11 +351,11 @@ replace TABLE
   CWEB|../languages/cweb.html|w|1
   Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf|1
   Jule|../languages/x.html|.jule|1
-  CSV|../languages/csv.html|csv|1
+  Dockerfile|../languages/dockerfile.html|dockerfile|1
   SubRip Text|../languages/subrip-text.html|srt|1
+  CSV|../languages/csv.html|csv|1
   beads-lang|../languages/beads-lang.html|beads|1
   CodeQL|../languages/codeql.html|ql qll|2
-  Dockerfile|../languages/dockerfile.html|dockerfile|1
   CSON|../languages/cson.html|cson|1
   PAWN|../languages/pawn.html|pwn inc|2
   Pony|../languages/pony.html|pony|1
@@ -368,8 +368,8 @@ replace TABLE
   Varnish Configuration Language|../languages/vcl.html|vcl|1
   Clarion|../languages/clarion.html|clw|1
   X PixMap|../languages/x-pixmap.html|xpm pm|2
-  Slope|../languages/slope.html|slo|1
   P4|../languages/p4.html|p4|1
+  Slope|../languages/slope.html|slo|1
   X BitMap|../languages/x-bitmap.html|xbm|1
   NetLinx|../languages/netlinx.html|axserb axierb axs axi|4
   FIGlet Font|../languages/figlet-font.html|flf|1
@@ -377,24 +377,24 @@ replace TABLE
   Shapefile|../languages/shapefile.html|shp shx dbf|3
   Textile|../languages/textile.html|textile|1
   mustache|../languages/mustache.html|mustache|1
-  BBC BASIC|../languages/bbc-basic.html|bbc|1
   Z shell|../languages/z-shell.html|.ZSH|1
+  BBC BASIC|../languages/bbc-basic.html|bbc|1
   LookML|../languages/lookml.html|lookml modellkml viewlkml|3
   MQL5|../languages/mql.html|mq5 mqh mq4|3
   chaiscript|../languages/chaiscript.html|chai|1
   Literate CoffeeScript|../languages/literate-coffeescript.html|litcoffee coffeemd|2
   Angelscript|../languages/angelscript.html|as angelscript|2
+  Futhark|../languages/futhark.html|fut|1
   XProc|../languages/xproc.html|xpl xproc|2
   Cobra|../languages/cobra.html|cobra|1
-  Futhark|../languages/futhark.html|fut|1
   Apex|../languages/apex.html|cls|1
   QMake|../languages/qmake.html|pro pri|2
-  NCAR Command Language|../languages/ncl.html|ncl|1
   Volt|../languages/volt.html|volt|1
   CoNLL-U|../languages/conll-u.html|conllu conll|2
+  NCAR Command Language|../languages/ncl.html|ncl|1
+  DM|../languages/dm.html|dm dmf|2
   Asymptote|../languages/asymptote.html|asy|1
   BNF|../languages/bnf.html|bnf|1
-  DM|../languages/dm.html|dm dmf|2
   Linden Scripting Language|../languages/lsl.html|lsl lslp|2
   DIGITAL Command Language|../languages/digital-command-language.html|com|1
   GNU Assembler|../languages/gas.html|s S|2
@@ -423,8 +423,8 @@ replace TABLE
   Gettext Catalog|../languages/gettext.html|po pot|2
   Mask|../languages/maskjs.html|mask|1
   Omgrofl|../languages/omgrofl.html|omgrofl|1
-  Yorick|../languages/yorick.html|i|1
   contracts.coffee|../languages/contracts.coffee.html|coffee|1
+  Yorick|../languages/yorick.html|i|1
   RenderScript|../languages/renderscript.html|rs rsh|2
   BlitzMax|../languages/blitzmax.html|bmx|1
   Mu|../languages/mu.html|mu|1
@@ -505,8 +505,8 @@ replace TABLE
   Logos|../languages/logos.html|xm x xi xmi|4
   Molfile|../languages/molfile-format.html|mol|1
   Lux|../languages/lux.html|lux|1
-  Spline Font Database|../languages/spline-font-database.html|sfd|1
   MXML|../languages/mxml.html|mxml|1
+  Spline Font Database|../languages/spline-font-database.html|sfd|1
   Sweave|../languages/sweave.html|rnw|1
   EEX|../languages/eex.html|eex htmlheex htmlleex|3
   JSX|../languages/jsx.html|jsx|1
@@ -558,8 +558,8 @@ replace TABLE
   Ren|../languages/ren-notation.html|ren|1
   holyc|../languages/holyc.html|hc|1
   Redcode|../languages/redcode.html|cw|1
-  TextMate Language|../languages/tmlanguage.html|tmLanguage|1
   Egison|../languages/egison.html|egi|1
+  TextMate Language|../languages/tmlanguage.html|tmLanguage|1
   Adobe Font Metrics|../languages/adobe-font-metrics.html|afm|1
   NWScript|../languages/nwscript.html|nss|1
   Genero Business Development Language|../languages/genero.html|4gl|1
@@ -613,8 +613,8 @@ replace TABLE
   Zeek|../languages/zeek.html|zeek bro|2
   mint|../languages/mint.html|mint|1
   Filterscript|../languages/filterscript.html|fs|1
-  Sublime Syntax|../languages/sublime-syntax.html|sublime-syntax|1
   GorillaScript|../languages/gorillascript.html|gs|1
+  Sublime Syntax|../languages/sublime-syntax.html|sublime-syntax|1
   CSpydr|../languages/cspydr.html|csp|1
   janet|../languages/janet.html|janet|1
   groff|../languages/groff.html|[1-9] man 1p 3pm|4
@@ -630,6 +630,7 @@ replace TABLE
   CLAIRE|../languages/claire.html|cl|1
   Sugar|../languages/sugar.html|sjs|1
   ten|../languages/ten.html|ten|1
+  Uniform eXchange Format|../languages/uxf.html|uxf, ux*|2
   Urbiscript|../languages/urbiscript.html|u|1
   ca65 Assembly|../languages/ca65-assembly.html|s|1
   Linker Script|../languages/linker-script.html|ld lds x|3
@@ -705,7 +706,6 @@ replace TABLE
   Hot Cocoa Lisp|../languages/hotcocoalisp.html|hcl|1
   arrow|../languages/arrow.html|arw|1
   Parasolid|../languages/parasolid.html|x_t x_b|2
-  Uniform eXchange Format|../languages/uxf.html|uxf, ux*|2
   bag-format|../languages/bag-format.html|bag|1
   juttle|../languages/juttle.html|juttle|1
   RAISE Specification Language|../languages/rsl.html|rsl|1

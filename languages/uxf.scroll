@@ -9,8 +9,9 @@ paragraph
  Uniform eXchange Format is a <a href="../lists/languages.html?filter=notation">notation</a> created in <a href="../lists/languages.html?filter=2022">2022</a> by <a href="../lists/creators.html#Mark_Summerfield">Mark Summerfield</a>.
 
 kpiTable
- #2562 <span title="TotalRank: 3286 Jobs: 101 Users: 2262 Facts: 2233 Links: 952">on PLDB</span>
+ #1639 <span title="TotalRank: 2141 Jobs: 101 Users: 1764 Facts: 1088 Links: 952">on PLDB</span>
  0 Years Old
+ 50 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Uniform eXchange Format">Books</span>
  0 <span title="Academic publications about or leveraging Uniform eXchange Format">Papers</span>
 
@@ -24,8 +25,8 @@ paragraph
  Uniform eXchange Format (uxf) is a plain text human readable optionally typed storage format that supports custom types. It may serve as a convenient alternative to csv, ini, json, sqlite, toml, xml, or yaml
 
 list
- - the <a href="https://www.qtrac.eu/">Uniform eXchange Format website</a>
- - Uniform eXchange Format is developed on <a href="https://github.com/mark-summerfield/uxf">GitHub</a>
+ - the <a href="https://www.qtrac.eu">Uniform eXchange Format website</a>
+ - Uniform eXchange Format is developed on <a href="https://github.com/mark-summerfield/uxf">GitHub</a> and has 45 stars
  - Uniform eXchange Format first developed in <a href="../lists/originCommunities.html#Qtrac_Ltd">Qtrac Ltd</a>
  - file extensions for Uniform eXchange Format include uxf, and ux*
  - Read more about Uniform eXchange Format on the web: <a href="https://github.com/mark-summerfield/uxf/blob/main/README.md">1</a>
@@ -35,6 +36,13 @@ list
 html
  <br>
 
+exampleCodeHeader Example from the web:
+code
+ uxf 1
+ [
+   {&lt;Point&gt; [1.4 9.8 -0.7 3.0 2.1 -6.3]}
+   &lt;TrafficLightGreen&gt; &lt;TrafficLightAmber&gt; &lt;TrafficLightRed&gt;
+ ]
 
 
 
@@ -54,5 +62,4 @@ html
 
 
 
-
-keyboardNav rosie.html arvelie-format.html
+keyboardNav ten.html toy-lang.html

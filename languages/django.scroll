@@ -35,4 +35,4 @@ code
  def index(request):
      return HttpResponse(&quot;Hello World&quot;)
 
-keyboardNav ini.html whitespace.html
+keyboardNav ini.html mariadb.html

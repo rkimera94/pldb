@@ -17,7 +17,8 @@ kpiTable
 
 openGraphImage image
 image https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/assets/img/hurl-html-file.png
- caption A screenshot of the <a href="../lists/languages.html?filter=visual">visual language</a> hurl.
+ caption A screenshot of the visual language hurl.
+  link ../lists/languages.html?filter=visual visual language
 
 * Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can perform requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for both fetching data and testing HTTP sessions
 

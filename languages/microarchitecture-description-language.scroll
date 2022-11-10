@@ -11,15 +11,16 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/microarch
  
 
 kpiTable
- #2387 <span title="TotalRank: 2948 Jobs: 102 Users: 2318 Facts: 1893 Links: 953">on PLDB</span>
+ #1889 <span title="TotalRank: 2381 Jobs: 102 Users: 2150 Facts: 1326 Links: 953">on PLDB</span>
  3 Years Old
+ 19 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging mdl">Books</span>
  0 <span title="Academic publications about or leveraging mdl">Papers</span>
 
 * We’ve created a DSL and compiler for modeling micro-architecture that handles a very broad class of architectures - CPU, GPUs, VLIWs, DSPs, ML accelerators, and embedded devices. This effort grew out of a need to quickly develop and experiment with high-quality compilers and tools to facilitate rapid architecture exploration. We named the DSL “MDL” for “Microarchitecture Description Language”
 
 - the <a href="https://github.com/MPACT-ORG">mdl website</a>
-- mdl is developed on <a href="https://github.com/MPACT-ORG/llvm-project/">GitHub</a>
+- mdl is developed on <a href="https://github.com/MPACT-ORG/llvm-project/">GitHub</a> and has 17 stars
 - the <a href="https://llvm.org/docs/GettingStarted.html">mdl docs</a>
 - mdl first developed in <a href="../lists/originCommunities.html#https://github.com/MPACT-ORG">https://github.com/MPACT-ORG</a>
 - mdl is written in <a href="cpp.html">C++</a>
@@ -31,4 +32,4 @@ kpiTable
 html
  <br>
 
-keyboardNav draconian.html 8th.html
+keyboardNav strat.html fardlang.html
